@@ -1,0 +1,33 @@
+{
+  "name": "titrate",
+  "version": "1.0.0",
+  "description": "Titrate - ICU Dosing Guide. Offline-capable PWA for Bara Hospital clinical protocols.",
+  "main": "index.html",
+  "scripts": {
+    "cap:init": "npx cap init",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android",
+    "cap:open:ios": "npx cap open ios",
+    "build:android": "npx cap sync android && cd android && ./gradlew assembleDebug",
+    "build:android:release": "npx cap sync android && cd android && ./gradlew assembleRelease",
+    "build:ios": "npx cap sync ios",
+    "clean": "rm -rf android ios node_modules package-lock.json"
+  },
+  "keywords": [
+    "medical",
+    "icu",
+    "dosing",
+    "capacitor",
+    "pwa"
+  ],
+  "author": "Tashriq Hendricks",
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  }
+}
