@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0d3b3b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Titrate</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d3b3b'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-size='48' font-family='Arial' font-weight='bold' fill='%23ffffff'%3ET%3C/text%3E%3C/svg%3E">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        
+        :root {
+            --primary: #0d3b3b;
+            --primary-light: #1a5555;
+            --accent: #00c9a7;
+            --accent-dark: #00a88a;
+            --danger: #e74c3c;
+            --warning: #f39c12;
+            --bg: #0a1f1f;
+            --card: #122e2e;
+            --card-hover: #1a3d3d;
+            --text: #e0f2f1;
+            --text-secondary: #80cbc4;
+            --border: #1a4a4a;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            padding: 1rem 1.25rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+        
+        .logo span { color: var(--accent); }
+        
+        .offline-badge {
+            font-size: 0.6rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 1rem;
+            background: var(--accent);
+            color: var(--primary);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .header-sub {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Search */
+        .search-box {
+            position: relative;
+            margin-top: 0.75rem;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 0.75rem 1rem 0.75rem 2.5rem;
+            border-radius: 0.75rem;
+            border: 1px solid var(--border);
+            background: rgba(0,0,0,0.25);
+            color: var(--text);
+            font-size: 0.95rem;
+            outline: none;
+            transition: all 0.2s;
+        }
+        
+        .search-box input:focus {
+            border-color: var(--accent);
+            background: rgba(0,0,0,0.35);
+        }
+        
+        .search-box::before {
+            content: "🔍";
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.9rem;
+            opacity: 0.5;
+        }
+        
+        .search-box .clear-btn {
+            position: absolute;
+            right: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: none;
+            padding: 0.25rem;
+        }
+        
+        .search-box .clear-btn.visible { display: block; }
+        
+        /* Category Nav */
+        .cat-nav {
+            display: flex;
+            gap: 0.5rem;
+            padding: 0.75rem 1rem;
+            overflow-x: auto;
+            scrollbar-width: none;
+            background: var(--bg);
+            position: sticky;
+            top: 105px;
+            z-index: 99;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .cat-nav::-webkit-scrollbar { display: none; }
+        
+        .cat-btn {
+            flex-shrink: 0;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        
+        .cat-btn.active {
+            background: var(--accent);
+            color: var(--primary);
+            border-color: var(--accent);
+        }
+        
+        /* Content */
+        .content { padding: 0.75rem; padding-bottom: 3rem; }
+        
+        /* Section */
+        .section {
+            margin-bottom: 1rem;
+            background: var(--card);
+            border-radius: 1rem;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            transition: transform 0.2s;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.2s;
+        }
+        
+        .section-header:active { background: var(--card-hover); }
+        
+        .section-title {
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--accent);
+        }
+        
+        .section-toggle {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            transition: transform 0.3s;
+        }
+        
+        .section.expanded .section-toggle { transform: rotate(180deg); }
+        
+        .section-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        
+        .section.expanded .section-body { max-height: 5000px; }
+        
+        /* Cards */
+        .drug-card {
+            padding: 1rem 1.25rem;
+            border-top: 1px solid var(--border);
+        }
+        
+        .drug-name {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .badge {
+            font-size: 0.6rem;
+            padding: 0.15rem 0.4rem;
+            border-radius: 0.35rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        
+        .badge-first { background: var(--accent); color: var(--primary); }
+        .badge-warn { background: var(--warning); color: #000; }
+        .badge-danger { background: var(--danger); color: #fff; }
+        
+        .dose-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.4rem 0;
+            font-size: 0.85rem;
+        }
+        
+        .dose-label {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        
+        .dose-value {
+            color: var(--text);
+            font-weight: 600;
+            text-align: right;
+            flex: 1;
+            margin-left: 1rem;
+        }
+        
+        .notes {
+            margin-top: 0.5rem;
+            padding: 0.6rem 0.75rem;
+            background: rgba(0,201,167,0.08);
+            border-radius: 0.5rem;
+            border-left: 3px solid var(--accent);
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+        
+        .notes.warn {
+            background: rgba(243,156,18,0.08);
+            border-left-color: var(--warning);
+        }
+        
+        .notes.danger {
+            background: rgba(231,76,60,0.08);
+            border-left-color: var(--danger);
+        }
+        
+        /* Calculator */
+        .calc-btn {
+            margin-top: 0.6rem;
+            padding: 0.5rem 1rem;
+            background: var(--primary-light);
+            border: 1px solid var(--accent);
+            border-radius: 0.5rem;
+            color: var(--accent);
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .calc-btn:active { background: var(--accent); color: var(--primary); }
+        
+        .calc-panel {
+            display: none;
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: var(--bg);
+            border-radius: 0.5rem;
+        }
+        
+        .calc-panel.open { display: block; }
+        
+        .calc-inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .calc-inputs input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid var(--border);
+            border-radius: 0.4rem;
+            background: var(--card);
+            color: var(--text);
+            font-size: 0.85rem;
+            outline: none;
+        }
+        
+        .calc-inputs input:focus { border-color: var(--accent); }
+        
+        .calc-result {
+            text-align: center;
+            padding: 0.5rem;
+            background: var(--card);
+            border-radius: 0.4rem;
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--accent);
+        }
+        
+        .formula-display {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+            text-align: center;
+        }
+        
+        /* Search results */
+        .no-results {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Loading */
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 1rem;
+            gap: 1rem;
+        }
+        
+        .spinner {
+            width: 2.5rem;
+            height: 2.5rem;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin { to { transform: rotate(360deg); } }
+        
+        /* Highlight */
+        .highlight { background: rgba(0,201,167,0.3); border-radius: 2px; padding: 0 2px; }
+        
+        /* Scroll to top */
+        .scroll-top {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: var(--accent);
+            color: var(--primary);
+            border: none;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,201,167,0.3);
+            z-index: 200;
+        }
+        
+        .scroll-top.visible { display: flex; }
+        
+        /* Install prompt */
+        .install-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--primary-light);
+            padding: 0.75rem 1rem;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 300;
+            border-top: 1px solid var(--accent);
+        }
+        
+        .install-bar.show { display: flex; }
+        
+        .install-bar span { font-size: 0.85rem; font-weight: 600; }
+        
+        .install-bar button {
+            padding: 0.4rem 1rem;
+            background: var(--accent);
+            color: var(--primary);
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 700;
+            font-size: 0.8rem;
+            cursor: pointer;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 1.5rem 1rem;
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            opacity: 0.6;
+        }
+        
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .section { animation: fadeIn 0.3s ease-out; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-top">
+            <div class="logo">Tit<span>rate</span></div>
+            <span class="offline-badge" id="offlineBadge">Offline Ready</span>
+        </div>
+        <div class="header-sub">ICU Dosing Guide</div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search drug, condition, or formula..." autocomplete="off">
+            <button class="clear-btn" id="clearBtn">&times;</button>
+        </div>
+    </div>
+    
+    <div class="cat-nav" id="catNav"></div>
+    
+    <div class="content" id="content">
+        <div class="loading">
+            <div class="spinner"></div>
+            <div>Loading clinical data...</div>
+        </div>
+    </div>
+    
+    <div class="footer" id="footer"></div>
+    
+    <button class="scroll-top" id="scrollTop">&#8593;</button>
+    
+    <div class="install-bar" id="installBar">
+        <span>Install Titrate for offline use</span>
+        <button id="installBtn">Install</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
