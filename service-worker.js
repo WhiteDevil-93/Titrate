@@ -6,8 +6,8 @@ const ASSETS = [
     '/Titrate/app.js',
     '/Titrate/data.json',
     '/Titrate/manifest.json',
-    '/Titrate/icon-192.png',
-    '/Titrate/icon-512.png'
+    '/Titrate/icon-192.svg',
+    '/Titrate/icon-512.svg'
 ];
 
 // Install: cache all assets

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="106" fill="#0d3b3b"/>
+  <text x="256" y="345" text-anchor="middle" font-size="266" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-weight="900" fill="#ffffff">T</text>
+  <path d="M122 234 Q160 234 176 218 Q192 202 214 202 Q236 202 256 234 Q276 266 298 266 Q320 266 336 250 Q352 234 390 234" stroke="#00c9a7" stroke-width="10" fill="none" stroke-linecap="round"/>
+</svg>
