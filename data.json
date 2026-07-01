@@ -1,0 +1,370 @@
+{
+  "1_resuscitation_fluids_and_inotropes": {
+    "shock": [
+      {
+        "item": "Fluid Bolus (Sepsis)",
+        "adult_dose": "Balanced Salt Solution (e.g., Ringer's Lactate): 500ml IV bolus",
+        "paediatric_dose": "10-20ml/kg IV bolus",
+        "notes_updates": "Balanced Salt Solutions preferred over 0.9% Saline for septic shock to prevent hyperchloraemic acidosis."
+      },
+      {
+        "item": "Fluid Bolus (Hypovolaemia)",
+        "adult_dose": "Sodium Chloride 0.9%: 500ml IV bolus",
+        "paediatric_dose": "10-20ml/kg IV bolus",
+        "notes_updates": "0.9% Saline remains primary for hypovolaemia due to blood loss/dehydration."
+      }
+    ],
+    "inotropes": [
+      {
+        "item": "Noradrenaline",
+        "adult_dose": "0.05 - 1 ug/kg/min IV",
+        "paediatric_dose": "0.05 - 1 ug/kg/min IV",
+        "notes_updates": "First-line vasopressor for septic shock. No longer restricted as 'Section 21'."
+      },
+      {
+        "item": "Adrenaline",
+        "adult_dose": "1 mg IV (Resus) every 3-5 min; 0.05-1 ug/kg/min (Infusion)",
+        "paediatric_dose": "10ug/kg IV OR 0.1ml/kg of 1:10 000",
+        "notes_updates": "Second-line for septic shock if MAP targets not met with Noradrenaline."
+      },
+      {
+        "item": "Dobutamine",
+        "adult_dose": "5 - 30 ug/kg/min IV",
+        "paediatric_dose": "5 - 30 ug/kg/min IV",
+        "notes_updates": "Indicated for septic shock with cardiac dysfunction (persistent hypoperfusion despite fluids/vasopressors)."
+      },
+      {
+        "item": "Dopamine",
+        "adult_dose": "Formula: (ug/kg/min x kg x 60)/1000",
+        "paediatric_dose": "See Formula",
+        "notes_updates": "Largely superseded by Noradrenaline for shock."
+      }
+    ],
+    "arrhythmia": [
+      {
+        "item": "Amiodarone",
+        "adult_dose": "300mg IV bolus (unstable); 150mg IV (stable)",
+        "paediatric_dose": "5mg/kg IV bolus",
+        "notes_updates": "300mg in 5% Dextrose over 30 min (Loading)."
+      },
+      {
+        "item": "Magnesium Sulphate",
+        "adult_dose": "1 - 2 g IV over 10-20mins",
+        "paediatric_dose": "25 - 50 mg/kg IV",
+        "notes_updates": ""
+      },
+      {
+        "item": "Adenosine",
+        "adult_dose": "6 - 12 mg rapid IV push",
+        "paediatric_dose": "0.1 - 0.2 mg/kg rapid IV push",
+        "notes_updates": "Repeat 1-2 min if needed."
+      }
+    ],
+    "targets": {
+      "item": "MAP",
+      "adult_dose": "Young adult: 60-80mmHg; Older: 80mmHg",
+      "paediatric_dose": "<1yr: 50-60mmHg; >1yr: 60-80mmHg",
+      "notes_updates": "Maintain perfusion pressure."
+    }
+  },
+  "2_airway_and_ventilation": {
+    "intubation": [
+      {
+        "item": "ETT Size",
+        "adult_settings": "Male: 7.5 - 8.5, Female: 6.5 - 7.5",
+        "paediatric_settings": ">1 year: 4 + (Age in years)/4, <1 year: 3.0 - 4.0"
+      }
+    ],
+    "vent_settings": [
+      {
+        "item": "FiO2",
+        "adult_settings": "Start 100%",
+        "paediatric_settings": "Start 100%"
+      },
+      {
+        "item": "PEEP",
+        "adult_settings": "10 - 12 cm H2O",
+        "paediatric_settings": "8 - 10 cm H2O"
+      },
+      {
+        "item": "RR",
+        "adult_settings": "12 - 20 breaths/min",
+        "paediatric_settings": "Age appropriate"
+      },
+      {
+        "item": "I:E Ratio",
+        "adult_settings": "1:2",
+        "paediatric_settings": "1:2"
+      }
+    ],
+    "lung_protection": [
+      {
+        "item": "Pressure Control",
+        "adult_settings": "Peak Pressure <= 30cmH2O",
+        "paediatric_settings": "Peak Pressure <= 30cmH2O"
+      },
+      {
+        "item": "Tidal Volume",
+        "adult_settings": "6 - 8ml/kg Ideal Body Weight",
+        "paediatric_settings": "6 - 8ml/kg Ideal Body Weight"
+      }
+    ]
+  },
+  "3_sedation_analgesia_and_neurology": {
+    "sedation": [
+      {
+        "drug": "Strategy",
+        "adult_dose": "'Analgesia First'",
+        "paediatric_dose": "N/A",
+        "notes_updates": "Avoid routine deep sedation; prioritize pain control and neuro-psychological support."
+      },
+      {
+        "drug": "Propofol",
+        "adult_dose": "25 - 50 ug/kg/min (Max 100)",
+        "paediatric_dose": "25 - 60 ug/kg/min",
+        "notes_updates": "Adjust dose in obesity (lipophilic). Caution: Propofol Infusion Syndrome (PRIS)."
+      },
+      {
+        "drug": "Dexmedetomidine",
+        "adult_dose": "Load: 1ug/kg (10min), Maint: 0.2-0.7 ug/kg/hr",
+        "paediatric_dose": "Same as Adult",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Ketamine",
+        "adult_dose": "15 - 30 ug/kg/min IV",
+        "paediatric_dose": "5 - 40 ug/kg/min",
+        "notes_updates": "Preferred for asthma/bronchospasm or trauma intubation."
+      }
+    ],
+    "seizures": [
+      {
+        "drug": "Lorazepam",
+        "adult_dose": "4 mg IV (repeat once)",
+        "paediatric_dose": "0.05 - 0.2 mg/kg IV",
+        "notes_updates": "First-line for Status Epilepticus."
+      },
+      {
+        "drug": "Midazolam",
+        "adult_dose": "10mg IM or buccal (if no IV access)",
+        "paediatric_dose": "0.2 - 0.5 mg/kg buccal",
+        "notes_updates": "Alternative if Lorazepam unavailable."
+      },
+      {
+        "drug": "Valproate",
+        "adult_dose": "Load: 25 mg/kg IV, Infusion: 3-6 mg/kg/min",
+        "paediatric_dose": "Load: 20-40 mg/kg",
+        "notes_updates": "WARNING: High teratogenic risk. Avoid in women of child-bearing potential unless acknowledgment of risk form is signed."
+      },
+      {
+        "drug": "Levetiracetam",
+        "adult_dose": "Load: 20-30 mg/kg IV",
+        "paediatric_dose": "Load: 50 mg/kg",
+        "notes_updates": "Safer alternative for women of child-bearing potential."
+      }
+    ],
+    "analgesia": [
+      {
+        "drug": "Fentanyl",
+        "adult_dose": "1 - 2 ug/kg/hr IV",
+        "paediatric_dose": "0.5 - 2 ug/kg/hr IV",
+        "notes_updates": "Adjust in obesity."
+      },
+      {
+        "drug": "Paracetamol",
+        "adult_dose": "1 g IV 6-hourly",
+        "paediatric_dose": "15 mg/kg IV 6-hourly",
+        "notes_updates": "Encouraged as part of multimodal analgesia to spare opioids."
+      }
+    ]
+  },
+  "4_antimicrobials_and_infectious_diseases": {
+    "protocols": [
+      {
+        "condition_or_drug": "HIV (1st Line)",
+        "adult_dose": "TDF + 3TC + DTG (TLD) daily",
+        "paediatric_dose": "Wt band dependent",
+        "notes_updates": "Replaces FDC (TDF/FTC/EFV). DTG is now standard of care."
+      },
+      {
+        "condition_or_drug": "HIV (TB Co-infection)",
+        "adult_dose": "TLD + DTG 50mg (boost)",
+        "paediatric_dose": "Consult Guidelines",
+        "notes_updates": "Rifampicin lowers DTG levels; add 50mg DTG 12 hours after standard dose."
+      },
+      {
+        "condition_or_drug": "CRE Infections",
+        "adult_dose": "Ceftazidime-Avibactam: 2.5g IV 8hrly",
+        "paediatric_dose": "Consult Specialist",
+        "notes_updates": "Recommended for Carbapenem-Resistant Enterobacterales (K. pneumoniae/OXA-48)."
+      },
+      {
+        "condition_or_drug": "CRE Infections (Alternative)",
+        "adult_dose": "Colistin: Load 9 MU; Maint 4.5 MU 12hrly",
+        "paediatric_dose": "Load 150k IU/kg",
+        "notes_updates": "Listed as 'Reserve' antibiotic (AWaRe)."
+      },
+      {
+        "condition_or_drug": "Sepsis (Empiric)",
+        "adult_dose": "Meropenem: 1g IV 8hrly",
+        "paediatric_dose": "20 - 40 mg/kg",
+        "notes_updates": "Extended infusion/high dose recommended for septic shock."
+      },
+      {
+        "condition_or_drug": "Surgical Prophylaxis",
+        "adult_dose": "Cefazolin: 2g IV",
+        "paediatric_dose": "50 mg/kg",
+        "notes_updates": "Dose increased from 1g to 2g for adults."
+      },
+      {
+        "condition_or_drug": "Severe Malaria",
+        "adult_dose": "Artesunate: 2.4 mg/kg IV at 0, 12, 24h",
+        "paediatric_dose": "2.4 mg/kg IV",
+        "notes_updates": "Superior to Quinine. Must give 3 doses minimum."
+      },
+      {
+        "condition_or_drug": "Fungal (Candida)",
+        "adult_dose": "Fluconazole: Load 800mg; Maint 400mg",
+        "paediatric_dose": "12 mg/kg",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "PCP",
+        "adult_dose": "Cotrimoxazole: 320/1600mg 12hrly",
+        "paediatric_dose": "See Formula",
+        "notes_updates": "If sulfa-allergic: Clindamycin + Primaquine."
+      }
+    ]
+  },
+  "5_metabolic_electrolytes_and_nutrition": {
+    "hyperkalaemia": [
+      {
+        "item": "Calcium Gluconate 10%",
+        "adult_dose": "10 ml IV slowly",
+        "paediatric_dose": "0.5ml/kg (10% Soln)",
+        "notes": "Stabilizes cardiac membrane."
+      },
+      {
+        "item": "Insulin/Dextrose",
+        "adult_dose": "10iu IV + 50ml 50% Dex",
+        "paediatric_dose": "0.1iu/kg + 2ml/kg 25% Dex",
+        "notes": "Shifts K+ into cells. Monitor glucose."
+      },
+      {
+        "item": "Salbutamol",
+        "adult_dose": "Nebulised or IV",
+        "paediatric_dose": "4ug/kg IV over 20min",
+        "notes": "Adjunctive therapy."
+      }
+    ],
+    "electrolytes": [
+      {
+        "item": "Potassium (KCl)",
+        "adult_dose": "20-40mmol IV in Saline",
+        "paediatric_dose": "3-6mmol/kg/day",
+        "notes": "Max rate 0.3mmol/kg/hr."
+      },
+      {
+        "item": "Magnesium (MgSO4)",
+        "adult_dose": "1-2g IV",
+        "paediatric_dose": "25-50mg/kg",
+        "notes": ""
+      }
+    ],
+    "nutrition": [
+      {
+        "item": "Dextrose Warning",
+        "adult_dose": ">=12.5% via Central Line",
+        "paediatric_dose": "Same",
+        "notes": "Peripheral veins risk phlebitis."
+      },
+      {
+        "item": "Vitamins",
+        "adult_dose": "Vit B1 (Thiamine) 100mg",
+        "paediatric_dose": "5-10mg/kg",
+        "notes": "Prevention of Wernicke's."
+      }
+    ]
+  },
+  "6_poisoning_and_toxicology": {
+    "protocols": [
+      {
+        "poison_or_drug": "Paracetamol",
+        "antidote_treatment": "N-Acetylcysteine (NAC)",
+        "protocol_dose": "IV Protocol (3-bag): 1. 200 mg/kg in 500ml 5% Dex over 4 hrs, 2. 50 mg/kg in 500ml 5% Dex over 4 hrs, 3. 100 mg/kg in 1L 5% Dex over 16 hrs"
+      },
+      {
+        "poison_or_drug": "Opioids",
+        "antidote_treatment": "Naloxone",
+        "protocol_dose": "0.4 - 2 mg IV Stat"
+      },
+      {
+        "poison_or_drug": "Benzodiazepines",
+        "antidote_treatment": "Flumazenil",
+        "protocol_dose": "0.2 mg IV, then 0.1mg every 60s (Max 1mg)"
+      },
+      {
+        "poison_or_drug": "Snake Bite",
+        "antidote_treatment": "Polyvalent Antivenom",
+        "protocol_dose": "For neurotoxic/cytotoxic bites. Consult poison center/specialist."
+      },
+      {
+        "poison_or_drug": "Organophosphates",
+        "antidote_treatment": "Atropine",
+        "protocol_dose": "0.02 - 0.1 mg/kg/hr IV (Titrate to clearing of secretions)."
+      }
+    ]
+  },
+  "7_useful_formulae": {
+    "formulae": [
+      {
+        "category": "Inotopes",
+        "item": "Adrenaline",
+        "formula": "ml/hr = (ug/kg/min x kg x 60) / 25",
+        "standard_dilutions": "Single Strength: 5mg (5 amps) in 200ml N/S"
+      },
+      {
+        "category": "Inotopes",
+        "item": "Noradrenaline",
+        "formula": "ml/hr = (ug/kg/min x kg x 60) / 50",
+        "standard_dilutions": "Double Strength: 10mg in 200ml N/S"
+      },
+      {
+        "category": "Inotopes",
+        "item": "Dobutamine",
+        "formula": "ml/hr = (ug/kg/min x kg x 60) / 1250",
+        "standard_dilutions": "250mg in 200ml N/S"
+      },
+      {
+        "category": "Respiratory",
+        "item": "Oxygenation (OI)",
+        "formula": "(Mean Airway Pressure x FiO2) / PaO2",
+        "standard_dilutions": ""
+      },
+      {
+        "category": "Respiratory",
+        "item": "P/F Ratio",
+        "formula": "PaO2 / FiO2",
+        "standard_dilutions": "Normal > 400"
+      },
+      {
+        "category": "Metabolic",
+        "item": "Anion Gap",
+        "formula": "(Na + K) - (HCO3 + Cl)",
+        "standard_dilutions": "Normal approx 12 mEq/L"
+      },
+      {
+        "category": "Metabolic",
+        "item": "Corrected Na",
+        "formula": "Measured Na + [1.6 x (Glucose - 5.5) / 5.5]",
+        "standard_dilutions": "Used in hyperglycaemia."
+      },
+      {
+        "category": "General",
+        "item": "Ideal Body Wt",
+        "formula": "Height (cm) - 100 (approx)",
+        "standard_dilutions": "Use for tidal volume calculation."
+      }
+    ]
+  }
+}
