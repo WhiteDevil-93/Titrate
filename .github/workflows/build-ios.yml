@@ -1,0 +1,46 @@
+name: Build iOS App
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  workflow_dispatch:
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Capacitor
+        run: |
+          npm install -g @capacitor/cli
+          npm install @capacitor/core @capacitor/ios
+
+      - name: Init Capacitor
+        run: |
+          echo '{"appId":"com.tashriqhendricks.titrate","appName":"Titrate","webDir":"."}' > capacitor.config.json
+
+      - name: Add iOS Platform
+        run: npx cap add ios
+
+      - name: Sync Web Assets
+        run: npx cap sync ios
+
+      - name: Build iOS
+        run: |
+          cd ios/App
+          xcodebuild -scheme App -destination 'generic/platform=iOS' -configuration Release archive -archivePath $PWD/build/App.xcarchive CODE_SIGNING_ALLOWED=NO
+
+      - name: Upload iOS Archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: titrate-ios
+          path: ios/App/build/App.xcarchive
+          retention-days: 30
