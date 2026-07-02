@@ -32,6 +32,11 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
+      - name: Prepare Web Assets
+        run: |
+          mkdir -p www
+          cp index.html app.js data.json manifest.json service-worker.js icon-*.svg www/
+
       - name: Install Capacitor
         run: |
           npm install -g @capacitor/cli
@@ -39,7 +44,7 @@ jobs:
 
       - name: Init Capacitor
         run: |
-          echo '{"appId":"com.tashriqhendricks.titrate","appName":"Titrate","webDir":"."}' > capacitor.config.json
+          echo '{"appId":"com.tashriqhendricks.titrate","appName":"Titrate","webDir":"www"}' > capacitor.config.json
 
       - name: Add Android Platform
         run: npx cap add android
