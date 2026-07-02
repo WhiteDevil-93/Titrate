@@ -1,5 +1,5 @@
-// Titrate - Service Worker for offline access
-const CACHE_NAME = 'titrate-v3';
+// Titrate - Service Worker v2.1
+const CACHE_NAME = 'titrate-v4';
 const ASSETS = [
     '/Titrate/',
     '/Titrate/index.html',
@@ -10,60 +10,26 @@ const ASSETS = [
     '/Titrate/icon-512.svg'
 ];
 
-// Install: cache all assets
-self.addEventListener('install', event => {
-    event.waitUntil(
-        caches.open(CACHE_NAME)
-            .then(cache => {
-                console.log('[Titrate] Caching assets...');
-                return cache.addAll(ASSETS);
-            })
-            .then(() => self.skipWaiting())
-            .catch(err => console.error('[Titrate] Cache failed:', err))
-    );
+self.addEventListener('install', e => {
+    e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting()));
 });
 
-// Activate: clean old caches
-self.addEventListener('activate', event => {
-    event.waitUntil(
-        caches.keys().then(cacheNames => {
-            return Promise.all(
-                cacheNames
-                    .filter(name => name !== CACHE_NAME)
-                    .map(name => {
-                        console.log('[Titrate] Deleting old cache:', name);
-                        return caches.delete(name);
-                    })
-            );
-        }).then(() => self.clients.claim())
-    );
+self.addEventListener('activate', e => {
+    e.waitUntil(caches.keys().then(ns => Promise.all(ns.filter(n => n !== CACHE_NAME).map(n => caches.delete(n)))).then(() => self.clients.claim()));
 });
 
-// Fetch: serve from cache, fall back to network
-self.addEventListener('fetch', event => {
-    event.respondWith(
-        caches.match(event.request).then(cached => {
-            // Return cached version immediately
-            if (cached) return cached;
-            
-            // Otherwise fetch from network
-            return fetch(event.request).then(response => {
-                // Cache successful GET requests for future offline use
-                if (response && response.status === 200 && event.request.method === 'GET') {
-                    const clone = response.clone();
-                    caches.open(CACHE_NAME).then(cache => {
-                        cache.put(event.request, clone);
-                    });
-                }
-                return response;
-            }).catch(() => {
-                // If both cache and network fail, return offline fallback
-                return new Response(
-                    '<html><body style="background:#0a1f1f;color:#80cbc4;font-family:sans-serif;text-align:center;padding:3rem;">' +
-                    '<h1>Titrate</h1><p>You are offline.</p><p>Please connect to the internet to load the app.</p></body></html>',
-                    { headers: { 'Content-Type': 'text/html' } }
-                );
-            });
-        })
-    );
+self.addEventListener('fetch', e => {
+    e.respondWith(caches.match(e.request).then(c => {
+        if (c) return c;
+        return fetch(e.request).then(r => {
+            if (r && r.status === 200 && e.request.method === 'GET') {
+                const clone = r.clone();
+                caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+            }
+            return r;
+        }).catch(() => new Response(
+            '<html><body style="background:#0a1f1f;color:#80cbc4;font-family:sans-serif;text-align:center;padding:3rem;"><h1>Titrate</h1><p>You are offline.</p></body></html>',
+            { headers: { 'Content-Type': 'text/html' } }
+        ));
+    }));
 });
