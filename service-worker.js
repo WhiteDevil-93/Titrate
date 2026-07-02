@@ -1,5 +1,5 @@
 // Titrate - Service Worker for offline access
-const CACHE_NAME = 'titrate-v2';
+const CACHE_NAME = 'titrate-v3';
 const ASSETS = [
     '/Titrate/',
     '/Titrate/index.html',
