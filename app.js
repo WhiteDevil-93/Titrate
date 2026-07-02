@@ -49,7 +49,7 @@ if ('serviceWorker' in navigator) {
 // ─── Load Data ───
 async function loadData() {
     try {
-        const res = await fetch('data.json');
+        const res = await fetch('data.json?v=' + Date.now());
         clinicalData = await res.json();
         renderNav();
         renderAllSections();
@@ -399,7 +399,7 @@ window.addEventListener('offline', updateConnectionStatus);
 
 // Footer
 document.getElementById('footer').innerHTML = `
-    Titrate v1.0 &middot; Bara ICU Dosing Guide &middot; 2024<br>
+    Titrate v2.0 &middot; Bara ICU Dosing Guide &middot; 2024<br>
     For clinical reference only &middot; Verify all doses<br>
     <span style="opacity:0.7;">Created by Tashriq Hendricks &amp; Kimi</span>
 `;
