@@ -1,8 +1,8 @@
-// Titrate - ICU Dosing Guide PWA
+// Titrate - ICU Dosing Guide PWA v2.1
 let clinicalData = null;
 let deferredPrompt = null;
+let patientWeight = 0;
 
-// Category display names
 const CAT_NAMES = {
     'favourites': 'Favourites',
     '1_resuscitation_fluids_and_inotropes': 'Resuscitation',
@@ -31,528 +31,303 @@ const CAT_ICONS = {
     '10_endocrine_and_other': '🔬'
 };
 
-// Tab order - favourites first, then numbered sections
 const TAB_ORDER = [
-    'favourites',
-    '1_resuscitation_fluids_and_inotropes',
-    '2_airway_and_ventilation',
-    '3_sedation_analgesia_and_neurology',
-    '4_antimicrobials_and_infectious_diseases',
-    '5_metabolic_electrolytes_and_nutrition',
-    '6_poisoning_and_toxicology',
-    '7_useful_formulae',
-    '8_cardiovascular',
-    '9_blood_products',
-    '10_endocrine_and_other'
+    'favourites','1_resuscitation_fluids_and_inotropes','2_airway_and_ventilation',
+    '3_sedation_analgesia_and_neurology','4_antimicrobials_and_infectious_diseases',
+    '5_metabolic_electrolytes_and_nutrition','6_poisoning_and_toxicology',
+    '7_useful_formulae','8_cardiovascular','9_blood_products','10_endocrine_and_other'
 ];
 
-// ─── Favourites (localStorage) ───
-function getFavourites() {
-    try {
-        return JSON.parse(localStorage.getItem('titrate_favourites') || '[]');
-    } catch { return []; }
+// ═══ DOSE PARSER ═══
+function parseWeightDose(doseStr) {
+    if (!doseStr) return null;
+    const s = doseStr.toLowerCase().replace(/–/g, '-');
+
+    // Infusion rates: 0.05-1 mcg/kg/min
+    let m = s.match(/(\d+\.?\d*)\s*-\s*(\d+\.?\d*)\s*(mcg|mg|ug|g|units|iu)\s*\/\s*kg\s*\/\s*(min|hr|hour)/);
+    if (m) return { type: 'infusion', minVal: parseFloat(m[1]), maxVal: parseFloat(m[2]), unit: m[3], time: m[4], isRange: true };
+
+    m = s.match(/(\d+\.?\d*)\s*(mcg|mg|ug|g|units|iu)\s*\/\s*kg\s*\/\s*(min|hr|hour)/);
+    if (m) return { type: 'infusion', minVal: parseFloat(m[1]), maxVal: parseFloat(m[1]), unit: m[2], time: m[3], isRange: false };
+
+    // Weight-based with freq: 10-20mg/kg IV 8hrly
+    m = s.match(/(\d+\.?\d*)\s*-\s*(\d+\.?\d*)\s*(mg|mcg|ug|g|units|iu|mmol|ml)\s*\/\s*kg\s+(.*)/);
+    if (m) return { type: 'dose_freq', minVal: parseFloat(m[1]), maxVal: parseFloat(m[2]), unit: m[3], freq: m[4], isRange: true };
+
+    m = s.match(/(\d+\.?\d*)\s*(mg|mcg|ug|g|units|iu|mmol|ml)\s*\/\s*kg\s+(.*)/);
+    if (m) return { type: 'dose_freq', minVal: parseFloat(m[1]), maxVal: parseFloat(m[1]), unit: m[2], freq: m[3], isRange: false };
+
+    // Plain weight-based: 10mg/kg
+    m = s.match(/(\d+\.?\d*)\s*-\s*(\d+\.?\d*)\s*(mg|mcg|ug|g|units|iu|mmol|ml)\s*\/\s*kg/);
+    if (m) return { type: 'dose', minVal: parseFloat(m[1]), maxVal: parseFloat(m[2]), unit: m[3], isRange: true };
+
+    m = s.match(/(\d+\.?\d*)\s*(mg|mcg|ug|g|units|iu|mmol|ml)\s*\/\s*kg/);
+    if (m) return { type: 'dose', minVal: parseFloat(m[1]), maxVal: parseFloat(m[1]), unit: m[2], isRange: false };
+
+    return null;
 }
 
-function saveFavourites(favs) {
-    localStorage.setItem('titrate_favourites', JSON.stringify(favs));
-}
+function fmtU(u) { return u === 'ug' ? 'mcg' : u; }
 
-function toggleFavourite(drugKey) {
-    let favs = getFavourites();
-    if (favs.includes(drugKey)) {
-        favs = favs.filter(f => f !== drugKey);
+function calculateDose(parsed, weight) {
+    if (!parsed || !weight || weight <= 0) return null;
+    const w = parseFloat(weight);
+    const minD = (parsed.minVal * w);
+    const maxD = (parsed.maxVal * w);
+    const minS = minD >= 100 ? minD.toFixed(0) : minD >= 10 ? minD.toFixed(1) : minD.toFixed(2);
+    const maxS = maxD >= 100 ? maxD.toFixed(0) : maxD >= 10 ? maxD.toFixed(1) : maxD.toFixed(2);
+    const unit = fmtU(parsed.unit);
+
+    if (parsed.type === 'infusion') {
+        const tl = parsed.time === 'min' ? 'min' : 'hr';
+        return parsed.isRange ? `${minS}-${maxS} ${unit}/${tl}` : `${minS} ${unit}/${tl}`;
+    } else if (parsed.type === 'dose_freq') {
+        return parsed.isRange ? `${minS}-${maxS} ${unit} ${parsed.freq}` : `${minS} ${unit} ${parsed.freq}`;
     } else {
-        favs.push(drugKey);
+        return parsed.isRange ? `${minS}-${maxS} ${unit}` : `${minS} ${unit}`;
     }
-    saveFavourites(favs);
-    updateFavouriteButtons();
-    if (activeCat === 'favourites') {
-        renderFavourites();
-    }
-    updateFavBadge();
 }
 
-function isFavourite(drugKey) {
-    return getFavourites().includes(drugKey);
+function hasWeightDose(item) {
+    const t = (item.adult_dose || '') + ' ' + (item.paediatric_dose || '') + ' ' + (item.adult_settings || '') + ' ' + (item.paediatric_settings || '');
+    return /\/\s*kg/.test(t.toLowerCase());
 }
 
-function makeDrugKey(item, catKey) {
-    const name = item.item || item.drug || item.condition_or_drug || item.poison_or_drug || item.antidote_treatment || item.product || '';
-    return catKey + '::' + name;
+// ═══ WEIGHT MANAGEMENT ═══
+function getWeight() { return parseFloat(localStorage.getItem('titrate_weight') || '0'); }
+function setWeight(w) { localStorage.setItem('titrate_weight', w); patientWeight = w; updateAllCalcs(); updateWeightBadge(); }
+
+function updateWeightBadge() {
+    const badge = document.getElementById('weightBadge');
+    if (badge) badge.textContent = patientWeight > 0 ? patientWeight + ' kg' : 'Set Wt';
 }
 
-function updateFavouriteButtons() {
-    document.querySelectorAll('.fav-btn').forEach(btn => {
-        const key = btn.dataset.key;
-        const isFav = isFavourite(key);
-        btn.textContent = isFav ? '★' : '☆';
-        btn.classList.toggle('fav-active', isFav);
-        btn.title = isFav ? 'Remove from favourites' : 'Add to favourites';
+function updateAllCalcs() {
+    document.querySelectorAll('.calc-result-row').forEach(el => {
+        const dose = el.dataset.dose;
+        const parsed = parseWeightDose(dose);
+        const result = calculateDose(parsed, patientWeight);
+        if (result) {
+            el.style.display = 'flex';
+            el.querySelector('.calc-value').textContent = '→ ' + result;
+        } else {
+            el.style.display = 'none';
+        }
     });
 }
 
-function updateFavBadge() {
-    const count = getFavourites().length;
-    const badge = document.getElementById('favBadge');
-    if (badge) {
-        badge.textContent = count;
-        badge.style.display = count > 0 ? 'inline-flex' : 'none';
-    }
-}
+// ═══ FAVOURITES ═══
+function getFavs() { try { return JSON.parse(localStorage.getItem('titrate_favourites') || '[]'); } catch { return []; } }
+function saveFavs(f) { localStorage.setItem('titrate_favourites', JSON.stringify(f)); updateFavBadge(); }
+function toggleFav(key) { let f = getFavs(); saveFavs(f.includes(key) ? f.filter(x => x !== key) : [...f, key]); updateFavBtns(); if (activeCat === 'favourites') renderFavourites(); }
+function isFav(key) { return getFavs().includes(key); }
+function makeKey(item, cat) { const n = item.item || item.drug || item.condition_or_drug || item.poison_or_drug || item.antidote_treatment || item.product || ''; return cat + '::' + n; }
+function updateFavBadge() { const b = document.getElementById('favBadge'); if (b) { const c = getFavs().length; b.textContent = c; b.style.display = c > 0 ? 'inline-flex' : 'none'; } }
+function updateFavBtns() { document.querySelectorAll('.fav-btn').forEach(btn => { const k = btn.dataset.key; const f = isFav(k); btn.textContent = f ? '★' : '☆'; btn.classList.toggle('fav-active', f); btn.title = f ? 'Remove from favourites' : 'Add to favourites'; }); }
 
-function renderFavourites() {
-    const content = document.getElementById('content');
-    const favs = getFavourites();
+// ═══ INIT ═══
+document.addEventListener('DOMContentLoaded', () => { patientWeight = getWeight(); loadData(); setupSearch(); setupScrollTop(); setupInstallPrompt(); });
 
-    if (favs.length === 0) {
-        content.innerHTML = `
-            <div class="no-results">
-                <div style="font-size:3rem;margin-bottom:1rem;">⭐</div>
-                <div style="font-size:1.1rem;font-weight:700;margin-bottom:0.5rem;">No favourites yet</div>
-                <div style="font-size:0.85rem;color:var(--text-secondary);max-width:280px;margin:0 auto;line-height:1.6;">
-                    Tap the ☆ star on any drug card to add it here.<br>
-                    Your favourites are saved locally and work offline.
-                </div>
-            </div>`;
-        return;
-    }
-
-    let html = '<div class="section expanded" data-cat="favourites">';
-    html += '<div class="section-body" style="max-height:none;">';
-
-    // Build lookup of all items
-    const allItems = [];
-    for (const catKey of Object.keys(clinicalData)) {
-        for (const [subKey, items] of Object.entries(clinicalData[catKey])) {
-            if (Array.isArray(items)) {
-                for (const item of items) {
-                    const key = makeDrugKey(item, catKey);
-                    if (favs.includes(key)) {
-                        allItems.push({item, catKey, subKey});
-                    }
-                }
-            } else {
-                const key = makeDrugKey(items, catKey);
-                if (favs.includes(key)) {
-                    allItems.push({item: items, catKey, subKey});
-                }
-            }
-        }
-    }
-
-    // Render each favourited drug
-    for (const {item, catKey} of allItems) {
-        html += renderDrugCard(item, catKey, true);
-    }
-
-    html += '</div></div>';
-    content.innerHTML = html;
-    updateFavouriteButtons();
-}
-
-// ─── Init ───
-document.addEventListener('DOMContentLoaded', () => {
-    loadData();
-    setupSearch();
-    setupScrollTop();
-    setupInstallPrompt();
-});
-
-// ─── Service Worker ───
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-        navigator.serviceWorker.register('service-worker.js')
-            .then(reg => console.log('SW registered:', reg.scope))
-            .catch(err => console.log('SW failed:', err));
+        navigator.serviceWorker.register('service-worker.js').then(r => console.log('SW:', r.scope)).catch(e => console.log('SW fail:', e));
     });
 }
 
-// ─── Load Data ───
 async function loadData() {
     try {
         const res = await fetch('data.json?v=' + Date.now());
         clinicalData = await res.json();
         renderNav();
-        renderAllSections();
-        updateConnectionStatus();
-        updateFavBadge();
+        if (activeCat === 'favourites') renderFavourites(); else if (activeCat === 'all') renderAllSections(); else renderSection(activeCat);
+        updateConnectionStatus(); updateFavBadge(); updateWeightBadge();
     } catch (e) {
-        document.getElementById('content').innerHTML = `
-            <div class="no-results">
-                <div style="font-size:2rem;margin-bottom:0.5rem;">⚠️</div>
-                Failed to load clinical data.<br>Please check your connection and refresh.
-            </div>`;
+        document.getElementById('content').innerHTML = '<div class="no-results"><div style="font-size:2rem">⚠️</div>Failed to load data.<br>Check connection and refresh.</div>';
     }
 }
 
-// ─── Navigation ───
+// ═══ NAV ═══
 let activeCat = 'all';
 
 function renderNav() {
     const nav = document.getElementById('catNav');
     let html = '';
-
-    // Favourites tab first
-    const favCount = getFavourites().length;
-    const favBadge = favCount > 0 ? `<span class="nav-badge" id="favBadge">${favCount}</span>` : '<span class="nav-badge" id="favBadge" style="display:none;">0</span>';
-    html += `<button class="cat-btn" data-cat="favourites">${CAT_ICONS['favourites']} ${CAT_NAMES['favourites']}${favBadge}</button>`;
-
-    // All tab
-    html += `<button class="cat-btn active" data-cat="all">All</button>`;
-
-    // Numbered sections in order
+    const fc = getFavs().length;
+    html += `<button class="cat-btn" data-cat="favourites">${CAT_ICONS.favourites} ${CAT_NAMES.favourites}<span class="nav-badge" id="favBadge" style="display:${fc > 0 ? 'inline-flex' : 'none'}">${fc}</span></button>`;
+    html += `<button class="cat-btn active" data-cat="all">📋 All</button>`;
     for (const key of TAB_ORDER) {
-        if (key === 'favourites') continue;
-        if (!clinicalData[key]) continue;
-        const name = CAT_NAMES[key] || key;
-        const icon = CAT_ICONS[key] || '';
-        html += `<button class="cat-btn" data-cat="${key}">${icon} ${name}</button>`;
+        if (key === 'favourites' || !clinicalData[key]) continue;
+        html += `<button class="cat-btn" data-cat="${key}">${CAT_ICONS[key]} ${CAT_NAMES[key]}</button>`;
     }
-
     nav.innerHTML = html;
-
     nav.querySelectorAll('.cat-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             nav.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeCat = btn.dataset.cat;
-
-            if (activeCat === 'favourites') {
-                renderFavourites();
-            } else if (activeCat === 'all') {
-                renderAllSections();
-            } else {
-                renderSection(activeCat);
-            }
+            if (activeCat === 'favourites') renderFavourites();
+            else if (activeCat === 'all') renderAllSections();
+            else renderSection(activeCat);
             document.getElementById('searchInput').value = '';
             document.getElementById('clearBtn').classList.remove('visible');
         });
     });
 }
 
-// ─── Render ───
+// ═══ RENDER ═══
 function renderAllSections() {
-    const content = document.getElementById('content');
-    let html = '';
-    for (const catKey of TAB_ORDER) {
-        if (catKey === 'favourites') continue;
-        if (!clinicalData[catKey]) continue;
-        html += renderSectionHTML(catKey);
-    }
-    content.innerHTML = html;
-    attachSectionHandlers();
-    updateFavouriteButtons();
-    const first = content.querySelector('.section');
-    if (first) first.classList.add('expanded');
+    const c = document.getElementById('content'); let h = '';
+    for (const k of TAB_ORDER) { if (k !== 'favourites' && clinicalData[k]) h += renderSectionHTML(k); }
+    c.innerHTML = h; attachHandlers(); updateFavBtns(); updateAllCalcs();
+    const f = c.querySelector('.section'); if (f) f.classList.add('expanded');
 }
 
 function renderSection(catKey) {
-    const content = document.getElementById('content');
-    content.innerHTML = renderSectionHTML(catKey);
-    attachSectionHandlers();
-    updateFavouriteButtons();
-    const section = content.querySelector('.section');
-    if (section) section.classList.add('expanded');
+    const c = document.getElementById('content');
+    c.innerHTML = renderSectionHTML(catKey);
+    attachHandlers(); updateFavBtns(); updateAllCalcs();
+    const s = c.querySelector('.section'); if (s) s.classList.add('expanded');
 }
 
 function renderSectionHTML(catKey) {
-    const data = clinicalData[catKey];
-    const catName = CAT_NAMES[catKey] || catKey;
-    const icon = CAT_ICONS[catKey] || '';
-
-    let bodyHTML = '';
-    for (const [subKey, items] of Object.entries(data)) {
-        const subLabel = subKey.replace(/_/g, ' ').replace(/^\w/, c => c.toUpperCase());
+    const d = clinicalData[catKey]; const cn = CAT_NAMES[catKey] || catKey; const ci = CAT_ICONS[catKey] || '';
+    let body = '';
+    for (const [sk, items] of Object.entries(d)) {
+        const sl = sk.replace(/_/g, ' ').replace(/^\w/, c => c.toUpperCase());
         if (Array.isArray(items)) {
-            let hasContent = false;
-            let subHTML = '';
-            for (const item of items) {
-                const card = renderDrugCard(item, catKey);
-                if (card) {
-                    hasContent = true;
-                    subHTML += card;
-                }
-            }
-            if (hasContent) {
-                bodyHTML += `<div class="sub-section-label">${subLabel}</div>`;
-                bodyHTML += subHTML;
-            }
-        } else {
-            bodyHTML += renderDrugCard(items, catKey);
-        }
+            let sm = ''; let has = false;
+            for (const item of items) { const c = renderDrugCard(item, catKey); if (c) { has = true; sm += c; } }
+            if (has) { body += `<div class="sub-label">${sl}</div>` + sm; }
+        } else { body += renderDrugCard(items, catKey); }
     }
-
-    return `
-        <div class="section expanded" data-cat="${catKey}">
-            <div class="section-header">
-                <div class="section-title">${icon} ${catName}</div>
-                <div class="section-toggle">▼</div>
-            </div>
-            <div class="section-body">${bodyHTML}</div>
-        </div>
-    `;
+    return `<div class="section" data-cat="${catKey}"><div class="section-header"><div class="section-title">${ci} ${cn}</div><div class="section-toggle">▼</div></div><div class="section-body">${body}</div></div>`;
 }
 
-function renderDrugCard(item, catKey, skipFav) {
+function renderFavourites() {
+    const c = document.getElementById('content'); const favs = getFavs();
+    if (favs.length === 0) {
+        c.innerHTML = `<div class="no-results"><div style="font-size:3rem;margin-bottom:1rem">⭐</div><div style="font-size:1.1rem;font-weight:700">No favourites yet</div><div style="font-size:0.85rem;color:var(--text-secondary);max-width:280px;margin:0.5rem auto">Tap the ☆ star on any drug to add it here. Saved locally, works offline.</div></div>`;
+        return;
+    }
+    let h = '<div class="section expanded"><div class="section-body" style="max-height:none">';
+    for (const ck of Object.keys(clinicalData)) {
+        for (const [sk, items] of Object.entries(clinicalData[ck])) {
+            if (Array.isArray(items)) { for (const item of items) { if (favs.includes(makeKey(item, ck))) h += renderDrugCard(item, ck); } }
+            else { if (favs.includes(makeKey(items, ck))) h += renderDrugCard(items, ck); }
+        }
+    }
+    h += '</div></div>'; c.innerHTML = h; updateFavBtns(); updateAllCalcs();
+}
+
+function renderDrugCard(item, catKey) {
     const name = item.item || item.drug || item.condition_or_drug || item.poison_or_drug || item.antidote_treatment || item.product || '';
     if (!name && !item.category) return '';
-
-    const displayName = name || `${item.category} - ${item.item || ''}`;
-    const drugKey = makeDrugKey(item, catKey);
-    const isFav = isFavourite(drugKey);
-    const favBtn = skipFav ? '' : `<button class="fav-btn ${isFav ? 'fav-active' : ''}" data-key="${drugKey}" onclick="event.stopPropagation();toggleFavourite('${drugKey}')" title="${isFav ? 'Remove from favourites' : 'Add to favourites'}">${isFav ? '★' : '☆'}</button>`;
-
-    // Badges
+    const dn = name || `${item.category} - ${item.item || ''}`;
+    const dk = makeKey(item, catKey);
+    const fv = isFav(dk);
+    const fb = `<button class="fav-btn ${fv ? 'fav-active' : ''}" data-key="${dk}" onclick="event.stopPropagation();toggleFav('${dk}')" title="${fv ? 'Remove' : 'Add'}">${fv ? '★' : '☆'}</button>`;
+    const notes = item.notes_updates || item.notes || '';
     let badges = '';
-    const notes = (item.notes_updates || item.notes || '');
-    if (notes.toLowerCase().includes('first-line')) badges += '<span class="badge badge-first">1st Line</span>';
-    if (notes.toLowerCase().includes('warning') || notes.toLowerCase().includes('caution')) badges += '<span class="badge badge-warn">⚠️ Caution</span>';
-    if (notes.toLowerCase().includes('avoid') || notes.toLowerCase().includes('teratogenic') || notes.toLowerCase().includes('pris') || notes.toLowerCase().includes('contraindicated')) badges += '<span class="badge badge-danger">⚠️ Warning</span>';
-    if (item.standard_dilutions) badges += '<span class="badge badge-calc">📟 Calc</span>';
+    if (notes.toLowerCase().includes('first-line')) badges += '<span class="badge b-first">1st</span>';
+    if (notes.toLowerCase().includes('warning') || notes.toLowerCase().includes('caution')) badges += '<span class="badge b-warn">⚠️</span>';
+    if (notes.toLowerCase().includes('avoid') || notes.toLowerCase().includes('teratogenic') || notes.toLowerCase().includes('contraindicated')) badges += '<span class="badge b-dang">🚫</span>';
+    if (item.standard_dilutions) badges += '<span class="badge b-calc">📟</span>';
 
-    let html = `<div class="drug-card" data-search="${(displayName + ' ' + notes + ' ' + (item.adult_dose || '') + ' ' + (item.paediatric_dose || '')).toLowerCase()}">`;
-    html += `<div class="drug-header"><div class="drug-name">${displayName} ${badges}</div>${favBtn}</div>`;
-
-    // Adult dose
-    if (item.adult_dose || item.adult_settings) {
-        html += `<div class="dose-row"><span class="dose-label">Adult</span><span class="dose-value">${item.adult_dose || item.adult_settings}</span></div>`;
-    }
-
-    // Paediatric dose
-    if (item.paediatric_dose || item.paediatric_settings) {
-        html += `<div class="dose-row"><span class="dose-label">Paediatric</span><span class="dose-value">${item.paediatric_dose || item.paediatric_settings}</span></div>`;
-    }
-
-    // Protocol dose
-    if (item.protocol_dose) {
-        html += `<div class="dose-row"><span class="dose-label">Protocol</span><span class="dose-value">${item.protocol_dose}</span></div>`;
-    }
-
-    // Formula
-    if (item.formula) {
-        html += `<div class="dose-row"><span class="dose-label">Formula</span><span class="dose-value formula">${item.formula}</span></div>`;
-        if (item.standard_dilutions) {
-            html += `<div class="dose-row"><span class="dose-label">Dilution</span><span class="dose-value">${item.standard_dilutions}</span></div>`;
+    // Build weight-based calc rows for adult + paediatric doses
+    let calcRows = '';
+    const doses = [item.adult_dose, item.paediatric_dose, item.adult_settings, item.paediatric_settings, item.protocol_dose].filter(Boolean);
+    const seen = new Set();
+    for (const dose of doses) {
+        const parsed = parseWeightDose(dose);
+        if (parsed) {
+            const key = parsed.minVal + '-' + parsed.maxVal + parsed.unit + (parsed.freq || '') + (parsed.time || '');
+            if (!seen.has(key)) {
+                seen.add(key);
+                const label = dose === item.adult_dose || dose === item.adult_settings ? 'Adult calc' : dose === item.protocol_dose ? 'Protocol calc' : 'Peds calc';
+                const result = patientWeight > 0 ? calculateDose(parsed, patientWeight) : null;
+                const display = result ? `→ ${result}` : 'Enter weight to calculate';
+                const style = result ? '' : 'style="opacity:0.5"';
+                calcRows += `<div class="calc-result-row" data-dose="${dose.replace(/"/g, '&quot;')}" ${style}><span class="calc-label">${label}</span><span class="calc-value">${display}</span></div>`;
+            }
         }
     }
 
-    // Calculator for inotrope formulae
-    if (item.formula && item.category === 'Inotopes' && item.formula.includes('ml/hr')) {
-        html += renderCalc(item);
-    }
+    let h = `<div class="drug-card" data-search="${(dn + ' ' + notes + ' ' + (item.adult_dose || '') + ' ' + (item.paediatric_dose || '')).toLowerCase()}">`;
+    h += `<div class="drug-header"><div class="drug-name">${dn} ${badges}</div>${fb}</div>`;
 
-    // Notes
+    if (item.adult_dose || item.adult_settings) h += `<div class="dose-row"><span class="dose-label">Adult</span><span class="dose-value">${item.adult_dose || item.adult_settings}</span></div>`;
+    if (item.paediatric_dose || item.paediatric_settings) h += `<div class="dose-row"><span class="dose-label">Paed</span><span class="dose-value">${item.paediatric_dose || item.paediatric_settings}</span></div>`;
+    if (item.protocol_dose) h += `<div class="dose-row"><span class="dose-label">Protocol</span><span class="dose-value">${item.protocol_dose}</span></div>`;
+    if (item.formula) {
+        h += `<div class="dose-row"><span class="dose-label">Formula</span><span class="dose-value" style="font-family:monospace;font-size:0.78rem">${item.formula}</span></div>`;
+        if (item.standard_dilutions) h += `<div class="dose-row"><span class="dose-label">Dilution</span><span class="dose-value">${item.standard_dilutions}</span></div>`;
+    }
+    if (calcRows) h += `<div class="calc-box">${calcRows}</div>`;
+    if (item.formula && item.category === 'Inotopes' && item.formula.includes('ml/hr')) h += renderCalc(item);
+
     if (notes) {
-        let noteClass = 'notes';
-        if (notes.toLowerCase().includes('warning') || notes.toLowerCase().includes('avoid') || notes.toLowerCase().includes('teratogenic') || notes.toLowerCase().includes('contraindicated')) noteClass += ' danger';
-        else if (notes.toLowerCase().includes('caution') || notes.toLowerCase().includes('preferred') || notes.toLowerCase().includes('consult') || notes.toLowerCase().includes('section 21')) noteClass += ' warn';
-        html += `<div class="${noteClass}">${notes}</div>`;
+        let nc = 'notes';
+        if (notes.toLowerCase().includes('warning') || notes.toLowerCase().includes('avoid') || notes.toLowerCase().includes('teratogenic') || notes.toLowerCase().includes('contraindicated')) nc += ' danger';
+        else if (notes.toLowerCase().includes('caution') || notes.toLowerCase().includes('consult') || notes.toLowerCase().includes('section 21')) nc += ' warn';
+        h += `<div class="${nc}">${notes}</div>`;
     }
-
-    html += '</div>';
-    return html;
+    h += '</div>';
+    return h;
 }
 
 function renderCalc(item) {
-    const drugId = item.item.replace(/\s+/g, '').replace(/[^a-zA-Z0-9]/g, '');
-    return `
-        <button class="calc-btn" onclick="toggleCalc('${drugId}')">📟 Open Calculator</button>
-        <div class="calc-panel" id="calc-${drugId}">
-            <div class="calc-inputs">
-                <input type="number" id="dose-${drugId}" placeholder="mcg/kg/min" step="0.01" oninput="calcInotrope('${drugId}', '${item.item}')">
-                <input type="number" id="wt-${drugId}" placeholder="Weight (kg)" step="0.1" oninput="calcInotrope('${drugId}', '${item.item}')">
-            </div>
-            <div class="calc-result" id="result-${drugId}">-- ml/hr</div>
-            <div class="formula-display">${item.formula}</div>
-        </div>
-    `;
+    const id = item.item.replace(/\s+/g, '').replace(/[^a-zA-Z0-9]/g, '');
+    return `<button class="calc-btn" onclick="toggleCalc('${id}')">📟 Infusion Calc</button><div class="calc-panel" id="calc-${id}"><div class="calc-inputs"><input type="number" id="d-${id}" placeholder="mcg/kg/min" step="0.01" oninput="cI('${id}','${item.item}')"><input type="number" id="w-${id}" placeholder="Wt (kg)" step="0.1" value="${patientWeight || ''}" oninput="cI('${id}','${item.item}')"></div><div class="calc-result" id="r-${id}">-- ml/hr</div><div class="formula-display">${item.formula}</div></div>`;
 }
 
-function toggleCalc(id) {
-    document.getElementById(`calc-${id}`).classList.toggle('open');
-}
+function toggleCalc(id) { document.getElementById(`calc-${id}`).classList.toggle('open'); }
+function cI(id, drug) { const d = parseFloat(document.getElementById(`d-${id}`).value) || 0; const w = parseFloat(document.getElementById(`w-${id}`).value) || 0; if (d <= 0 || w <= 0) { document.getElementById(`r-${id}`).textContent = '-- ml/hr'; return; } const div = { 'Adrenaline': 25, 'Noradrenaline': 50, 'Dobutamine': 1250 }[drug] || 50; document.getElementById(`r-${id}`).textContent = ((d * w * 60) / div).toFixed(1) + ' ml/hr'; }
+function attachHandlers() { document.querySelectorAll('.section-header').forEach(h => { h.addEventListener('click', () => { h.parentElement.classList.toggle('expanded'); }); }); }
 
-function calcInotrope(id, drugName) {
-    const dose = parseFloat(document.getElementById(`dose-${id}`).value) || 0;
-    const wt = parseFloat(document.getElementById(`wt-${id}`).value) || 0;
-    if (dose <= 0 || wt <= 0) {
-        document.getElementById(`result-${id}`).textContent = '-- ml/hr';
-        return;
-    }
-    const divisor = getDivisor(drugName);
-    const result = (dose * wt * 60) / divisor;
-    document.getElementById(`result-${id}`).textContent = result.toFixed(1) + ' ml/hr';
-}
-
-function getDivisor(drugName) {
-    const divisors = { 'Adrenaline': 25, 'Noradrenaline': 50, 'Dobutamine': 1250 };
-    return divisors[drugName] || 50;
-}
-
-function attachSectionHandlers() {
-    document.querySelectorAll('.section-header').forEach(header => {
-        header.addEventListener('click', () => {
-            header.parentElement.classList.toggle('expanded');
-        });
-    });
-}
-
-// ─── Search ───
+// ═══ SEARCH ═══
 function setupSearch() {
-    const input = document.getElementById('searchInput');
-    const clearBtn = document.getElementById('clearBtn');
-
-    input.addEventListener('input', () => {
-        const query = input.value.trim().toLowerCase();
-        clearBtn.classList.toggle('visible', query.length > 0);
-
-        if (query.length === 0) {
-            if (activeCat === 'favourites') {
-                renderFavourites();
-            } else if (activeCat === 'all') {
-                renderAllSections();
-            } else {
-                renderSection(activeCat);
-            }
-            return;
-        }
-
-        performSearch(query);
+    const inp = document.getElementById('searchInput');
+    const clr = document.getElementById('clearBtn');
+    inp.addEventListener('input', () => {
+        const q = inp.value.trim().toLowerCase();
+        clr.classList.toggle('visible', q.length > 0);
+        if (!q) { if (activeCat === 'favourites') renderFavourites(); else if (activeCat === 'all') renderAllSections(); else renderSection(activeCat); return; }
+        doSearch(q);
     });
-
-    clearBtn.addEventListener('click', () => {
-        input.value = '';
-        clearBtn.classList.remove('visible');
-        if (activeCat === 'favourites') {
-            renderFavourites();
-        } else if (activeCat === 'all') {
-            renderAllSections();
-        } else {
-            renderSection(activeCat);
-        }
-    });
+    clr.addEventListener('click', () => { inp.value = ''; clr.classList.remove('visible'); if (activeCat === 'favourites') renderFavourites(); else if (activeCat === 'all') renderAllSections(); else renderSection(activeCat); });
 }
 
-function performSearch(query) {
-    const content = document.getElementById('content');
-    let resultsHTML = '';
-    let totalMatches = 0;
-
-    for (const catKey of Object.keys(clinicalData)) {
-        if (activeCat !== 'all' && activeCat !== catKey) continue;
-
-        const catName = CAT_NAMES[catKey] || catKey;
-        const icon = CAT_ICONS[catKey] || '';
-        let catMatches = '';
-
-        for (const [subKey, items] of Object.entries(clinicalData[catKey])) {
-            const subLabel = subKey.replace(/_/g, ' ').replace(/^\w/, c => c.toUpperCase());
-            if (Array.isArray(items)) {
-                let subMatches = '';
-                for (const item of items) {
-                    const searchable = JSON.stringify(item).toLowerCase();
-                    if (searchable.includes(query)) {
-                        subMatches += highlightSearch(renderDrugCard(item, catKey), query);
-                    }
-                }
-                if (subMatches) {
-                    catMatches += `<div class="sub-section-label">${subLabel}</div>`;
-                    catMatches += subMatches;
-                }
-            } else {
-                const searchable = JSON.stringify(items).toLowerCase();
-                if (searchable.includes(query)) {
-                    catMatches += highlightSearch(renderDrugCard(items, catKey), query);
-                }
-            }
+function doSearch(q) {
+    const c = document.getElementById('content'); let h = '';
+    for (const ck of Object.keys(clinicalData)) {
+        if (activeCat !== 'all' && activeCat !== ck) continue;
+        let cm = '';
+        for (const [sk, items] of Object.entries(clinicalData[ck])) {
+            if (Array.isArray(items)) { let sm = ''; for (const item of items) { if (JSON.stringify(item).toLowerCase().includes(q)) sm += hlt(renderDrugCard(item, ck), q); } if (sm) cm += `<div class="sub-label">${sk.replace(/_/g, ' ').replace(/^\w/, c => c.toUpperCase())}</div>` + sm; }
+            else { if (JSON.stringify(items).toLowerCase().includes(q)) cm += hlt(renderDrugCard(items, ck), q); }
         }
-
-        if (catMatches) {
-            totalMatches++;
-            resultsHTML += `
-                <div class="section expanded" data-cat="${catKey}">
-                    <div class="section-header">
-                        <div class="section-title">${icon} ${catName}</div>
-                        <div class="section-toggle">▼</div>
-                    </div>
-                    <div class="section-body">${catMatches}</div>
-                </div>
-            `;
-        }
+        if (cm) h += `<div class="section expanded"><div class="section-header"><div class="section-title">${CAT_ICONS[ck] || ''} ${CAT_NAMES[ck]}</div><div class="section-toggle">▼</div></div><div class="section-body">${cm}</div></div>`;
     }
-
-    if (totalMatches === 0) {
-        content.innerHTML = `
-            <div class="no-results">
-                <div style="font-size:2rem;margin-bottom:0.5rem;">🔍</div>
-                No results for "${query}"<br>
-                <span style="font-size:0.8rem;">Try a different drug name or condition</span>
-            </div>
-        `;
-    } else {
-        content.innerHTML = resultsHTML;
-        attachSectionHandlers();
-        updateFavouriteButtons();
-    }
+    c.innerHTML = h || `<div class="no-results"><div style="font-size:2rem">🔍</div>No results for "${q}"</div>`;
+    attachHandlers(); updateFavBtns(); updateAllCalcs();
 }
 
-function highlightSearch(html, query) {
-    const words = query.split(/\s+/).filter(w => w.length > 1);
-    if (words.length === 0) return html;
-    for (const word of words) {
-        const regex = new RegExp(`(${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-        html = html.replace(regex, '<span class="highlight">$1</span>');
-    }
-    return html;
-}
+function hlt(html, q) { const ws = q.split(/\s+/).filter(w => w.length > 1); for (const w of ws) { html = html.replace(new RegExp(`(${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<span class="highlight">$1</span>'); } return html; }
 
-// ─── Scroll to top ───
-function setupScrollTop() {
-    const btn = document.getElementById('scrollTop');
-    window.addEventListener('scroll', () => {
-        btn.classList.toggle('visible', window.scrollY > 300);
-    });
-    btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-}
-
-// ─── Install Prompt ───
-function setupInstallPrompt() {
-    window.addEventListener('beforeinstallprompt', (e) => {
-        e.preventDefault();
-        deferredPrompt = e;
-        document.getElementById('installBar').classList.add('show');
-    });
-
-    document.getElementById('installBtn').addEventListener('click', async () => {
-        if (deferredPrompt) {
-            deferredPrompt.prompt();
-            const { outcome } = await deferredPrompt.userChoice;
-            if (outcome === 'accepted') {
-                document.getElementById('installBar').classList.remove('show');
-            }
-            deferredPrompt = null;
-        }
-    });
-}
-
-// ─── Connection Status ───
-function updateConnectionStatus() {
-    const badge = document.getElementById('offlineBadge');
-    if (!navigator.onLine) {
-        badge.textContent = 'Offline';
-        badge.style.background = '#f39c12';
-    } else {
-        badge.textContent = 'Offline Ready';
-        badge.style.background = 'var(--accent)';
-    }
-}
-
+function setupScrollTop() { const b = document.getElementById('scrollTop'); window.addEventListener('scroll', () => b.classList.toggle('visible', window.scrollY > 300)); b.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' })); }
+function setupInstallPrompt() { window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; document.getElementById('installBar').classList.add('show'); }); document.getElementById('installBtn').addEventListener('click', async () => { if (deferredPrompt) { deferredPrompt.prompt(); const { outcome } = await deferredPrompt.userChoice; if (outcome === 'accepted') document.getElementById('installBar').classList.remove('show'); deferredPrompt = null; } }); }
+function updateConnectionStatus() { const b = document.getElementById('offlineBadge'); if (!navigator.onLine) { b.textContent = 'Offline'; b.style.background = '#f39c12'; } else { b.textContent = 'Offline Ready'; b.style.background = 'var(--accent)'; } }
 window.addEventListener('online', updateConnectionStatus);
 window.addEventListener('offline', updateConnectionStatus);
 
-// Footer
-document.getElementById('footer').innerHTML = `
-    Titrate v2.0 &middot; Bara ICU Dosing Guide &middot; 248 Drugs<br>
-    For clinical reference only &middot; Verify all doses<br>
-    <span style="opacity:0.7;">Created by Tashriq Hendricks &amp; Kimi</span>
-`;
+// Weight input handler
+document.addEventListener('DOMContentLoaded', () => {
+    const wi = document.getElementById('weightInput');
+    if (wi) {
+        const saved = getWeight();
+        if (saved > 0) { wi.value = saved; patientWeight = saved; }
+        wi.addEventListener('input', () => { const w = parseFloat(wi.value) || 0; setWeight(w); });
+    }
+});
+
+document.getElementById('footer').innerHTML = 'Titrate v2.1 &middot; 248 Drugs &middot; Weight-Based Calculators<br>For clinical reference only &middot; Verify all doses<br><span style="opacity:0.7">Created by Tashriq Hendricks &amp; Kimi</span>';
