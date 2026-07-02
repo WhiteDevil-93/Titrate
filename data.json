@@ -38,6 +38,24 @@
         "adult_dose": "Formula: (ug/kg/min x kg x 60)/1000",
         "paediatric_dose": "See Formula",
         "notes_updates": "Largely superseded by Noradrenaline for shock."
+      },
+      {
+        "item": "Phenylephrine",
+        "adult_dose": "0.5-5ug/kg/min IV",
+        "paediatric_dose": "0.5-5ug/kg/min IV",
+        "notes_updates": ""
+      },
+      {
+        "item": "Milrinone",
+        "adult_dose": "Loading: 50ug/kg IV over 10min; Maintenance: 0.37-0.75ug/kg/min IV",
+        "paediatric_dose": "Loading: 50ug/kg/min IV; Maintenance: 0.25-0.75ug/kg/min IV",
+        "notes_updates": "Section 21 - requires consent"
+      },
+      {
+        "item": "Dopamine",
+        "adult_dose": "Formula: (ug/kg/min x kg x 60)/1000",
+        "paediatric_dose": "See Formula",
+        "notes_updates": ""
       }
     ],
     "arrhythmia": [
@@ -65,7 +83,56 @@
       "adult_dose": "Young adult: 60-80mmHg; Older: 80mmHg",
       "paediatric_dose": "<1yr: 50-60mmHg; >1yr: 60-80mmHg",
       "notes_updates": "Maintain perfusion pressure."
-    }
+    },
+    "resuscitation_medication": [
+      {
+        "item": "Adrenalin (1mg/ml)",
+        "adult_dose": "1mg IV repeat every 3-5min",
+        "paediatric_dose": "10ug/kg IV OR 0.1ml/kg of 1:10 000 (1mg adrenaline/10ml normal saline)"
+      },
+      {
+        "item": "Amiodarone (loading)",
+        "adult_dose": "300mg IV bolus over 3min (unstable pt); 150mg IV bolus over 3min (stable pt)",
+        "paediatric_dose": "5mg/kg IV bolus over 3min"
+      },
+      {
+        "item": "Sodium Bicarbonate (8.5%)",
+        "adult_dose": "50mEq IV (50ml)",
+        "paediatric_dose": "1-2mEq/kg IV (dilute in sterile water)"
+      },
+      {
+        "item": "Calcium Chloride (10%)",
+        "adult_dose": "1g IV (10ml) slowly",
+        "paediatric_dose": "0.2ml/kg IV slowly (max 10ml)"
+      },
+      {
+        "item": "Dextrose (50%)",
+        "adult_dose": "50ml 50% dextrose IV/PO",
+        "paediatric_dose": "1ml/kg 50% dextrose + 1ml/kg H2O IV/PO"
+      },
+      {
+        "item": "Lignocaine (20mg/ml)",
+        "adult_dose": "1-1.5 mg/kg IV",
+        "paediatric_dose": "1 mg/kg IV"
+      }
+    ],
+    "cardioversion": [
+      {
+        "item": "Atrial arrhythmias",
+        "adult_dose": "100J: 200J: 300J: 360J synch mono",
+        "paediatric_dose": "0.5J/kg: 1J/kg: 2J/kg Synchronised"
+      },
+      {
+        "item": "Ventricular Tachycardia",
+        "adult_dose": "100J: 200J: 300J: 360J synch mono",
+        "paediatric_dose": "0.5J/kg: 1J/kg: 2J/kg Synchronised"
+      },
+      {
+        "item": "Defibrillation - Ventricular Fibrillation",
+        "adult_dose": "360J defib monophasic; 120-200J defib biphasic",
+        "paediatric_dose": "4J/kg defib (mono and biphasic)"
+      }
+    ]
   },
   "2_airway_and_ventilation": {
     "intubation": [
@@ -73,6 +140,11 @@
         "item": "ETT Size",
         "adult_settings": "Male: 7.5 - 8.5, Female: 6.5 - 7.5",
         "paediatric_settings": ">1 year: 4 + (Age in years)/4, <1 year: 3.0 - 4.0"
+      },
+      {
+        "item": "Cricothyroidotomy",
+        "adult_settings": "12G cannula through cricothyroid membrane",
+        "paediatric_settings": "14G cannula through cricothyroid membrane"
       }
     ],
     "vent_settings": [
@@ -107,6 +179,101 @@
         "item": "Tidal Volume",
         "adult_settings": "6 - 8ml/kg Ideal Body Weight",
         "paediatric_settings": "6 - 8ml/kg Ideal Body Weight"
+      }
+    ],
+    "sedation": [
+      {
+        "item": "Etomidate",
+        "adult_dose": "0.3mg/kg IV (max 40mg)",
+        "paediatric_dose": "0.2-0.3mg/kg IV",
+        "notes": "Haemodynamically stable induction agent"
+      },
+      {
+        "item": "Ketamine (RSI)",
+        "adult_dose": "1-2mg/kg IV",
+        "paediatric_dose": "1-2mg/kg IV",
+        "notes": "Preferred for asthma/bronchospasm or trauma intubation"
+      },
+      {
+        "item": "Propofol",
+        "adult_dose": "1.5-2.5mg/kg IV",
+        "paediatric_dose": "1-2mg/kg IV"
+      },
+      {
+        "item": "Midazolam",
+        "adult_dose": "0.1-0.3mg/kg IV",
+        "paediatric_dose": "0.1-0.3mg/kg IV"
+      },
+      {
+        "item": "Morphine",
+        "adult_dose": "0.1-0.3mg/kg IV",
+        "paediatric_dose": "0.1-0.3mg/kg IV"
+      },
+      {
+        "item": "Fentanyl",
+        "adult_dose": "2-5ug/kg IV",
+        "paediatric_dose": "1-3ug/kg IV"
+      },
+      {
+        "item": "Suxamethonium",
+        "adult_dose": "1-1.5mg/kg IV",
+        "paediatric_dose": "1-2mg/kg IV; Infants: 2-3mg/kg IV",
+        "notes": "Contraindicated: Hyperkalaemia, pseudocholinesterase deficiency"
+      },
+      {
+        "item": "Rocuronium",
+        "adult_dose": "1-1.2mg/kg IV",
+        "paediatric_dose": "1.2mg/kg IV"
+      },
+      {
+        "item": "Atracurium",
+        "adult_dose": "0.4-0.5mg/kg IV",
+        "paediatric_dose": "0.3-0.5mg/kg IV"
+      },
+      {
+        "item": "Cisatracurium",
+        "adult_dose": "0.15-0.2mg/kg IV",
+        "paediatric_dose": "0.1-0.15mg/kg IV"
+      }
+    ],
+    "status_asthmaticus": [
+      {
+        "item": "Hydrocortisone",
+        "adult_dose": "100mg IV 6hrly",
+        "paediatric_dose": "4mg/kg IV 6hrly",
+        "notes": "Early steroids improve outcomes"
+      },
+      {
+        "item": "Salbutamol",
+        "adult_dose": "2.5-5mg nebulised (Nebulise with O2); 0.25-0.5mg IV",
+        "paediatric_dose": "2.5-5mg nebulised; 5-10ug/kg/min IV"
+      },
+      {
+        "item": "Berotec/Atrovent nebulisation",
+        "adult_dose": "0.5mg/2.5mg nebulised (repeat 20min x 3)",
+        "paediatric_dose": "0.25-0.5mg/1.25-2.5mg nebulised"
+      },
+      {
+        "item": "Aminophylline",
+        "adult_dose": "5mg/kg IV over 30min",
+        "paediatric_dose": "5mg/kg IV over 30min",
+        "notes": "Check levels 12 hourly"
+      },
+      {
+        "item": "Adrenalin",
+        "adult_dose": "0.1-1ug/kg/min IV",
+        "paediatric_dose": "0.1-1ug/kg/min IV"
+      },
+      {
+        "item": "Ketamine",
+        "adult_dose": "1mg/kg IV",
+        "paediatric_dose": "1mg/kg IV",
+        "notes": "Bronchodilator properties"
+      },
+      {
+        "item": "Magnesium sulphate",
+        "adult_dose": "1-2g IV over 15-20min",
+        "paediatric_dose": "25-75mg/kg IV over 20min (max 2g)"
       }
     ]
   },
@@ -161,6 +328,54 @@
         "adult_dose": "Load: 20-30 mg/kg IV",
         "paediatric_dose": "Load: 50 mg/kg",
         "notes_updates": "Safer alternative for women of child-bearing potential."
+      },
+      {
+        "drug": "Clonazepam",
+        "adult_dose": "1-2mg IV (may repeat once after 10min)",
+        "paediatric_dose": "0.25-0.5mg IV",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Diazepam",
+        "adult_dose": "5-10mg IV (may repeat after 10min)",
+        "paediatric_dose": "0.2-0.4mg/kg IV/PR (max 10mg)",
+        "notes_updates": "Avoid repeat dosing (accumulates)"
+      },
+      {
+        "drug": "Phenytoin",
+        "adult_dose": "Loading: 15-20mg/kg IV (max rate 50mg/min); Maintenance: 5-7mg/kg/day",
+        "paediatric_dose": "Loading: 15-20mg/kg IV; Maintenance: 5-8mg/kg/day",
+        "notes_updates": "Monitor levels. Max infusion rate 1mg/kg/min (cardiac monitoring)"
+      },
+      {
+        "drug": "Phenobarbitone",
+        "adult_dose": "Loading: 20mg/kg IV; Maintenance: 1-5mg/kg/day",
+        "paediatric_dose": "Loading: 20mg/kg IV; Maintenance: 3-5mg/kg/day",
+        "notes_updates": "Respiratory depression risk"
+      },
+      {
+        "drug": "Thiopentone",
+        "adult_dose": "75-250mg IV (3-5mg/kg)",
+        "paediatric_dose": "3-5mg/kg IV",
+        "notes_updates": "Requires intubation and ventilation"
+      },
+      {
+        "drug": "Paraldehyde",
+        "adult_dose": "5-10ml deep IM (mixed with olive oil)",
+        "paediatric_dose": "0.3ml/kg deep IM (max 8ml)",
+        "notes_updates": "Use glass syringe; do not use plastic"
+      },
+      {
+        "drug": "Ketamine",
+        "adult_dose": "1-4.5mg/kg IV; 5-10mg/kg IM",
+        "paediatric_dose": "1-4.5mg/kg IV; 5-10mg/kg IM",
+        "notes_updates": "Useful for refractory status epilepticus"
+      },
+      {
+        "drug": "Midazolam",
+        "adult_dose": "Bolus: 0.15mg/kg IV; Infusion: 1-10ug/kg/min",
+        "paediatric_dose": "Bolus: 0.15mg/kg; Infusion: 1-2ug/kg/min",
+        "notes_updates": "First-line if no IV access (buccal/IM)"
       }
     ],
     "analgesia": [
@@ -175,64 +390,404 @@
         "adult_dose": "1 g IV 6-hourly",
         "paediatric_dose": "15 mg/kg IV 6-hourly",
         "notes_updates": "Encouraged as part of multimodal analgesia to spare opioids."
+      },
+      {
+        "drug": "Morphine",
+        "adult_dose": "0.05-0.2 mg/kg/hr IV",
+        "paediatric_dose": "0.01-0.05 mg/kg/hr IV",
+        "notes_updates": "First-line opioid for severe pain"
+      },
+      {
+        "drug": "Pethidine",
+        "adult_dose": "25-100mg IM/IV 4-6hrly",
+        "paediatric_dose": "0.5-1mg/kg IM/IV",
+        "notes_updates": "Caution: accumulation of norpethidine (toxic metabolite)"
+      },
+      {
+        "drug": "Codeine",
+        "adult_dose": "30-60mg PO 4-6hrly",
+        "paediatric_dose": "0.5-1mg/kg PO 4-6hrly",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Tramadol",
+        "adult_dose": "50-100mg IV/PO 6hrly",
+        "paediatric_dose": "1-2mg/kg IV/PO 6hrly",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Ibuprofen",
+        "adult_dose": "400mg PO 8hrly",
+        "paediatric_dose": "5-10mg/kg PO 6-8hrly",
+        "notes_updates": "Avoid if renal impairment or GI bleeding"
+      },
+      {
+        "drug": "Diclofenac",
+        "adult_dose": "50mg PO/PR 8hrly; 75mg IM stat",
+        "paediatric_dose": "1mg/kg PO/PR 8hrly",
+        "notes_updates": "Caution: renal impairment, asthma"
+      },
+      {
+        "drug": "Indometacin",
+        "adult_dose": "25-50mg PO/PR 8hrly",
+        "paediatric_dose": "0.2mg/kg PO/PR 12hrly (PDA closure)",
+        "notes_updates": "Used for PDA closure in neonates; monitor renal function"
+      }
+    ],
+    "antipsychotics": [
+      {
+        "drug": "Haloperidol",
+        "adult_dose": "2.5-10mg IV/IM",
+        "paediatric_dose": "0.025-0.15mg/kg IV/IM",
+        "notes_updates": "Monitor QTc interval"
+      },
+      {
+        "drug": "Chlorpromazine",
+        "adult_dose": "25-50mg IV/IM 6-8hrly",
+        "paediatric_dose": "0.5-1mg/kg IV/IM 6-8hrly",
+        "notes_updates": "Caution: hypotension"
+      }
+    ],
+    "neuroprotective": [
+      {
+        "drug": "Mannitol",
+        "adult_dose": "0.25-1g/kg IV bolus",
+        "paediatric_dose": "0.25-1g/kg IV bolus",
+        "notes_updates": "Monitor osmolar gap; avoid if hypotensive"
+      },
+      {
+        "drug": "Hypertonic Saline (3%)",
+        "adult_dose": "250ml IV over 30min",
+        "paediatric_dose": "3-5ml/kg IV over 30min",
+        "notes_updates": "Alternative to mannitol for raised ICP"
+      },
+      {
+        "drug": "Thiopentone (Coma)",
+        "adult_dose": "3-5mg/kg bolus then 1-5mg/kg/hr infusion",
+        "paediatric_dose": "3-5mg/kg bolus then 1-5mg/kg/hr infusion",
+        "notes_updates": "Barbiturate coma for refractory intracranial hypertension"
       }
     ]
   },
   "4_antimicrobials_and_infectious_diseases": {
-    "protocols": [
+    "broad_spectrum_antibiotics": [
       {
-        "condition_or_drug": "HIV (1st Line)",
-        "adult_dose": "TDF + 3TC + DTG (TLD) daily",
-        "paediatric_dose": "Wt band dependent",
-        "notes_updates": "Replaces FDC (TDF/FTC/EFV). DTG is now standard of care."
+        "condition_or_drug": "Meropenem",
+        "adult_dose": "1-2g IV 8hrly",
+        "paediatric_dose": "20-40mg/kg IV 8hrly",
+        "notes_updates": "Extended infusion: 3-4hr infusion. High dose for meningitis/CNS infection"
       },
       {
-        "condition_or_drug": "HIV (TB Co-infection)",
-        "adult_dose": "TLD + DTG 50mg (boost)",
-        "paediatric_dose": "Consult Guidelines",
-        "notes_updates": "Rifampicin lowers DTG levels; add 50mg DTG 12 hours after standard dose."
+        "condition_or_drug": "Imipenem",
+        "adult_dose": "500mg-1g IV 6hrly",
+        "paediatric_dose": "15-25mg/kg IV 6hrly",
+        "notes_updates": "Caution: seizure risk; reduce dose in renal failure"
       },
       {
-        "condition_or_drug": "CRE Infections",
-        "adult_dose": "Ceftazidime-Avibactam: 2.5g IV 8hrly",
-        "paediatric_dose": "Consult Specialist",
-        "notes_updates": "Recommended for Carbapenem-Resistant Enterobacterales (K. pneumoniae/OXA-48)."
-      },
-      {
-        "condition_or_drug": "CRE Infections (Alternative)",
-        "adult_dose": "Colistin: Load 9 MU; Maint 4.5 MU 12hrly",
-        "paediatric_dose": "Load 150k IU/kg",
-        "notes_updates": "Listed as 'Reserve' antibiotic (AWaRe)."
-      },
-      {
-        "condition_or_drug": "Sepsis (Empiric)",
-        "adult_dose": "Meropenem: 1g IV 8hrly",
-        "paediatric_dose": "20 - 40 mg/kg",
-        "notes_updates": "Extended infusion/high dose recommended for septic shock."
-      },
-      {
-        "condition_or_drug": "Surgical Prophylaxis",
-        "adult_dose": "Cefazolin: 2g IV",
-        "paediatric_dose": "50 mg/kg",
-        "notes_updates": "Dose increased from 1g to 2g for adults."
-      },
-      {
-        "condition_or_drug": "Severe Malaria",
-        "adult_dose": "Artesunate: 2.4 mg/kg IV at 0, 12, 24h",
-        "paediatric_dose": "2.4 mg/kg IV",
-        "notes_updates": "Superior to Quinine. Must give 3 doses minimum."
-      },
-      {
-        "condition_or_drug": "Fungal (Candida)",
-        "adult_dose": "Fluconazole: Load 800mg; Maint 400mg",
-        "paediatric_dose": "12 mg/kg",
+        "condition_or_drug": "Piperacillin/Tazobactam",
+        "adult_dose": "4.5g IV 6-8hrly",
+        "paediatric_dose": "80-100mg/kg IV 6-8hrly",
         "notes_updates": ""
       },
       {
-        "condition_or_drug": "PCP",
-        "adult_dose": "Cotrimoxazole: 320/1600mg 12hrly",
-        "paediatric_dose": "See Formula",
-        "notes_updates": "If sulfa-allergic: Clindamycin + Primaquine."
+        "condition_or_drug": "Cefepime",
+        "adult_dose": "1-2g IV 12hrly",
+        "paediatric_dose": "50mg/kg IV 8-12hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Ceftazidime",
+        "adult_dose": "1-2g IV 8hrly",
+        "paediatric_dose": "30-50mg/kg IV 8hrly",
+        "notes_updates": "Good pseudomonas coverage"
+      },
+      {
+        "condition_or_drug": "Ceftriaxone",
+        "adult_dose": "1-2g IV 12-24hrly",
+        "paediatric_dose": "50-100mg/kg IV 12-24hrly (max 4g/day)",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Cefotaxime",
+        "adult_dose": "1-2g IV 6-8hrly",
+        "paediatric_dose": "50mg/kg IV 6-8hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Ertapenem",
+        "adult_dose": "1g IV/IM daily",
+        "paediatric_dose": "15mg/kg IV 12hrly (max 1g/day)",
+        "notes_updates": ""
+      }
+    ],
+    "gram_positive": [
+      {
+        "condition_or_drug": "Vancomycin",
+        "adult_dose": "Loading: 25mg/kg; Maintenance: 15-20mg/kg IV 8-12hrly (adjust by levels)",
+        "paediatric_dose": "15mg/kg IV 6hrly; Neonates: see dosing table by age",
+        "notes_updates": "Trough: 15-20mg/L (severe infections). Monitor renal function"
+      },
+      {
+        "condition_or_drug": "Teicoplanin",
+        "adult_dose": "Loading: 400-800mg IV 12hrly x3; Maintenance: 400-800mg IV daily",
+        "paediatric_dose": "10mg/kg IV 12hrly x3 then 6-10mg/kg daily",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Linezolid",
+        "adult_dose": "600mg IV/PO 12hrly",
+        "paediatric_dose": "10mg/kg IV/PO 8hrly (<12yr); 600mg 12hrly (>12yr)",
+        "notes_updates": "Monitor FBC (myelosuppression). Reserve for VRE/MRSA"
+      },
+      {
+        "condition_or_drug": "Clindamycin",
+        "adult_dose": "600mg-1.2g IV 6-8hrly",
+        "paediatric_dose": "10-15mg/kg IV 6-8hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Cloxacillin",
+        "adult_dose": "1-2g IV 4-6hrly",
+        "paediatric_dose": "25-50mg/kg IV 6hrly",
+        "notes_updates": ""
+      }
+    ],
+    "aminoglycosides": [
+      {
+        "condition_or_drug": "Gentamicin",
+        "adult_dose": "3-5mg/kg IV daily (once daily dosing); Traditional: 1-1.7mg/kg IV 8hrly",
+        "paediatric_dose": "2.5mg/kg IV 8hrly; Neonates: see dosing table",
+        "notes_updates": "Check levels. Extended interval preferred"
+      },
+      {
+        "condition_or_drug": "Amikacin",
+        "adult_dose": "15mg/kg IV daily",
+        "paediatric_dose": "7.5mg/kg IV 12hrly",
+        "notes_updates": "Check levels"
+      },
+      {
+        "condition_or_drug": "Tobramycin",
+        "adult_dose": "3-5mg/kg IV daily",
+        "paediatric_dose": "2.5mg/kg IV 8hrly",
+        "notes_updates": "Check levels"
+      }
+    ],
+    "fluoroquinolones": [
+      {
+        "condition_or_drug": "Ciprofloxacin",
+        "adult_dose": "400mg IV 8-12hrly",
+        "paediatric_dose": "10mg/kg IV 12hrly (max 400mg)",
+        "notes_updates": "Caution: tendinopathy, QT prolongation"
+      },
+      {
+        "condition_or_drug": "Levofloxacin",
+        "adult_dose": "500mg-750mg IV/PO daily",
+        "paediatric_dose": "10mg/kg IV 12hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Moxifloxacin",
+        "adult_dose": "400mg IV/PO daily",
+        "paediatric_dose": "Not routinely used in children",
+        "notes_updates": ""
+      }
+    ],
+    "macrolides": [
+      {
+        "condition_or_drug": "Azithromycin",
+        "adult_dose": "500mg IV/PO daily",
+        "paediatric_dose": "10mg/kg IV/PO day 1, then 5mg/kg days 2-5",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Clarithromycin",
+        "adult_dose": "500mg IV/PO 12hrly",
+        "paediatric_dose": "7.5mg/kg IV/PO 12hrly",
+        "notes_updates": ""
+      }
+    ],
+    "glycopeptides_and_lipopeptides": [
+      {
+        "condition_or_drug": "Colistin",
+        "adult_dose": "Loading: 9 MU IV; Maintenance: 4.5 MU IV 12hrly (adjust by renal function)",
+        "paediatric_dose": "Loading: 150,000 IU/kg; Maintenance: 75,000 IU/kg 12hrly",
+        "notes_updates": "Monitor creatinine. CMAP (Colistin-Associated Acute Kidney Injury) risk. Reserve antibiotic"
+      },
+      {
+        "condition_or_drug": "Ceftazidime-Avibactam",
+        "adult_dose": "2.5g IV 8hrly",
+        "paediatric_dose": "Consult specialist",
+        "notes_updates": "For CRE infections"
+      }
+    ],
+    "other_antibiotics": [
+      {
+        "condition_or_drug": "Metronidazole",
+        "adult_dose": "500mg IV 8hrly",
+        "paediatric_dose": "7.5mg/kg IV 8hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Chloramphenicol",
+        "adult_dose": "12.5-25mg/kg IV 6hrly",
+        "paediatric_dose": "12.5-25mg/kg IV 6hrly",
+        "notes_updates": "Monitor levels. Bone marrow suppression risk"
+      },
+      {
+        "condition_or_drug": "Doxycycline",
+        "adult_dose": "100mg IV/PO 12hrly then 100mg daily",
+        "paediatric_dose": "2.2mg/kg IV/PO 12hrly (if >8yr)",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Fusidic acid",
+        "adult_dose": "500mg IV/PO 8hrly",
+        "paediatric_dose": "6-7mg/kg IV 8hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Cotrimoxazole",
+        "adult_dose": "For PCP: 15-20mg/kg (TMP) IV 6-8hrly",
+        "paediatric_dose": "For PCP: 15-20mg/kg (TMP) IV 6-8hrly",
+        "notes_updates": "If sulfa-allergic: Clindamycin + Primaquine"
+      },
+      {
+        "condition_or_drug": "Penicillin G",
+        "adult_dose": "1.2-2.4g IV 4-6hrly",
+        "paediatric_dose": "50,000-100,000 IU/kg IV 4-6hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Cefazolin",
+        "adult_dose": "1-2g IV 8hrly",
+        "paediatric_dose": "25-50mg/kg IV 8hrly",
+        "notes_updates": "Surgical prophylaxis dose: 2g IV (updated from 1g)"
+      },
+      {
+        "condition_or_drug": "Cefuroxime",
+        "adult_dose": "750mg-1.5g IV 6-8hrly",
+        "paediatric_dose": "25-50mg/kg IV 8hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Ampicillin",
+        "adult_dose": "1-2g IV 4-6hrly",
+        "paediatric_dose": "25-50mg/kg IV 6hrly",
+        "notes_updates": ""
+      },
+      {
+        "condition_or_drug": "Amoxicillin/Clavulanate",
+        "adult_dose": "1.2g IV 8hrly",
+        "paediatric_dose": "25-45mg/kg IV 8hrly (amoxicillin component)",
+        "notes_updates": ""
+      }
+    ],
+    "antifungals": [
+      {
+        "condition_or_drug": "Fluconazole",
+        "adult_dose": "Loading: 800mg IV/PO; Maintenance: 400mg IV/PO daily",
+        "paediatric_dose": "Loading: 12mg/kg; Maintenance: 6-12mg/kg daily",
+        "notes_updates": "NOT for aspergillus/cryptococcus"
+      },
+      {
+        "condition_or_drug": "Amphotericin B",
+        "adult_dose": "1mg/kg IV daily (conventional); 3-5mg/kg (liposomal)",
+        "paediatric_dose": "0.5-1mg/kg IV daily",
+        "notes_updates": "Monitor K+, Mg2+, creatinine. Pre-medication: paracetamol + hydrocortisone"
+      },
+      {
+        "condition_or_drug": "Voriconazole",
+        "adult_dose": "Loading: 6mg/kg IV 12hrly x2; Maintenance: 4mg/kg IV 12hrly",
+        "paediatric_dose": "Loading: 9mg/kg IV 12hrly x2; Maintenance: 8mg/kg IV 12hrly",
+        "notes_updates": "Monitor LFTs, visual disturbances. Aspergillus drug of choice"
+      },
+      {
+        "condition_or_drug": "Caspofungin",
+        "adult_dose": "Loading: 70mg IV; Maintenance: 50mg IV daily",
+        "paediatric_dose": "Loading: 70mg/m2; Maintenance: 50mg/m2",
+        "notes_updates": "Monitor LFTs"
+      }
+    ],
+    "antivirals": [
+      {
+        "condition_or_drug": "Acyclovir",
+        "adult_dose": "10mg/kg IV 8hrly (HSV); 10-15mg/kg IV 8hrly (VZV)",
+        "paediatric_dose": "10-20mg/kg IV 8hrly",
+        "notes_updates": "Adjust for renal function. Adequate hydration mandatory"
+      },
+      {
+        "condition_or_drug": "Ganciclovir",
+        "adult_dose": "5mg/kg IV 12hrly",
+        "paediatric_dose": "5mg/kg IV 12hrly",
+        "notes_updates": "CMV treatment. Monitor FBC (myelosuppression)"
+      }
+    ],
+    "antiparasitic": [
+      {
+        "condition_or_drug": "Artesunate (severe malaria)",
+        "adult_dose": "2.4mg/kg IV at 0, 12, 24h, then daily",
+        "paediatric_dose": "2.4mg/kg IV at 0, 12, 24h, then daily",
+        "notes_updates": "Superior to Quinine. Minimum 3 doses. If IV not available: rectal route"
+      },
+      {
+        "condition_or_drug": "Quinine",
+        "adult_dose": "Loading: 20mg/kg IV in 5% dextrose over 4h; Maintenance: 10mg/kg IV 8hrly",
+        "paediatric_dose": "Loading: 20mg/kg IV; Maintenance: 10mg/kg IV 8hrly",
+        "notes_updates": "Monitor glucose (hypoglycaemia risk)"
+      }
+    ],
+    "antituberculous": [
+      {
+        "condition_or_drug": "Isoniazid (INH)",
+        "adult_dose": "5mg/kg PO/IV daily (max 300mg)",
+        "paediatric_dose": "10mg/kg PO/IV daily (max 300mg)",
+        "notes_updates": "Give with pyridoxine to prevent neuropathy"
+      },
+      {
+        "condition_or_drug": "Rifampicin",
+        "adult_dose": "10mg/kg PO/IV daily (max 600mg)",
+        "paediatric_dose": "10mg/kg PO/IV daily (max 600mg)",
+        "notes_updates": "Many drug interactions (CYP450 inducer)"
+      },
+      {
+        "condition_or_drug": "Ethambutol",
+        "adult_dose": "15-25mg/kg PO daily",
+        "paediatric_dose": "15-25mg/kg PO daily",
+        "notes_updates": "Check visual acuity and colour vision"
+      },
+      {
+        "condition_or_drug": "Pyrazinamide",
+        "adult_dose": "20-35mg/kg PO daily (max 2g)",
+        "paediatric_dose": "20-35mg/kg PO daily",
+        "notes_updates": "Monitor LFTs and uric acid"
+      },
+      {
+        "condition_or_drug": "Ethionamide",
+        "adult_dose": "15-20mg/kg PO daily (max 1g)",
+        "paediatric_dose": "15-20mg/kg PO daily",
+        "notes_updates": "Monitor LFTs"
+      }
+    ],
+    "hiv_protocols": [
+      {
+        "condition_or_drug": "TLD (TDF + 3TC + DTG)",
+        "adult_dose": "1 tablet PO daily",
+        "paediatric_dose": "Weight-band dosing",
+        "notes_updates": "First-line adult ART. Tenofovir 300mg + Lamivudine 300mg + Dolutegravir 50mg"
+      },
+      {
+        "condition_or_drug": "HIV + TB co-treatment",
+        "adult_dose": "TLD + additional DTG 50mg 12hr after standard dose",
+        "paediatric_dose": "Consult guidelines",
+        "notes_updates": "Rifampicin lowers DTG levels - boost with extra 50mg dose"
+      }
+    ],
+    "surgical_prophylaxis": [
+      {
+        "condition_or_drug": "Cefazolin (surgical prophylaxis)",
+        "adult_dose": "2g IV within 60min of skin incision",
+        "paediatric_dose": "50mg/kg IV",
+        "notes_updates": "Dose increased from 1g to 2g for adults (2024 update)"
       }
     ]
   },
@@ -269,6 +824,18 @@
         "adult_dose": "1-2g IV",
         "paediatric_dose": "25-50mg/kg",
         "notes": ""
+      },
+      {
+        "item": "Calcium Chloride",
+        "adult_dose": "1g IV (10ml of 10%) slowly",
+        "paediatric_dose": "0.2ml/kg IV slowly",
+        "notes": "For hypocalcaemia or hyperkalaemia"
+      },
+      {
+        "item": "SlowK (Potassium Slow Release)",
+        "adult_dose": "600mg-1.2g PO 8-12hrly",
+        "paediatric_dose": "Not routinely used in ICU",
+        "notes": "Oral potassium supplementation only"
       }
     ],
     "nutrition": [
@@ -283,6 +850,152 @@
         "adult_dose": "Vit B1 (Thiamine) 100mg",
         "paediatric_dose": "5-10mg/kg",
         "notes": "Prevention of Wernicke's."
+      }
+    ],
+    "diuretics": [
+      {
+        "item": "Furosemide",
+        "adult_dose": "Bolus: 20-40mg IV; Infusion: 5-40mg/hr",
+        "paediatric_dose": "0.5-1mg/kg IV 8-12hrly; Infusion: 0.1-0.4mg/kg/hr",
+        "notes": "Monitor electrolytes. Ototoxicity at high doses"
+      },
+      {
+        "item": "Mannitol",
+        "adult_dose": "0.25-1g/kg IV bolus",
+        "paediatric_dose": "0.25-1g/kg IV bolus",
+        "notes": "Monitor osmolar gap; avoid if hypotensive"
+      },
+      {
+        "item": "Spironolactone",
+        "adult_dose": "25-100mg PO/NG daily",
+        "paediatric_dose": "1-3mg/kg PO daily",
+        "notes": "Potassium-sparing; use with furosemide in ascites"
+      },
+      {
+        "item": "Acetazolamide",
+        "adult_dose": "250mg-1g PO/IV daily in divided doses",
+        "paediatric_dose": "5mg/kg PO/IV 6-12hrly",
+        "notes": "Carbonic anhydrase inhibitor; causes metabolic acidosis"
+      }
+    ],
+    "hyperkalaemia_management": [
+      {
+        "item": "Calcium Chloride 10%",
+        "adult_dose": "1g IV (10ml) slowly over 5-10min",
+        "paediatric_dose": "0.2ml/kg IV slowly (max 10ml)",
+        "notes": "Cardiac membrane stabilisation. Onset: 1-3min. Duration: 30-60min"
+      },
+      {
+        "item": "Calcium Gluconate 10%",
+        "adult_dose": "10ml IV slowly over 5-10min",
+        "paediatric_dose": "0.5ml/kg (10% soln) IV slowly",
+        "notes": "Cardiac membrane stabilisation"
+      },
+      {
+        "item": "Insulin/Dextrose",
+        "adult_dose": "10 units insulin + 50ml 50% dextrose IV over 15min",
+        "paediatric_dose": "0.1 units/kg insulin + 2ml/kg 25% dextrose IV",
+        "notes": "Drives K+ into cells. Monitor glucose q15min"
+      },
+      {
+        "item": "Salbutamol",
+        "adult_dose": "10-20mg nebulised over 10min",
+        "paediatric_dose": "2.5-5mg nebulised; 4ug/kg IV over 20min",
+        "notes": "Adjunctive. Lowers K+ by 0.5-1mmol/L"
+      },
+      {
+        "item": "Kayexalate (Sodium Polystyrene Sulfonate)",
+        "adult_dose": "15-30g PO/PR",
+        "paediatric_dose": "1g/kg PO/PR",
+        "notes": "Removes K+ from gut. Slow onset (several hours)"
+      }
+    ],
+    "vitamins": [
+      {
+        "item": "Vitamin B1 (Thiamine)",
+        "adult_dose": "100mg IV/IM daily",
+        "paediatric_dose": "10-25mg IV/IM daily",
+        "notes": "Prevention of Wernicke's encephalopathy. Give BEFORE glucose in malnourished/alcoholic patients"
+      },
+      {
+        "item": "Vitamin K (Phytomenadione)",
+        "adult_dose": "10mg IV/PO (warfarin reversal)",
+        "paediatric_dose": "1-2mg IV/PO",
+        "notes": "IV route: anaphylaxis risk (give slowly)"
+      },
+      {
+        "item": "Pyridoxine (Vitamin B6)",
+        "adult_dose": "50-100mg IV/PO daily",
+        "paediatric_dose": "5-10mg IV/PO daily",
+        "notes": "Give with INH to prevent neuropathy"
+      },
+      {
+        "item": "Vitamin A",
+        "adult_dose": "100,000-200,000 IU PO/NG",
+        "paediatric_dose": "50,000-100,000 IU PO/NG",
+        "notes": "Measles complications, severe malnutrition"
+      },
+      {
+        "item": "Vitamin D",
+        "adult_dose": "50,000-100,000 IU PO single dose",
+        "paediatric_dose": "10,000-50,000 IU PO",
+        "notes": "Severe deficiency"
+      }
+    ],
+    "gi_nutrition": [
+      {
+        "item": "Metoclopramide",
+        "adult_dose": "10mg IV/IM 8hrly",
+        "paediatric_dose": "0.1-0.2mg/kg IV/IM 6-8hrly",
+        "notes": "Prokinetic. Caution: extrapyramidal side effects in children"
+      },
+      {
+        "item": "Erythromycin",
+        "adult_dose": "Prokinetic: 200mg IV 8hrly",
+        "paediatric_dose": "Prokinetic: 3mg/kg IV 8hrly",
+        "notes": "Motilin agonist - gastric prokinetic"
+      },
+      {
+        "item": "Omeprazole",
+        "adult_dose": "40mg IV/PO daily",
+        "paediatric_dose": "0.6-1mg/kg IV/PO daily (max 40mg)",
+        "notes": "Stress ulcer prophylaxis"
+      },
+      {
+        "item": "Pantoprazole",
+        "adult_dose": "40mg IV daily",
+        "paediatric_dose": "0.8-1.6mg/kg IV daily",
+        "notes": "Stress ulcer prophylaxis"
+      },
+      {
+        "item": "Sucralfate",
+        "adult_dose": "1g PO/NG 6hrly",
+        "paediatric_dose": "0.5g PO/NG 6hrly",
+        "notes": "Avoid if renal impairment (aluminium toxicity)"
+      },
+      {
+        "item": "Ondansetron",
+        "adult_dose": "4-8mg IV 8hrly",
+        "paediatric_dose": "0.1-0.15mg/kg IV 6-8hrly (max 4mg)",
+        "notes": ""
+      },
+      {
+        "item": "Lactulose",
+        "adult_dose": "15-30ml PO 8-12hrly",
+        "paediatric_dose": "0.25-0.5ml/kg PO 8-12hrly",
+        "notes": "Hepatic encephalopathy, constipation"
+      },
+      {
+        "item": "Hyoscine (Scopolamine)",
+        "adult_dose": "10-20mg transdermal patch 72hrly; 20mg IV/IM",
+        "paediatric_dose": "6mg transdermal patch",
+        "notes": "Excessive secretions, terminal secretions"
+      },
+      {
+        "item": "Cholestyramine",
+        "adult_dose": "4g PO 6-12hrly",
+        "paediatric_dose": "Not routinely used in children",
+        "notes": "Bile acid binder; binds fat-soluble vitamins"
       }
     ]
   },
@@ -312,6 +1025,65 @@
         "poison_or_drug": "Organophosphates",
         "antidote_treatment": "Atropine",
         "protocol_dose": "0.02 - 0.1 mg/kg/hr IV (Titrate to clearing of secretions)."
+      }
+    ],
+    "reversal_agents": [
+      {
+        "poison_or_drug": "Benzodiazepine Overdose",
+        "antidote_treatment": "Flumazenil",
+        "protocol_dose": "0.2mg IV over 15sec, then 0.1mg IV every 60sec (max 1mg). Repeat at 1min intervals if re-sedation occurs"
+      },
+      {
+        "poison_or_drug": "Opioid Overdose",
+        "antidote_treatment": "Naloxone",
+        "protocol_dose": "0.4-2mg IV/IM (repeat every 2-3min to max 10mg). Infusion: 0.04-0.16mg/kg/hr IV"
+      },
+      {
+        "poison_or_drug": "Methadone/Opioid Withdrawal",
+        "antidote_treatment": "Methadone",
+        "protocol_dose": "5-10mg PO 8-12hrly (titrate to symptoms). Max 40mg/day initially"
+      },
+      {
+        "poison_or_drug": "Beta-Blocker Overdose",
+        "antidote_treatment": "Glucagon",
+        "protocol_dose": "5-10mg IV bolus, then 1-5mg/hr infusion. High dose insulin + dextrose adjunct"
+      },
+      {
+        "poison_or_drug": "Neuromuscular Blocker Overdose",
+        "antidote_treatment": "Neostigmine",
+        "protocol_dose": "0.05mg/kg IV with glycopyrrolate 0.01mg/kg IV (anticholinergic to prevent bradycardia)"
+      },
+      {
+        "poison_or_drug": "Methemoglobinaemia",
+        "antidote_treatment": "Methylene Blue",
+        "protocol_dose": "1-2mg/kg IV over 5min (max 7mg/kg). Repeat in 1h if needed"
+      },
+      {
+        "poison_or_drug": "Clonidine Overdose",
+        "antidote_treatment": "Naloxone",
+        "protocol_dose": "May respond to naloxone 2-4mg IV. Supportive care primary"
+      },
+      {
+        "poison_or_drug": "Neuroleptic Malignant Syndrome",
+        "antidote_treatment": "Bromocriptine / Dantrolene",
+        "protocol_dose": "Bromocriptine: 2.5-10mg PO/NG 8hrly. Dantrolene: 1-2.5mg/kg IV (may repeat)"
+      }
+    ],
+    "drug_withdrawal": [
+      {
+        "poison_or_drug": "Alcohol Withdrawal (DTs)",
+        "antidote_treatment": "Diazepam / Lorazepam",
+        "protocol_dose": "Diazepam 10-20mg IV q5-10min until sedation achieved. Thiamine 100mg IV first"
+      },
+      {
+        "poison_or_drug": "Opioid Neonatal Abstinence",
+        "antidote_treatment": "Morphine / Methadone",
+        "protocol_dose": "Morphine: 0.04-0.2mg/kg PO q3-4h (titrated to Finnegan score)"
+      },
+      {
+        "poison_or_drug": "Delirium / Agitation",
+        "antidote_treatment": "Haloperidol",
+        "protocol_dose": "2.5-5mg IV/IM 2-4hrly (max 20mg/day). Monitor QTc"
       }
     ]
   },
@@ -364,6 +1136,328 @@
         "item": "Ideal Body Wt",
         "formula": "Height (cm) - 100 (approx)",
         "standard_dilutions": "Use for tidal volume calculation."
+      },
+      {
+        "category": "Inotopes",
+        "item": "Dopamine",
+        "formula": "ml/hr = (ug/kg/min x kg x 60) / 1000",
+        "standard_dilutions": "200mg in 100ml (5% Dextrose) = 2000mcg/ml"
+      },
+      {
+        "category": "Inotopes",
+        "item": "Phenylephrine",
+        "formula": "ml/hr = (ug/kg/min x kg x 60) / 100",
+        "standard_dilutions": "10mg in 100ml NS = 100mcg/ml"
+      },
+      {
+        "category": "Inotopes",
+        "item": "Milrinone",
+        "formula": "Loading: 50ug/kg IV over 10min; Maint: 0.37-0.75ug/kg/min",
+        "standard_dilutions": "20mg in 100ml NS/D5W"
+      },
+      {
+        "category": "Electrolytes",
+        "item": "Sodium Deficit",
+        "formula": "Na deficit = 0.6 x Wt(kg) x (Desired Na - Actual Na)",
+        "standard_dilutions": "Correct max 8-10mmol/L per day"
+      },
+      {
+        "category": "Electrolytes",
+        "item": "Free Water Deficit",
+        "formula": "Deficit = 0.6 x Wt(kg) x ([Na]/140 - 1)",
+        "standard_dilutions": "Replace slowly over 48-72hrs"
+      }
+    ]
+  },
+  "8_cardiovascular": {
+    "antihypertensives": [
+      {
+        "drug": "Amlodipine",
+        "adult_dose": "5-10mg PO daily",
+        "paediatric_dose": "0.1-0.2mg/kg PO daily (age >6yr)",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Captopril",
+        "adult_dose": "12.5-25mg PO 8-12hrly",
+        "paediatric_dose": "0.1-0.5mg/kg PO 8-12hrly",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Perindopril",
+        "adult_dose": "4-8mg PO daily",
+        "paediatric_dose": "Not routinely used in children",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Enalapril",
+        "adult_dose": "2.5-10mg PO/IV 12hrly",
+        "paediatric_dose": "0.1-0.2mg/kg PO/IV 12hrly",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Doxazosin",
+        "adult_dose": "1-4mg PO daily",
+        "paediatric_dose": "Not routinely used in children",
+        "notes_updates": "Alpha-blocker"
+      },
+      {
+        "drug": "Hydralazine",
+        "adult_dose": "5-20mg IV 4-6hrly",
+        "paediatric_dose": "0.1-0.2mg/kg IV 4-6hrly (max 20mg)",
+        "notes_updates": "Avoid in aortic dissection"
+      },
+      {
+        "drug": "Methyldopa",
+        "adult_dose": "250mg-1g PO/IV 6-8hrly",
+        "paediatric_dose": "5-10mg/kg PO/IV 6-8hrly",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Propranolol",
+        "adult_dose": "10-40mg PO 6-8hrly",
+        "paediatric_dose": "0.5-1mg/kg PO 6-8hrly",
+        "notes_updates": "Non-selective beta-blocker"
+      },
+      {
+        "drug": "Carvedilol",
+        "adult_dose": "3.125-25mg PO 12hrly",
+        "paediatric_dose": "0.1-0.5mg/kg PO 12hrly",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Atenolol",
+        "adult_dose": "25-100mg PO daily",
+        "paediatric_dose": "0.5-1mg/kg PO daily",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Labetalol",
+        "adult_dose": "10-20mg IV over 2min (may double every 10min)",
+        "paediatric_dose": "0.2-1mg/kg IV",
+        "notes_updates": "Mixed alpha/beta blocker. Good for hypertensive emergencies"
+      },
+      {
+        "drug": "Esmolol",
+        "adult_dose": "Loading: 500mcg/kg IV; Infusion: 50-200mcg/kg/min IV",
+        "paediatric_dose": "Loading: 500mcg/kg IV; Infusion: 50-200mcg/kg/min IV",
+        "notes_updates": "Ultra-short acting. Metabolised by RBC esterases"
+      }
+    ],
+    "heart_failure_and_arrhythmia": [
+      {
+        "drug": "Digoxin",
+        "adult_dose": "Loading: 0.5-1mg IV/PO in divided doses; Maintenance: 125-250mcg daily",
+        "paediatric_dose": "Premature: 5-10mcg/kg; Term: 10-15mcg/kg; 1-24mo: 20-30mcg/kg; 2-5yr: 20-35mcg/kg; >5yr: 10-15mcg/kg",
+        "notes_updates": "Check levels. Toxicity: nausea, visual changes, arrhythmias"
+      },
+      {
+        "drug": "Hydrochlorothiazide",
+        "adult_dose": "25-50mg PO daily",
+        "paediatric_dose": "1-2mg/kg PO daily",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Indapamide",
+        "adult_dose": "1.25-2.5mg PO daily",
+        "paediatric_dose": "Not routinely used",
+        "notes_updates": ""
+      }
+    ],
+    "thrombolytics_and_anticoagulants": [
+      {
+        "drug": "Alteplase (tPA)",
+        "adult_dose": "PE: 100mg IV over 2hrs (10mg bolus then 90mg). STEMI: 15mg bolus, then 50mg over 30min, then 35mg over 60min (max 100mg)",
+        "paediatric_dose": "0.1-0.5mg/kg/hr IV (catheter-related thrombosis)",
+        "notes_updates": "Monitor for bleeding"
+      },
+      {
+        "drug": "Tenecteplase",
+        "adult_dose": "Weight-based: <60kg: 30mg; 60-69kg: 35mg; 70-79kg: 40mg; 80-89kg: 45mg; >90kg: 50mg IV bolus",
+        "paediatric_dose": "Not routinely used in children",
+        "notes_updates": "Single bolus - preferred for STEMI"
+      },
+      {
+        "drug": "Simvastatin",
+        "adult_dose": "20-40mg PO nocte",
+        "paediatric_dose": "Not routinely used in children",
+        "notes_updates": ""
+      }
+    ],
+    "anticoagulation": [
+      {
+        "drug": "Heparin (Unfractionated)",
+        "adult_dose": "Loading: 80units/kg IV; Maintenance: 18units/kg/hr IV (titrate to aPTT)",
+        "paediatric_dose": "Loading: 75units/kg IV; Maintenance: 20-28units/kg/hr",
+        "notes_updates": "Target aPTT: 50-70sec. Protamine sulfate for reversal (1mg per 100units heparin)"
+      },
+      {
+        "drug": "Enoxaparin (Clexane)",
+        "adult_dose": "1mg/kg SC 12hrly (or 1.5mg/kg daily)",
+        "paediatric_dose": "1mg/kg SC 12hrly; Infants <2mo: 1.5mg/kg SC 12hrly",
+        "notes_updates": "Anti-Xa monitoring in renal impairment, pregnancy, extremes of weight"
+      },
+      {
+        "drug": "Warfarin",
+        "adult_dose": "Loading: 5-10mg PO daily (adjust by INR); Maintenance: 2-5mg PO daily",
+        "paediatric_dose": "0.1-0.2mg/kg PO daily",
+        "notes_updates": "Target INR 2-3 (most indications). Vitamin K for reversal"
+      }
+    ]
+  },
+  "9_blood_products": {
+    "products": [
+      {
+        "item": "Packed Red Cells",
+        "adult_dose": "1 unit raises Hb by ~1g/dL",
+        "paediatric_dose": "10-15ml/kg (raises Hb by ~2g/dL)",
+        "notes": "Transfuse over 2-4hrs. Monitor for transfusion reactions"
+      },
+      {
+        "item": "Fresh Frozen Plasma (FFP)",
+        "adult_dose": "15-20ml/kg IV",
+        "paediatric_dose": "15-20ml/kg IV",
+        "notes": "For coagulopathy with active bleeding. Must be ABO compatible"
+      },
+      {
+        "item": "Platelets",
+        "adult_dose": "1 pool raises count by 20-40x10^9/L",
+        "paediatric_dose": "10-15ml/kg IV",
+        "notes": "Indicated: count <10 or <50 with active bleeding/invasive procedure"
+      },
+      {
+        "item": "Albumin 20%",
+        "adult_dose": "100-200ml IV (repeated as needed)",
+        "paediatric_dose": "0.5-1g/kg IV",
+        "notes": "For severe hypoalbuminaemia, hepatorenal syndrome"
+      },
+      {
+        "item": "Human Anti-Tetanus Immunoglobulin",
+        "adult_dose": "500units IM (at different site to tetanus toxoid)",
+        "paediatric_dose": "250units IM",
+        "notes": "For tetanus-prone wounds in non-immunised patients"
+      }
+    ]
+  },
+  "10_endocrine_and_other": {
+    "steroids": [
+      {
+        "drug": "Hydrocortisone",
+        "adult_dose": "Stress dose: 50-100mg IV 6-8hrly; Physiological: 20mg AM + 10mg PM",
+        "paediatric_dose": "Stress dose: 1-2mg/kg IV 6hrly; Physiological: 8-10mg/m2/day",
+        "notes_updates": "Stress dose for adrenal insufficiency, septic shock"
+      },
+      {
+        "drug": "Methylprednisolone",
+        "adult_dose": "40-125mg IV 6hrly",
+        "paediatric_dose": "1-2mg/kg IV 6hrly",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Dexamethasone",
+        "adult_dose": "4-8mg IV/PO 6hrly",
+        "paediatric_dose": "0.15-0.3mg/kg IV/PO 6hrly",
+        "notes_updates": "Raised ICP, airway oedema, croup"
+      },
+      {
+        "drug": "Prednisone",
+        "adult_dose": "20-60mg PO daily",
+        "paediatric_dose": "1-2mg/kg PO daily (max 60mg)",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Fludrocortisone",
+        "adult_dose": "0.1-0.2mg PO daily",
+        "paediatric_dose": "0.05-0.1mg PO daily",
+        "notes_updates": "Primary adrenal insufficiency (mineralocorticoid)"
+      }
+    ],
+    "endocrine": [
+      {
+        "drug": "Insulin (Regular)",
+        "adult_dose": "0.1units/kg/hr IV infusion (titrate to glucose)",
+        "paediatric_dose": "0.05-0.1units/kg/hr IV",
+        "notes_updates": "Check glucose hourly. Hold if K+ <3.3"
+      },
+      {
+        "drug": "Thyroxine (Levothyroxine)",
+        "adult_dose": "50-200mcg PO/NG daily",
+        "paediatric_dose": "Age-dependent dosing",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Octreotide",
+        "adult_dose": "50-100mcg SC/IV 8hrly; Variceal bleed: 50mcg IV bolus then 50mcg/hr",
+        "paediatric_dose": "1-2mcg/kg SC/IV 8hrly",
+        "notes_updates": "For variceal bleeding, hyperinsulinism"
+      },
+      {
+        "drug": "DDAVP (Desmopressin)",
+        "adult_dose": "0.3mcg/kg IV/SC; Intranasal: 10-20mcg",
+        "paediatric_dose": "0.3mcg/kg IV/SC",
+        "notes_updates": "DI, nocturnal enuresis, von Willebrand disease"
+      },
+      {
+        "drug": "Carbimazole",
+        "adult_dose": "20-40mg PO daily then taper",
+        "paediatric_dose": "0.5-0.75mg/kg PO daily",
+        "notes_updates": "Thyrotoxicosis"
+      },
+      {
+        "drug": "Lugol's Iodine",
+        "adult_dose": "5-10 drops PO 8hrly",
+        "paediatric_dose": "1 drop/yr of age PO 8hrly",
+        "notes_updates": "Thyroid storm - use with carbimazole. Give 1h AFTER carbimazole"
+      }
+    ],
+    "other": [
+      {
+        "drug": "Carbamazepine",
+        "adult_dose": "200-400mg PO 8-12hrly",
+        "paediatric_dose": "5-10mg/kg PO 8-12hrly",
+        "notes_updates": "Monitor levels. Stevens-Johnson syndrome risk"
+      },
+      {
+        "drug": "Citalopram",
+        "adult_dose": "20-40mg PO daily",
+        "paediatric_dose": "Not routinely used in children",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Fluoxetine",
+        "adult_dose": "20mg PO daily",
+        "paediatric_dose": "10-20mg PO daily (age >8yr)",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Tranexamic Acid",
+        "adult_dose": "1g IV over 10min (repeat 8hrly); Trauma: 1g over 10min then 1g over 8hrs",
+        "paediatric_dose": "15mg/kg IV 8hrly",
+        "notes_updates": "Contraindicated: significant haematuria, DIC"
+      },
+      {
+        "drug": "Dantrolene",
+        "adult_dose": "2.5mg/kg IV bolus (may repeat to cumulative 10mg/kg)",
+        "paediatric_dose": "2.5mg/kg IV bolus",
+        "notes_updates": "Malignant hyperthermia. Dissolve in sterile water"
+      },
+      {
+        "drug": "Pyridostigmine",
+        "adult_dose": "60mg PO 4hrly",
+        "paediatric_dose": "1mg/kg PO 4hrly",
+        "notes_updates": "Myasthenia gravis"
+      },
+      {
+        "drug": "Promethazine",
+        "adult_dose": "12.5-25mg IV/IM/PO 4-6hrly",
+        "paediatric_dose": "0.25-1mg/kg IV/IM/PO 4-6hrly (max 25mg)",
+        "notes_updates": "Caution: respiratory depression in children <2yr"
+      },
+      {
+        "drug": "Prochlorperazine",
+        "adult_dose": "5-10mg PO/IM/IV 6-8hrly",
+        "paediatric_dose": "0.1-0.15mg/kg PO/IM 6-8hrly",
+        "notes_updates": ""
       }
     ]
   }
