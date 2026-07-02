@@ -10,7 +10,10 @@ const CAT_NAMES = {
     '4_antimicrobials_and_infectious_diseases': 'Antimicrobials',
     '5_metabolic_electrolytes_and_nutrition': 'Metabolic',
     '6_poisoning_and_toxicology': 'Toxicology',
-    '7_useful_formulae': 'Formulae'
+    '7_useful_formulae': 'Formulae',
+    '8_cardiovascular': 'Cardiovascular',
+    '9_blood_products': 'Blood Products',
+    '10_endocrine_and_other': 'Endocrine & Other'
 };
 
 const CAT_ICONS = {
@@ -20,7 +23,10 @@ const CAT_ICONS = {
     '4_antimicrobials_and_infectious_diseases': '🦠',
     '5_metabolic_electrolytes_and_nutrition': '⚗️',
     '6_poisoning_and_toxicology': '☠️',
-    '7_useful_formulae': '📐'
+    '7_useful_formulae': '📐',
+    '8_cardiovascular': '❤️',
+    '9_blood_products': '🩸',
+    '10_endocrine_and_other': '🔬'
 };
 
 // ─── Init ───
@@ -136,7 +142,7 @@ function renderSectionHTML(catKey) {
 }
 
 function renderDrugCard(item, catKey) {
-    const name = item.item || item.drug || item.condition_or_drug || item.poison_or_drug || item.antidote_treatment || '';
+    const name = item.item || item.drug || item.condition_or_drug || item.poison_or_drug || item.antidote_treatment || item.product || '';
     if (!name && !item.category) return '';
     
     const displayName = name || `${item.category} - ${item.item || ''}`;
