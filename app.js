@@ -4,6 +4,7 @@ let deferredPrompt = null;
 
 // Category display names
 const CAT_NAMES = {
+    'favourites': 'Favourites',
     '1_resuscitation_fluids_and_inotropes': 'Resuscitation',
     '2_airway_and_ventilation': 'Airway & Vent',
     '3_sedation_analgesia_and_neurology': 'Sedation & Neuro',
@@ -13,10 +14,11 @@ const CAT_NAMES = {
     '7_useful_formulae': 'Formulae',
     '8_cardiovascular': 'Cardiovascular',
     '9_blood_products': 'Blood Products',
-    '10_endocrine_and_other': 'Endocrine & Other'
+    '10_endocrine_and_other': 'Endocrine'
 };
 
 const CAT_ICONS = {
+    'favourites': '⭐',
     '1_resuscitation_fluids_and_inotropes': '💉',
     '2_airway_and_ventilation': '🫁',
     '3_sedation_analgesia_and_neurology': '🧠',
@@ -28,6 +30,125 @@ const CAT_ICONS = {
     '9_blood_products': '🩸',
     '10_endocrine_and_other': '🔬'
 };
+
+// Tab order - favourites first, then numbered sections
+const TAB_ORDER = [
+    'favourites',
+    '1_resuscitation_fluids_and_inotropes',
+    '2_airway_and_ventilation',
+    '3_sedation_analgesia_and_neurology',
+    '4_antimicrobials_and_infectious_diseases',
+    '5_metabolic_electrolytes_and_nutrition',
+    '6_poisoning_and_toxicology',
+    '7_useful_formulae',
+    '8_cardiovascular',
+    '9_blood_products',
+    '10_endocrine_and_other'
+];
+
+// ─── Favourites (localStorage) ───
+function getFavourites() {
+    try {
+        return JSON.parse(localStorage.getItem('titrate_favourites') || '[]');
+    } catch { return []; }
+}
+
+function saveFavourites(favs) {
+    localStorage.setItem('titrate_favourites', JSON.stringify(favs));
+}
+
+function toggleFavourite(drugKey) {
+    let favs = getFavourites();
+    if (favs.includes(drugKey)) {
+        favs = favs.filter(f => f !== drugKey);
+    } else {
+        favs.push(drugKey);
+    }
+    saveFavourites(favs);
+    updateFavouriteButtons();
+    if (activeCat === 'favourites') {
+        renderFavourites();
+    }
+    updateFavBadge();
+}
+
+function isFavourite(drugKey) {
+    return getFavourites().includes(drugKey);
+}
+
+function makeDrugKey(item, catKey) {
+    const name = item.item || item.drug || item.condition_or_drug || item.poison_or_drug || item.antidote_treatment || item.product || '';
+    return catKey + '::' + name;
+}
+
+function updateFavouriteButtons() {
+    document.querySelectorAll('.fav-btn').forEach(btn => {
+        const key = btn.dataset.key;
+        const isFav = isFavourite(key);
+        btn.textContent = isFav ? '★' : '☆';
+        btn.classList.toggle('fav-active', isFav);
+        btn.title = isFav ? 'Remove from favourites' : 'Add to favourites';
+    });
+}
+
+function updateFavBadge() {
+    const count = getFavourites().length;
+    const badge = document.getElementById('favBadge');
+    if (badge) {
+        badge.textContent = count;
+        badge.style.display = count > 0 ? 'inline-flex' : 'none';
+    }
+}
+
+function renderFavourites() {
+    const content = document.getElementById('content');
+    const favs = getFavourites();
+
+    if (favs.length === 0) {
+        content.innerHTML = `
+            <div class="no-results">
+                <div style="font-size:3rem;margin-bottom:1rem;">⭐</div>
+                <div style="font-size:1.1rem;font-weight:700;margin-bottom:0.5rem;">No favourites yet</div>
+                <div style="font-size:0.85rem;color:var(--text-secondary);max-width:280px;margin:0 auto;line-height:1.6;">
+                    Tap the ☆ star on any drug card to add it here.<br>
+                    Your favourites are saved locally and work offline.
+                </div>
+            </div>`;
+        return;
+    }
+
+    let html = '<div class="section expanded" data-cat="favourites">';
+    html += '<div class="section-body" style="max-height:none;">';
+
+    // Build lookup of all items
+    const allItems = [];
+    for (const catKey of Object.keys(clinicalData)) {
+        for (const [subKey, items] of Object.entries(clinicalData[catKey])) {
+            if (Array.isArray(items)) {
+                for (const item of items) {
+                    const key = makeDrugKey(item, catKey);
+                    if (favs.includes(key)) {
+                        allItems.push({item, catKey, subKey});
+                    }
+                }
+            } else {
+                const key = makeDrugKey(items, catKey);
+                if (favs.includes(key)) {
+                    allItems.push({item: items, catKey, subKey});
+                }
+            }
+        }
+    }
+
+    // Render each favourited drug
+    for (const {item, catKey} of allItems) {
+        html += renderDrugCard(item, catKey, true);
+    }
+
+    html += '</div></div>';
+    content.innerHTML = html;
+    updateFavouriteButtons();
+}
 
 // ─── Init ───
 document.addEventListener('DOMContentLoaded', () => {
@@ -54,6 +175,7 @@ async function loadData() {
         renderNav();
         renderAllSections();
         updateConnectionStatus();
+        updateFavBadge();
     } catch (e) {
         document.getElementById('content').innerHTML = `
             <div class="no-results">
@@ -68,18 +190,36 @@ let activeCat = 'all';
 
 function renderNav() {
     const nav = document.getElementById('catNav');
-    let html = `<button class="cat-btn active" data-cat="all">All</button>`;
-    for (const [key, name] of Object.entries(CAT_NAMES)) {
-        html += `<button class="cat-btn" data-cat="${key}">${CAT_ICONS[key]} ${name}</button>`;
+    let html = '';
+
+    // Favourites tab first
+    const favCount = getFavourites().length;
+    const favBadge = favCount > 0 ? `<span class="nav-badge" id="favBadge">${favCount}</span>` : '<span class="nav-badge" id="favBadge" style="display:none;">0</span>';
+    html += `<button class="cat-btn" data-cat="favourites">${CAT_ICONS['favourites']} ${CAT_NAMES['favourites']}${favBadge}</button>`;
+
+    // All tab
+    html += `<button class="cat-btn active" data-cat="all">All</button>`;
+
+    // Numbered sections in order
+    for (const key of TAB_ORDER) {
+        if (key === 'favourites') continue;
+        if (!clinicalData[key]) continue;
+        const name = CAT_NAMES[key] || key;
+        const icon = CAT_ICONS[key] || '';
+        html += `<button class="cat-btn" data-cat="${key}">${icon} ${name}</button>`;
     }
+
     nav.innerHTML = html;
-    
+
     nav.querySelectorAll('.cat-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             nav.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeCat = btn.dataset.cat;
-            if (activeCat === 'all') {
+
+            if (activeCat === 'favourites') {
+                renderFavourites();
+            } else if (activeCat === 'all') {
                 renderAllSections();
             } else {
                 renderSection(activeCat);
@@ -94,12 +234,14 @@ function renderNav() {
 function renderAllSections() {
     const content = document.getElementById('content');
     let html = '';
-    for (const catKey of Object.keys(clinicalData)) {
+    for (const catKey of TAB_ORDER) {
+        if (catKey === 'favourites') continue;
+        if (!clinicalData[catKey]) continue;
         html += renderSectionHTML(catKey);
     }
     content.innerHTML = html;
     attachSectionHandlers();
-    // Expand first section by default
+    updateFavouriteButtons();
     const first = content.querySelector('.section');
     if (first) first.classList.add('expanded');
 }
@@ -108,6 +250,7 @@ function renderSection(catKey) {
     const content = document.getElementById('content');
     content.innerHTML = renderSectionHTML(catKey);
     attachSectionHandlers();
+    updateFavouriteButtons();
     const section = content.querySelector('.section');
     if (section) section.classList.add('expanded');
 }
@@ -116,91 +259,104 @@ function renderSectionHTML(catKey) {
     const data = clinicalData[catKey];
     const catName = CAT_NAMES[catKey] || catKey;
     const icon = CAT_ICONS[catKey] || '';
-    
+
     let bodyHTML = '';
     for (const [subKey, items] of Object.entries(data)) {
         const subLabel = subKey.replace(/_/g, ' ').replace(/^\w/, c => c.toUpperCase());
         if (Array.isArray(items)) {
-            bodyHTML += `<div style="padding:0.5rem 1.25rem;font-size:0.75rem;font-weight:700;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.5px;border-top:1px solid var(--border);">${subLabel}</div>`;
+            let hasContent = false;
+            let subHTML = '';
             for (const item of items) {
-                bodyHTML += renderDrugCard(item, catKey);
+                const card = renderDrugCard(item, catKey);
+                if (card) {
+                    hasContent = true;
+                    subHTML += card;
+                }
+            }
+            if (hasContent) {
+                bodyHTML += `<div class="sub-section-label">${subLabel}</div>`;
+                bodyHTML += subHTML;
             }
         } else {
             bodyHTML += renderDrugCard(items, catKey);
         }
     }
-    
+
     return `
         <div class="section expanded" data-cat="${catKey}">
             <div class="section-header">
                 <div class="section-title">${icon} ${catName}</div>
-                <div class="section-toggle">&#9662;</div>
+                <div class="section-toggle">▼</div>
             </div>
             <div class="section-body">${bodyHTML}</div>
         </div>
     `;
 }
 
-function renderDrugCard(item, catKey) {
+function renderDrugCard(item, catKey, skipFav) {
     const name = item.item || item.drug || item.condition_or_drug || item.poison_or_drug || item.antidote_treatment || item.product || '';
     if (!name && !item.category) return '';
-    
+
     const displayName = name || `${item.category} - ${item.item || ''}`;
-    
+    const drugKey = makeDrugKey(item, catKey);
+    const isFav = isFavourite(drugKey);
+    const favBtn = skipFav ? '' : `<button class="fav-btn ${isFav ? 'fav-active' : ''}" data-key="${drugKey}" onclick="event.stopPropagation();toggleFavourite('${drugKey}')" title="${isFav ? 'Remove from favourites' : 'Add to favourites'}">${isFav ? '★' : '☆'}</button>`;
+
     // Badges
     let badges = '';
     const notes = (item.notes_updates || item.notes || '');
     if (notes.toLowerCase().includes('first-line')) badges += '<span class="badge badge-first">1st Line</span>';
     if (notes.toLowerCase().includes('warning') || notes.toLowerCase().includes('caution')) badges += '<span class="badge badge-warn">⚠️ Caution</span>';
-    if (notes.toLowerCase().includes('avoid') || notes.toLowerCase().includes('teratogenic') || notes.toLowerCase().includes('pris')) badges += '<span class="badge badge-danger">⚠️ Warning</span>';
-    
+    if (notes.toLowerCase().includes('avoid') || notes.toLowerCase().includes('teratogenic') || notes.toLowerCase().includes('pris') || notes.toLowerCase().includes('contraindicated')) badges += '<span class="badge badge-danger">⚠️ Warning</span>';
+    if (item.standard_dilutions) badges += '<span class="badge badge-calc">📟 Calc</span>';
+
     let html = `<div class="drug-card" data-search="${(displayName + ' ' + notes + ' ' + (item.adult_dose || '') + ' ' + (item.paediatric_dose || '')).toLowerCase()}">`;
-    html += `<div class="drug-name">${displayName} ${badges}</div>`;
-    
+    html += `<div class="drug-header"><div class="drug-name">${displayName} ${badges}</div>${favBtn}</div>`;
+
     // Adult dose
     if (item.adult_dose || item.adult_settings) {
         html += `<div class="dose-row"><span class="dose-label">Adult</span><span class="dose-value">${item.adult_dose || item.adult_settings}</span></div>`;
     }
-    
+
     // Paediatric dose
     if (item.paediatric_dose || item.paediatric_settings) {
         html += `<div class="dose-row"><span class="dose-label">Paediatric</span><span class="dose-value">${item.paediatric_dose || item.paediatric_settings}</span></div>`;
     }
-    
-    // Protocol dose (toxicology)
+
+    // Protocol dose
     if (item.protocol_dose) {
         html += `<div class="dose-row"><span class="dose-label">Protocol</span><span class="dose-value">${item.protocol_dose}</span></div>`;
     }
-    
+
     // Formula
     if (item.formula) {
-        html += `<div class="dose-row"><span class="dose-label">Formula</span><span class="dose-value" style="font-family:monospace;">${item.formula}</span></div>`;
+        html += `<div class="dose-row"><span class="dose-label">Formula</span><span class="dose-value formula">${item.formula}</span></div>`;
         if (item.standard_dilutions) {
             html += `<div class="dose-row"><span class="dose-label">Dilution</span><span class="dose-value">${item.standard_dilutions}</span></div>`;
         }
     }
-    
+
     // Calculator for inotrope formulae
     if (item.formula && item.category === 'Inotopes' && item.formula.includes('ml/hr')) {
         html += renderCalc(item);
     }
-    
+
     // Notes
     if (notes) {
         let noteClass = 'notes';
-        if (notes.toLowerCase().includes('warning') || notes.toLowerCase().includes('avoid') || notes.toLowerCase().includes('teratogenic')) noteClass += ' danger';
-        else if (notes.toLowerCase().includes('caution') || notes.toLowerCase().includes('preferred') || notes.toLowerCase().includes('consult')) noteClass += ' warn';
+        if (notes.toLowerCase().includes('warning') || notes.toLowerCase().includes('avoid') || notes.toLowerCase().includes('teratogenic') || notes.toLowerCase().includes('contraindicated')) noteClass += ' danger';
+        else if (notes.toLowerCase().includes('caution') || notes.toLowerCase().includes('preferred') || notes.toLowerCase().includes('consult') || notes.toLowerCase().includes('section 21')) noteClass += ' warn';
         html += `<div class="${noteClass}">${notes}</div>`;
     }
-    
+
     html += '</div>';
     return html;
 }
 
 function renderCalc(item) {
-    const drugId = item.item.replace(/\s+/g, '');
+    const drugId = item.item.replace(/\s+/g, '').replace(/[^a-zA-Z0-9]/g, '');
     return `
-        <button class="calc-btn" onclick="toggleCalc('${drugId}')">📱 Open Calculator</button>
+        <button class="calc-btn" onclick="toggleCalc('${drugId}')">📟 Open Calculator</button>
         <div class="calc-panel" id="calc-${drugId}">
             <div class="calc-inputs">
                 <input type="number" id="dose-${drugId}" placeholder="mcg/kg/min" step="0.01" oninput="calcInotrope('${drugId}', '${item.item}')">
@@ -223,19 +379,13 @@ function calcInotrope(id, drugName) {
         document.getElementById(`result-${id}`).textContent = '-- ml/hr';
         return;
     }
-    
-    // Get divisor from formula
     const divisor = getDivisor(drugName);
     const result = (dose * wt * 60) / divisor;
-    document.getElementById(`result-${id}`).textContent = `${result.toFixed(1)} ml/hr`;
+    document.getElementById(`result-${id}`).textContent = result.toFixed(1) + ' ml/hr';
 }
 
 function getDivisor(drugName) {
-    const divisors = {
-        'Adrenaline': 25,
-        'Noradrenaline': 50,
-        'Dobutamine': 1250
-    };
+    const divisors = { 'Adrenaline': 25, 'Noradrenaline': 50, 'Dobutamine': 1250 };
     return divisors[drugName] || 50;
 }
 
@@ -251,27 +401,31 @@ function attachSectionHandlers() {
 function setupSearch() {
     const input = document.getElementById('searchInput');
     const clearBtn = document.getElementById('clearBtn');
-    
+
     input.addEventListener('input', () => {
         const query = input.value.trim().toLowerCase();
         clearBtn.classList.toggle('visible', query.length > 0);
-        
+
         if (query.length === 0) {
-            if (activeCat === 'all') {
+            if (activeCat === 'favourites') {
+                renderFavourites();
+            } else if (activeCat === 'all') {
                 renderAllSections();
             } else {
                 renderSection(activeCat);
             }
             return;
         }
-        
+
         performSearch(query);
     });
-    
+
     clearBtn.addEventListener('click', () => {
         input.value = '';
         clearBtn.classList.remove('visible');
-        if (activeCat === 'all') {
+        if (activeCat === 'favourites') {
+            renderFavourites();
+        } else if (activeCat === 'all') {
             renderAllSections();
         } else {
             renderSection(activeCat);
@@ -283,14 +437,14 @@ function performSearch(query) {
     const content = document.getElementById('content');
     let resultsHTML = '';
     let totalMatches = 0;
-    
+
     for (const catKey of Object.keys(clinicalData)) {
         if (activeCat !== 'all' && activeCat !== catKey) continue;
-        
+
         const catName = CAT_NAMES[catKey] || catKey;
         const icon = CAT_ICONS[catKey] || '';
         let catMatches = '';
-        
+
         for (const [subKey, items] of Object.entries(clinicalData[catKey])) {
             const subLabel = subKey.replace(/_/g, ' ').replace(/^\w/, c => c.toUpperCase());
             if (Array.isArray(items)) {
@@ -302,7 +456,7 @@ function performSearch(query) {
                     }
                 }
                 if (subMatches) {
-                    catMatches += `<div style="padding:0.5rem 1.25rem;font-size:0.75rem;font-weight:700;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.5px;border-top:1px solid var(--border);">${subLabel}</div>`;
+                    catMatches += `<div class="sub-section-label">${subLabel}</div>`;
                     catMatches += subMatches;
                 }
             } else {
@@ -312,21 +466,21 @@ function performSearch(query) {
                 }
             }
         }
-        
+
         if (catMatches) {
             totalMatches++;
             resultsHTML += `
                 <div class="section expanded" data-cat="${catKey}">
                     <div class="section-header">
                         <div class="section-title">${icon} ${catName}</div>
-                        <div class="section-toggle">&#9662;</div>
+                        <div class="section-toggle">▼</div>
                     </div>
                     <div class="section-body">${catMatches}</div>
                 </div>
             `;
         }
     }
-    
+
     if (totalMatches === 0) {
         content.innerHTML = `
             <div class="no-results">
@@ -338,14 +492,13 @@ function performSearch(query) {
     } else {
         content.innerHTML = resultsHTML;
         attachSectionHandlers();
+        updateFavouriteButtons();
     }
 }
 
 function highlightSearch(html, query) {
     const words = query.split(/\s+/).filter(w => w.length > 1);
     if (words.length === 0) return html;
-    
-    // Simple highlight - wrap matching text in content areas
     for (const word of words) {
         const regex = new RegExp(`(${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
         html = html.replace(regex, '<span class="highlight">$1</span>');
@@ -369,7 +522,7 @@ function setupInstallPrompt() {
         deferredPrompt = e;
         document.getElementById('installBar').classList.add('show');
     });
-    
+
     document.getElementById('installBtn').addEventListener('click', async () => {
         if (deferredPrompt) {
             deferredPrompt.prompt();
@@ -399,7 +552,7 @@ window.addEventListener('offline', updateConnectionStatus);
 
 // Footer
 document.getElementById('footer').innerHTML = `
-    Titrate v2.0 &middot; Bara ICU Dosing Guide &middot; 2024<br>
+    Titrate v2.0 &middot; Bara ICU Dosing Guide &middot; 248 Drugs<br>
     For clinical reference only &middot; Verify all doses<br>
     <span style="opacity:0.7;">Created by Tashriq Hendricks &amp; Kimi</span>
 `;
