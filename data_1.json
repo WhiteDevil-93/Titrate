@@ -1,0 +1,1077 @@
+ ≤ 60, AV block 2°/3°, asthma"
+          }
+        ],
+        "monitoring": [],
+        "warnings": [
+          "Door-to-needle time for thrombolysis: 30 minutes",
+          "Time of onset of symptoms or maximum pain must be < 12 hours for thrombolysis",
+          "Consider aortic dissection in central chest pain radiating to back with tearing sensation, differential radial pulse, differential arm BP > 15mmHg, widened mediastinum on CXR",
+          "RV infarction (associated with inferior MI): ST elevation in V4R - avoid nitrates",
+          "True posterior MI: tall R in V1 and STE ≥ 0.5mm in V7-9"
+        ],
+        "disposition": "STEMI: Refer to Internal Medicine/Cardiology urgently. NSTE-ACS high risk: Admit HCU/Medicine. Low risk: May discharge with OPD follow-up within 1 week if serial troponins negative.",
+        "notes_updates": "Symptoms: Chest pain or pressure, Dyspnoea, Diaphoresis, Nausea/vomiting, Pain radiating to arm, jaw, back, Syncope or pre-syncope\nSigns: Tachycardia, Hypotension, Diaphoresis, New cardiac murmur, Signs of heart failure (elevated JVP, pulmonary crackles), Cardiogenic shock\nRisk factors: Age ≥ 65 years, Smoking, Family history of CAD, Diabetes Mellitus, Hypercholesterolaemia, Hypertension, Previous MI, Drug abuse: cocaine, methamphetamine, HIV ± HAART (protease inhibitors)\nInvestigations - bedside: 12 & 15 lead ECG (including V4R, V7-9), Vital signs and O2 sats, Finger prick glucose, VBG\nInvestigations - lab: Troponin I (hs or stat lab), U&E, FBC\nInvestigations - imaging: Portable CXR, CTPA if PE suspected\nDisposition: STEMI: Refer to Internal Medicine/Cardiology urgently. NSTE-ACS high risk: Admit HCU/Medicine. Low risk: May discharge with OPD follow-up within 1 week if serial troponins negative.\nWarnings: Door-to-needle time for thrombolysis: 30 minutes; Time of onset of symptoms or maximum pain must be < 12 hours for thrombolysis; Consider aortic dissection in central chest pain radiating to back with tearing sensation, differential radial pulse, differential arm BP > 15mmHg, widened mediastinum on CXR; RV infarction (associated with inferior MI): ST elevation in V4R - avoid nitrates; True posterior MI: tall R in V1 and STE ≥ 0.5mm in V7-9",
+        "stemi_criteria": {
+          "st_elevation_contiguous_leads": {
+            "men_geq_40": "≥ 2mm in V2-V3, ≥ 1mm in other leads",
+            "men_lt_40": "≥ 2.5mm in V2-V3, ≥ 1mm in other leads",
+            "women": "≥ 1.5mm in V2-V3, ≥ 1mm in other leads"
+          },
+          "contiguous_leads": {
+            "inferior": "II, III, aVF",
+            "lateral": "I, aVL, V5, V6",
+            "anterior": "V3, V4",
+            "septal": "V1, V2"
+          }
+        },
+        "thrombolysis_contraindications": {
+          "absolute": [
+            "Any prior intracranial haemorrhage",
+            "Known structural cerebral vascular lesion (e.g., AVM)",
+            "Known malignant intracranial neoplasm",
+            "Ischaemic stroke within 3 months (except acute ischaemic stroke within 3 hours)",
+            "Suspected aortic dissection",
+            "Active bleeding or bleeding diathesis",
+            "Significant closed head or facial trauma within 3 months"
+          ],
+          "relative": [
+            "History of chronic, severe, poorly controlled hypertension",
+            "SBP > 180mmHg or DBP > 110mmHg (lower BP with Nitrocine infusion first)",
+            "Traumatic or prolonged CPR (> 10min) or major surgery (< 3 weeks)",
+            "Recent (within 2-4 weeks) internal bleeding",
+            "Non-compressible vascular punctures",
+            "Pregnancy",
+            "Active peptic ulcer disease (bled within past 2-4 weeks)",
+            "Current use of anticoagulants (e.g., Warfarin)",
+            "Prior Streptokinase exposure or allergic reaction"
+          ]
+        }
+      },
+      {
+        "item": "Actilyse (Alteplase) Protocol - STEMI Thrombolysis",
+        "protocol_type": "ed_protocol",
+        "sub_protocols": [],
+        "clinical_features": {
+          "symptoms": [
+            "STEMI with onset < 12 hours",
+            "Continuous chest pain"
+          ],
+          "signs": [
+            "ST elevation meeting criteria in 2 or more contiguous leads"
+          ]
+        },
+        "risk_factors": [],
+        "investigations": {
+          "bedside": [
+            "Continuous BP, HR, O2 sats, GCS monitoring",
+            "ECG at 0, 15, 30, 60, 90 min"
+          ],
+          "lab": [],
+          "imaging": [
+            "CXR"
+          ]
+        },
+        "scoring_systems": [],
+        "diagnostic_criteria": [],
+        "classification": [],
+        "management_steps": [
+          {
+            "step_number": "1",
+            "action": "Confirm no contraindications (absolute or relative) - see ACS protocol",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "2",
+            "action": "Obtain written and signed consent prior to thrombolysis",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "3",
+            "action": "Actilyse dosing: 15mg IV bolus, then 0.75mg/kg over 30min (max 50mg), then 0.5mg/kg over 60min (max 35mg). Maximum total dose 100mg",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "4",
+            "action": "Alternative - Tenecteplase (Metalyse): Weight < 100kg: 8000 IU IV over 10 seconds. Weight > 100kg: 10000 IU IV over 10 seconds",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "5",
+            "action": "Continuous monitoring: BP, HR, O2 sats, GCS",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "6",
+            "action": "ECGs at 0, 15, 30, 60, 90 min and with any rhythm changes or interventions",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "7",
+            "action": "Document pain score out of 10 on each ECG along with vital signs",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "8",
+            "action": "Reperfusion arrhythmias are common and usually transient - seldom require intervention",
+            "details": "",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Alteplase (Actilyse)",
+            "adult_dose": "15mg IV bolus, then 0.75mg/kg over 30min (max 50mg), then 0.5mg/kg over 60min (max 35mg)",
+            "route": "IV",
+            "frequency": "Single dose",
+            "notes": "Maximum total dose 100mg"
+          },
+          {
+            "item": "Tenecteplase (Metalyse)",
+            "adult_dose": "Weight < 100kg: 8000 IU; Weight > 100kg: 10000 IU",
+            "route": "IV",
+            "frequency": "Single dose over 10 seconds",
+            "notes": "Use if late presentation ≥ 10 hrs post pain onset or allergy to Streptokinase"
+          }
+        ],
+        "monitoring": [],
+        "warnings": [
+          "Door-to-needle time: 30 minutes",
+          "Must have continuous monitoring during and after infusion",
+          "Reperfusion arrhythmias are common and usually transient",
+          "Watch for bleeding complications",
+          "Document pain score and vital signs on each ECG"
+        ],
+        "disposition": "Refer to Internal Medicine/Cardiology urgently after thrombolysis",
+        "notes_updates": "Symptoms: STEMI with onset < 12 hours, Continuous chest pain\nSigns: ST elevation meeting criteria in 2 or more contiguous leads\nInvestigations - bedside: Continuous BP, HR, O2 sats, GCS monitoring, ECG at 0, 15, 30, 60, 90 min\nInvestigations - imaging: CXR\nDisposition: Refer to Internal Medicine/Cardiology urgently after thrombolysis\nWarnings: Door-to-needle time: 30 minutes; Must have continuous monitoring during and after infusion; Reperfusion arrhythmias are common and usually transient; Watch for bleeding complications; Document pain score and vital signs on each ECG",
+        "parent_protocol": "Acute Coronary Syndrome"
+      },
+      {
+        "item": "Acute Heart Failure",
+        "protocol_type": "ed_protocol",
+        "sub_protocols": [],
+        "clinical_features": {
+          "symptoms": [
+            "Dyspnoea",
+            "Orthopnoea",
+            "Effort intolerance",
+            "Peripheral oedema",
+            "Paroxysmal nocturnal dyspnoea (PND)"
+          ],
+          "signs": [
+            "Tachypnoea",
+            "Tachycardia",
+            "Gallop rhythm (S3)",
+            "Elevated JVP",
+            "Chest crackles (pulmonary oedema)",
+            "Cardiac murmurs",
+            "Hypotension (cardiogenic shock)"
+          ]
+        },
+        "risk_factors": [
+          "Previous CCF",
+          "ACS history",
+          "Uncontrolled hypertension",
+          "Valvular heart disease",
+          "Cardiomyopathy",
+          "Arrhythmias (AF common)",
+          "Non-compliance with medications",
+          "Infection/sepsis"
+        ],
+        "investigations": {
+          "bedside": [
+            "ECG (AF, new T wave changes, LVH, LBBB, cerebral T waves)",
+            "VBG",
+            "HGT",
+            "Urine βHCG",
+            "POCUS: > 3 B lines bilaterally, pleural effusions, poor contractility, dilated IVC"
+          ],
+          "lab": [
+            "FBC",
+            "U&E",
+            "Troponin",
+            "proBNP (if diagnosis in doubt)"
+          ],
+          "imaging": [
+            "CXR: pulmonary oedema, pulmonary venous congestion, cardiomegaly, Kerley B lines"
+          ]
+        },
+        "scoring_systems": [],
+        "diagnostic_criteria": [],
+        "classification": [],
+        "management_steps": [
+          {
+            "step_number": "1",
+            "action": "Triage to RESUS if acutely distressed or unstable",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "2",
+            "action": "Rapid ABC assessment, IV line, monitors",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "3",
+            "action": "Correct electrolyte abnormalities",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "4",
+            "action": "Crystalloid fluid bolus 10-20ml/kg ONLY if hypotensive. NB: Patients often intravascularly depleted despite peripheral fluid overload",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "5",
+            "action": "NIV (CPAP or BiPAP) - significant reduction in intubation requirements if started early",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "6",
+            "action": "Nitrocine: 1-2mg IV boluses OR infusion 30mcg/min, max 150-200mcg/min. Caution in preload dependent patients (RV infarction, pulmonary HT, aortic stenosis)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "7",
+            "action": "Furosemide (Lasix): Daily oral dose as IV bolus, or 20-40mg IV if not on Lasix previously. Caution in severe renal failure/anuria",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "8",
+            "action": "Inotropes for cardiogenic shock: Dobutamine preferred (see infusion protocol). May add adrenaline if poor response or sepsis",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "9",
+            "action": "Find and treat underlying cause/precipitant: ACS, arrhythmia, infection, hypertension, valvular pathology",
+            "details": "",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Nitrocine (Isosorbide dinitrate)",
+            "adult_dose": "1-2mg",
+            "route": "IV boluses OR infusion",
+            "frequency": "Infusion 30mcg/min, max 150-200mcg/min",
+            "notes": "Vasodilator, decreases preload. Caution in preload dependent patients (RV infarct, pulmonary HT, aortic stenosis)"
+          },
+          {
+            "item": "Furosemide (Lasix)",
+            "adult_dose": "20-40mg IV (if not previously on) or convert daily oral dose to IV",
+            "route": "IV",
+            "frequency": "Stat",
+            "notes": "Caution in severe renal failure/anuria. Consider infusion (discuss with cardiology)"
+          },
+          {
+            "item": "Dobutamine",
+            "adult_dose": "See infusion protocol",
+            "route": "IV infusion",
+            "frequency": "Continuous",
+            "notes": "Preferred inotrope for cardiogenic shock"
+          },
+          {
+            "item": "Adrenaline",
+            "adult_dose": "See infusion protocol",
+            "route": "IV infusion",
+            "frequency": "Continuous",
+            "notes": "Add if poor response to dobutamine or sepsis present"
+          }
+        ],
+        "monitoring": [],
+        "warnings": [
+          "Patients are often intravascularly depleted despite peripheral fluid overload",
+          "Caution with nitrocine in preload dependent patients (RV infarction, pulmonary HT, aortic stenosis)",
+          "Caution with furosemide in severe renal failure/anuria",
+          "New murmur may indicate acute mitral regurgitation - requires urgent surgery",
+          "Non-cardiogenic pulmonary oedema causes: CVA, head injury, negative pressure oedema"
+        ],
+        "disposition": "Internal Medicine/Cardiology consult. Will likely require High Care bed. Continue serial ECG and VBG monitoring in ED.",
+        "notes_updates": "Symptoms: Dyspnoea, Orthopnoea, Effort intolerance, Peripheral oedema, Paroxysmal nocturnal dyspnoea (PND)\nSigns: Tachypnoea, Tachycardia, Gallop rhythm (S3), Elevated JVP, Chest crackles (pulmonary oedema), Cardiac murmurs, Hypotension (cardiogenic shock)\nRisk factors: Previous CCF, ACS history, Uncontrolled hypertension, Valvular heart disease, Cardiomyopathy, Arrhythmias (AF common), Non-compliance with medications, Infection/sepsis\nInvestigations - bedside: ECG (AF, new T wave changes, LVH, LBBB, cerebral T waves), VBG, HGT, Urine βHCG, POCUS: > 3 B lines bilaterally, pleural effusions, poor contractility, dilated IVC\nInvestigations - lab: FBC, U&E, Troponin, proBNP (if diagnosis in doubt)\nInvestigations - imaging: CXR: pulmonary oedema, pulmonary venous congestion, cardiomegaly, Kerley B lines\nDisposition: Internal Medicine/Cardiology consult. Will likely require High Care bed. Continue serial ECG and VBG monitoring in ED.\nWarnings: Patients are often intravascularly depleted despite peripheral fluid overload; Caution with nitrocine in preload dependent patients (RV infarction, pulmonary HT, aortic stenosis); Caution with furosemide in severe renal failure/anuria; New murmur may indicate acute mitral regurgitation - requires urgent surgery; Non-cardiogenic pulmonary oedema causes: CVA, head injury, negative pressure oedema"
+      },
+      {
+        "item": "Acute Ischaemic Stroke",
+        "protocol_type": "ed_protocol",
+        "sub_protocols": [],
+        "clinical_features": {
+          "symptoms": [
+            "Sudden onset focal neurological deficit",
+            "Unilateral weakness or numbness",
+            "Speech difficulty (aphasia/dysarthria)",
+            "Visual disturbance",
+            "Severe headache (less common)",
+            "Ataxia",
+            "Vertigo (posterior circulation)"
+          ],
+          "signs": [
+            "Unilateral facial droop",
+            "Unilateral arm drift/weakness",
+            "Unilateral leg weakness",
+            "Aphasia (expressive or receptive)",
+            "Dysarthria",
+            "Hemianopia",
+            "Ataxia",
+            "Decreased GCS",
+            "NIHSS > 6 (thrombolysis threshold)"
+          ]
+        },
+        "risk_factors": [
+          "Hypertension",
+          "Diabetes Mellitus",
+          "Atrial fibrillation",
+          "Previous stroke/TIA",
+          "Smoking",
+          "Hypercholesterolaemia",
+          "Age > 55 years"
+        ],
+        "investigations": {
+          "bedside": [
+            "HGT (exclude hypoglycaemia)",
+            "ABG",
+            "12 lead ECG",
+            "NIHSS score",
+            "VAN score (for endovascular therapy eligibility)",
+            "Blood pressure monitoring"
+          ],
+          "lab": [
+            "INR (if indicated)",
+            "FBC",
+            "U&E"
+          ],
+          "imaging": [
+            "Urgent non-contrast CT brain (within 25 minutes)",
+            "CT angiogram (consider)",
+            "CT perfusion scan or MRI DWI (for thrombectomy selection)"
+          ]
+        },
+        "scoring_systems": [
+          {
+            "name": "NIH Stroke Scale (NIHSS)",
+            "components": [
+              {
+                "name": "Level of consciousness",
+                "points": 0
+              },
+              {
+                "name": "Gaze",
+                "points": 0
+              },
+              {
+                "name": "Visual fields",
+                "points": 0
+              },
+              {
+                "name": "Facial palsy",
+                "points": 0
+              },
+              {
+                "name": "Motor arm (left and right)",
+                "points": 0
+              },
+              {
+                "name": "Motor leg (left and right)",
+                "points": 0
+              },
+              {
+                "name": "Limb ataxia",
+                "points": 0
+              },
+              {
+                "name": "Sensory",
+                "points": 0
+              },
+              {
+                "name": "Best language",
+                "points": 0
+              },
+              {
+                "name": "Dysarthria",
+                "points": 0
+              },
+              {
+                "name": "Extinction/inattention",
+                "points": 0
+              }
+            ],
+            "interpretation": [
+              {
+                "range": "0",
+                "meaning": "No stroke symptoms"
+              },
+              {
+                "range": "1-4",
+                "meaning": "Minor stroke"
+              },
+              {
+                "range": "5-15",
+                "meaning": "Moderate stroke"
+              },
+              {
+                "range": "16-20",
+                "meaning": "Moderate-severe stroke"
+              },
+              {
+                "range": "21-42",
+                "meaning": "Severe stroke"
+              },
+              {
+                "range": "> 6",
+                "meaning": "Threshold for thrombolysis consideration"
+              }
+            ]
+          },
+          {
+            "name": "VAN Score (for thrombectomy eligibility)",
+            "components": [
+              {
+                "name": "Weakness (required)",
+                "points": 0
+              },
+              {
+                "name": "Visual involvement",
+                "points": 0
+              },
+              {
+                "name": "Aphasia",
+                "points": 0
+              },
+              {
+                "name": "Neglect",
+                "points": 0
+              }
+            ],
+            "interpretation": [
+              {
+                "range": "Weakness + one of V/A/N",
+                "meaning": "Positive VAN score - may qualify for thrombectomy"
+              }
+            ]
+          }
+        ],
+        "diagnostic_criteria": [],
+        "classification": [],
+        "management_steps": [
+          {
+            "step_number": "1",
+            "action": "ABCs if unstable. Keep O2 sats > 94%",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "2",
+            "action": "Check HGT immediately - exclude hypoglycaemia (stroke mimic)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "3",
+            "action": "Keep NPO until swallowing assessment done",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "4",
+            "action": "Nurse in left lateral position (high aspiration risk)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "5",
+            "action": "Time since onset of symptoms - document 'last seen well' time",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "6",
+            "action": "Urgent non-contrast CT brain to exclude haemorrhage",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "7",
+            "action": "Doctor to accompany patient to CT scan",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "8",
+            "action": "If onset < 3 hours (consider 3-4.5 hours): thrombolysis with Alteplase after radiologist confirms no ICH/obvious infarct",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "9",
+            "action": "Consult neurologist, obtain written signed consent",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "10",
+            "action": "Alteplase dosing: 0.9mg/kg IV (10% as bolus, remainder over 60 min). Max dose 90mg",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "11",
+            "action": "Optimise BP < 185/110mmHg before thrombolysis (see Hypertensive Emergencies protocol)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "12",
+            "action": "If > 4.5 hours: non-contrast CT, medicine/neurology referral",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "13",
+            "action": "For symptomatic ICH after alteplase: stop infusion, cryoprecipitate 10U/kg, tranexamic acid 1g IV, haematology/neurosurgery consult",
+            "details": "",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Alteplase (Actilyse)",
+            "adult_dose": "0.9mg/kg IV (10% as bolus, remainder over 60 min)",
+            "route": "IV",
+            "frequency": "Single dose",
+            "notes": "Max dose 90mg. For acute ischaemic stroke < 3 hours (consider 3-4.5 hours). NIHSS > 6 required."
+          },
+          {
+            "item": "Cryoprecipitate",
+            "adult_dose": "10 U/kg",
+            "route": "IV",
+            "frequency": "Over 10-30 min",
+            "notes": "For symptomatic ICH after thrombolysis"
+          },
+          {
+            "item": "Tranexamic acid",
+            "adult_dose": "1g",
+            "route": "IV",
+            "frequency": "Over 10 min",
+            "notes": "For symptomatic ICH after thrombolysis"
+          }
+        ],
+        "monitoring": [],
+        "warnings": [
+          "TIME IS KEY - do not delay",
+          "Wake-up stroke is currently NOT for thrombolysis",
+          "1 in 6-10 patients may have improvement with thrombolysis",
+          "1 in 20 may develop significant bleed (5%) - life-threatening",
+          "Risk of bleed increases to 8% if given between 3-4.5 hours",
+          "Exclude stroke mimics: hypoglycaemia, seizures (Todd's paresis), migraines, tumours, infection",
+          "Do not delay thrombolysis for lab results except glucose and INR if on warfarin"
+        ],
+        "disposition": "All patients require Medicine/Neurology referral. Thrombolysis patients need ICU/HCU admission.",
+        "notes_updates": "Symptoms: Sudden onset focal neurological deficit, Unilateral weakness or numbness, Speech difficulty (aphasia/dysarthria), Visual disturbance, Severe headache (less common), Ataxia, Vertigo (posterior circulation)\nSigns: Unilateral facial droop, Unilateral arm drift/weakness, Unilateral leg weakness, Aphasia (expressive or receptive), Dysarthria, Hemianopia, Ataxia, Decreased GCS, NIHSS > 6 (thrombolysis threshold)\nRisk factors: Hypertension, Diabetes Mellitus, Atrial fibrillation, Previous stroke/TIA, Smoking, Hypercholesterolaemia, Age > 55 years\nInvestigations - bedside: HGT (exclude hypoglycaemia), ABG, 12 lead ECG, NIHSS score, VAN score (for endovascular therapy eligibility), Blood pressure monitoring\nInvestigations - lab: INR (if indicated), FBC, U&E\nInvestigations - imaging: Urgent non-contrast CT brain (within 25 minutes), CT angiogram (consider), CT perfusion scan or MRI DWI (for thrombectomy selection)\nDisposition: All patients require Medicine/Neurology referral. Thrombolysis patients need ICU/HCU admission.\nWarnings: TIME IS KEY - do not delay; Wake-up stroke is currently NOT for thrombolysis; 1 in 6-10 patients may have improvement with thrombolysis; 1 in 20 may develop significant bleed (5%) - life-threatening; Risk of bleed increases to 8% if given between 3-4.5 hours; Exclude stroke mimics: hypoglycaemia, seizures (Todd's paresis), migraines, tumours, infection; Do not delay thrombolysis for lab results except glucose and INR if on warfarin",
+        "thrombolysis_contraindications": {
+          "absolute": [
+            "Uncertain time of onset (last seen well > 4.5 hours)",
+            "CT reveals acute intracranial haemorrhage",
+            "Recent severe head trauma (within 3 months)",
+            "History of intracranial/spinal surgery (within prior 3 months)",
+            "GI bleeding within past 21 days",
+            "INR > 1.7",
+            "Mild non-disabling stroke (NIHSS < 6)",
+            "Any improving neurology"
+          ],
+          "relative": [
+            "Hypoglycaemia (< 3.5mmol/L) or hyperglycaemia (> 22.2mmol/L) - correct prior",
+            "Pregnancy - discuss with neurologist",
+            "Hypertension (SBP > 185mmHg or DBP > 110mmHg) - optimise before",
+            "Surgery or trauma with internal injuries (< 30 days)",
+            "Severe comorbidities"
+          ]
+        }
+      },
+      {
+        "item": "Atrial Fibrillation",
+        "protocol_type": "ed_protocol",
+        "sub_protocols": [],
+        "clinical_features": {
+          "symptoms": [
+            "Palpitations",
+            "Chest pain",
+            "Dyspnoea",
+            "Dizziness",
+            "Syncope or pre-syncope",
+            "Fatigue"
+          ],
+          "signs": [
+            "Irregularly irregular pulse",
+            "Tachycardia (HR > 100 bpm)",
+            "Hypotension (unstable AF)",
+            "Signs of heart failure",
+            "Variable intensity S1"
+          ]
+        },
+        "risk_factors": [
+          "Thyroid disease",
+          "Hypothermia",
+          "PE/embolism",
+          "Alcohol",
+          "Trauma (cardiac contusion)",
+          "Recent surgery (e.g., CABG)",
+          "Ischaemia/infarct",
+          "Atrial enlargement",
+          "Valvular heart disease (mitral stenosis)",
+          "Stimulants (cocaine, theophylline, caffeine)",
+          "Fever/anaemia/high-output states"
+        ],
+        "investigations": {
+          "bedside": [
+            "12 lead ECG",
+            "Vital signs",
+            "HGT"
+          ],
+          "lab": [
+            "U&E (exclude electrolyte abnormalities)",
+            "Troponin (if chest pain)",
+            "TFTs (thyroid)",
+            "FBC (anaemia, infection)"
+          ],
+          "imaging": [
+            "CXR (if indicated)"
+          ]
+        },
+        "scoring_systems": [
+          {
+            "name": "CHA2DS2-VASc Score",
+            "components": [
+              {
+                "name": "C - CHF history",
+                "points": 1
+              },
+              {
+                "name": "H - Hypertension history",
+                "points": 1
+              },
+              {
+                "name": "A2 - Age ≥ 75 years",
+                "points": 2
+              },
+              {
+                "name": "D - Diabetes Mellitus history",
+                "points": 1
+              },
+              {
+                "name": "S2 - Stroke/TIA/Thromboembolism history",
+                "points": 2
+              },
+              {
+                "name": "V - Vascular disease (prior MI, PAD, aortic plaque)",
+                "points": 1
+              },
+              {
+                "name": "A - Age 65-74 years",
+                "points": 1
+              },
+              {
+                "name": "Sc - Sex category female",
+                "points": 1
+              }
+            ],
+            "interpretation": [
+              {
+                "range": "0",
+                "meaning": "Low risk - may not require anticoagulation"
+              },
+              {
+                "range": "1",
+                "meaning": "Low-moderate risk - consider antiplatelet or anticoagulation"
+              },
+              {
+                "range": "≥ 2",
+                "meaning": "Moderate-high risk - anticoagulation recommended"
+              }
+            ]
+          },
+          {
+            "name": "HAS-BLED Score",
+            "components": [
+              {
+                "name": "H - Hypertension uncontrolled (SBP > 160)",
+                "points": 1
+              },
+              {
+                "name": "A - Abnormal renal function (dialysis, transplant, Cr > 200)",
+                "points": 1
+              },
+              {
+                "name": "A - Abnormal liver function (cirrhosis, bilirubin 2x, AST/ALT/ALP x3)",
+                "points": 1
+              },
+              {
+                "name": "S - Stroke history",
+                "points": 1
+              },
+              {
+                "name": "B - Prior major bleeding/predisposition",
+                "points": 1
+              },
+              {
+                "name": "L - Labile INR",
+                "points": 1
+              },
+              {
+                "name": "E - Age > 65 years",
+                "points": 1
+              },
+              {
+                "name": "D - Medication predisposing to bleeding (aspirin, clopidogrel, NSAIDs)",
+                "points": 1
+              },
+              {
+                "name": "Alcohol use > 8 drinks/week",
+                "points": 1
+              }
+            ],
+            "interpretation": [
+              {
+                "range": "0-1",
+                "meaning": "Low risk - anticoagulation should be considered"
+              },
+              {
+                "range": "2",
+                "meaning": "Moderate risk - anticoagulation can be considered"
+              },
+              {
+                "range": "≥ 3",
+                "meaning": "High risk - alternatives to anticoagulation should be considered"
+              }
+            ]
+          }
+        ],
+        "diagnostic_criteria": [],
+        "classification": [],
+        "management_steps": [
+          {
+            "step_number": "1",
+            "action": "Assess stability: hypotension, acute cardiac failure, chest pain, dyspnoea, altered mental status",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "2",
+            "action": "Unstable AF: Synchronised cardioversion 150-200J (consider max dose first, max 3 attempts). Use BP-preserving analgesia/sedation (fentanyl/ketamine/midazolam)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "3",
+            "action": "If cardioversion fails AND no WPW: Amiodarone 150mg IV in D5W over 30min then 900mg in 200ml D5W at 8.3ml/hr. Consider MgSO4 2-4g IV over 15min",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "4",
+            "action": "Stable AF: Determine if candidate for cardioversion (< 48hrs, new onset, no LV dysfunction, no valvular disease, no VTE history, therapeutic anticoagulation)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "5",
+            "action": "If candidate for cardioversion: synchronised cardioversion with analgesia/sedation. Consider anticoagulation",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "6",
+            "action": "If NOT candidate for cardioversion: RATE CONTROL (goal HR < 110bpm)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "7",
+            "action": "Rate control options: Amiodarone 150mg IV then infusion OR Beta-blocker (Carvedilol 3.125mg PO stat, Atenolol 50mg PO stat, or Propranolol if thyroid-related) OR Calcium channel blocker OR Digoxin",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "8",
+            "action": "Anticoagulation: Balance HAS-BLED risk vs CHA2DS2-VASc benefit. Start Clexane 1mg/kg SC stat in ED if no contraindications",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "9",
+            "action": "Look for and treat underlying cause (THE ATRIAL FIBS mnemonic)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "10",
+            "action": "Recent evidence: No survival benefit in rate vs rhythm control. Rate control and anticoagulation supported by recent trials",
+            "details": "",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Amiodarone",
+            "adult_dose": "150mg IV in D5W over 30min, then 900mg in 200ml D5W at 8.3ml/hr",
+            "route": "IV infusion",
+            "frequency": "Continuous",
+            "notes": "First-line for unstable AF if cardioversion fails. Also for rate control in stable AF."
+          },
+          {
+            "item": "Magnesium Sulfate",
+            "adult_dose": "2-4g",
+            "route": "IV",
+            "frequency": "Over 15 minutes",
+            "notes": "Consider as adjunct in AF"
+          },
+          {
+            "item": "Carvedilol",
+            "adult_dose": "3.125mg",
+            "route": "PO",
+            "frequency": "Stat",
+            "notes": "Beta-blocker for rate control"
+          },
+          {
+            "item": "Atenolol",
+            "adult_dose": "50mg",
+            "route": "PO",
+            "frequency": "Stat",
+            "notes": "Beta-blocker for rate control"
+          },
+          {
+            "item": "Propranolol",
+            "adult_dose": "See protocol",
+            "route": "PO",
+            "frequency": "Stat",
+            "notes": "Use if thyroid-related AF"
+          },
+          {
+            "item": "Clexane (Enoxaparin)",
+            "adult_dose": "1mg/kg",
+            "route": "SC",
+            "frequency": "Stat",
+            "notes": "Start in ED if no contraindications for anticoagulation"
+          },
+          {
+            "item": "Digoxin",
+            "adult_dose": "See protocol",
+            "route": "PO/IV",
+            "frequency": "Stat",
+            "notes": "Alternative rate control agent"
+          }
+        ],
+        "monitoring": [],
+        "warnings": [
+          "DO NOT use rate-controlling agents (beta-blockers, calcium channel blockers, amiodarone) in WPW with AF - risk of VF",
+          "WPW + AF: Use electrical cardioversion ONLY",
+          "WPW ECG features: Irregularly irregular, rapid > 200bpm, wide QRS varying beat-to-beat, delta wave",
+          "Balance HAS-BLED bleeding risk vs CHA2DS2-VASc stroke benefit for anticoagulation decisions",
+          "If onset > 48 hours and not anticoagulated, do NOT cardiovert without transoesophageal echo or adequate anticoagulation first"
+        ],
+        "disposition": "Unstable AF: Admit to HCU/ICU. Stable AF: May discharge with cardiology follow-up if rate controlled and anticoagulated.",
+        "notes_updates": "Symptoms: Palpitations, Chest pain, Dyspnoea, Dizziness, Syncope or pre-syncope, Fatigue\nSigns: Irregularly irregular pulse, Tachycardia (HR > 100 bpm), Hypotension (unstable AF), Signs of heart failure, Variable intensity S1\nRisk factors: Thyroid disease, Hypothermia, PE/embolism, Alcohol, Trauma (cardiac contusion), Recent surgery (e.g., CABG), Ischaemia/infarct, Atrial enlargement, Valvular heart disease (mitral stenosis), Stimulants (cocaine, theophylline, caffeine), Fever/anaemia/high-output states\nInvestigations - bedside: 12 lead ECG, Vital signs, HGT\nInvestigations - lab: U&E (exclude electrolyte abnormalities), Troponin (if chest pain), TFTs (thyroid), FBC (anaemia, infection)\nInvestigations - imaging: CXR (if indicated)\nDisposition: Unstable AF: Admit to HCU/ICU. Stable AF: May discharge with cardiology follow-up if rate controlled and anticoagulated.\nWarnings: DO NOT use rate-controlling agents (beta-blockers, calcium channel blockers, amiodarone) in WPW with AF - risk of VF; WPW + AF: Use electrical cardioversion ONLY; WPW ECG features: Irregularly irregular, rapid > 200bpm, wide QRS varying beat-to-beat, delta wave; Balance HAS-BLED bleeding risk vs CHA2DS2-VASc stroke benefit for anticoagulation decisions; If onset > 48 hours and not anticoagulated, do NOT cardiovert without transoesophageal echo or adequate anticoagulation first"
+      },
+      {
+        "item": "Asthma",
+        "protocol_type": "ed_protocol",
+        "sub_protocols": [],
+        "clinical_features": {
+          "symptoms": [
+            "Dyspnoea",
+            "Wheezing",
+            "Chest tightness",
+            "Cough",
+            "Difficulty speaking"
+          ],
+          "signs": {
+            "mild": [
+              "Alert",
+              "Normal speech",
+              "PEFR > 75% predicted",
+              "O2 sats > 95%",
+              "Pulse < 100 bpm"
+            ],
+            "moderate": [
+              "May be agitated",
+              "Speaking in phrases",
+              "PEFR 50-70% predicted",
+              "O2 sats 90-95%",
+              "Pulse 100-120 bpm"
+            ],
+            "severe": [
+              "Altered consciousness",
+              "Single words only",
+              "PEFR < 50% predicted",
+              "O2 sats < 90%",
+              "Pulse > 120 bpm",
+              "Silent chest",
+              "Cyanosis",
+              "Paradoxical breathing"
+            ]
+          }
+        },
+        "risk_factors": [
+          "Previous near-fatal exacerbation",
+          "Previous intubation/ICU admission",
+          "Recent/current steroid use",
+          "Co-morbid cardiac or respiratory disease",
+          "ED visit/admission in last month",
+          "> 2 admissions in last year",
+          "> 3 ED visits in last year",
+          "Psychiatric illness",
+          "Illicit drug use",
+          "> 2 rescue inhalers used in last month",
+          "Poor social circumstances"
+        ],
+        "investigations": {
+          "bedside": [
+            "Peak Expiratory Flow Rate (PEFR)",
+            "O2 sats",
+            "Vital signs",
+            "ABG (if severe: pCO2 > 42mmHg is ominous)"
+          ],
+          "lab": [
+            "FBC",
+            "U&E",
+            "VBG/ABG"
+          ],
+          "imaging": [
+            "CXR indications: non-responders, O2 sats < 92%, suspected pneumothorax/pneumonia, chest pain, CV instability, possible foreign body"
+          ]
+        },
+        "scoring_systems": [],
+        "diagnostic_criteria": [],
+        "classification": [],
+        "management_steps": [
+          {
+            "step_number": "1",
+            "action": "ABCs, position patient upright",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "2",
+            "action": "Continuous nebulisations for ALL patients: Beta-2 agonists (Salbutamol/Fenoterol) AND Anticholinergic (Ipratropium Bromide)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "3",
+            "action": "MILD (PEFR > 75%, O2 > 95%, pulse < 100): Oral Prednisone 0.5mg/kg stat",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "4",
+            "action": "MODERATE (PEFR 50-70%, O2 90-95%, pulse 100-120): Hydrocortisone 200mg IV stat",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "5",
+            "action": "SEVERE (PEFR < 50%, O2 < 90%, pulse > 120, pCO2 > 42): Hydrocortisone 200mg IV stat, MgSO4 25-50mg/kg IV over 20min, NIV (CPAP/BiPAP), prepare for intubation",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "6",
+            "action": "RSI for severe/refractory: Ketamine 1mg/kg then infusion 0.15mg/kg/hr. In-line nebulisation",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "7",
+            "action": "In extremis/difficult IV access: Adrenaline 0.3mg subcut (repeat in 5 min)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "8",
+            "action": "If intubated: Volume Assist Control, TV 6ml/kg, I:E ratio 1:3-1:5, RR 10-12 bpm, allow higher pressures initially",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": "9",
+            "action": "Discharge criteria: Pulse < 110, RR < 25, O2 > 92% on room air, no high-risk features, improvement sustained > 1 hour after last nebulisation, PEFR > 75% predicted",
+            "details": "",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Salbutamol (Asthavent) / Fenoterol (Berotec)",
+            "adult_dose": "Continuous nebulisation",
+            "route": "Nebulised",
+            "frequency": "Continuous",
+            "notes": "Beta-2 agonist. ALL severity levels."
+          },
+          {
+            "item": "Ipratropium Bromide",
+            "adult_dose": "Continuous nebulisation",
+            "route": "Nebulised",
+            "frequency": "Continuous",
+            "notes": "Anticholinergic agent. Combined with beta-agonist."
+          },
+          {
+            "item": "Prednisone",
+            "adult_dose": "0.5mg/kg",
+            "route": "PO",
+            "frequency": "Stat",
+            "notes": "Mild asthma only"
+          },
+          {
+            "item": "Hydrocortisone",
+            "adult_dose": "200mg",
+            "route": "IV",
+            "frequency": "Stat",
+            "notes": "Moderate and severe asthma"
+          },
+          {
+            "item": "Magnesium Sulfate",
+            "adult_dose": "25-50mg/kg",
+            "route": "IV",
+            "frequency": "Over 20 minutes",
+            "notes": "Severe asthma only"
+          },
+          {
+            "item": "Ketamine",
+            "adult_dose": "1mg/kg bolus then 0.15mg/kg/hr infusion",
+            "route": "IV",
+            "frequency": "Continuous",
+            "notes": "Induction for RSI in severe asthma"
+          },
+          {
+            "item": "Adrenaline",
+            "adult_dose": "0.3mg",
+            "route": "Subcutaneous",
+            "frequency": "Repeat in 5 min if needed",
+            "notes": "In extremis/difficult IV access only"
+          }
+        ],
+        "monitoring": [],
+        "warnings": [
+          "Silent chest = life-threatening - no wheeze due to minimal air movement",
+          "Rising pCO2 in asthma is ominous and indicates tiring - prepare for intubation",
+          "pCO2 > 42mmHg in severe asthma indicates respiratory failure",
+          "Post-intubation deterioration: consider tube displacement, obstruction, pneumothorax, equipment failure, breath stacking",
+          "Preload with 20ml/kg IV fluids before intubation to avoid precipitous BP drop",
+          "Continue in-line nebulisations after intubation"
+        ],
+        "disposition": {
+          "mild": "Discharge with Prednisone 0.5mg/kg x 7 days, Beta-2 agonist MDI QID PRN, Budesonide 400mcg BD, Asthma clinic follow-up",
+          "moderate": "Observe/Respiratory referral. May discharge if meets criteria.",
+          "severe": "Urgent Internal Medicine referral, ICU/HCU admission"
+        },
+        "notes_updates": "Symptoms: Dyspnoea, Wheezing, Chest tightness, Cough, Difficulty speaking\nSigns: {\n  \"mild\": [\n    \"Alert\",\n    \"Normal speech\",\n    \"PEFR > 75% predicted\",\n    \"O2 sats > 95%\",\n    \"Pulse < 100 bpm\"\n  ],\n  \"moderate\": [\n    \"May be agitated\",\n    \"Speaking in phrases\",\n    \"PEFR 50-70% predicted\",\n    \"O2 sats 90-95%\",\n    \"Pulse 100-120 bpm\"\n  ],\n  \"severe\": [\n    \"Altered consciousness\",\n    \"Single words only\",\n    \"PEFR < 50% predicted\",\n    \"O2 sats < 90%\",\n    \"Pulse > 120 bpm\",\n    \"Silent chest\",\n    \"Cyanosis\",\n    \"Paradoxical breathing\"\n  ]\n}\nRisk factors: Previous near-fatal exacerbation, Previous intubation/ICU admission, Recent/current steroid use, Co-morbid cardiac or respiratory disease, ED visit/admission in last month, > 2 admissions in last year, > 3 ED visits in last year, Psychiatric illness, Illicit drug use, > 2 rescue inhalers used in last month, Poor social circumstances\nInvestigations - bedside: Peak Expiratory Flow Rate (PEFR), O2 sats, Vital signs, ABG (if severe: pCO2 > 42mmHg is ominous)\nInvestigations - lab: FBC, U&E, VBG/ABG\nInvestigations - imaging: CXR indications: non-responders, O2 sats < 92%, suspected pneumothorax/pneumonia, chest pain, CV instability, possible foreign body\nDisposition: {\n  \"mild\": \"Discharge with Prednisone 0.5mg/kg x 7 days, Beta-2 agonist MDI QID PRN, Budesonide 400mcg BD, Asthma clinic follow-up\",\n  \"moderate\": \"Observe/Respiratory referral. May discharge if meets criteria.\",\n  \"severe\": \"Urgent Internal Medicine referral, ICU/HCU admission\"\n}\nWarnings: Silent chest = life-threatening - no wheeze due to minimal air movement; Rising pCO2 in asthma is ominous and indicates tiring - prepare for intubation; pCO2 > 42mmHg in severe asthma indicates respiratory failure; Post-intubation deterioration: consider tube displacement, obstruction, pneumothorax, equipment failure, breath stacking; Preload w
