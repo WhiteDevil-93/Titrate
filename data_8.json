@@ -1,1 +1,621 @@
-test
+eri-arrest. Preparation: 1mg in 10ml NS (0.1mg/ml). Take 1ml of this and add 9ml NS = 10mcg/ml.. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Adrenaline (Infusion)",
+            "adult_dose": "0.05-1.0mcg/kg/min",
+            "route": "IV infusion",
+            "notes": "Indication: Cardiac arrest, anaphylaxis, shock. Preparation: 12mg in 200ml normal saline (withdraw 12ml NS before adding 12ml adrenaline) = 100mcg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate",
+          "Rhythm",
+          "Urine output"
+        ],
+        "warnings": [
+          "Tachycardia",
+          "Hypertension",
+          "Arrhythmias",
+          "Tissue necrosis if extravasation"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Dobutamine Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Dobutamine",
+            "adult_dose": "2.5-20mcg/kg/min (max 40mcg/kg/min)",
+            "route": "IV infusion",
+            "notes": "Indication: Cardiogenic shock, low cardiac output. Preparation: 250mg in 200ml normal saline (withdraw 20ml NS before adding 20ml/1 amp dobutamine).. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate",
+          "Rhythm"
+        ],
+        "warnings": [
+          "Tachycardia",
+          "Arrhythmias",
+          "Hypotension at high doses"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Phenylephrine Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Phenylephrine",
+            "adult_dose": "0.1-6mcg/kg/min. Bolus: 50-250mcg (0.5-2.5ml of infusion mixture) for adult.",
+            "route": "IV infusion",
+            "notes": "Indication: Vasoplegic shock (spinal cord injury). Preparation: 2 x 1ml amps (10mg/ml) of phenylephrine in 200ml normal saline (withdraw 2ml saline prior to adding) = 0.1mg/ml (100mcg/ml).. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate",
+          "Urine output"
+        ],
+        "warnings": [
+          "Reflex bradycardia",
+          "Hypertension",
+          "Tissue necrosis if extravasation"
+        ],
+        "disposition": "",
+        "notes_updates": "",
+        "contraindications": [
+          "Severe uncontrolled hypertension",
+          "Peripheral vascular disease",
+          "Hyperthyroidism",
+          "Heart block with bradycardia",
+          "CCF",
+          "Bradycardia <50bpm",
+          "MAOI use",
+          "Concurrent alpha-agonist or sympathomimetic use"
+        ]
+      },
+      {
+        "item": "Labetalol Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Labetalol",
+            "adult_dose": "Step 1: 20mg bolus (4ml). Then add remaining 16ml (80mg) + 2nd vial (100mg) to 200ml 0.9% NS = 0.76mg/ml. Start infusion at 80ml/hr. Increase by 10ml/hr every 5 min until BP target reached. Max 160ml/hr (2mg/min).",
+            "route": "IV infusion",
+            "notes": "Indication: Hypertensive emergency (aortic dissection, encephalopathy, stroke). Preparation: 180mg labetalol in 200ml normal saline = 0.76mg/ml. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate",
+          "Rhythm"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Bradycardia",
+          "Bronchospasm"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Isosorbide Dinitrate (Isoket) Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Isosorbide Dinitrate (Isoket)",
+            "adult_dose": "Initial 1-2mg/hour. Maximum usually 8-10mg/hour; up to 50mg/hour in acute decompensated heart failure.",
+            "route": "IV infusion",
+            "notes": "Indication: Acute heart failure, hypertensive emergency, cardiogenic pulmonary oedema. Preparation: 20mg in 200ml normal saline (withdraw 20ml NS before adding 20ml/2 amps isosorbide dinitrate) = 0.1mg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Headache",
+          "Tachycardia",
+          "Methemoglobinemia"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Nitroglycerin (Nitrocine) Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Nitroglycerin (Nitrocine)",
+            "adult_dose": "Start at 10mcg/min, titrate up to 200mcg/min.",
+            "route": "IV infusion",
+            "notes": "Indication: ACS, cardiogenic pulmonary oedema, hypertensive emergency. Preparation: 10mg in 200ml normal saline (withdraw 10ml NS before adding 10ml/1 amp nitroglycerin) = 50mcg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Headache",
+          "Tachycardia",
+          "Methemoglobinemia"
+        ],
+        "disposition": "",
+        "notes_updates": "",
+        "contraindications": [
+          "SBP <90mmHg",
+          "Severe bradycardia <50bpm",
+          "Severe tachycardia >100bpm",
+          "RV infarction (inferior MI)",
+          "Sildenafil/Vardenafil within 24hrs",
+          "Tadalafil within 48hrs"
+        ]
+      },
+      {
+        "item": "Morphine + Midazolam Infusion (Single Bag)",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Morphine + Midazolam (combined)",
+            "adult_dose": "0.05-0.5mg/kg/hr of EACH drug",
+            "route": "IV infusion",
+            "notes": "Indication: Sedation for ventilated patients. Preparation: 90mg Midazolam + 90mg Morphine in 180ml volume. Remove 44ml fluid from 200ml saline bag. Add 6 amps Morphine (15mg/ml) and 6 amps Midazolam (15mg/3ml) (24ml total drug volume) to remaining fluid = 0.5mg/ml of EACH drug.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Respiratory rate",
+          "SpO2",
+          "Sedation level"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Respiratory depression",
+          "Oversedation"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Midazolam (Dormicum) Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Midazolam",
+            "adult_dose": "Loading: Slow IV push using 1mg/ml solution. Maintenance: 0.05-1.0mg/kg/hr.",
+            "route": "IV infusion",
+            "notes": "Indication: Sedation for ventilated patients. Preparation: Loading: 1 amp midazolam (15mg/3ml) with 12ml NS in 20ml syringe = 1mg/ml. Maintenance: 90mg midazolam in 45ml volume (6 x 3ml amps with 27ml NS in 50ml syringe) = 2mg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Respiratory rate",
+          "SpO2",
+          "Sedation level"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Respiratory depression",
+          "Paradoxical agitation"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Propofol Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Propofol",
+            "adult_dose": "1-9mg/kg/hr (typical range)",
+            "route": "IV infusion",
+            "notes": "Indication: Sedation for ventilated patients. Preparation: 400mg pure propofol: 2 x 20ml amps of propofol (40ml) in a 50ml empty NS bag for infusion pump = 20mg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Respiratory rate",
+          "SpO2",
+          "Triglycerides (if prolonged use)",
+          "CK (if prolonged use)"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Respiratory depression",
+          "Propofol infusion syndrome",
+          "Hypertriglyceridemia"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Procedural Sedation & Analgesia (PSA) Checklist",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Pre-sedation assessment",
+            "details": "Evaluate airway (Mallampati, LEMON), fasting status, comorbidities, allergies, current medications",
+            "caution": "Assess for difficult airway"
+          },
+          {
+            "step_number": 2,
+            "action": "Obtain informed consent",
+            "details": "Explain procedure, risks, benefits, alternatives",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Ensure NPO status",
+            "details": "Solid food: 6 hours, Clear liquids: 2 hours, Breast milk: 4 hours, Formula: 6 hours",
+            "caution": "Emergency procedures may proceed with caution"
+          },
+          {
+            "step_number": 4,
+            "action": "Establish IV access",
+            "details": "Patent IV line in place",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Apply monitoring",
+            "details": "Continuous cardiac monitoring, pulse oximetry, NIBP, capnography (ETCO2)",
+            "caution": "Capnography is essential"
+          },
+          {
+            "step_number": 6,
+            "action": "Administer sedation agent",
+            "details": "Titrate to desired sedation level",
+            "caution": "Use lowest effective dose, titrate slowly"
+          },
+          {
+            "step_number": 7,
+            "action": "Monitor throughout procedure",
+            "details": "Continuous observation of airway, breathing, circulation, sedation depth",
+            "caution": "Dedicated observer for monitoring only - NOT performing procedure"
+          },
+          {
+            "step_number": 8,
+            "action": "Post-procedure monitoring",
+            "details": "Continue monitoring until patient returns to baseline. Document recovery.",
+            "caution": "Discharge only when criteria met"
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Ketamine",
+            "adult_dose": "IV: 0.5-2mg/kg (1-2mg/kg for induction, 0.5-1mg/kg for PSA)",
+            "route": "IV",
+            "notes": "Indication: Dissociative sedation. Preparation: 10/50/100mg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Propofol",
+            "adult_dose": "0.5-1mg/kg IV bolus, then 25-100mcg/kg/min infusion",
+            "route": "IV",
+            "notes": "Indication: Deep sedation. Preparation: 10mg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Midazolam",
+            "adult_dose": "0.05-0.1mg/kg IV (max 5mg)",
+            "route": "IV",
+            "notes": "Indication: Anxiolysis/light sedation. Preparation: 1mg/ml or 5mg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Fentanyl",
+            "adult_dose": "1-2mcg/kg IV",
+            "route": "IV",
+            "notes": "Indication: Analgesia. Preparation: 50mcg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Ketamine + Propofol (Ketofol)",
+            "adult_dose": "Ketamine 0.5-1mg/kg + Propofol 0.5-1mg/kg combined",
+            "route": "IV",
+            "notes": "Indication: Procedural sedation. Preparation: . Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "Pulse oximetry",
+          "NIBP",
+          "Capnography (ETCO2)",
+          "Airway patency",
+          "Level of consciousness"
+        ],
+        "warnings": [
+          "Airway obstruction",
+          "Respiratory depression/apnoea",
+          "Aspiration",
+          "Hypotension",
+          "Paradoxical reaction"
+        ],
+        "disposition": "",
+        "notes_updates": "",
+        "equipment": [
+          "Oxygen source",
+          "Suction",
+          "Airway equipment (including rescue devices)",
+          "Monitoring (ECG, NIBP, SpO2, ETCO2)",
+          "Reversal agents (Flumazenil, Naloxone)",
+          "IV access"
+        ],
+        "contraindications": [
+          "Inability to obtain consent (unless emergency)",
+          "Unfasted patient for elective procedures (relative)",
+          "No IV access",
+          "No monitoring equipment available",
+          "No airway/resuscitation skills present",
+          "No reversal agents available"
+        ]
+      },
+      {
+        "item": "Pain Management in the ED",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess pain severity",
+            "details": "Use appropriate pain scale (VAS/NRS for adults, FLACC/FACES for children)",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Non-pharmacological measures",
+            "details": "Explanation, immobilisation, calm environment, distraction (medals/toys for children)",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Step 1 - Non-opioid analgesia",
+            "details": "Paracetamol 1g PO/IV. NSAIDs (Ibuprofen 200-600mg PO, Diclofenac 75-100mg IV).",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Step 2 - Mild opioid",
+            "details": "Tramadol 1mg/kg PO/IV (TTO only, not for ED use). Consider ketamine 0.3-1mg/kg IV.",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Step 3 - Strong opioid",
+            "details": "Morphine 0.1mg/kg IV. Fentanyl 1mcg/kg IV.",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Regional nerve blockade",
+            "details": "Consider for specific injuries (femoral nerve block for NOF, etc.)",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Paracetamol",
+            "adult_dose": "Adults: 1g PO/IV. Paeds: 15-20mg/kg PO q8hrly. Syrup: Weight x 0.6 = ml of 120mg/5ml syrup.",
+            "route": "PO/IV",
+            "notes": "Indication: Mild-moderate pain, fever. Preparation: 1g tablets, 120mg/5ml syrup, 1g IV infusion. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Ibuprofen",
+            "adult_dose": "Adults: 200-600mg PO. Paeds: 5-10mg/kg/dose PO q6-8hrly (max 40mg/kg/day).",
+            "route": "PO",
+            "notes": "Indication: Mild-moderate pain, inflammation. Preparation: 200mg, 400mg tablets. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Diclofenac",
+            "adult_dose": "75-100mg IV in 500ml R/Lactate. TTO: 50mg q8h.",
+            "route": "IV/PO",
+            "notes": "Indication: Moderate pain, inflammation. Preparation: 75mg/3ml ampoules. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Fentanyl",
+            "adult_dose": "1mcg/kg IV slowly. 1-2mcg/kg/hr infusion. Paeds IN: 1.5mcg/kg (max 0.5ml/nostril).",
+            "route": "IV/IN",
+            "notes": "Indication: Moderate-severe pain. Preparation: 50mcg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Morphine",
+            "adult_dose": "0.1mg/kg IV. 0.1mg/kg/hr infusion.",
+            "route": "IV",
+            "notes": "Indication: Severe pain. Preparation: 10mg/ml, 15mg/ml ampoules. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Ketamine",
+            "adult_dose": "IV: 0.3-1mg/kg slow over 5-10min. 0.2-1mg/kg/hr infusion. Paeds IM: 2-6mg/kg. PO: 6-10mg/kg (mix with 0.2-0.3ml/kg beverage, 30min prior). IN: 1mg/kg (max 0.5ml/nostril).",
+            "route": "IV/IM/PO/IN",
+            "notes": "Indication: Moderate-severe pain, procedural sedation. Preparation: 10/50/100mg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Tramadol",
+            "adult_dose": "1mg/kg PO/IV. TTO: 50-100mg PO q8hrly. Max 1 week.",
+            "route": "PO/IV",
+            "notes": "Indication: Moderate pain (TTO only). Preparation: 50mg capsules, 100mg/2ml ampoules. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Lignocaine",
+            "adult_dose": "3-4mg/kg without adrenaline. 7mg/kg with adrenaline.",
+            "route": "Local infiltration",
+            "notes": "Indication: Local anaesthesia. Preparation: 1% or 2%. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Bupivacaine",
+            "adult_dose": "3mg/kg with or without adrenaline.",
+            "route": "Local infiltration",
+            "notes": "Indication: Regional nerve block. Preparation: 0.25% or 0.5%. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Marcaine (Bupivacaine)",
+            "adult_dose": "20ml (2-3mg/kg)",
+            "route": "Local infiltration",
+            "notes": "Indication: Femoral nerve block. Preparation: 0.25% or 0.5%. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Pain score reassessment",
+          "Respiratory rate",
+          "Sedation level",
+          "BP",
+          "SpO2"
+        ],
+        "warnings": [
+          "Respiratory depression (opioids)",
+          "Sedation",
+          "Constipation",
+          "Nausea/vomiting",
+          "Hypotension"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Blood and Blood Products including Freeze-Dried Plasma",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Consent required for all blood products",
+            "details": "Document consent",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Blood warming",
+            "details": "Only necessary if >2 units to be transfused (>50ml/kg/hr adults)",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Continuous monitoring during transfusion",
+            "details": "Vital signs before, during, and after transfusion",
+            "caution": "Watch for transfusion reactions"
+          },
+          {
+            "step_number": 4,
+            "action": "Transfuse according to indications and triggers",
+            "details": "Specific indications decrease mortality, morbidity, and costs",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Packed Red Cells (PRC)",
+            "adult_dose": "Acute haemorrhage: Based on clinical features, lactate, vital signs, amount of bleeding, Hb <10. Anaemia: Hb <7; Hb <10 if high risk of myocardial ischaemia.",
+            "route": "IV",
+            "notes": "Indication: Acute haemorrhage, anaemia. Preparation: 1 unit. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Fresh Frozen Plasma (FFP)",
+            "adult_dose": "15-20ml/kg",
+            "route": "IV",
+            "notes": "Indication: Warfarin overdose (INR >1.5 and actively bleeding), acute haemorrhage. Preparation: 1 unit. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Freeze-Dried Plasma (FDP)",
+            "adult_dose": "1 unit FDP = 1 unit FFP",
+            "route": "IV",
+            "notes": "Indication: Life-threatening bleeding until FFP available. Preparation: Ward stock, room temperature. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Platelets (Mega-unit)",
+            "adult_dose": "10ml/kg",
+            "route": "IV",
+            "notes": "Indication: Thrombocytopenia, bleeding, massive transfusion. Preparation: Use platelet-specific transfusion set. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Prothrombin Complex Concentrate (PCC/ Haemosolvex)",
+            "adult_dose": "1ml/kg",
+            "route": "IV",
+            "notes": "Indication: Warfarin overdose, reversal of DOACs. Preparation: Available from pharmacy. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Cryoprecipitate",
+            "adult_dose": "5-10ml/kg",
+            "route": "IV",
+            "notes": "Indication: DIC, haemophilia, vWD, hypofibrinogenaemia. Preparation: . Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Tranexamic Acid (TXA)",
+            "adult_dose": "1g IV stat",
+            "route": "IV",
+            "notes": "Indication: Major trauma, bleeding. Preparation: 1g/10ml. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Vital signs before, during, after transfusion",
+          "Temperature",
+          "Watch for transfusion reactions"
+        ],
+        "warnings": [
+          "{'reaction': 'ABO mismatch and haemolysis', 'features': 'Fever, tachycardia, chest pain, shock, DIC', 'management': 'STOP TRANSFUSION immediately, supportive care'}",
+          "{'reaction': 'Rh mismatch', 'features': '', 'management': 'Rh negative females of childbearing age MUST receive Rh negative products'}",
+          "{'reaction': 'Anaphylaxis', 'features': 'See anaphylaxis protocol', 'management': 'STOP transfusion, manage per anaphylaxis protocol'}",
+          "{'reaction': 'TRALI (Transfusion-Related Acute Lung Injury)', 'features': 'ARDS-type non-cardiogenic pulmonary oedema, shock. More common with FFP.', 'management': 'STOP transfusion, supportive care'}",
+          "{'reaction': 'TACO (Transfusion-Associated Circulatory Overload)', 'features': 'Fluid overload, may mimic TRALI. More common in chronic anaemia/poor circulatory compliance.', 'management': 'STOP transfusion, diuretics, supportive care'}",
+          "{'reaction': 'Hypothermia', 'features': 'More common with massive transfusion of cooled products', 'management': 'Blood warming'}",
+          "{'reaction': 'Electrolyte abnormalities', 'features': 'Low Calcium/Magnesium/Potassium', 'management': 'Monitor and replace'}"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Oncological Emergencies",
+        "notes_updates": "SUB-PROTOCOL: Tumour Lysis Syndrome | Pathophysiology: Massive tumour cell lysis - release of tumour cell contents into circulation causing electrolyte derangement (low Ca2+, high K+, high PO4, high uric acid), renal failure, metabolic acidosis, seizures, cardiac arrhythmias | Triggers: Chemotherapy, Radiotherapy, High dose steroids, Hormonal therapy, Surgery, Rapidly growing tumour | Risk factors: Leukaemia, Lymphoma, Aggressive treatment, High tumour burden | Diagnostic criteria: Cairo-Bishop criteria | Management: Monitored bed | Aggressive IV fluids (balanced crystalloid) - aim urine output >2ml/kg/hr | If volume overloaded: Lasix | Manage electrolyte abnormalities (hyperkalaemia, hyperphosphataemia, hypocalcaemia) | Supportive treatment | Dialysis indications: oliguria, anuria, volume overload, persistent hyperkalaemia, hyperphosphataemia-induced symptomatic hypocalcaemia | Disposition: Urgent Oncology referral. ICU referral for severe cases | | SUB-PROTOCOL: Febrile Neutropenia | Definition: Fever + neutropenia (ANC <1000/microlitre). Fever: single oral temp >38.3C or >38C for >1 hour | Often 5-10 days after last chemotherapy | Management: Rapid work-up and empiric antibiotics | Look carefully for signs of infection but defer PR (typhlitis) | Look everywhere: skin, mucous membranes, peri-anal, indwelling lines/catheters | Consider typhlitis: necrotising enterocolitis, appendicitis mimic - CT Abdo, NGT, NPO, IV fluid | Send appropriate samples (blood cultures, urine culture, etc.) | Early antibiotics: Tazocin adequate broad spectrum | Consider fungal cover | Differential: Drug reaction, PE, other oncological emergency | Disposition: Early oncology referral | | SUB-PROTOCOL: Superior Vena Cava (SVC) Syndrome | Pathophysiology: Mechanical obstruction of SVC. Internal: clot. External: tumour/lymph node | Cancers: Lung, NHL Lymphoma | Symptoms: Dyspnoea, Facial oedema, Cough, Chest pain, Dysphagia, Distended neck veins, Facial plethora, Ar
