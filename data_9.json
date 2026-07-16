@@ -1,0 +1,2155 @@
+min. Maximum: 3 mg.",
+            "caution": "Not effective in heart transplant patients"
+          },
+          {
+            "step_number": "BRADY-3B",
+            "action": "Transcutaneous pacing",
+            "details": "If atropine ineffective, initiate transcutaneous pacing.",
+            "caution": "Sedation may be needed if patient conscious"
+          },
+          {
+            "step_number": "BRADY-3C",
+            "action": "Dopamine infusion",
+            "details": "5-20 mcg/kg/min infusion. Titrate to patient response.",
+            "caution": "Taper slowly when discontinuing"
+          },
+          {
+            "step_number": "BRADY-3D",
+            "action": "Epinephrine infusion",
+            "details": "2-10 mcg per minute infusion. Titrate to patient response.",
+            "caution": "Requires close hemodynamic monitoring"
+          },
+          {
+            "step_number": "TACHY-1",
+            "action": "Assess appropriateness for clinical condition",
+            "details": "Heart rate typically >/=150/min. Identify and treat underlying cause. Maintain patent airway. Oxygen if hypoxemic. IV access. 12-lead ECG.",
+            "caution": "Consider possible hypoxic and toxicologic causes"
+          },
+          {
+            "step_number": "TACHY-2",
+            "action": "Persistent tachyarrhythmia causing symptoms?",
+            "details": "Check for: acutely altered mental status, signs of shock, acute heart failure.",
+            "caution": "If unstable, proceed immediately to synchronized cardioversion"
+          },
+          {
+            "step_number": "TACHY-3A",
+            "action": "Synchronized cardioversion",
+            "details": "For unstable patients. Consider sedation. Use device-specific recommended energy level to maximize first shock success.",
+            "caution": "Do not delay cardioversion in unstable patient"
+          },
+          {
+            "step_number": "TACHY-3B",
+            "action": "Narrow QRS (<0.12 sec), regular rhythm",
+            "details": "Vagal maneuvers (if regular). Adenosine 6 mg rapid IV push, follow with NS flush. Second dose 12 mg if required.",
+            "caution": "Adenosine only if regular and monomorphic"
+          },
+          {
+            "step_number": "TACHY-3C",
+            "action": "Narrow QRS, irregular rhythm",
+            "details": "Beta-blocker or calcium channel blocker. Consider expert consultation.",
+            "caution": "Control rate, identify underlying rhythm"
+          },
+          {
+            "step_number": "TACHY-3D",
+            "action": "Wide QRS (>/=0.12 sec)",
+            "details": "Consider adenosine only if regular and monomorphic. Antiarrhythmic infusion: Procainamide, Amiodarone, or Sotalol. Expert consultation.",
+            "caution": "If refractory, consider underlying cause and expert consultation"
+          },
+          {
+            "step_number": "MAT-1",
+            "action": "Cardiac arrest in pregnancy - Assemble team",
+            "details": "Assemble maternal cardiac arrest team including obstetric, neonatal, emergency, anesthesiology, intensive care, and cardiac arrest services.",
+            "caution": "Team planning critical for maternal and fetal outcomes"
+          },
+          {
+            "step_number": "MAT-2",
+            "action": "Continue BLS/ACLS with modifications",
+            "details": "High-quality CPR with manual left uterine displacement. Defibrillation when indicated (standard energies - no dose change in pregnancy). Administer medications (epinephrine) as in standard ACLS.",
+            "caution": "Manual left uterine displacement essential to relieve aortocaval compression"
+          },
+          {
+            "step_number": "MAT-3",
+            "action": "Consider etiology of arrest",
+            "details": "ABCDEFGH: A-Anesthetic complications, B-Bleeding, C-Cardiovascular, D-Drugs, E-Embolic, F-Fever, G-General nonobstetric causes (H's and T's), H-Hypertension",
+            "caution": "Pregnancy-specific causes must be considered"
+          },
+          {
+            "step_number": "MAT-4",
+            "action": "Perform maternal interventions",
+            "details": "Airway management: Use most experienced provider. Endotracheal intubation or supraglottic advanced airway. Waveform capnography. 1 breath every 6 seconds (10/min) with continuous compressions once advanced airway in place. IV above diaphragm. Stop IV magnesium if receiving.",
+            "caution": "Difficult airway is common in pregnancy"
+          },
+          {
+            "step_number": "MAT-5",
+            "action": "Perform perimortem cesarean delivery",
+            "details": "If no ROSC within 5 minutes of resuscitation. Goal: ideally within 5 minutes depending on provider resources and skill sets. Neonatal team to receive neonate.",
+            "caution": "Improves both maternal and fetal outcomes. Do not delay."
+          },
+          {
+            "step_number": "PALS-BLS-1",
+            "action": "Paediatric BLS - Verify scene safety",
+            "details": "Check responsiveness, shout for help, activate emergency response. Single rescuer: 30 compressions to 2 breaths. Two or more rescuers: 15 compressions to 2 breaths.",
+            "caution": "Use AED as soon as available"
+          },
+          {
+            "step_number": "PALS-BLS-2",
+            "action": "Pulse felt but HR <60/min with poor perfusion",
+            "details": "Start CPR. Push hard (>/=1/3 anteroposterior diameter) and fast (100-120/min). 15:2 ratio with 2+ rescuers.",
+            "caution": "Bradycardia with poor perfusion in children requires CPR"
+          },
+          {
+            "step_number": "PALS-CA-1",
+            "action": "Paediatric Cardiac Arrest - Start CPR",
+            "details": "Begin bag-mask ventilation and give oxygen. CPR: Push hard (>/=1/3 AP diameter) and fast (100-120/min), allow complete recoil. 15:2 ratio without advanced airway. With advanced airway: continuous compressions, 1 breath every 2-3 seconds.",
+            "caution": "Minimize interruptions"
+          },
+          {
+            "step_number": "PALS-CA-2",
+            "action": "Paediatric shock energy",
+            "details": "First shock: 2 J/kg. Second shock: 4 J/kg. Subsequent shocks: >/=4 J/kg, maximum 10 J/kg or adult dose.",
+            "caution": "Use paediatric paddles/pads if available"
+          },
+          {
+            "step_number": "PALS-POST-1",
+            "action": "Paediatric Post-Cardiac Arrest Care",
+            "details": "Target normoxemia 94%-99%. Hemodynamic goals: SBP >5th percentile for age/sex. TTM: If comatose, apply 32-34 degrees C followed by 36-37.5 degrees C, or only 36-37.5 degrees C. Prevent and treat fever. Treat seizures. Monitor glucose, avoid hypoglycemia.",
+            "caution": "Multiple modalities for prognosis over any single factor"
+          }
+        ],
+        "diagnostic_criteria": {
+          "ROSC": "Pulse and blood pressure | Abrupt sustained increase in PetCO2 (typically >/=40 mmHg) | Spontaneous arterial pressure waves with intra-arterial monitoring",
+          "shockable_rhythm": "VF (ventricular fibrillation) or pVT (pulseless ventricular tachycardia)",
+          "non_shockable_rhythm": "Asystole or PEA (pulseless electrical activity)",
+          "bradycardia_threshold": "Heart rate <50/min in adults",
+          "tachycardia_threshold": "Heart rate >/=150/min",
+          "paediatric_bradycardia": "HR <60/min with signs of poor perfusion",
+          "paediatric_tachycardia_svt": "Infant rate >/=220/min, Child rate >/=180/min with P waves absent/abnormal, RR interval not variable, history of abrupt rate change",
+          "paediatric_tachycardia_sinus": "Infant rate usually <220/min, Child rate usually <180/min with P waves present/normal, variable RR interval"
+        },
+        "clinical_features": {
+          "adult_bls": "Unresponsive, no breathing or only gasping, no pulse felt within 10 seconds",
+          "cardiac_arrest_signs": "Sudden collapse, unresponsive, absent pulse, abnormal or absent breathing",
+          "post_cardiac_arrest": "Return of spontaneous circulation, may be comatose or following commands",
+          "bradycardia_symptoms": "Altered mental status, signs of shock, acute heart failure, hypotension, syncope",
+          "tachycardia_symptoms": "Palpitations, chest pain, dyspnoea, altered mental status, shock, acute heart failure",
+          "maternal_arrest_causes": "Anesthetic complications, Bleeding, Cardiovascular, Drugs, Embolic, Fever, General causes (H's and T's), Hypertension",
+          "reversible_causes_Hs": "Hypovolemia, Hypoxia, Hydrogen ion (acidosis), Hypo-/hyperkalemia, Hypothermia",
+          "reversible_causes_Ts": "Tension pneumothorax, Tamponade (cardiac), Toxins, Thrombosis (pulmonary), Thrombosis (coronary)"
+        },
+        "monitoring": "Continuous ECG monitoring | Quantitative waveform capnography (PetCO2) | SpO2 monitoring | Blood pressure (intra-arterial if available) | Core temperature during TTM | Serum lactate, urine output, central venous oxygen saturation | Continuous or intermittent EEG if encephalopathy | Blood glucose monitoring | Electrolytes within normal ranges",
+        "warnings": [
+          "Do not interrupt CPR for more than 10 seconds except for shock delivery",
+          "Avoid excessive ventilation - can decrease venous return and cardiac output",
+          "Amiodarone and lidocaine are for VF/pVT only - do not give in asystole or PEA",
+          "Atropine is NOT effective in heart transplant patients",
+          "Adenosine is contraindicated in irregular wide-complex tachycardia",
+          "Synchronized cardioversion should not be delayed in unstable tachycardia",
+          "In pregnancy: manual left uterine displacement is essential; perform perimortem cesarean within 5 minutes if no ROSC",
+          "Consider appropriateness of continued resuscitation if no ROSC after prolonged effort",
+          "Post-cardiac arrest TTM requires continuous temperature monitoring and shivering prevention",
+          "Paediatric drug doses are weight-based - always double-check calculations",
+          "ET drug delivery is less reliable than IV/IO - establish IV/IO access as soon as possible"
+        ],
+        "disposition": "Adult: Continue resuscitation until ROSC achieved or termination deemed appropriate. Post-ROSC: ICU admission for continued management including TTM, hemodynamic support, neurological monitoring. | STEMI: Emergent cardiac catheterization. | Paediatric: PICU admission post-ROSC. | Pregnancy: Maternal ICU + neonatal team involvement."
+      },
+      {
+        "item": "Infusions",
+        "notes_updates": "Standard infusion concentrations and drip rates for common ED infusions. | All infusions are for use with INFUSION PUMP unless otherwise specified. | Weight-based dosing tables provided for common weight ranges (40-120kg). | IMPORTANT: For use in intubated/sedated patients only unless specified otherwise. | Monitor all patients closely for adverse effects including hypotension, respiratory depression, and arrhythmias.",
+        "drugs": [
+          {
+            "item": "Amiodarone Infusion",
+            "adult_dose": "Loading: 5mg/kg (max 300mg) in 200ml 5% dextrose over 1 hour. Maintenance: 900mg in 200ml 5% dextrose at 9.5ml/hr over 23 hours.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Add 900mg (18ml) amiodarone to 200ml 5% dextrose. Run at 9.5ml/hr. Continuously monitor vital signs. For stable wide-QRS tachycardia. Maximum total dose 100mg in cardiac arrest (300mg bolus + 150mg second dose)."
+          },
+          {
+            "item": "Ketamine Infusion",
+            "adult_dose": "Loading: 0.25mg/kg IVI bolus. Analgesia: 0.05-0.1mg/kg/hr (2-12ml/hr for 40-120kg). Mild sedation: >/=0.2mg/kg/hr. Titrate to effect.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: 200mg ketamine in 200ml normal saline (1mg/ml). Use ketamine 100mg/ml concentration (NOT 10mg/ml). Withdraw 2ml NS before adding 2ml (200mg) ketamine. Monitor for dysrhythmias and hallucinations. Analgesic at low doses, dissociative sedation at higher doses."
+          },
+          {
+            "item": "Morphine Infusion",
+            "adult_dose": "Loading: Weight-based slow IV push (see table). Maintenance: 0.025-0.4mg/kg/hr (2-96ml/hr for 40-120kg).",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: 90mg in 180ml normal saline (0.5mg/ml). Loading: 1mg/ml solution (1 amp morphine 15mg/1ml + 14ml NS in 20ml syringe). Continuous morphine infusion for intubated patient. For use with INFUSION PUMP. Monitor for respiratory depression and hypotension."
+          },
+          {
+            "item": "Esmolol Infusion",
+            "adult_dose": "Loading: 500mcg/kg undiluted IV push over 60 seconds. Maintenance: Start at 50mcg/kg/min, titrate every 4 minutes in increments of 50mcg/kg/min. Usual maintenance 150-300mcg/kg/min. Maximum 300mcg/kg/min.",
+            "paediatric_dose": "",
+            "route": "IV infusion (syringe driver)",
+            "notes": "Preparation: Draw up 5 ampoules (100mg/10ml each) undiluted into 50ml syringe for infusion (10mg/ml). Give 10-20ml/kg fluid bolus (Ringers/Balsol) FIRST. If no BP response after 4 minutes, repeat loading dose and increase infusion by 50mcg/kg/min increments up to 300mcg/kg/min. Ultra-short acting beta-blocker. For use with SYRINGE DRIVER only."
+          },
+          {
+            "item": "Adrenaline Push-Dose",
+            "adult_dose": "0.5ml (50mcg) IV STAT as rescue for post-intubation hypotension. Can repeat.",
+            "paediatric_dose": "",
+            "route": "IV push",
+            "notes": "Preparation: 1mg in 10ml normal saline (1ml adrenaline + 9ml NS in 10ml syringe = 100mcg/ml). 0.5ml = 50mcg. Rescue IV push for post-intubation hypotension only."
+          },
+          {
+            "item": "Adrenaline Infusion",
+            "adult_dose": "0.05-1.0 mcg/kg/min (2-120ml/hr for 40-120kg). Titrate to effect.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: 12mg in 200ml normal saline (withdraw 12ml NS, add 12ml adrenaline). 100mcg/ml concentration. Can be infused via large-bore peripheral IV in initial resus stages. Consider early CVP placement if long-term infusion anticipated. First-line vasopressor for shock."
+          },
+          {
+            "item": "Dobutamine Infusion",
+            "adult_dose": "Typical dose: 2.5-10 mcg/kg/min. Max dose: 40 mcg/kg/min. Higher doses may paradoxically worsen hypotension.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: 250mg in 200ml normal saline (withdraw 20ml NS, add 20ml/1 amp dobutamine). Inotrope. Consider addition of second inotrope with increasing dose requirements. Monitor for arrhythmias and hypotension at high doses."
+          },
+          {
+            "item": "Phenylephrine Infusion",
+            "adult_dose": "Typical dose: 0.1-6mcg/kg/min. Titrate to effect, use lowest effective dose. Bolus: 50-250mcg (0.5-2.5ml of infusion mixture) for adult.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: 2x1ml amps (10mg/ml) in 200ml NS = 0.1mg/ml (100mcg/ml). Withdraw 2ml saline prior to adding. NEVER ADMINISTER UNDILUTED PHENYLEPHRINE. Pure vasopressor, only for vasoplegic patients (e.g. spinal cord injuries). May cause reflex bradycardia. Do not discontinue suddenly - must be titrated down."
+          },
+          {
+            "item": "Labetalol Infusion",
+            "adult_dose": "Start 20mg bolus (4ml). Then infusion: Start at 80ml/hr. Increase by 10ml/hr every 5 minutes until BP target reached. Maximum 160ml/hr (2mg/min).",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: Add remaining 16ml (80mg) + 2nd vial (100mg) of Labetalol to 200ml 0.9% normal saline (0.76mg/ml). Compelling indications: Aortic dissection, Encephalopathy, Stroke (ischaemic - if qualifies for thrombolysis; haemorrhagic - to prevent re-bleed). Combined alpha and beta blocker."
+          },
+          {
+            "item": "Isosorbide Dinitrate (Isoket) Infusion",
+            "adult_dose": "Initial: 1-2mg/hour. Adjust according to desired patient response. Maximum usually 8-10mg/hour, but up to 50mg/hour may be required in acute decompensated heart failure.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Standard preparation: 100mg in 200ml NS or 5% dextrose (0.5mg/ml) - withdraw 100ml before adding 10 amps. Concentrated preparation: 20mg in 200ml (0.1mg/ml) - withdraw 20ml before adding 2 amps. NOT a weight-based drug. Monitor BP closely. Use for afterload reduction in acute heart failure and hypertensive emergencies."
+          },
+          {
+            "item": "Nitroglycerin (Nitrocine) Infusion",
+            "adult_dose": "Start at 10mcg/min (12ml/hr). Titrate up to 200mcg/min (240ml/hr) as needed.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: 10mg in 200ml normal saline (50mcg/ml) - withdraw 10ml NS before adding 10ml (1 amp). NOT a weight-based drug. Monitor BP closely. Use for ACS, acute pulmonary oedema, hypertensive emergencies. Contraindicated in SBP<90, severe bradycardia <50bpm, RV infarction, recent PDE5 inhibitor use."
+          },
+          {
+            "item": "Morphine and Midazolam Combined Infusion",
+            "adult_dose": "0.05-0.5mg/kg/hr of EACH drug (4-120ml/hr for 40-120kg). Doses >0.1mg/kg/hr of each drug seldom needed.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: 0.5mg/ml of EACH DRUG. 90mg Midazolam + 90mg Morphine in 180ml volume. Remove 44ml from 200ml saline bag, add 6 amps Morphine (15mg/ml) + 6 amps Midazolam (15mg/3ml) = 24ml total drug volume. Only for ventilated patients. High risk of hypotension and respiratory depression at higher doses. Reduce dose of each drug when using combination."
+          },
+          {
+            "item": "Midazolam Infusion",
+            "adult_dose": "Loading: 0.2mg/kg slow IV push. Maintenance: 0.05-1.0mg/kg/hr (1-60ml/hr for 40-120kg). Typical range: 0.05-0.3mg/kg/hr.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Loading preparation: 1mg/ml (1 amp 15mg/3ml + 12ml NS in 20ml syringe). Infusion preparation: 2mg/ml (90mg in 45ml - 6x3ml amps + 27ml NS in 50ml syringe). Higher doses only with expert consultation (typically Delirium Tremens). No analgesic effect. Monitor BP, respiration and O2 saturation closely. For sedation only."
+          },
+          {
+            "item": "Propofol Infusion",
+            "adult_dose": "Loading: 1-3mg/kg slow IV push. Maintenance: 1-15mg/kg/hr (4-180ml/hr for 40-120kg). Rates >4mg/kg/hr not recommended for prolonged sedation.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Preparation: 400mg pure propofol - 2x20ml amps (40ml) in 50ml empty NS bag = 20mg/ml. For intubated patients only. No analgesic effect. Monitor closely for hypotension and respiratory depression. Discard unused portion and giving set after 6 hours. Can cause significant hypotension - ensure hemodynamic stability before initiation."
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Select appropriate infusion",
+            "details": "Choose infusion based on clinical indication: Amiodarone (arrhythmia), Ketamine (analgesia/sedation), Morphine (analgesia), Esmolol (rapid beta-blockade), Adrenaline (shock/cardiac arrest), Dobutamine (inotropy), Phenylephrine (vasoplegia), Labetalol (hypertensive emergency), Isoket/Nitrocine (afterload reduction/vasodilation), Midazolam/Propofol (sedation).",
+            "caution": "Ensure correct indication before starting any infusion"
+          },
+          {
+            "step_number": 2,
+            "action": "Prepare infusion correctly",
+            "details": "Follow specific preparation instructions for each drug including dilution, concentration, and equipment (infusion pump vs syringe driver). Double-check drug, dose, and calculations.",
+            "caution": "NEVER administer undiluted Phenylephrine. Esmolol requires SYRINGE DRIVER."
+          },
+          {
+            "step_number": 3,
+            "action": "Calculate infusion rate",
+            "details": "Use weight-based tables provided for patient's weight. Verify rate in ml/hr matches desired mcg/kg/min or mg/kg/hr.",
+            "caution": "Double-check all calculations. Use infusion pump for all weight-based infusions."
+          },
+          {
+            "step_number": 4,
+            "action": "Start infusion and titrate",
+            "details": "Start at lowest effective dose. Titrate to clinical effect (BP, heart rate, sedation level). Document rate and response.",
+            "caution": "Do not exceed maximum recommended doses without senior consultation"
+          },
+          {
+            "step_number": 5,
+            "action": "Monitor continuously",
+            "details": "Monitor vital signs, ECG, SpO2 regularly. Record observations. Watch for adverse effects: hypotension, bradycardia, respiratory depression, arrhythmias.",
+            "caution": "Sedation infusions can cause respiratory depression and hypotension. Resuscitation facilities must be available."
+          },
+          {
+            "step_number": 6,
+            "action": "Wean or discontinue appropriately",
+            "details": "Titrate down gradually before stopping (especially vasopressors and sedation). Do not discontinue Phenylephrine suddenly - must be titrated down.",
+            "caution": "Abrupt discontinuation of vasopressors can cause rebound hypotension"
+          }
+        ],
+        "diagnostic_criteria": {
+          "indications_amiodarone": "Stable wide-QRS tachycardia, Ventricular fibrillation/pulseless VT (bolus in arrest), Recurrent VT",
+          "indications_ketamine": "Analgesia (0.05-0.1mg/kg/hr), Procedural sedation (>/=0.2mg/kg/hr), Induction for intubation",
+          "indications_esmolol": "Rapid heart rate control (afib with RVR, SVT), Aortic dissection, Thyrotoxicosis",
+          "indications_adrenaline": "Cardiac arrest, Anaphylaxis, Severe shock, Post-intubation hypotension (push-dose)",
+          "indications_dobutamine": "Cardiogenic shock with low output, Decompensated heart failure",
+          "indications_phenylephrine": "Vasoplegic shock (e.g. spinal cord injury), Neurogenic shock",
+          "indications_labetalol": "Hypertensive emergency (aortic dissection, encephalopathy, stroke)",
+          "indications_isoket": "Acute decompensated heart failure, Afterload reduction, Hypertensive emergency",
+          "indications_nitrocine": "ACS, Acute pulmonary oedema, Hypertensive emergency",
+          "indications_midazolam": "Sedation for ventilated patients, Procedural sedation",
+          "indications_propofol": "Sedation for intubated patients, Procedural sedation"
+        },
+        "clinical_features": {
+          "amiodarone": "Used for wide-complex tachycardia, VT, VF",
+          "ketamine": "Analgesia at low dose, dissociative sedation at higher doses. Preserves airway reflexes and BP.",
+          "morphine": "Analgesia for severe pain. Causes sedation and respiratory depression at higher doses.",
+          "esmolol": "Ultra-short acting beta-1 blocker. Onset <1 minute, duration 5-10 minutes. Easily titratable.",
+          "adrenaline": "Alpha and beta agonist. Increases HR, BP, myocardial contractility. First-line in cardiac arrest.",
+          "dobutamine": "Beta-1 agonist. Increases cardiac output without significant vasoconstriction. May cause tachycardia.",
+          "phenylephrine": "Pure alpha-agonist. Causes vasoconstriction. May cause reflex bradycardia.",
+          "labetalol": "Combined alpha and beta blocker. For BP reduction in hypertensive emergencies.",
+          "isoket": "Venodilator and arterial dilator. Reduces preload and afterload.",
+          "nitrocine": "Venodilator > arterial dilator. Reduces preload, coronary vasodilation.",
+          "propofol": "Sedative-hypnotic. Causes significant hypotension. No analgesic properties."
+        },
+        "monitoring": "Continuous cardiac monitoring (ECG) | Blood pressure (non-invasive or arterial line) | SpO2 pulse oximetry | Respiratory rate and depth | Consciousness level | Capnography if available | Document vital signs at regular intervals (minimum every 15 minutes or more frequently if unstable)",
+        "warnings": [
+          "NEVER administer undiluted Phenylephrine - can cause severe hypertension and reflex bradycardia",
+          "Esmolol requires SYRINGE DRIVER - not compatible with standard infusion pumps at high concentrations",
+          "Propofol can cause significant hypotension - ensure hemodynamic stability before use",
+          "Ketamine can cause hallucinations and emergence reactions - consider benzodiazepine co-administration",
+          "Morphine and sedation infusions: High risk of hypotension and respiratory depression",
+          "Phenylephrine: Do not discontinue suddenly - must be titrated down gradually",
+          "Dobutamine: Higher doses may paradoxically worsen hypotension",
+          "Labetalol: Contraindicated in asthma, heart block, severe bradycardia, decompensated heart failure",
+          "All infusions require continuous monitoring - never leave unattended",
+          "Sedation infusions (Midazolam, Propofol): For intubated/ventilated patients only unless specified",
+          "Discard propofol and giving set after 6 hours - supports bacterial growth",
+          "Double-check all calculations and pump settings before starting",
+          "Amiodarone incompatible with many drugs - use dedicated line",
+          "Adrenaline push-dose: Only for post-intubation hypotension - NOT for routine BP management"
+        ],
+        "disposition": "All patients on infusions require monitored bed (High care/ICU/Resus). | Continuous supervision until infusion discontinued and patient stable. | Transfer to appropriate level of care with documentation of infusion details including drug, concentration, rate, and response."
+      }
+    ]
+  },
+  "16_score_calculators": {
+    "gcs": {
+      "name": "Glasgow Coma Scale",
+      "category": "neurological",
+      "components": [
+        {
+          "name": "Eye Opening",
+          "key": "eye",
+          "options": [
+            {
+              "value": 4,
+              "label": "Spontaneous",
+              "desc": "Eyes open spontaneously"
+            },
+            {
+              "value": 3,
+              "label": "To speech",
+              "desc": "Eyes open to verbal command"
+            },
+            {
+              "value": 2,
+              "label": "To pain",
+              "desc": "Eyes open to painful stimulus"
+            },
+            {
+              "value": 1,
+              "label": "None",
+              "desc": "No eye opening"
+            }
+          ]
+        },
+        {
+          "name": "Verbal Response",
+          "key": "verbal",
+          "options": [
+            {
+              "value": 5,
+              "label": "Oriented",
+              "desc": "Oriented to time, place, person"
+            },
+            {
+              "value": 4,
+              "label": "Confused",
+              "desc": "Confused, disorientated"
+            },
+            {
+              "value": 3,
+              "label": "Inappropriate",
+              "desc": "Inappropriate words"
+            },
+            {
+              "value": 2,
+              "label": "Incomprehensible",
+              "desc": "Incomprehensible sounds"
+            },
+            {
+              "value": 1,
+              "label": "None",
+              "desc": "No verbal response"
+            }
+          ]
+        },
+        {
+          "name": "Motor Response",
+          "key": "motor",
+          "options": [
+            {
+              "value": 6,
+              "label": "Obeys commands",
+              "desc": "Follows verbal commands"
+            },
+            {
+              "value": 5,
+              "label": "Localises pain",
+              "desc": "Localises to painful stimulus"
+            },
+            {
+              "value": 4,
+              "label": "Withdraws",
+              "desc": "Withdraws from painful stimulus"
+            },
+            {
+              "value": 3,
+              "label": "Flexion abnormal",
+              "desc": "Abnormal flexion (decorticate)"
+            },
+            {
+              "value": 2,
+              "label": "Extension",
+              "desc": "Extension (decerebrate)"
+            },
+            {
+              "value": 1,
+              "label": "None",
+              "desc": "No motor response"
+            }
+          ]
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 13,
+          "max": 15,
+          "label": "Mild",
+          "action": "Monitor closely"
+        },
+        {
+          "min": 9,
+          "max": 12,
+          "label": "Moderate",
+          "action": "Consider CT head, neuro referral"
+        },
+        {
+          "min": 3,
+          "max": 8,
+          "label": "Severe",
+          "action": "Intubate, CT head immediately, neurosurgical referral"
+        }
+      ]
+    },
+    "nexus": {
+      "name": "NEXUS Criteria",
+      "category": "trauma",
+      "low_risk_when_all_no": true,
+      "components": [
+        {
+          "name": "Midline cervical tenderness",
+          "key": "midline_tenderness",
+          "points": 1,
+          "yes_means": "High risk — imaging required"
+        },
+        {
+          "name": "Focal neurological deficit",
+          "key": "focal_deficit",
+          "points": 1,
+          "yes_means": "High risk — imaging required"
+        },
+        {
+          "name": "Altered level of consciousness",
+          "key": "altered_loc",
+          "points": 1,
+          "yes_means": "High risk — imaging required"
+        },
+        {
+          "name": "Intoxication",
+          "key": "intoxication",
+          "points": 1,
+          "yes_means": "High risk — imaging required"
+        },
+        {
+          "name": "Distracting painful injury",
+          "key": "distracting_injury",
+          "points": 1,
+          "yes_means": "High risk — imaging required"
+        }
+      ],
+      "interpretation": [
+        {
+          "condition": "all_no",
+          "label": "Low risk",
+          "action": "C-spine imaging NOT indicated — clinical clearance possible"
+        },
+        {
+          "condition": "any_yes",
+          "label": "High risk",
+          "action": "C-spine imaging indicated"
+        }
+      ]
+    },
+    "canadian_cspine": {
+      "name": "Canadian C-Spine Rule",
+      "category": "trauma",
+      "components": [
+        {
+          "name": "Age ≥ 65 years",
+          "key": "age_65",
+          "dangerous": true
+        },
+        {
+          "name": "Dangerous mechanism (fall >1m, axial load, high-speed MVC, rollover, bicycle/ejected)",
+          "key": "dangerous_mechanism",
+          "dangerous": true
+        },
+        {
+          "name": "Paresthesias in extremities",
+          "key": "paresthesias",
+          "dangerous": true
+        },
+        {
+          "name": "Sitting position in ED?",
+          "key": "sitting",
+          "simple": true
+        },
+        {
+          "name": "Ambulatory at any time?",
+          "key": "ambulatory",
+          "simple": true
+        },
+        {
+          "name": "Delayed onset of neck pain (>12h after injury)?",
+          "key": "delayed_pain",
+          "simple": true
+        },
+        {
+          "name": "Midline cervical tenderness?",
+          "key": "midline_tender",
+          "simple": true
+        }
+      ],
+      "interpretation": [
+        {
+          "condition": "any_dangerous_yes",
+          "label": "Imaging required",
+          "action": "C-spine CT/X-ray indicated — high-risk factors present"
+        },
+        {
+          "condition": "no_dangerous_and_any_simple_yes",
+          "label": "Low risk",
+          "action": "Range of motion testing — if full ROM, no imaging needed"
+        },
+        {
+          "condition": "all_no",
+          "label": "No imaging",
+          "action": "C-spine imaging NOT indicated — clinically clear"
+        }
+      ]
+    },
+    "alvarado": {
+      "name": "Alvarado Score",
+      "category": "surgical",
+      "components": [
+        {
+          "name": "Migratory RIF pain",
+          "points": 1
+        },
+        {
+          "name": "Anorexia",
+          "points": 1
+        },
+        {
+          "name": "Nausea/Vomiting",
+          "points": 1
+        },
+        {
+          "name": "Tenderness in RIF",
+          "points": 2
+        },
+        {
+          "name": "Rebound tenderness",
+          "points": 1
+        },
+        {
+          "name": "Elevated temperature (>37.3°C)",
+          "points": 1
+        },
+        {
+          "name": "Leukocytosis (>10 x10⁹/L)",
+          "points": 2
+        },
+        {
+          "name": "Left shift (>75% neutrophils)",
+          "points": 1
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 1,
+          "max": 4,
+          "label": "Unlikely appendicitis",
+          "action": "Observe — CT abdomen if clinical concern"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "label": "Possible appendicitis",
+          "action": "CT abdomen with contrast — surgical consult"
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "label": "Probable appendicitis",
+          "action": "Surgical consult — prepare for theatre"
+        }
+      ]
+    },
+    "pas": {
+      "name": "Pediatric Appendicitis Score (PAS)",
+      "category": "surgical",
+      "components": [
+        {
+          "name": "Anorexia",
+          "points": 1
+        },
+        {
+          "name": "Nausea/Vomiting",
+          "points": 1
+        },
+        {
+          "name": "Cough/percussion/hop tenderness",
+          "points": 2
+        },
+        {
+          "name": "Right iliac fossa tenderness",
+          "points": 4
+        },
+        {
+          "name": "Fever (>38°C)",
+          "points": 3
+        },
+        {
+          "name": "WBC >10,000",
+          "points": 2
+        },
+        {
+          "name": "Neutrophilia (>70%)",
+          "points": 1
+        },
+        {
+          "name": "Male sex",
+          "points": 1
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 0,
+          "max": 3,
+          "label": "Low risk",
+          "action": "Observation — discharge with precautions"
+        },
+        {
+          "min": 4,
+          "max": 6,
+          "label": "Intermediate risk",
+          "action": "Imaging (USS/CT) — surgical review"
+        },
+        {
+          "min": 7,
+          "max": 16,
+          "label": "High risk",
+          "action": "Surgical consult — likely appendicitis"
+        }
+      ]
+    },
+    "wells_dvt": {
+      "name": "Wells Score — DVT",
+      "category": "vascular",
+      "components": [
+        {
+          "name": "Active cancer (treatment within 6 months or palliative)",
+          "points": 1
+        },
+        {
+          "name": "Paralysis, paresis, or recent plaster immobilisation of lower extremity",
+          "points": 1
+        },
+        {
+          "name": "Recently bedridden >3 days or major surgery within 4 weeks",
+          "points": 1
+        },
+        {
+          "name": "Localised tenderness along deep venous system",
+          "points": 1
+        },
+        {
+          "name": "Entire leg swollen",
+          "points": 1
+        },
+        {
+          "name": "Calf swelling >3cm compared to asymptomatic leg",
+          "points": 1
+        },
+        {
+          "name": "Pitting oedema confined to symptomatic leg",
+          "points": 1
+        },
+        {
+          "name": "Collateral superficial veins (non-varicose)",
+          "points": 1
+        },
+        {
+          "name": "Alternative diagnosis as likely or more likely than DVT",
+          "points": -2
+        }
+      ],
+      "interpretation": [
+        {
+          "min": -2,
+          "max": 0,
+          "label": "DVT unlikely",
+          "action": "D-dimer — if negative, exclude DVT"
+        },
+        {
+          "min": 1,
+          "max": 7,
+          "label": "DVT likely",
+          "action": "Compression USS immediately"
+        }
+      ]
+    },
+    "wells_pe": {
+      "name": "Wells Score — PE",
+      "category": "respiratory",
+      "components": [
+        {
+          "name": "Clinical signs of DVT (minimum 3 points leg swelling and pain with palpation of deep veins)",
+          "points": 3
+        },
+        {
+          "name": "Alternative diagnosis less likely than PE",
+          "points": 3
+        },
+        {
+          "name": "Heart rate >100 bpm",
+          "points": 1.5
+        },
+        {
+          "name": "Immobilisation ≥3 days or surgery in previous 4 weeks",
+          "points": 1.5
+        },
+        {
+          "name": "Previous DVT/PE",
+          "points": 1.5
+        },
+        {
+          "name": "Haemoptysis",
+          "points": 1
+        },
+        {
+          "name": "Active cancer",
+          "points": 1
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 0,
+          "max": 4,
+          "label": "PE unlikely",
+          "action": "PERC rule → D-dimer if PERC not met"
+        },
+        {
+          "min": 4.5,
+          "max": 12.5,
+          "label": "PE likely",
+          "action": "CTPA immediately"
+        }
+      ]
+    },
+    "perc": {
+      "name": "PERC Rule (Pulmonary Embolism Rule-out Criteria)",
+      "category": "respiratory",
+      "all_no_means_pe_excluded": true,
+      "components": [
+        {
+          "name": "Age ≥50 years",
+          "points": 1
+        },
+        {
+          "name": "Heart rate ≥100 bpm",
+          "points": 1
+        },
+        {
+          "name": "O₂ saturation <95% on room air",
+          "points": 1
+        },
+        {
+          "name": "Unilateral leg swelling",
+          "points": 1
+        },
+        {
+          "name": "Haemoptysis",
+          "points": 1
+        },
+        {
+          "name": "Recent surgery or trauma (within 4 weeks)",
+          "points": 1
+        },
+        {
+          "name": "Prior DVT or PE",
+          "points": 1
+        },
+        {
+          "name": "Hormone use (OCP/HRT)",
+          "points": 1
+        }
+      ],
+      "interpretation": [
+        {
+          "condition": "all_no",
+          "label": "PE excluded",
+          "action": "No further testing needed — PE ruled out"
+        },
+        {
+          "condition": "any_yes",
+          "label": "PERC not met",
+          "action": "Proceed to Wells score or D-dimer"
+        }
+      ]
+    },
+    "curb65": {
+      "name": "CURB-65 Score",
+      "category": "respiratory",
+      "components": [
+        {
+          "name": "Confusion (new onset)",
+          "points": 1
+        },
+        {
+          "name": "Urea >7 mmol/L (or BUN >20 mg/dL)",
+          "points": 1
+        },
+        {
+          "name": "Respiratory rate ≥30/min",
+          "points": 1
+        },
+        {
+          "name": "Blood pressure: SBP <90 or DBP ≤60 mmHg",
+          "points": 1
+        },
+        {
+          "name": "Age ≥65 years",
+          "points": 1
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 0,
+          "max": 0,
+          "label": "Low risk",
+          "action": "Consider outpatient treatment — mortality <1%"
+        },
+        {
+          "min": 1,
+          "max": 2,
+          "label": "Intermediate risk",
+          "action": "Consider short hospitalisation or outpatient — mortality 9%"
+        },
+        {
+          "min": 3,
+          "max": 5,
+          "label": "High risk",
+          "action": "Admit to hospital — severe pneumonia — mortality 15-40%"
+        }
+      ]
+    },
+    "burch_wartofsky": {
+      "name": "Burch-Wartofsky Score (Thyroid Storm)",
+      "category": "endocrine",
+      "components": [
+        {
+          "name": "Temperature",
+          "key": "temp",
+          "options": [
+            {
+              "value": 0,
+              "label": "<37.2°C",
+              "desc": "Normal"
+            },
+            {
+              "value": 5,
+              "label": "37.2-37.7°C",
+              "desc": "Low-grade"
+            },
+            {
+              "value": 10,
+              "label": "37.8-38.3°C",
+              "desc": "Mild fever"
+            },
+            {
+              "value": 15,
+              "label": "38.4-38.8°C",
+              "desc": "Moderate fever"
+            },
+            {
+              "value": 20,
+              "label": "38.9-39.4°C",
+              "desc": "High fever"
+            },
+            {
+              "value": 25,
+              "label": "39.5-39.9°C",
+              "desc": "Very high fever"
+            },
+            {
+              "value": 30,
+              "label": "≥40°C",
+              "desc": "Hyperpyrexia"
+            }
+          ]
+        },
+        {
+          "name": "Cardiovascular",
+          "key": "cvs",
+          "options": [
+            {
+              "value": 0,
+              "label": "Normal",
+              "desc": "HR <90 bpm, no CHF"
+            },
+            {
+              "value": 5,
+              "label": "Tachycardia 90-109",
+              "desc": "Mild tachycardia"
+            },
+            {
+              "value": 10,
+              "label": "Tachycardia 110-119",
+              "desc": "Moderate tachycardia"
+            },
+            {
+              "value": 15,
+              "label": "Tachycardia 120-139",
+              "desc": "Marked tachycardia"
+            },
+            {
+              "value": 20,
+              "label": "Tachycardia ≥140",
+              "desc": "Severe tachycardia"
+            },
+            {
+              "value": 5,
+              "label": "AF + rate 90-109",
+              "desc": "Atrial fibrillation"
+            },
+            {
+              "value": 10,
+              "label": "AF + rate ≥110",
+              "desc": "Rapid AF"
+            },
+            {
+              "value": 15,
+              "label": "Pulmonary oedema",
+              "desc": "CHF"
+            },
+            {
+              "value": 25,
+              "label": "Cardiogenic shock",
+              "desc": "Shock"
+            }
+          ]
+        },
+        {
+          "name": "CNS",
+          "key": "cns",
+          "options": [
+            {
+              "value": 0,
+              "label": "Normal",
+              "desc": "No impairment"
+            },
+            {
+              "value": 10,
+              "label": "Mild agitation",
+              "desc": "Agitated, anxious"
+            },
+            {
+              "value": 20,
+              "label": "Delirium/psychosis",
+              "desc": "Confusion, psychosis"
+            },
+            {
+              "value": 30,
+              "label": "Seizure/coma",
+              "desc": "Seizure, obtundation, coma"
+            }
+          ]
+        },
+        {
+          "name": "GI/Hepatic",
+          "key": "gi",
+          "options": [
+            {
+              "value": 0,
+              "label": "Normal",
+              "desc": "No GI symptoms"
+            },
+            {
+              "value": 10,
+              "label": "Diarrhoea/abdominal pain/vomiting",
+              "desc": "Mild GI symptoms"
+            },
+            {
+              "value": 20,
+              "label": "Jaundice",
+              "desc": "Hepatic dysfunction"
+            }
+          ]
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 0,
+          "max": 24,
+          "label": "Unlikely thyroid storm",
+          "action": "Supportive care, investigate alternative causes"
+        },
+        {
+          "min": 25,
+          "max": 44,
+          "label": "Suggestive of thyroid storm",
+          "action": "Initiate antithyroid treatment, supportive care, ICU admission"
+        },
+        {
+          "min": 45,
+          "max": 100,
+          "label": "Highly likely thyroid storm",
+          "action": "Urgent antithyroid therapy, ICU, aggressive supportive care"
+        }
+      ]
+    },
+    "revised_geneva": {
+      "name": "Revised Geneva Score",
+      "category": "respiratory",
+      "components": [
+        {
+          "name": "Age 65-79 years",
+          "points": 1
+        },
+        {
+          "name": "Age ≥80 years",
+          "points": 2
+        },
+        {
+          "name": "Previous DVT or PE",
+          "points": 3
+        },
+        {
+          "name": "Recent surgery or fracture (within 1 month)",
+          "points": 2
+        },
+        {
+          "name": "Active malignancy",
+          "points": 2
+        },
+        {
+          "name": "Unilateral lower limb pain",
+          "points": 3
+        },
+        {
+          "name": "Haemoptysis",
+          "points": 2
+        },
+        {
+          "name": "Heart rate 75-94 bpm",
+          "points": 3
+        },
+        {
+          "name": "Heart rate ≥95 bpm",
+          "points": 5
+        },
+        {
+          "name": "Pain on lower limb palpation and unilateral oedema",
+          "points": 4
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 0,
+          "max": 10,
+          "label": "Low risk",
+          "action": "D-dimer — if negative, exclude PE"
+        },
+        {
+          "min": 11,
+          "max": 100,
+          "label": "High risk",
+          "action": "CTPA immediately"
+        }
+      ]
+    },
+    "qsofa": {
+      "name": "qSOFA Score",
+      "category": "sepsis",
+      "components": [
+        {
+          "name": "Altered mental status (GCS <15)",
+          "points": 1
+        },
+        {
+          "name": "Respiratory rate ≥22/min",
+          "points": 1
+        },
+        {
+          "name": "Systolic BP ≤100 mmHg",
+          "points": 1
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 0,
+          "max": 1,
+          "label": "Low risk",
+          "action": "Mortality <1% — continue standard care"
+        },
+        {
+          "min": 2,
+          "max": 3,
+          "label": "High risk",
+          "action": "High risk of mortality (3-10%) — assess for sepsis, consider full SOFA"
+        }
+      ]
+    },
+    "sofa": {
+      "name": "SOFA Score",
+      "category": "sepsis",
+      "components": [
+        {
+          "name": "Respiratory (PaO2/FiO2 ratio)",
+          "key": "respiratory",
+          "options": [
+            {
+              "value": 0,
+              "label": "≥400",
+              "desc": "Normal"
+            },
+            {
+              "value": 1,
+              "label": "<400",
+              "desc": "Mild impairment"
+            },
+            {
+              "value": 2,
+              "label": "<300",
+              "desc": "Moderate impairment"
+            },
+            {
+              "value": 3,
+              "label": "<200 (with ventilatory support)",
+              "desc": "Severe impairment"
+            },
+            {
+              "value": 4,
+              "label": "<100 (with ventilatory support)",
+              "desc": "Very severe"
+            }
+          ]
+        },
+        {
+          "name": "Coagulation (Platelets x10³/μL)",
+          "key": "coagulation",
+          "options": [
+            {
+              "value": 0,
+              "label": ">150",
+              "desc": "Normal"
+            },
+            {
+              "value": 1,
+              "label": "≤150",
+              "desc": "Mild"
+            },
+            {
+              "value": 2,
+              "label": "≤100",
+              "desc": "Moderate"
+            },
+            {
+              "value": 3,
+              "label": "≤50",
+              "desc": "Severe"
+            },
+            {
+              "value": 4,
+              "label": "≤20",
+              "desc": "Very severe"
+            }
+          ]
+        },
+        {
+          "name": "Liver (Bilirubin mg/dL)",
+          "key": "liver",
+          "options": [
+            {
+              "value": 0,
+              "label": "<1.2",
+              "desc": "Normal"
+            },
+            {
+              "value": 1,
+              "label": "1.2-1.9",
+              "desc": "Mild"
+            },
+            {
+              "value": 2,
+              "label": "2.0-5.9",
+              "desc": "Moderate"
+            },
+            {
+              "value": 3,
+              "label": "6.0-11.9",
+              "desc": "Severe"
+            },
+            {
+              "value": 4,
+              "label": ">12.0",
+              "desc": "Very severe"
+            }
+          ]
+        },
+        {
+          "name": "Cardiovascular (MAP or vasopressors)",
+          "key": "cardiovascular",
+          "options": [
+            {
+              "value": 0,
+              "label": "MAP ≥70 mmHg",
+              "desc": "No support needed"
+            },
+            {
+              "value": 1,
+              "label": "MAP <70 mmHg",
+              "desc": "Hypotension"
+            },
+            {
+              "value": 2,
+              "label": "Dopamine ≤5 or dobutamine",
+              "desc": "Low-dose inotropes"
+            },
+            {
+              "value": 3,
+              "label": "Dopamine >5 or epinephrine ≤0.1 or norepinephrine ≤0.1",
+              "desc": "Moderate vasopressors"
+            },
+            {
+              "value": 4,
+              "label": "Dopamine >15 or epinephrine >0.1 or norepinephrine >0.1",
+              "desc": "High-dose vasopressors"
+            }
+          ]
+        },
+        {
+          "name": "CNS (Glasgow Coma Scale)",
+          "key": "cns",
+          "options": [
+            {
+              "value": 0,
+              "label": "15",
+              "desc": "Normal"
+            },
+            {
+              "value": 1,
+              "label": "13-14",
+              "desc": "Mild impairment"
+            },
+            {
+              "value": 2,
+              "label": "10-12",
+              "desc": "Moderate impairment"
+            },
+            {
+              "value": 3,
+              "label": "6-9",
+              "desc": "Severe impairment"
+            },
+            {
+              "value": 4,
+              "label": "<6",
+              "desc": "Very severe"
+            }
+          ]
+        },
+        {
+          "name": "Renal (Creatinine mg/dL or urine output)",
+          "key": "renal",
+          "options": [
+            {
+              "value": 0,
+              "label": "<1.2",
+              "desc": "Normal"
+            },
+            {
+              "value": 1,
+              "label": "1.2-1.9",
+              "desc": "Mild"
+            },
+            {
+              "value": 2,
+              "label": "2.0-3.4",
+              "desc": "Moderate"
+            },
+            {
+              "value": 3,
+              "label": "3.5-4.9 or UO <500ml/day",
+              "desc": "Severe"
+            },
+            {
+              "value": 4,
+              "label": ">5.0 or UO <200ml/day",
+              "desc": "Very severe"
+            }
+          ]
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 0,
+          "max": 6,
+          "label": "Low risk",
+          "action": "Organ dysfunction minimal — mortality <10%"
+        },
+        {
+          "min": 7,
+          "max": 9,
+          "label": "Moderate risk",
+          "action": "Moderate organ dysfunction — mortality 15-20%"
+        },
+        {
+          "min": 10,
+          "max": 24,
+          "label": "High risk",
+          "action": "Severe organ dysfunction — mortality >40%"
+        }
+      ]
+    },
+    "news2": {
+      "name": "NEWS2 Score",
+      "category": "early_warning",
+      "components": [
+        {
+          "name": "Respiratory rate (breaths/min)",
+          "key": "respiratory",
+          "options": [
+            {
+              "value": 3,
+              "label": "≤8",
+              "desc": "Bradypnoea"
+            },
+            {
+              "value": 1,
+              "label": "9-11",
+              "desc": "Low normal"
+            },
+            {
+              "value": 0,
+              "label": "12-20",
+              "desc": "Normal"
+            },
+            {
+              "value": 2,
+              "label": "21-24",
+              "desc": "Tachypnoea"
+            },
+            {
+              "value": 3,
+              "label": "≥25",
+              "desc": "Severe tachypnoea"
+            }
+          ]
+        },
+        {
+          "name": "SpO2 (%)",
+          "key": "spo2",
+          "options": [
+            {
+              "value": 3,
+              "label": "≤91",
+              "desc": "Severe hypoxia"
+            },
+            {
+              "value": 2,
+              "label": "92-93",
+              "desc": "Moderate hypoxia"
+            },
+            {
+              "value": 1,
+              "label": "94-95",
+              "desc": "Mild hypoxia"
+            },
+            {
+              "value": 0,
+              "label": "≥96",
+              "desc": "Normal"
+            }
+          ]
+        },
+        {
+          "name": "Air or O2",
+          "key": "oxygen",
+          "options": [
+            {
+              "value": 0,
+              "label": "Room air",
+              "desc": "No supplemental O2"
+            },
+            {
+              "value": 2,
+              "label": "Any O2 supplementation",
+              "desc": "Supplemental oxygen required"
+            }
+          ]
+        },
+        {
+          "name": "Systolic BP (mmHg)",
+          "key": "systolic_bp",
+          "options": [
+            {
+              "value": 3,
+              "label": "≤90",
+              "desc": "Severe hypotension"
+            },
+            {
+              "value": 2,
+              "label": "91-100",
+              "desc": "Moderate hypotension"
+            },
+            {
+              "value": 1,
+              "label": "101-110",
+              "desc": "Mild hypotension"
+            },
+            {
+              "value": 0,
+              "label": "111-219",
+              "desc": "Normal"
+            },
+            {
+              "value": 3,
+              "label": "≥220",
+              "desc": "Severe hypertension"
+            }
+          ]
+        },
+        {
+          "name": "Heart rate (bpm)",
+          "key": "heart_rate",
+          "options": [
+            {
+              "value": 3,
+              "label": "≤40",
+              "desc": "Severe bradycardia"
+            },
+            {
+              "value": 1,
+              "label": "41-50",
+              "desc": "Mild bradycardia"
+            },
+            {
+              "value": 0,
+              "label": "51-90",
+              "desc": "Normal"
+            },
+            {
+              "value": 1,
+              "label": "91-110",
+              "desc": "Mild tachycardia"
+            },
+            {
+              "value": 2,
+              "label": "111-130",
+              "desc": "Tachycardia"
+            },
+            {
+              "value": 3,
+              "label": "≥131",
+              "desc": "Severe tachycardia"
+            }
+          ]
+        },
+        {
+          "name": "Level of consciousness",
+          "key": "consciousness",
+          "options": [
+            {
+              "value": 0,
+              "label": "Alert",
+              "desc": "Fully alert"
+            },
+            {
+              "value": 3,
+              "label": "CVPU (new confusion, voice, pain, unresponsive)",
+              "desc": "Altered consciousness"
+            }
+          ]
+        },
+        {
+          "name": "Temperature (°C)",
+          "key": "temperature",
+          "options": [
+            {
+              "value": 3,
+              "label": "≤35.0",
+              "desc": "Hypothermia"
+            },
+            {
+              "value": 1,
+              "label": "35.1-36.0",
+              "desc": "Mild hypothermia"
+            },
+            {
+              "value": 0,
+              "label": "36.1-38.0",
+              "desc": "Normal"
+            },
+            {
+              "value": 1,
+              "label": "38.1-39.0",
+              "desc": "Low-grade fever"
+            },
+            {
+              "value": 2,
+              "label": "≥39.1",
+              "desc": "High fever"
+            }
+          ]
+        }
+      ],
+      "interpretation": [
+        {
+          "min": 0,
+          "max": 4,
+          "label": "Low score",
+          "action": "Low risk — routine monitoring"
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "label": "Medium score",
+          "action": "Urgent review by clinician"
+        },
+        {
+          "min": 7,
+          "max": 100,
+          "label": "High score",
+          "action": "Emergency response — urgent critical care review"
+        }
+      ]
+    }
+  },
+  "17_disaster_triage": {
+    "name": "Disaster Triage",
+    "category": "disaster_management",
+    "notes_updates": "Disaster triage protocols for mass casualty incidents. | Principles: Do the greatest good for the greatest number. | Resources are limited; triage decisions must be rapid and systematic. | Re-triage is essential as patient conditions and resources change. | Paediatric patients require specialised triage considerations.",
+    "triage_categories": [
+      {
+        "category": "Immediate (Priority 1 / Red)",
+        "description": "Life-threatening but survivable injury with immediate intervention.",
+        "examples": [
+          "Airway obstruction",
+          "Severe respiratory distress",
+          "Severe haemorrhage",
+          "Tension pneumothorax",
+          "Shock (SBP <90 mmHg with weak radial pulse)"
+        ],
+        "action": "Immediate treatment and transport"
+      },
+      {
+        "category": "Delayed (Priority 2 / Yellow)",
+        "description": "Significant injuries but can wait for treatment without deterioration.",
+        "examples": [
+          "Major fractures",
+          "Burns without airway involvement",
+          "Stable abdominal injury",
+          "Stable spinal injury"
+        ],
+        "action": "Treatment can be delayed"
+      },
+      {
+        "category": "Minimal (Priority 3 / Green)",
+        "description": "Minor injuries, ambulatory patients.",
+        "examples": [
+          "Minor lacerations",
+          "Minor fractures",
+          "Soft tissue injuries",
+          "Patients who can walk"
+        ],
+        "action": "Self-care or delayed treatment"
+      },
+      {
+        "category": "Expectant (Priority 4 / Black)",
+        "description": "Severe injuries with low probability of survival; resources should be allocated to those more likely to survive.",
+        "examples": [
+          "Severe head injury with no purposeful response",
+          "Cardiac arrest not immediately reversible",
+          "Severe burns >80% BSA",
+          "Multiple severe injuries with unlikely survival"
+        ],
+        "action": "Comfort care only — palliative"
+      }
+    ],
+    "triage_systems": {
+      "sieve": {
+        "name": "Sieve Triage",
+        "steps": [
+          {
+            "step": 1,
+            "check": "Can the patient walk?",
+            "yes": "MINIMAL (Green) — Send to minor treatment area",
+            "no": "Proceed to step 2"
+          },
+          {
+            "step": 2,
+            "check": "Is the airway open?",
+            "no": "IMMEDIATE (Red) — Open airway immediately",
+            "yes": "Proceed to step 3"
+          },
+          {
+            "step": 3,
+            "check": "Is the patient breathing?",
+            "no": "IMMEDIATE (Red) — If breathing after opening airway, proceed to step 4; if not, EXPECTANT (Black)",
+            "yes": "Proceed to step 4"
+          },
+          {
+            "step": 4,
+            "check": "Respiratory rate >30 or <10?",
+            "yes": "IMMEDIATE (Red)",
+            "no": "Proceed to step 5"
+          },
+          {
+            "step": 5,
+            "check": "Is radial pulse present? Capillary refill <2 seconds?",
+            "no": "IMMEDIATE (Red)",
+            "yes": "Proceed to step 6"
+          },
+          {
+            "step": 6,
+            "check": "Can the patient obey commands?",
+            "no": "IMMEDIATE (Red)",
+            "yes": "DELAYED (Yellow)"
+          }
+        ]
+      },
+      "jumpstart": {
+        "name": "JumpSTART (Paediatric)",
+        "steps": [
+          {
+            "step": 1,
+            "check": "Can the child walk?",
+            "yes": "MINIMAL (Green)",
+            "no": "Proceed to step 2"
+          },
+          {
+            "step": 2,
+            "check": "Is the child breathing?",
+            "no": "Check airway — if obstructed, attempt to clear. If still not breathing, EXPECTANT (Black) unless respiratory rate improves",
+            "yes": "Proceed to step 3"
+          },
+          {
+            "step": 3,
+            "check": "Respiratory rate — apnoea or <15 or >45?",
+            "yes": "IMMEDIATE (Red)",
+            "no": "Proceed to step 4"
+          },
+          {
+            "step": 4,
+            "check": "Is pulse palpable at wrist/carotid? (Or HR <60 or >180?)",
+            "no": "IMMEDIATE (Red)",
+            "yes": "Proceed to step 5"
+          },
+          {
+            "step": 5,
+            "check": "Can the child obey commands or make purposeful movement?",
+            "no": "IMMEDIATE (Red)",
+            "yes": "DELAYED (Yellow)"
+          }
+        ]
+      },
+      "sort": {
+        "name": "SORT (Simple Triage and Rapid Treatment)",
+        "steps": [
+          {
+            "step": 1,
+            "check": "RPM assessment",
+            "details": "R = Respiratory rate, P = Pulse (peripheral), M = Mental status (AVPU)"
+          },
+          {
+            "step": 2,
+            "check": "Score = 0-2 for each parameter",
+            "details": "0 = Normal, 1 = Abnormal, 2 = Severely abnormal"
+          },
+          {
+            "step": 3,
+            "check": "Total score interpretation",
+            "0": "MINIMAL (Green)",
+            "1-3": "DELAYED (Yellow)",
+            "4-6": "IMMEDIATE (Red)",
+            ">6": "EXPECTANT (Black)"
+          }
+        ]
+      }
+    },
+    "paediatric_considerations": [
+      "Children are more vulnerable to environmental exposure",
+      "Use paediatric-specific triage tools (JumpSTART)",
+      "Family units should be kept together where possible",
+      "Children may decompensate rapidly — frequent re-triage",
+      "Paediatric vital signs differ significantly by age group"
+    ],
+    "retriage": {
+      "description": "Re-assessment of triage categories is essential as conditions change and resources become available.",
+      "frequency": "Every 15-30 minutes or when clinical status changes",
+      "upgrades": "Patients may deteriorate and need upgrading to higher priority",
+      "downgrades": "If resources become available, some expectant patients may be re-triaged"
+    },
+    "documentation": {
+      "requirements": [
+        "Triage tag number or colour",
+        "Time of triage",
+        "Clinical findings at triage",
+        "Initial vital signs",
+        "Treatment given",
+        "Time of re-triage"
+      ],
+      "tools": "Triage tags, wristbands, electronic records"
+    }
+  },
+  "18_pain_management": {
+    "name": "Pain Management",
+    "category": "analgesia",
+    "notes_updates": "Evidence-based pain management guidelines for emergency department. | Multimodal analgesia is preferred. | Consider patient factors: age, comorbidities, allergies, pregnancy, renal/hepatic function. | Reassess pain regularly. | Avoid routine use of parenteral opioids for chronic non-cancer pain. | NSAIDs: Avoid in renal impairment, GI bleeding, anticoagulation. | Opioids: Monitor for sedation and respiratory depression.",
+    "analgesic_ladder": {
+      "step_1_mild": {
+        "description": "Mild pain (1-3/10)",
+        "options": [
+          {
+            "drug": "Paracetamol (Acetaminophen)",
+            "dose": "Adult: 1g PO/IV every 4-6 hours (max 4g/day). Paediatric: 15mg/kg PO every 4-6 hours (max 60mg/kg/day).",
+            "notes": "First-line for mild pain. Hepatotoxic in overdose."
+          },
+          {
+            "drug": "NSAIDs (if no contraindications)",
+            "dose": "Ibuprofen 400-600mg PO TDS or Diclofenac 50mg PO TDS",
+            "notes": "Avoid in renal impairment, GI bleeding, anticoagulation, heart failure."
+          }
+        ]
+      },
+      "step_2_moderate": {
+        "description": "Moderate pain (4-6/10)",
+        "options": [
+          {
+            "drug": "Paracetamol + NSAID combination",
+            "dose": "Paracetamol 1g + Ibuprofen 400mg PO",
+            "notes": "Synergistic effect. Monitor for NSAID side effects."
+          },
+          {
+            "drug": "Tramadol",
+            "dose": "Adult: 50-100mg PO every 4-6 hours (max 400mg/day). Paediatric: 1-2mg/kg PO every 4-6 hours.",
+            "notes": "Weak opioid. Risk of seizures at high doses."
+          },
+          {
+            "drug": "Codeine",
+            "dose": "Adult: 30-60mg PO every 4-6 hours (max 240mg/day)",
+            "notes": "Variable metabolism (CYP2D6). Use with caution."
+          }
+        ]
+      },
+      "step_3_severe": {
+        "description": "Severe pain (7-10/10)",
+        "options": [
+          {
+            "drug": "Morphine",
+            "dose": "Adult: 0.1-0.2mg/kg IV (usual 5-10mg), titrate every 5-10 minutes. Paediatric: 0.05-0.1mg/kg IV.",
+            "notes": "First-line strong opioid. Monitor for sedation and respiratory depression."
+          },
+          {
+            "drug": "Fentanyl",
+            "dose": "Adult: 1-2mcg/kg IV (usual 50-100mcg), titrate. Paediatric: 1-2mcg/kg IV/IN.",
+            "notes": "Rapid onset (1-2 min). Short duration (30-60 min). Suitable for procedures."
+          },
+          {
+            "drug": "Ketamine (low dose)",
+            "dose": "Adult: 0.1-0.3mg/kg IV (analgesic dose). Paediatric: 0.2-0.5mg/kg IV/IM.",
+            "notes": "Excellent for severe pain, especially trauma. Preserves airway reflexes."
+          }
+        ]
+      }
+    },
+    "regional_analgesia": {
+      "digital_nerve_block": {
+        "indication": "Finger/toe injuries",
+        "technique": "2-5ml plain lignocaine 1% at base of digit on each side (total 4-10ml). No adrenaline.",
+        "duration": "1-2 hours"
+      },
+      "femoral_nerve_block": {
+        "indication": "Femoral shaft fracture, hip fracture",
+        "technique": "20-30ml lignocaine 1% or bupivacaine 0.25% lateral to femoral artery below inguinal ligament",
+        "duration": "2-4 hours (lignocaine), 4-8 hours (bupivacaine)"
+      },
+      "haematoma_block": {
+        "indication": "Distal radius fracture reduction",
+        "technique": "10-15ml lignocaine 1% injected into fracture haematoma",
+        "duration": "1-2 hours"
+      },
+      "intercostal_nerve_block": {
+        "indication": "Rib fractures",
+        "technique": "3-5ml lignocaine 1% at posterior angle of rib (neurovascular bundle inferior to rib)",
+        "duration": "4-8 hours"
+      }
+    },
+    "special_populations": {
+      "paediatric": {
+        "notes": "Use weight-based dosing. FLACC or Wong-Baker FACES for assessment.",
+        "drugs": [
+          {
+            "drug": "Paracetamol",
+            "dose": "15mg/kg PO/PR every 4-6 hours"
+          },
+          {
+            "drug": "Ibuprofen",
+            "dose": "5-10mg/kg PO every 6-8 hours (avoid <6 months)"
+          },
+          {
+            "drug": "Fentanyl IN",
+            "dose": "1-2mcg/kg intranasal (max 100mcg per nare)"
+          },
+          {
+            "drug": "Ketamine",
+            "dose": "0.5-1mg/kg IV for procedural sedation/analgesia"
+          }
+        ]
+      },
+      "elderly": {
+        "notes": "Start low, go slow. Increased risk of sedation, falls, constipation. Reduce opioid doses by 25-50%.",
+        "cautions": [
+          "Increased sensitivity to opioids",
+          "Risk of falls with sedation",
+          "Renal impairment limits NSAID use",
+          "Polypharmacy interactions"
+        ]
+      },
+      "pregnancy": {
+        "notes": "Avoid NSAIDs in 3rd trimester. Paracetamol is safe. Opioids: use short-term, risk of neonatal withdrawal.",
+        "safe_drugs": ["Paracetamol", "Opioids (short-term)", "Lignocaine (local)"],
+        "avoid": ["NSAIDs (3rd trimester)", "Aspirin (high dose)"]
+      },
+      "renal_impairment": {
+        "notes": "Avoid NSAIDs. Reduce opioid doses. Avoid morphine metabolites — consider fentanyl.",
+        "safe_drugs": ["Paracetamol", "Fentanyl", "Lignocaine"],
+        "avoid": ["NSAIDs", "Codeine (variable metabolism)", "Morphine (accumulation of active metabolites)"]
+      }
+    },
+    "procedural_sedation_analgesia": {
+      "preparation": [
+        "Fasting status assessment (but do not delay emergency procedures)",
+        "Airway assessment (Mallampati, neck mobility)",
+        "Vital signs baseline",
+        "IV access secured",
+        "Continuous monitoring: ECG, SpO2, EtCO2, BP",
+        "Resuscitation equipment immediately available",
+        "Document consent"
+      ],
+      "agents": [
+        {
+          "drug": "Ketamine",
+          "dose": "1-2mg/kg IV (dissociative sedation). 3-4mg/kg IM.",
+          "notes": "Excellent analgesia and amnesia. Preserves airway reflexes. Anti-emetic properties."
+        },
+        {
+          "drug": "Propofol",
+          "dose": "1-2mg/kg IV bolus, then 0.5-1mg/kg every 2-3 minutes",
+          "notes": "Rapid onset and offset. No analgesia. Risk of hypotension and apnoea."
+        },
+        {
+          "drug": "Midazolam + Fentanyl",
+          "dose": "Midazolam 0.05-0.1mg/kg + Fentanyl 1-2mcg/kg",
+          "notes": "Synergistic sedation. Higher risk of respiratory depression."
+        },
+        {
+          "drug": "Etomidate",
+          "dose": "0.1-0.2mg/kg IV",
+          "notes": "Haemodynamically neutral. Brief duration. Myoclonus common."
+        }
+      ],
+      "monitoring": "Continuous pulse oximetry, ECG, BP, capnography. Dedicated observer.",
+      "recovery": "Monitor until fully awake, airway reflexes intact, vital signs stable. Discharge criteria met."
+    },
+    "opioid_toxicity": {
+      "signs": "Respiratory depression (RR <10/min), pinpoint pupils, sedation, decreased consciousness",
+      "management": [
+        "Airway support — bag-valve-mask if needed",
+        "Naloxone 0.4-2mg IV, repeat every 2-3 minutes (max 10mg)",
+        "If no response after 10mg, consider alternative diagnosis",
+        "Monitor for re-sedation (naloxone half-life 30-60 min)",
+        "Continuous observation for 2-4 hours post-naloxone"
+      ]
+    }
+  },
+  "19_trauma_care": {
+    "name": "Trauma Care",
+    "category": "trauma",
+    "notes_updates": "Advanced Trauma Life Support (ATLS) principles. | Primary survey: ABCDE. | Secondary survey: head-to-toe examination. | Mechanism of injury guides investigation and management. | Consider cervical spine protection throughout. | Paediatric trauma: use paediatric-specific protocols and equipment.",
+    "primary_survey": {
+      "A_airway": {
+        "assess": "Patency, foreign bodies, facial fractures, airway oedema",
+        "interventions": [
+          "Jaw thrust/chin lift (no head tilt if C-spine concern)",
+          "Suction oropharynx",
+          "Oropharyngeal airway if unconscious",
+          "Nasopharyngeal airway if conscious (no basal skull fracture)",
+          "Definitive airway if: GCS ≤8, airway obstruction, severe facial trauma, risk of aspiration"
+        ]
+      },
+      "B_breathing": {
+        "assess": "Rate, depth, symmetry, auscultation, tracheal position, chest expansion",
+        "life_threatening_conditions": [
+          {
+            "condition": "Tension pneumothorax",
+            "signs": "Respiratory distress, hypotension, tracheal deviation away from affected side, hyper-resonance, distended neck veins",
+            "treatment": "Immediate needle decompression 2nd intercostal space midclavicular line, then chest drain"
+          },
+          {
+            "condition": "Open pneumothorax (sucking chest wound)",
+            "signs": "Visible chest wound with air movement",
+            "treatment": "Occlusive dressing taped on 3 sides, chest drain"
+          },
+          {
+            "condition": "Massive haemothorax",
+            "signs": "Decreased breath sounds, dullness to percussion, shock",
+            "treatment": "Chest drain (large bore), massive transfusion protocol if needed"
+          },
+          {
+            "condition": "Flail chest",
+            "signs": "Paradoxical chest wall movement, crepitus",
+            "treatment": "Oxygen, analgesia (regional block preferred), positive pressure ventilation if severe"
+          },
+          {
+            "condition": "Cardiac tamponade",
+            "signs": "Beck's triad: hypotension, muffled heart sounds, JVP elevation",
+            "treatment": "Pericardiocentesis if unstable, thoracotomy if not immediately available"
+          }
+        ]
+      },
+      "C_circulation": {
+        "assess": "Pulse rate, BP, capillary refill, skin colour, external bleeding",
+        "haemorrhage_control": [
+          "Direct pressure",
+          "Pressure dressing",
+          "Tourniquet (limb exsanguinating haemorrhage) — document time applied",
+          "Haemostatic agents",
+          "Pelvic binder (suspected pelvic fracture)"
+        ],
+        "iv_access": [
+          "2 large-bore peripheral IVs (14-16G)",
+          "IO access if peripheral access fails (within 90 seconds)",
+          "Central line if needed for vasopressors/monitoring"
+        ],
+        "fluid_resuscitation": {
+          "adults": "Warm crystalloid (Ringers/Balsol) 1-2L bolus. Target SBP 90-100 (permissive hypotension in penetrating trauma).",
+          "paediatric": "20ml/kg bolus. Repeat ×3 if needed. Then blood products.",
+          "blood_products": "1:1:1 ratio PRBC:FFP:Platelets for massive haemorrhage. Tranexamic acid 1g IV over 10 minutes if within 3 hours of injury."
+        }
+      },
+      "D_disability": {
+        "assess": "GCS, pupillary response, limb movement",
+        "interventions": [
+          "Treat hypoglycaemia immediately",
+          "Consider opioid overdose (naloxone)",
+          "Head CT if GCS <15 or focal neurological deficit"
+        ]
+      },
+      "E_exposure": {
+        "assess": "Full undress, log-roll, examine back, axillae, perineum",
+        "interventions": [
+          "Prevent hypothermia — warm fluids, blankets, warming devices",
+          "Log-roll with C-spine control"
+        ]
+      }
+    },
+    "secondary_survey": {
+      "description": "Complete head-to-toe examination after primary survey stabilised.",
+      "components": [
+        "AMPLE history (Allergies, Medications, Past medical history, Last meal, Events)",
+        "Head and face: Scalp lacerations, skull depressions, facial fractures, eye injuries",
+        "Neck: Tracheal position, subcutaneous emphysema, seatbelt sign",
+        "Chest: Auscultation, percussion, rib tenderness, cardiac assessment",
+        "Abdomen: Contusions, seatbelt sign, tenderness, distension, guarding",
+        "Pelvis: Stability, tenderness, open fractures",
+        "Limbs: Deformity, neurovascular status, open fractures, compartment syndrome",
+        "Back: Bruising, tenderness, spinal tenderness",
+        "Neurological: Complete neurological examination, GCS trend"
+      ]
+    },
+    "imaging": {
+      "FAST": "Focused Assessment with Sonography in Trauma — assess for free fluid in pericardium, perihepatic, perisplenic, pelvis. Positive in hypotensive patient → OR.",
+      "eFAST": "Extended FAST — includes pneumothorax assessment (lung sliding).",
+      "CT_trauma": "Whole-body CT (pan-scan) for haemodynamically stable patients with significant mechanism.",
+      "X-rays": "CXR, pelvic X-ray, C-spine X-ray (or CT) as indicated."
+    },
+    "special_considerations": {
+      "spinal_trauma": {
+        "assessment": "Maintain C-spine immobilisation until cleared. CT C-spine for GCS <15 or high-risk criteria. Clinical clearance if awake, alert, no intoxication, no distracting injury, no midline tenderness.",
+        "neurogenic_shock": "Hypotension with bradycardia after spinal injury. Treat with fluids and vasopressors. Do not use atropine unless life-threatening bradycardia."
+      },
+      "head_injury": {
+        "mild": "GCS 13-15. CT head if criteria met (NICE/Canadian CT Head Rules).",
+        "moderate": "GCS 9-12. CT head urgently. Neurosurgical referral.",
+        "severe": "GCS ≤8. Intubate for airway protection. CT head. Neurosurgical referral. ICP management."
+      },
+      "paediatric_trauma": {
+        "differences": [
+          "Larger head-to-body ratio — head injuries more common",
+          "Higher metabolic rate — hypoglycaemia risk",
+          "Greater surface area — heat loss risk",
+          "More compliant skeleton — internal injuries without external signs",
+          "Use Broselow tape for equipment sizing and drug dosing"
+        ],
+        "fluid_resuscitation": "20ml/kg warm crystalloid bolus. Blood products if no response after 2 boluses."
+      }
+    },
+    "disposition": "All significant trauma patients require admission. | ICU for haemodynamically unstable, GCS ≤8, multi-system trauma. | Ward for isolated injuries with stable observations. | Transfer to trauma centre if needed."
+  },
+  "20_toxicology_overdose": {
+    "name": "Toxicology & Overdose",
+    "category": "toxicology",
+    "notes_updates": "General principles of toxicology management. | Supportive care is the mainstay of most poisonings. | Decontamination should not delay definitive care. | Always consider co-ingestants. | Consult toxicology/poisons centre for advice. | Specific antidotes are available for limited number of poisons.",
+    "general_principles": {
+      "ABCs": "Airway, Breathing, Circulation — stabilise first",
+      "decontamination": {
+        "activated_charcoal": "50g adult (1g/kg paediatric) if within 1-2 hours of ingestion and airway is protected. Not for: caustics, hydrocarbons, metals, lithium, alcohols.",
+        "gastric_lavage": "Rarely indicated. Only if within 1 hour of life-threatening ingestion and airway protected.",
+        "whole_bowel_irrigation": "Polyethylene glycol solution. For: sustained-release preparations, iron, lithium, body packers."
+      },
+      "enhanced_elimination": {
+        "urinary_alkalinisation": "For salicylate and methotrexate poisoning. Target urine pH 7.5-8.0.",
+        "haemodialysis": "For: methanol, ethylene glycol, lithium, salicylate, theophylline, metformin (severe)."
+      },
+      "antidotes": {
+        "Naloxone": "Opioid overdose — 0.4-2mg IV, repeat PRN",
+        "N-acetylcysteine (NAC)": "Paracetamol overdose — IV protocol (standard or modified)"
+      }
+    },
+    "specific_poisonings": {
+      "paracetamol_overdose": {
+        "toxic_dose": ">10g adult (or >200mg/kg) within 24 hours. Potentially fatal >12g.",
+        "assessment": "Rumack-Matthew nomogram for single acute ingestion (4-24 hours post-ingestion). Check paracetamol level, LFTs, INR, renal function.",
+        "treatment": [
+          "N-acetylcysteine (NAC) IV — standard or modified (2-bag or 3-bag protocol)",
+          "Modified King's College: 200mg/kg in 1L over 4h, then 100mg/kg in 1L over 16h",
+          "Continue until INR normalises and transaminases falling"
+        ],
+        "warning": "NAC most effective within 8 hours. Do not delay if potentially toxic ingestion."
+      },
+      "opioid_overdose": {
+        "clinical_features": "Respiratory depression, pinpoint pupils, sedation, hypotension, hypothermia",
+        "treatment": [
+          "Naloxone 0.4-2mg IV, repeat every 2-3 minutes (max 10mg)",
+          "If no IV access: IM, SC, or intranasal (2mg per nare)",
+          "Beware of precipitated withdrawal in opioid-dependent patients",
+          "Monitor for re-sedation — naloxone half-life 30-60 minutes"
+        ]
+      },
+      "benzodiazepine_overdose": {
+        "clinical_features": "Sedation, respiratory depression, ataxia, dysarthria, hypotension",
+        "treatment": [
+          "Supportive care — airway protection, ventilation if needed",
+          "Flumazenil 0.2mg IV, repeat up to 1mg (max 3mg) — ONLY if no co-ingestion of pro-convulsant drug and not chronic benzodiazepine user",
+          "Avoid flumazenil in mixed overdoses and chronic users (risk of seizures)"
+        ]
+      },
+      "tricyclic_antidepressant_overdose": {
+        "clinical_features": "Anticholinergic effects (dry mouth, urinary retention, tachycardia), seizures, wide QRS (>100ms), hypotension, arrhythmias",
+        "treatment": [
+          "Sodium bicarbonate 8.4% 50-100ml IV bolus — for QRS >100ms or arrhythmias",
+          "Repeat until QRS narrows or pH 7.5-7.55",
+          "Avoid class IA and IC antiarrhythmics",
+          "Seizures: benzodiazepines"
+        ],
+        "warning": "QRS >100ms predicts seizures; QRS >160ms predicts ventricular arrhythmias"
+      },
+      "salicylate_poisoning": {
+        "clinical_features": "Tinnitus, vomiting, tachypnoea, metabolic acidosis, respiratory alkalosis, hyperthermia, confusion, seizures",
+        "treatment": [
+          "Activated charcoal if early",
+          "Urinary alkalinisation — target urine pH 7.5-8.0",
+          "Haemodialysis for severe poisoning (level >700mg/L, refractory acidosis, renal failure, pulmonary oedema, CNS effects)"
+        ]
+      },
+      "organophosphate_poisoning": {
+        "clinical_features": "SLUDGE: Salivation, Lacrimation, Urination, Defecation, GI distress, Emesis. Also: bradycardia, bronchorrhea, miosis, muscle fasciculations, weakness, seizures",
+        "treatment": [
+          "Atropine 2mg IV every 5 minutes until secretions dry and heart rate >80 (may need grams)",
+          "Pralidoxime (2-PAM) 1-2g IV over 15-30 minutes — reactivates acetylcholinesterase",
+          "Benzodiazepines for seizures",
+          "Decontamination — remove clothing, wash skin"
+        ]
+      },
+      "carbon_monoxide_poisoning": {
+        "clinical_features": "Headache, dizziness, nausea, confusion, cherry-red skin (late), loss of consciousness",
+        "treatment": [
+          "100% oxygen via non-rebreather mask",
+          "Hyperbaric oxygen if: LOC, neurological deficits, COHb >25%, pregnancy with COHb >15%, cardiac ischaemia",
+          "Half-life: room air 320 min, 100% O2 90 min, HBO 30 min"
+        ]
+      }
+    },
+    "toxidromes": {
+      "anticholinergic": {
+        "features": "Mad as a hatter (delirium), Blind as a bat (mydriasis), Red as a beet (flushing), Hot as a hare (hyperthermia), Dry as a bone (dry skin/mucous membranes)",
+        "causes": "TCAs, antihistamines, atropine, antipsychotics, antispasmodics",
+        "treatment": "Supportive. Physostigmine only for severe anticholinergic delirium without QRS widening."
+      },
+      "cholinergic": {
+        "features": "SLUDGE + DUMBELS: Diarrhoea, Urination, Miosis, Bradycardia, Bronchorrhea, Emesis, Lacrimation, Salivation",
+        "causes": "Organophosphates, carbamates, nerve agents",
+        "treatment": "Atropine + Pralidoxime"
+      },
+      "sympathomimetic": {
+        "features": "Mydriasis, tachycardia, hypertension, hyperthermia, diaphoresis, agitation, seizures",
+        "causes": "Cocaine, amphetamines, MDMA, pseudoephedrine",
+        "treatment": "Benzodiazepines (first-line), cooling, hydration"
+      },
+      "opioid": {
+        "features": "Miosis, respiratory depression, sedation, hypotension, hypothermia, decreased bowel sounds",
+        "causes": "Heroin, morphine, codeine, fentanyl, methadone",
+        "treatment": "Naloxone"
+      },
+      "sedative_hypnotic": {
+        "features": "Sedation, respiratory depression, ataxia, dysarthria, hypotension",
+        "causes": "Benzodiazepines, barbiturates, Z-drugs, ethanol",
+        "treatment": "Supportive, flumazenil (selected cases)"
+      }
+    },
+    "disposition": "Admit all intentional overdoses for psychiatric assessment. | ICU admission for: GCS ≤8, ventilated, haemodynamically unstable, significant arrhythmias, requiring antidotes/haemodialysis. | Observe for minimum 6 hours (longer for sustained-release or drugs with delayed toxicity)."
+  }
+}
