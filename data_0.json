@@ -127,5 +127,874 @@
         "paediatric_dose": "4J/kg defib (mono and biphasic)"
       }
     ]
-  }
-}
+  },
+  "2_airway_and_ventilation": {
+    "intubation": [
+      {
+        "item": "ETT Size",
+        "adult_settings": "Male: 7.5 - 8.5, Female: 6.5 - 7.5",
+        "paediatric_settings": ">1 year: 4 + (Age in years)/4, <1 year: 3.0 - 4.0"
+      },
+      {
+        "item": "Cricothyroidotomy",
+        "adult_settings": "12G cannula through cricothyroid membrane",
+        "paediatric_settings": "14G cannula through cricothyroid membrane"
+      }
+    ],
+    "vent_settings": [
+      {
+        "item": "FiO2",
+        "adult_settings": "Start 100%",
+        "paediatric_settings": "Start 100%"
+      },
+      {
+        "item": "PEEP",
+        "adult_settings": "10 - 12 cm H2O",
+        "paediatric_settings": "8 - 10 cm H2O"
+      },
+      {
+        "item": "RR",
+        "adult_settings": "12 - 20 breaths/min",
+        "paediatric_settings": "Age appropriate"
+      },
+      {
+        "item": "I:E Ratio",
+        "adult_settings": "1:2",
+        "paediatric_settings": "1:2"
+      }
+    ],
+    "lung_protection": [
+      {
+        "item": "Pressure Control",
+        "adult_settings": "Peak Pressure <= 30cmH2O",
+        "paediatric_settings": "Peak Pressure <= 30cmH2O"
+      },
+      {
+        "item": "Tidal Volume",
+        "adult_settings": "6 - 8ml/kg Ideal Body Weight",
+        "paediatric_settings": "6 - 8ml/kg Ideal Body Weight"
+      }
+    ],
+    "sedation": [
+      {
+        "item": "Etomidate",
+        "adult_dose": "0.3mg/kg IV (max 40mg)",
+        "paediatric_dose": "0.2-0.3mg/kg IV",
+        "notes": "Haemodynamically stable induction agent"
+      },
+      {
+        "item": "Ketamine (RSI)",
+        "adult_dose": "1-2mg/kg IV",
+        "paediatric_dose": "1-2mg/kg IV",
+        "notes": "Preferred for asthma/bronchospasm or trauma intubation"
+      },
+      {
+        "item": "Propofol",
+        "adult_dose": "1.5-2.5mg/kg IV",
+        "paediatric_dose": "1-2mg/kg IV"
+      },
+      {
+        "item": "Midazolam",
+        "adult_dose": "0.1-0.3mg/kg IV",
+        "paediatric_dose": "0.1-0.3mg/kg IV"
+      },
+      {
+        "item": "Morphine",
+        "adult_dose": "0.1-0.3mg/kg IV",
+        "paediatric_dose": "0.1-0.3mg/kg IV"
+      },
+      {
+        "item": "Fentanyl",
+        "adult_dose": "2-5ug/kg IV",
+        "paediatric_dose": "1-3ug/kg IV"
+      },
+      {
+        "item": "Suxamethonium",
+        "adult_dose": "1-1.5mg/kg IV",
+        "paediatric_dose": "1-2mg/kg IV; Infants: 2-3mg/kg IV",
+        "notes": "Contraindicated: Hyperkalaemia, pseudocholinesterase deficiency"
+      },
+      {
+        "item": "Rocuronium",
+        "adult_dose": "1-1.2mg/kg IV",
+        "paediatric_dose": "1.2mg/kg IV"
+      },
+      {
+        "item": "Atracurium",
+        "adult_dose": "0.4-0.5mg/kg IV",
+        "paediatric_dose": "0.3-0.5mg/kg IV"
+      },
+      {
+        "item": "Cisatracurium",
+        "adult_dose": "0.15-0.2mg/kg IV",
+        "paediatric_dose": "0.1-0.15mg/kg IV"
+      }
+    ],
+    "status_asthmaticus": [
+      {
+        "item": "Hydrocortisone",
+        "adult_dose": "100mg IV 6hrly",
+        "paediatric_dose": "4mg/kg IV 6hrly",
+        "notes": "Early steroids improve outcomes"
+      },
+      {
+        "item": "Salbutamol",
+        "adult_dose": "2.5-5mg nebulised (Nebulise with O2); 0.25-0.5mg IV",
+        "paediatric_dose": "2.5-5mg nebulised; 5-10ug/kg/min IV"
+      },
+      {
+        "item": "Berotec/Atrovent",
+        "adult_dose": "0.5mg/2.5mg nebulised (repeat 20min x 3)",
+        "paediatric_dose": "0.25-0.5mg/1.25-2.5mg nebulised"
+      },
+      {
+        "item": "Aminophylline",
+        "adult_dose": "5mg/kg IV over 30min",
+        "paediatric_dose": "5mg/kg IV over 30min",
+        "notes": "Check levels 12 hourly"
+      },
+      {
+        "item": "Adrenalin",
+        "adult_dose": "0.1-1ug/kg/min IV",
+        "paediatric_dose": "0.1-1ug/kg/min IV"
+      },
+      {
+        "item": "Ketamine",
+        "adult_dose": "1mg/kg IV",
+        "paediatric_dose": "1mg/kg IV",
+        "notes": "Bronchodilator properties"
+      },
+      {
+        "item": "Magnesium sulphate",
+        "adult_dose": "1-2g IV over 15-20min",
+        "paediatric_dose": "25-75mg/kg IV over 20min (max 2g)"
+      }
+    ]
+  },
+  "3_sedation_analgesia_and_neurology": {
+    "sedation": [
+      {
+        "drug": "Strategy",
+        "adult_dose": "'Analgesia First'",
+        "paediatric_dose": "N/A",
+        "notes_updates": "Avoid routine deep sedation; prioritize pain control and neuro-psychological support."
+      },
+      {
+        "drug": "Propofol",
+        "adult_dose": "25 - 50 ug/kg/min (Max 100)",
+        "paediatric_dose": "25 - 60 ug/kg/min",
+        "notes_updates": "Adjust dose in obesity. Caution: Propofol Infusion Syndrome (PRIS)."
+      },
+      {
+        "drug": "Dexmedetomidine",
+        "adult_dose": "Load: 1ug/kg (10min), Maint: 0.2-0.7 ug/kg/hr",
+        "paediatric_dose": "Same as Adult",
+        "notes_updates": ""
+      },
+      {
+        "drug": "Ketamine",
+        "adult_dose": "15 - 30 ug/kg/min IV",
+        "paediatric_dose": "5 - 40 ug/kg/min",
+        "notes_updates": "Preferred for asthma/bronchospasm or trauma intubation."
+      }
+    ],
+    "seizures": [
+      {
+        "drug": "Lorazepam",
+        "adult_dose": "4 mg IV (repeat once)",
+        "paediatric_dose": "0.05 - 0.2 mg/kg IV",
+        "notes_updates": "First-line for Status Epilepticus."
+      },
+      {
+        "drug": "Midazolam",
+        "adult_dose": "10mg IM or buccal (if no IV access)",
+        "paediatric_dose": "0.2 - 0.5 mg/kg buccal",
+        "notes_updates": "Alternative if Lorazepam unavailable."
+      },
+      {
+        "drug": "Valproate",
+        "adult_dose": "Load: 25 mg/kg IV",
+        "paediatric_dose": "Load: 20-40 mg/kg",
+        "notes_updates": "WARNING: High teratogenic risk."
+      },
+      {
+        "drug": "Levetiracetam",
+        "adult_dose": "Load: 20-30 mg/kg IV",
+        "paediatric_dose": "Load: 50 mg/kg",
+        "notes_updates": "Safer alternative for women of child-bearing potential."
+      },
+      {
+        "drug": "Phenytoin",
+        "adult_dose": "Loading: 15-20mg/kg IV",
+        "paediatric_dose": "Loading: 15-20mg/kg IV",
+        "notes_updates": "Monitor levels. Max infusion rate 1mg/kg/min"
+      },
+      {
+        "drug": "Phenobarbitone",
+        "adult_dose": "Loading: 20mg/kg IV",
+        "paediatric_dose": "Loading: 20mg/kg IV",
+        "notes_updates": "Respiratory depression risk"
+      },
+      {
+        "drug": "Thiopentone",
+        "adult_dose": "75-250mg IV (3-5mg/kg)",
+        "paediatric_dose": "3-5mg/kg IV",
+        "notes_updates": "Requires intubation and ventilation"
+      }
+    ],
+    "analgesia": [
+      {
+        "drug": "Fentanyl",
+        "adult_dose": "1 - 2 ug/kg/hr IV",
+        "paediatric_dose": "0.5 - 2 ug/kg/hr IV",
+        "notes_updates": "Adjust in obesity."
+      },
+      {
+        "drug": "Paracetamol",
+        "adult_dose": "1 g IV 6-hourly",
+        "paediatric_dose": "15 mg/kg IV 6-hourly",
+        "notes_updates": "Encouraged as part of multimodal analgesia."
+      },
+      {
+        "drug": "Morphine",
+        "adult_dose": "0.05-0.2 mg/kg/hr IV",
+        "paediatric_dose": "0.01-0.05 mg/kg/hr IV",
+        "notes_updates": "First-line opioid for severe pain"
+      },
+      {
+        "drug": "Pethidine",
+        "adult_dose": "25-100mg IM/IV 4-6hrly",
+        "paediatric_dose": "0.5-1mg/kg IM/IV",
+        "notes_updates": "Caution: accumulation of norpethidine"
+      },
+      {
+        "drug": "Codeine",
+        "adult_dose": "30-60mg PO 4-6hrly",
+        "paediatric_dose": "0.5-1mg/kg PO 4-6hrly"
+      },
+      {
+        "drug": "Tramadol",
+        "adult_dose": "50-100mg IV/PO 6hrly",
+        "paediatric_dose": "1-2mg/kg IV/PO 6hrly"
+      },
+      {
+        "drug": "Ibuprofen",
+        "adult_dose": "400mg PO 8hrly",
+        "paediatric_dose": "5-10mg/kg PO 6-8hrly",
+        "notes_updates": "Avoid if renal impairment or GI bleeding"
+      },
+      {
+        "drug": "Diclofenac",
+        "adult_dose": "50mg PO/PR 8hrly; 75mg IM stat",
+        "paediatric_dose": "1mg/kg PO/PR 8hrly",
+        "notes_updates": "Caution: renal impairment, asthma"
+      }
+    ],
+    "neuroprotective": [
+      {
+        "drug": "Mannitol",
+        "adult_dose": "0.25-1g/kg IV bolus",
+        "paediatric_dose": "0.25-1g/kg IV bolus",
+        "notes_updates": "Monitor osmolar gap; avoid if hypotensive"
+      },
+      {
+        "drug": "Hypertonic Saline (3%)",
+        "adult_dose": "250ml IV over 30min",
+        "paediatric_dose": "3-5ml/kg IV over 30min",
+        "notes_updates": "Alternative to mannitol for raised ICP"
+      },
+      {
+        "drug": "Thiopentone (Coma)",
+        "adult_dose": "3-5mg/kg bolus then 1-5mg/kg/hr infusion",
+        "paediatric_dose": "3-5mg/kg bolus then 1-5mg/kg/hr infusion",
+        "notes_updates": "Barbiturate coma for refractory ICP"
+      }
+    ]
+  },
+  "4_antimicrobials_and_infectious_diseases": {
+    "broad_spectrum_antibiotics": [
+      {
+        "condition_or_drug": "Meropenem",
+        "adult_dose": "1-2g IV 8hrly",
+        "paediatric_dose": "20-40mg/kg IV 8hrly",
+        "notes_updates": "Extended infusion: 3-4hr. High dose for meningitis/CNS"
+      },
+      {
+        "condition_or_drug": "Piperacillin/Tazobactam",
+        "adult_dose": "4.5g IV 6-8hrly",
+        "paediatric_dose": "80-100mg/kg IV 6-8hrly"
+      },
+      {
+        "condition_or_drug": "Ceftriaxone",
+        "adult_dose": "1-2g IV 12-24hrly",
+        "paediatric_dose": "50-100mg/kg IV 12-24hrly (max 4g/day)"
+      },
+      {
+        "condition_or_drug": "Ceftazidime",
+        "adult_dose": "1-2g IV 8hrly",
+        "paediatric_dose": "30-50mg/kg IV 8hrly",
+        "notes_updates": "Good pseudomonas coverage"
+      }
+    ],
+    "gram_positive": [
+      {
+        "condition_or_drug": "Vancomycin",
+        "adult_dose": "Loading: 25mg/kg; Maint: 15-20mg/kg IV 8-12hrly",
+        "paediatric_dose": "15mg/kg IV 6hrly",
+        "notes_updates": "Trough: 15-20mg/L (severe infections)"
+      },
+      {
+        "condition_or_drug": "Linezolid",
+        "adult_dose": "600mg IV/PO 12hrly",
+        "paediatric_dose": "10mg/kg IV/PO 8hrly (<12yr)",
+        "notes_updates": "Monitor FBC (myelosuppression). Reserve for VRE/MRSA"
+      },
+      {
+        "condition_or_drug": "Clindamycin",
+        "adult_dose": "600mg-1.2g IV 6-8hrly",
+        "paediatric_dose": "10-15mg/kg IV 6-8hrly"
+      }
+    ],
+    "aminoglycosides": [
+      {
+        "condition_or_drug": "Gentamicin",
+        "adult_dose": "3-5mg/kg IV daily",
+        "paediatric_dose": "2.5mg/kg IV 8hrly",
+        "notes_updates": "Check levels. Extended interval preferred"
+      },
+      {
+        "condition_or_drug": "Amikacin",
+        "adult_dose": "15mg/kg IV daily",
+        "paediatric_dose": "7.5mg/kg IV 12hrly",
+        "notes_updates": "Check levels"
+      }
+    ],
+    "antifungals": [
+      {
+        "condition_or_drug": "Fluconazole",
+        "adult_dose": "Loading: 800mg IV/PO; Maint: 400mg IV/PO daily",
+        "paediatric_dose": "Loading: 12mg/kg; Maint: 6-12mg/kg daily",
+        "notes_updates": "NOT for aspergillus/cryptococcus"
+      },
+      {
+        "condition_or_drug": "Voriconazole",
+        "adult_dose": "Loading: 6mg/kg IV 12hrly x2; Maint: 4mg/kg IV 12hrly",
+        "paediatric_dose": "Loading: 9mg/kg IV 12hrly x2; Maint: 8mg/kg IV 12hrly",
+        "notes_updates": "Aspergillus drug of choice"
+      },
+      {
+        "condition_or_drug": "Amphotericin B",
+        "adult_dose": "1mg/kg IV daily",
+        "paediatric_dose": "0.5-1mg/kg IV daily",
+        "notes_updates": "Monitor K+, Mg2+, creatinine"
+      }
+    ],
+    "antivirals": [
+      {
+        "condition_or_drug": "Acyclovir",
+        "adult_dose": "10mg/kg IV 8hrly (HSV); 10-15mg/kg IV 8hrly (VZV)",
+        "paediatric_dose": "10-20mg/kg IV 8hrly",
+        "notes_updates": "Adequate hydration mandatory"
+      },
+      {
+        "condition_or_drug": "Ganciclovir",
+        "adult_dose": "5mg/kg IV 12hrly",
+        "paediatric_dose": "5mg/kg IV 12hrly",
+        "notes_updates": "CMV treatment. Monitor FBC"
+      }
+    ],
+    "antiparasitic": [
+      {
+        "condition_or_drug": "Artesunate (severe malaria)",
+        "adult_dose": "2.4mg/kg IV at 0, 12, 24h, then daily",
+        "paediatric_dose": "2.4mg/kg IV at 0, 12, 24h, then daily",
+        "notes_updates": "Superior to Quinine. Min 3 doses."
+      },
+      {
+        "condition_or_drug": "Quinine",
+        "adult_dose": "Loading: 20mg/kg IV over 4h; Maint: 10mg/kg IV 8hrly",
+        "paediatric_dose": "Loading: 20mg/kg IV; Maint: 10mg/kg IV 8hrly",
+        "notes_updates": "Monitor glucose (hypoglycaemia risk)"
+      }
+    ],
+    "hiv_protocols": [
+      {
+        "condition_or_drug": "TLD (TDF+3TC+DTG)",
+        "adult_dose": "1 tablet PO daily",
+        "paediatric_dose": "Weight-band dosing",
+        "notes_updates": "First-line adult ART"
+      },
+      {
+        "condition_or_drug": "HIV+TB co-treatment",
+        "adult_dose": "TLD + additional DTG 50mg 12hr post standard",
+        "notes_updates": "Rifampicin lowers DTG levels"
+      }
+    ],
+    "surgical_prophylaxis": [
+      {
+        "condition_or_drug": "Cefazolin",
+        "adult_dose": "2g IV within 60min of skin incision",
+        "paediatric_dose": "50mg/kg IV",
+        "notes_updates": "Dose increased from 1g to 2g (2024 update)"
+      }
+    ]
+  },
+  "5_metabolic_electrolytes_and_nutrition": {
+    "hyperkalaemia_management": [
+      {
+        "item": "Calcium Chloride 10%",
+        "adult_dose": "1g IV (10ml) slowly over 5-10min",
+        "paediatric_dose": "0.2ml/kg IV slowly (max 10ml)",
+        "notes": "Cardiac membrane stabilisation. Onset: 1-3min"
+      },
+      {
+        "item": "Calcium Gluconate 10%",
+        "adult_dose": "10ml IV slowly over 5-10min",
+        "paediatric_dose": "0.5ml/kg IV slowly",
+        "notes": "Cardiac membrane stabilisation"
+      },
+      {
+        "item": "Insulin/Dextrose",
+        "adult_dose": "10 units insulin + 50ml 50% dextrose IV over 15min",
+        "paediatric_dose": "0.1 units/kg + 2ml/kg 25% dextrose IV",
+        "notes": "Drives K+ into cells. Monitor glucose q15min"
+      },
+      {
+        "item": "Salbutamol",
+        "adult_dose": "10-20mg nebulised over 10min",
+        "paediatric_dose": "4ug/kg IV over 20min",
+        "notes": "Adjunctive. Lowers K+ by 0.5-1mmol/L"
+      },
+      {
+        "item": "Kayexalate",
+        "adult_dose": "15-30g PO/PR",
+        "paediatric_dose": "1g/kg PO/PR",
+        "notes": "Removes K+ from gut. Slow onset (several hours)"
+      }
+    ],
+    "diuretics": [
+      {
+        "item": "Furosemide",
+        "adult_dose": "Bolus: 20-40mg IV; Infusion: 5-40mg/hr",
+        "paediatric_dose": "0.5-1mg/kg IV 8-12hrly",
+        "notes": "Monitor electrolytes. Ototoxicity at high doses"
+      },
+      {
+        "item": "Mannitol",
+        "adult_dose": "0.25-1g/kg IV bolus",
+        "paediatric_dose": "0.25-1g/kg IV bolus",
+        "notes": "Monitor osmolar gap"
+      },
+      {
+        "item": "Spironolactone",
+        "adult_dose": "25-100mg PO/NG daily",
+        "paediatric_dose": "1-3mg/kg PO daily",
+        "notes": "Potassium-sparing"
+      }
+    ],
+    "vitamins": [
+      {
+        "item": "Vitamin B1 (Thiamine)",
+        "adult_dose": "100mg IV/IM daily",
+        "paediatric_dose": "10-25mg IV/IM daily",
+        "notes": "Give BEFORE glucose in malnourished/alcoholic patients"
+      },
+      {
+        "item": "Vitamin K",
+        "adult_dose": "10mg IV/PO (warfarin reversal)",
+        "paediatric_dose": "1-2mg IV/PO",
+        "notes": "IV route: anaphylaxis risk (give slowly)"
+      }
+    ],
+    "gi_nutrition": [
+      {
+        "item": "Omeprazole",
+        "adult_dose": "40mg IV/PO daily",
+        "paediatric_dose": "0.6-1mg/kg IV/PO daily",
+        "notes": "Stress ulcer prophylaxis"
+      },
+      {
+        "item": "Metoclopramide",
+        "adult_dose": "10mg IV/IM 8hrly",
+        "paediatric_dose": "0.1-0.2mg/kg IV/IM 6-8hrly",
+        "notes": "Prokinetic"
+      },
+      {
+        "item": "Ondansetron",
+        "adult_dose": "4-8mg IV 8hrly",
+        "paediatric_dose": "0.1-0.15mg/kg IV 6-8hrly (max 4mg)"
+      }
+    ]
+  },
+  "6_poisoning_and_toxicology": {
+    "protocols": [
+      {
+        "item": "Paracetamol",
+        "adult_dose": "NAC Old Regimen: 150mg/kg in 200ml 5% Dextrose IV over 1hr, then 50mg/kg in 500ml 5% Dextrose IV over 4hrs, then 100mg/kg in 1L 5% Dextrose IV over 16hrs | NAC SNAP Protocol: 100mg/kg in 200ml 5% Dextrose IV over 2hrs, then 200mg/kg in 1L 5% Dextrose IV over 10hrs",
+        "paediatric_dose": "Same weight-based dosing as adults",
+        "route": "IV infusion",
+        "notes": "Toxic dose: 150mg/kg or >10g in adults | Use Paracetamol Treatment Nomogram to establish need for antidote | Do NOT withhold even if ingestion was 48-72hrs prior | Activated charcoal 50g PO if presentation <1hr post-ingestion | Paracetamol levels only useful if >4hrs post-ingestion | Start treatment preferably <8hrs post-ingestion | If in doubt, give NAC",
+        "notes_updates": "Toxic dose: 150mg/kg or >10g in adults | NAC Old Regimen: 150mg/kg in 200ml 5% Dextrose IV over 1hr, then 50mg/kg in 500ml over 4hrs, then 100mg/kg in 1L over 16hrs | SNAP Protocol: 100mg/kg in 200ml 5% Dextrose IV over 2hrs, then 200mg/kg in 1L over 10hrs | Give activated charcoal 50g PO if <1hr post-ingestion | Paracetamol levels only if >4hrs post-ingestion | Do NOT withhold NAC even if 48-72hrs post-ingestion | Cautions: anaphylaxis, vomiting | High-risk patients: hypotensive, pre-existing liver dysfunction, elderly | Pregnancy: paracetamol crosses placenta, administer NAC as above",
+        "antidote_treatment": "N-Acetylcysteine (NAC)",
+        "diagnostic_criteria": {
+          "toxic_dose": "150mg/kg or >10g in adults",
+          "level_timing": ">4 hours post-ingestion for paracetamol level",
+          "charcoal_indication": "If presentation <1 hour from ingestion"
+        },
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess and support ABCs",
+            "details": "Monitor glucose, quantify amount ingested and co-ingestants, establish timeframe"
+          },
+          {
+            "step_number": 2,
+            "action": "Activated charcoal 50g PO",
+            "details": "If presentation <1 hour from ingestion. Not via NGT."
+          },
+          {
+            "step_number": 3,
+            "action": "ECG",
+            "details": "Look for signs of co-ingestants e.g. prolonged QT"
+          },
+          {
+            "step_number": 4,
+            "action": "Laboratory investigations",
+            "details": "Blood gas, U&E, salicylate level, paracetamol level (>4hrs post-ingestion)"
+          },
+          {
+            "step_number": 5,
+            "action": "Administer NAC if indicated",
+            "details": "Use nomogram. If high dosage suspected, give antidote. Start <8hrs post-ingestion."
+          },
+          {
+            "step_number": 6,
+            "action": "Disposition",
+            "details": "Internal Medicine referral"
+          }
+        ],
+        "warnings": [
+          "Do NOT withhold NAC even if ingestion was 48-72hrs prior to presentation",
+          "Separate IV infusion as may be inactivated by other medications",
+          "Anaphylaxis and vomiting are less common with SNAP Protocol",
+          "High-risk patients: hypotensive, pre-existing liver dysfunction (e.g. alcoholic), elderly"
+        ]
+      },
+      {
+        "item": "Opioids",
+        "adult_dose": "Naloxone 0.4-4mg IV q2-3min up to 10mg total | Infusion: 0.04-0.16mg/kg/hr IV",
+        "paediatric_dose": "Weight-based naloxone dosing",
+        "route": "IV/IM/Intranasal",
+        "notes": "Reversal agent with shorter half-life than most opioids (~1 hour) | Mainstay of treatment is ventilatory and cardiovascular support | Naloxone 0.04-2mg IV boluses per toxidrome guide | Consider naloxone infusion if recurrent sedation | Airway protection paramount",
+        "notes_updates": "Naloxone 0.4-4mg IV q2-3min up to 10mg total | Infusion: 0.04-0.16mg/kg/hr | Shorter half-life than most opioids (~1 hour) - may require redosing | Mainstay of treatment is ventilatory and cardiovascular support | If possible opioid overdose per BLS algorithm, administer naloxone per protocol | Toxidrome: sedation, coma, respiratory and cardiovascular depression, miosis/mydriasis | Common agents: opioids, benzodiazepines, barbiturates, Nyaope and other opioid-based illicit substances",
+        "antidote_treatment": "Naloxone",
+        "clinical_features": {
+          "presentation": "Sedation, coma, respiratory and cardiovascular depression, miosis/mydriasis",
+          "common_agents": "Opioids, benzodiazepines, barbiturates, Nyaope and other opioid-based illicit substances"
+        },
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well"
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG"
+          },
+          {
+            "step_number": 3,
+            "action": "Airway and ventilation support",
+            "details": "Mainstay of treatment - ventilatory and cardiovascular support"
+          },
+          {
+            "step_number": 4,
+            "action": "Naloxone administration",
+            "details": "0.4-4mg IV q2-3min up to 10mg. Infusion 0.04-0.16mg/kg/hr if recurrent sedation."
+          },
+          {
+            "step_number": 5,
+            "action": "Consider co-ingestants",
+            "details": "Especially benzodiazepines and alcohol"
+          },
+          {
+            "step_number": 6,
+            "action": "Disposition",
+            "details": "ICU/High care for ventilatory support if needed"
+          }
+        ],
+        "warnings": [
+          "Naloxone has shorter half-life than most opioids (~1 hour) - redosing often required",
+          "Mainstay of treatment is ventilatory and cardiovascular support, not just naloxone",
+          "Watch for recurrent sedation after naloxone wears off"
+        ]
+      },
+      {
+        "item": "Benzodiazepines",
+        "adult_dose": "Flumazenil: 0.2mg IV over 15sec, then 0.1mg every 60sec (max 1mg) | Caution: Generally AVOID Flumazenil",
+        "paediatric_dose": "Not routinely recommended",
+        "route": "IV (Flumazenil if used)",
+        "notes": "AVOID Flumazenil - can precipitate withdrawal/seizures | Mainstay of treatment is ventilatory and cardiovascular support | Supportive care is primary treatment | Toxidrome features: sedation, coma, respiratory and cardiovascular depression, miosis/mydriasis",
+        "notes_updates": "AVOID Flumazenil - can precipitate withdrawal/seizures in chronic users and co-ingestions | Mainstay of treatment is ventilatory and cardiovascular support | Flumazenil if used: 0.2mg IV over 15sec, then 0.1mg every 60sec to max 1mg | Toxidrome: sedation, coma, respiratory and cardiovascular depression | Common agents: benzodiazepines, barbiturates | Supportive care with airway protection is primary treatment",
+        "antidote_treatment": "Flumazenil (generally AVOIDED)",
+        "clinical_features": {
+          "presentation": "Sedation, coma, respiratory and cardiovascular depression, miosis/mydriasis",
+          "toxidrome": "Sedative-hypnotic"
+        },
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well"
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG"
+          },
+          {
+            "step_number": 3,
+            "action": "Ventilatory support",
+            "details": "Mainstay of treatment - airway protection and ventilation"
+          },
+          {
+            "step_number": 4,
+            "action": "Supportive care",
+            "details": "Fluids, airway protection, cardiovascular support"
+          },
+          {
+            "step_number": 5,
+            "action": "Consider Flumazenil ONLY if",
+            "details": "Single agent ingestion, no chronic use, no seizure risk. 0.2mg IV over 15sec then 0.1mg q60s to max 1mg."
+          },
+          {
+            "step_number": 6,
+            "action": "Disposition",
+            "details": "ICU/High care if ventilatory support required"
+          }
+        ],
+        "warnings": [
+          "AVOID Flumazenil in chronic benzodiazepine users - can precipitate withdrawal/seizures",
+          "AVOID Flumazenil in mixed overdoses (especially with pro-convulsant agents)",
+          "Mainstay of treatment is ventilatory and cardiovascular support"
+        ]
+      },
+      {
+        "item": "Organophosphates",
+        "adult_dose": "Atropine: 0.04-0.05mg/kg IV (3-5mg adult), double every 5min until atropinised | Infusion: 200mg Atropine in 200ml 0.9% NaCl (1mg/ml), 10-20% of total dose/hr | Pralidoxime: 1-2g IV",
+        "paediatric_dose": "Atropine: 0.04-0.05mg/kg IV",
+        "route": "IV (Atropine/Pralidoxime)",
+        "notes": "Decontamination: remove clothing, wash patient with soap and water | Universal precautions mandatory | Avoid succinylcholine (causes prolonged paralysis) | Atropine treats muscarinic symptoms only | May cause anticholinergic toxidrome at high doses - monitor closely, insert urine catheter | Endpoint = clearing of respiratory secretions (atropinisation), NOT tachycardia or pupil dilation | Seizures: benzodiazepines only (Clonazepam, Diazepam, Lorazepam) - NO anticonvulsants | Monitor and correct electrolytes. Consider MgSO4 4g/day | Weakness (nicotinic): intubation and supportive management only way to control",
+        "notes_updates": "Muscarinic symptoms ('DUMBELS'): Diaphoresis, Diarrhoea, Urination, Miosis, Bradycardia, Bronchorrhoea, Bronchospasm, Emesis, Lacrimation, Salivation | Nicotinic: Fasciculations, Weakness, Hypertension, Tachycardia, Mydriasis | CNS: Anxiety, Ataxia, Restlessness, Confusion, Convulsions, Coma | Decontamination: remove clothing, wash with soap and water | Atropine STAT: 0.04-0.05mg/kg IV (3-5mg adult), double every 5min until atropinised ('escalating atropinisation') | Atropine Infusion: 200mg in 200ml 0.9% NaCl, 10-20% of total atropinising dose/hr | Endpoint: clearing of respiratory secretions (NOT tachycardia or pupil dilation) | Pralidoxime: 1-2g IV | Avoid succinylcholine (prolonged paralysis) | Seizures: benzodiazepines ONLY - no anticonvulsants | Monitor electrolytes, consider MgSO4 4g/day",
+        "antidote_treatment": "Atropine + Pralidoxime",
+        "clinical_features": {
+          "muscarinic_dumbels": "Diaphoresis, Diarrhoea, Urination, Miosis, Bradycardia, Bronchorrhoea, Bronchospasm, Emesis, Lacrimation, Salivation",
+          "nicotinic": "Fasciculations, Weakness, Hypertension, Tachycardia, Mydriasis",
+          "cns": "Anxiety, Ataxia, Restlessness, Confusion, Convulsions, Coma"
+        },
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Universal precautions and decontamination",
+            "details": "Remove clothing, wash patient with soap and water"
+          },
+          {
+            "step_number": 2,
+            "action": "Supportive care of ABCs",
+            "details": "General management principles of poisoned patient"
+          },
+          {
+            "step_number": 3,
+            "action": "Atropine STAT dosing",
+            "details": "0.04-0.05mg/kg IV (3-5mg adult), double every 5min until atropinised. Can be given IM if no IV access (NB Section 21 form for 100mg amps)"
+          },
+          {
+            "step_number": 4,
+            "action": "Atropine infusion",
+            "details": "200mg Atropine in 200ml 0.9% NaCl (1mg/ml). 10-20% of total dose/hr once atropinised."
+          },
+          {
+            "step_number": 5,
+            "action": "Pralidoxime",
+            "details": "1-2g IV"
+          },
+          {
+            "step_number": 6,
+            "action": "Seizure management",
+            "details": "Benzodiazepines only (Clonazepam, Diazepam, Lorazepam). NO anticonvulsants."
+          },
+          {
+            "step_number": 7,
+            "action": "Monitor and correct electrolytes",
+            "details": "Consider MgSO4 4g/day"
+          },
+          {
+            "step_number": 8,
+            "action": "Weakness management",
+            "details": "If unable to lift head for 10s or squeeze hand, intubate and support"
+          },
+          {
+            "step_number": 9,
+            "action": "Disposition",
+            "details": "Internal Medicine consultation"
+          }
+        ],
+        "warnings": [
+          "Atropine only treats muscarinic symptoms - does NOT treat nicotinic symptoms",
+          "May cause anticholinergic toxidrome at high doses - monitor closely, insert urine catheter",
+          "Avoid succinylcholine if intubation required (causes prolonged paralysis)",
+          "100mg atropine amps in resus are Section 21 - form required",
+          "Endpoint = clearing of respiratory secretions (atropinisation), NOT tachycardia or pupil dilation"
+        ]
+      },
+      {
+        "item": "Beta-Blocker OD",
+        "adult_dose": "Glucagon: 5-10mg IV bolus then 1-5mg/hr infusion | HIET: Actrapid 1 IU/kg IV stat then 0.5-10 IU/kg/hr infusion | Calcium chloride: 10ml 10% over 10min via large bore IV/central line (target Ca 2mmol) | Consider Intralipid emulsion",
+        "paediatric_dose": "Weight-based dosing",
+        "route": "IV",
+        "notes": "Clinical features: Hypotension, bradycardia, hypoglycaemia, acidosis, CNS depression | ECG: Sinus bradycardia, AV blocks, junctional bradycardia, ventricular bradycardia | Propranolol also acts as Na channel blocker (TCA-like features) | Sotalol blocks K channels (QT prolongation, Torsades) | Enhanced elimination: Activated charcoal 50g via NGT | Haemodynamic support: Fluid bolus, high-dose inotropes | HIET protocol: Start with 50ml 50% dextrose bolus, Actrapid 1 IU/kg load, infusion 0.5 IU/kg/hr titrate up to 10 IU/kg/hr, dextrose maintenance 25g/hr via central line. Monitor HGT q20min for 1st hour then q1hr. Monitor potassium - replace if <2.5. | Therapeutic endpoints: EF>50%, SBP>90mmHg, HR>60bpm, resolution of acidaemia, euglycaemia, UO 1-2ml/kg/hr, QRS<120ms, improved GCS | Consider ECMO if no response to HIET",
+        "notes_updates": "Clinical features: Hypotension, bradycardia, hypoglycaemia (BB) or hyperglycaemia (CCB), acidosis, CNS depression | ECG: Sinus bradycardia, AV blocks, junctional bradycardia, ventricular bradycardia | Propranolol: also Na channel blocker - TCA-like features | Sotalol: blocks K channels - QT prolongation, Torsades | Enhanced elimination: Activated charcoal 50g via NGT | Haemodynamic support: Fluid bolus, high-dose inotropes | Glucagon: 5-10mg IV bolus then 1-5mg/hr | HIET: Actrapid 1 IU/kg IV load, then 0.5-10 IU/kg/hr. Dextrose 25g/hr maintenance. Monitor HGT q20min then q1hr. Replace K+ if <2.5 | Calcium chloride: 10ml 10% over 10min (target Ca 2mmol) | Intralipid emulsion - specialist consultation | ECMO if no response to HIET | Therapeutic endpoints: EF>50%, SBP>90, HR>60, pH normalised, euglycaemia, UO 1-2ml/kg/hr, QRS<120ms",
+        "antidote_treatment": "Glucagon + HIET + Calcium",
+        "clinical_features": {
+          "clinical": "Hypotension, bradycardia, hypoglycaemia (BB) or hyperglycaemia (CCB), acidosis, CNS depression",
+          "ecg": "Sinus bradycardia, AV blocks, junctional bradycardia, ventricular bradycardia",
+          "special_notes": "Propranolol also Na channel blocker (TCA-like features); Sotalol blocks K channels (QT prolongation, Torsades)"
+        },
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well"
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG"
+          },
+          {
+            "step_number": 3,
+            "action": "Activated charcoal 50g via NGT",
+            "details": "Enhanced elimination"
+          },
+          {
+            "step_number": 4,
+            "action": "Haemodynamic support",
+            "details": "Fluid bolus 20ml/kg, high-dose inotropes as required"
+          },
+          {
+            "step_number": 5,
+            "action": "Calcium chloride",
+            "details": "10ml 10% over 10min via large bore IV or central line (target Ca 2mmol)"
+          },
+          {
+            "step_number": 6,
+            "action": "HIET protocol",
+            "details": "50ml 50% dextrose bolus, Actrapid 1 IU/kg load, 0.5-10 IU/kg/hr infusion, dextrose 25g/hr maintenance"
+          },
+          {
+            "step_number": 7,
+            "action": "Glucagon",
+            "details": "5-10mg IV bolus then 1-5mg/hr infusion"
+          },
+          {
+            "step_number": 8,
+            "action": "Consider Intralipid emulsion",
+            "details": "Specialist consultation"
+          },
+          {
+            "step_number": 9,
+            "action": "Monitor therapeutic endpoints",
+            "details": "EF>50%, SBP>90, HR>60, pH normalised, euglycaemia, UO 1-2ml/kg/hr, QRS<120ms"
+          },
+          {
+            "step_number": 10,
+            "action": "Consider ECMO",
+            "details": "If no response to HIET - specialist consultation"
+          }
+        ],
+        "warnings": [
+          "Propranolol also acts as Na channel blocker - TCA-like features of OD",
+          "Sotalol blocks myocardial K channels - QT prolongation and Torsades",
+          "Beta blocker OD may lead to profound CNS depression - airway support needed",
+          "Monitor potassium during HIET - replace if <2.5 mmol/L",
+          "Consider ECMO if no response to HIET"
+        ]
+      },
+      {
+        "item": "TCA Overdose",
+        "adult_dose": "Sodium Bicarbonate: 1-2mEq/kg (1-2ml/kg 8.4% or 2-4ml/kg 4.2%) IV bolus, repeat every 5min until BP improves and QRS narrows | Hypertonic saline 3% 100ml boluses if Sodabic unavailable | Lignocaine: 1.5mg/kg IV for arrhythmias once pH >7.5 | Magnesium Sulphate for QT prolongation",
+        "paediatric_dose": "Sodium bicarbonate: 1-2mEq/kg IV",
+        "route": "IV",
+        "notes": "Significant overdose >10mg/kg | ECG features: Na channel blocking, sinus tachycardia, prolonged PR, QRS>100ms (predictive of seizures), QRS>160ms (predictive of VT), prolonged QT, RBBB, right axis deviation, terminal R wave >3mm in aVR, R/S ratio >0.7 in aVR | MAINSTAY: Sodium bicarbonate and hyperventilation | Indications for Sodabic: pH<7.1, QRS>100ms, arrhythmias, seizures, hypotension | Intubate early for airway protection and hyperventilation to pH 7.5-7.55 | Activated charcoal 1g/kg via NGT once airway protected (even if >1hr post-ingestion), consider MDAC in severe cases | Benzodiazepines for seizures - AVOID anti-epileptic drugs | 3rd line: Lignocaine 1.5mg/kg IV once pH>7.5 | Consider Intralipid in consultation with GIT/ICU | Contraindicated: Type 1a antiarrhythmics, Amiodarone, beta-blockers",
+        "notes_updates": "Significant overdose >10mg/kg | ECG: Na channel blocker, sinus tachycardia, PR prolongation, QRS>100ms (predicts seizures), QRS>160ms (predicts VT), QT prolongation, RBBB, right axis deviation, terminal R wave >3mm in aVR, R/S >0.7 in aVR | MAINSTAY: Sodium bicarbonate 1-2mEq/kg IV bolus + hyperventilation | Indications for Sodabic: pH<7.1, QRS>100ms, arrhythmias, seizures, hypotension | Repeat Sodabic every 5min until BP improves and QRS narrows | Hyperventilate to pH 7.5-7.55 | Hypertonic saline 3% 100ml boluses if Sodabic unavailable | Intubate early - BEWARE worsening acidosis, minimise apnoeic period | Charcoal 1g/kg via NGT once airway protected (even if >1hr), consider MDAC | Seizures: benzodiazepines, AVOID anti-epileptic drugs | Lignocaine 1.5mg/kg IV for arrhythmias once pH>7.5 | MgSO4 for QT prolongation | Intralipid - consult GIT/ICU | Contraindicated: Type 1a antiarrhythmics, Amiodarone, beta-blockers",
+        "antidote_treatment": "Sodium Bicarbonate (mainstay) + Hyperventilation",
+        "clinical_features": {
+          "presentation": "Sedation/coma/seizures, metabolic acidosis, broad complex tachydysrhythmias, hypotension, anticholinergic syndrome",
+          "ecg_features": "Na channel blockade, sinus tachycardia, prolonged PR, QRS>100ms, prolonged QT, RBBB, right axis deviation, terminal R wave >3mm in aVR"
+        },
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well"
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG"
+          },
+          {
+            "step_number": 3,
+            "action": "Sodium bicarbonate",
+            "details": "1-2mEq/kg IV bolus. Repeat every 5min until BP improves and QRS narrows."
+          },
+          {
+            "step_number": 4,
+            "action": "Hyperventilation",
+            "details": "Intubate early, hyperventilate to pH 7.5-7.55. Beware worsening acidosis."
+          },
+          {
+            "step_number": 5,
+            "action": "Activated charcoal",
+            "details": "1g/kg via NGT once airway protected. Consider MDAC in severe cases."
+          },
+          {
+            "step_number": 6,
+            "action": "Seizure management",
+            "details": "Benzodiazepines. AVOID anti-epileptic drugs. Sodabic is 1st line for seizures."
+          },
+          {
+            "step_number": 7,
+            "action": "Arrhythmias",
+            "details": "Continue Sodabic boluses until rhythm normalises. Lignocaine 1.5mg/kg IV once pH>7.5."
+          },
+          {
+            "step_number": 8,
+            "action": "QT prolongation",
+            "details": "Magnesium Sulphate"
+          },
+          {
+            "step_number": 9,
+            "action": "Consider Intralipid",
+            "details": "In consultation with GIT/ICU"
+          },
+          {
+            "step_number": 10,
+            "action": "Consider ECMO",
+            "details": "Refractory cases"
+          }
+        ],
+        "warnings": [
+          "QRS >100ms predictive of seizures; QRS >160ms predictive of ventricular arrhythmias",
+          "Cardioversion unlikely to be successful for arrhythmias - continue Sodabic until rhythm normalises",
+          "Contraindicated drugs: Type 1a antiarrhythmics, Amiodarone, beta-blockers",
+          "Avoid intubation if possible - associated with high peri-intubation mortality in salicylate OD (different protocol)",
+          "Avoid anti-epileptic drugs for seizures - use benzodiazepines and Sodabic"
+        ]
+      },
+      {
+        "item": "Salicylate",
+        "adult_dose": "Activated charcoal: 50g if >150mg/kg ingested (up to 8hrs post-ingestion) | Urinary alkalinisation: Sodium bicarbonate 1ml/kg IV of 8.5% (Sodabic) | Goal serum pH 7.45-7.55, urine pH >7.5 | Haemodialysis for refractory cases",
+        "paediatric_dose": "Activated charcoal: 1g/kg | Sodium bicarbonate: weight-based dosing",
+        "route": "PO/IV
