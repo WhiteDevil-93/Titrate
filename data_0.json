@@ -1,0 +1,131 @@
+{
+  "1_resuscitation_fluids_and_inotropes": {
+    "shock": [
+      {
+        "item": "Fluid Bolus (Sepsis)",
+        "adult_dose": "Balanced Salt Solution (e.g., Ringer's Lactate): 500ml IV bolus",
+        "paediatric_dose": "10-20ml/kg IV bolus",
+        "notes_updates": "Balanced Salt Solutions preferred over 0.9% Saline for septic shock to prevent hyperchloraemic acidosis."
+      },
+      {
+        "item": "Fluid Bolus (Hypovolaemia)",
+        "adult_dose": "Sodium Chloride 0.9%: 500ml IV bolus",
+        "paediatric_dose": "10-20ml/kg IV bolus",
+        "notes_updates": "0.9% Saline remains primary for hypovolaemia due to blood loss/dehydration."
+      }
+    ],
+    "inotropes": [
+      {
+        "item": "Noradrenaline",
+        "adult_dose": "0.05 - 1 ug/kg/min IV",
+        "paediatric_dose": "0.05 - 1 ug/kg/min IV",
+        "notes_updates": "First-line vasopressor for septic shock. No longer restricted as 'Section 21'."
+      },
+      {
+        "item": "Adrenaline",
+        "adult_dose": "1 mg IV (Resus) every 3-5 min; 0.05-1 ug/kg/min (Infusion)",
+        "paediatric_dose": "10ug/kg IV OR 0.1ml/kg of 1:10 000",
+        "notes_updates": "Second-line for septic shock if MAP targets not met with Noradrenaline."
+      },
+      {
+        "item": "Dobutamine",
+        "adult_dose": "5 - 30 ug/kg/min IV",
+        "paediatric_dose": "5 - 30 ug/kg/min IV",
+        "notes_updates": "Indicated for septic shock with cardiac dysfunction (persistent hypoperfusion despite fluids/vasopressors)."
+      },
+      {
+        "item": "Dopamine",
+        "adult_dose": "Formula: (ug/kg/min x kg x 60)/1000",
+        "paediatric_dose": "See Formula",
+        "notes_updates": "Largely superseded by Noradrenaline for shock."
+      },
+      {
+        "item": "Phenylephrine",
+        "adult_dose": "0.5-5ug/kg/min IV",
+        "paediatric_dose": "0.5-5ug/kg/min IV",
+        "notes_updates": ""
+      },
+      {
+        "item": "Milrinone",
+        "adult_dose": "Loading: 50ug/kg IV over 10min; Maintenance: 0.37-0.75ug/kg/min IV",
+        "paediatric_dose": "Loading: 50ug/kg/min IV; Maintenance: 0.25-0.75ug/kg/min IV",
+        "notes_updates": "Section 21 - requires consent"
+      }
+    ],
+    "arrhythmia": [
+      {
+        "item": "Amiodarone",
+        "adult_dose": "300mg IV bolus (unstable); 150mg IV (stable)",
+        "paediatric_dose": "5mg/kg IV bolus",
+        "notes_updates": "300mg in 5% Dextrose over 30 min (Loading)."
+      },
+      {
+        "item": "Magnesium Sulphate",
+        "adult_dose": "1 - 2 g IV over 10-20mins",
+        "paediatric_dose": "25 - 50 mg/kg IV",
+        "notes_updates": ""
+      },
+      {
+        "item": "Adenosine",
+        "adult_dose": "6 - 12 mg rapid IV push",
+        "paediatric_dose": "0.1 - 0.2 mg/kg rapid IV push",
+        "notes_updates": "Repeat 1-2 min if needed."
+      }
+    ],
+    "targets": {
+      "item": "MAP",
+      "adult_dose": "Young adult: 60-80mmHg; Older: 80mmHg",
+      "paediatric_dose": "<1yr: 50-60mmHg; >1yr: 60-80mmHg",
+      "notes_updates": "Maintain perfusion pressure."
+    },
+    "resuscitation_medication": [
+      {
+        "item": "Adrenalin (1mg/ml)",
+        "adult_dose": "1mg IV repeat every 3-5min",
+        "paediatric_dose": "10ug/kg IV OR 0.1ml/kg of 1:10 000 (1mg adrenaline/10ml normal saline)"
+      },
+      {
+        "item": "Amiodarone (loading)",
+        "adult_dose": "300mg IV bolus over 3min (unstable pt); 150mg IV bolus over 3min (stable pt)",
+        "paediatric_dose": "5mg/kg IV bolus over 3min"
+      },
+      {
+        "item": "Sodium Bicarbonate (8.5%)",
+        "adult_dose": "50mEq IV (50ml)",
+        "paediatric_dose": "1-2mEq/kg IV (dilute in sterile water)"
+      },
+      {
+        "item": "Calcium Chloride (10%)",
+        "adult_dose": "1g IV (10ml) slowly",
+        "paediatric_dose": "0.2ml/kg IV slowly (max 10ml)"
+      },
+      {
+        "item": "Dextrose (50%)",
+        "adult_dose": "50ml 50% dextrose IV/PO",
+        "paediatric_dose": "1ml/kg 50% dextrose + 1ml/kg H2O IV/PO"
+      },
+      {
+        "item": "Lignocaine (20mg/ml)",
+        "adult_dose": "1-1.5 mg/kg IV",
+        "paediatric_dose": "1 mg/kg IV"
+      }
+    ],
+    "cardioversion": [
+      {
+        "item": "Atrial arrhythmias",
+        "adult_dose": "100J: 200J: 300J: 360J synch mono",
+        "paediatric_dose": "0.5J/kg: 1J/kg: 2J/kg Synchronised"
+      },
+      {
+        "item": "Ventricular Tachycardia",
+        "adult_dose": "100J: 200J: 300J: 360J synch mono",
+        "paediatric_dose": "0.5J/kg: 1J/kg: 2J/kg Synchronised"
+      },
+      {
+        "item": "Defibrillation - VF",
+        "adult_dose": "360J defib monophasic; 120-200J defib biphasic",
+        "paediatric_dose": "4J/kg defib (mono and biphasic)"
+      }
+    ]
+  }
+}
