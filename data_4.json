@@ -1,0 +1,1870 @@
+g, lower BP with nitroglycerin (Nitrocine) infusion before thrombolysis",
+          "For streptokinase: prior exposure or prior allergic reaction is a relative contraindication (use alternative thrombolytic)",
+          "Post-thrombolysis bleeding management: Stop infusion, FBC/INR/aPTT/fibrinogen, CT brain if indicated, cryoprecipitate 10U/kg, tranexamic acid 1g IV, haematology and neurosurgery consults"
+        ],
+        "disposition": "All STEMI patients MUST be referred to Internal Medicine/Cardiology following thrombolysis | Patient requires ongoing care in a monitored setting (high care/ICU/step-down) | Consider need for rescue PCI if failed reperfusion (ongoing chest pain, <50% ST resolution at 90 min) | Arrange transfer to PCI-capable centre if available and clinically indicated | If thrombolysis is contraindicated, urgent referral for primary PCI is required | If symptom onset >12 hours and chest pain has resolved, refer to cardiology for risk stratification and non-urgent management | Continue aspirin, clopidogrel, statin, and beta-blocker (if tolerated) post-discharge | Arrange cardiology follow-up within 1 week | Document door-to-needle time and reperfusion outcomes | Patient education: cardiac rehabilitation, medication compliance, lifestyle modification, warning symptoms requiring return to ED"
+      }
+    ]
+  },
+  "12_ed_toxicology": {
+    "protocols": [
+      {
+        "item": "Organophosphate/Carbamate (Acetylcholinesterase Inhibitor) Overdose",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [
+            "D - Diaphoresis, diarrhoea",
+            "U - Urination",
+            "M - Miosis",
+            "B - Bradycardia, bronchorrhoea, bronchospasm",
+            "E - Emesis",
+            "L - Lacrimation",
+            "S - Salivation"
+          ],
+          "nicotinic": [
+            "Fasciculations",
+            "Weakness",
+            "Hypertension",
+            "Tachycardia",
+            "Mydriasis"
+          ],
+          "cns": [
+            "Anxiety",
+            "Ataxia",
+            "Restlessness",
+            "Confusion",
+            "Convulsions",
+            "Coma"
+          ],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "Not specifically mentioned for OP/carbamate",
+          "gastric_lavage": "Not mentioned",
+          "whole_bowel_irrigation": "Not mentioned",
+          "skin_decon": "Remove clothing, wash patient with soap and water. Universal precautions."
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Decontamination",
+            "details": "Remove clothing, wash patient with soap and water. Universal precautions.",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Supportive care of ABCs",
+            "details": "General management principles of a poisoned patient",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Atropine administration",
+            "details": "0.04-0.05 mg/kg IV, double every 5 minutes until atropinisation (clearing of respiratory secretions)",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Atropine infusion",
+            "details": "Once atropinised, start infusion at 10-20% of total atropinisation dose per hour",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Seizure management",
+            "details": "Check blood glucose. Use benzodiazepine only (Clonazepam, Diazepam, Lorazepam). NO anticonvulsant agents.",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Monitor and correct electrolyte abnormalities",
+            "details": "Consider MgSO4 4g/day (weak evidence)",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Assess for weakness (nicotinic symptoms)",
+            "details": "Check if patient can lift and hold head up for 10 seconds; ask patient to squeeze your hand. Intubation and supportive management only way to control respiratory failure from weakness.",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Atropine",
+            "adult_dose": "0.04-0.05 mg/kg IV (3-5 mg adult) STAT, double every 5 minutes until atropinisation ('escalating atropinisation')",
+            "route": "IV (can administer IM if no immediate IV access)",
+            "frequency": "Double every 5 minutes until atropinisation achieved",
+            "notes": "100mg amps in resus, NB SECTION 21 FORM required. Only treats muscarinic symptoms. May cause anticholinergic toxidrome at high doses - monitor closely. NB urine catheter."
+          },
+          {
+            "item": "Atropine Infusion",
+            "adult_dose": "200 mg Atropine in 200 ml 0.9% NaCl (1 mg/ml). 10-20% of total dose already given per hour",
+            "route": "IV infusion via Dial-a-flow/Infusion pump",
+            "frequency": "Continuous",
+            "notes": "Start once atropinised. Total dose refers to dose given for escalating atropinisation."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Respiratory secretions",
+            "frequency": "Continuous",
+            "target": "Clearing of secretions = endpoint of atropinisation (NOT based on tachycardia or pupil dilation)"
+          },
+          {
+            "parameter": "Electrolytes",
+            "frequency": "Serial",
+            "target": "Correct abnormalities"
+          },
+          {
+            "parameter": "Blood glucose",
+            "frequency": "Check during seizures",
+            "target": "Normoglycaemia"
+          }
+        ],
+        "warnings": [
+          "Avoid succinylcholine if intubation required (causes prolonged paralysis)",
+          "Atropine only treats muscarinic symptoms, not nicotinic",
+          "May cause anticholinergic toxidrome at high doses - monitor closely",
+          "Urine catheter essential due to urinary retention from atropine",
+          "SECTION 21 FORM required for atropine (100mg amps in resus)"
+        ],
+        "disposition": "Internal Medicine consultation",
+        "formulas": [],
+        "notes_updates": "Muscarinic: D - Diaphoresis, diarrhoea, U - Urination, M - Miosis, B - Bradycardia, bronchorrhoea, bronchospasm, E - Emesis, L - Lacrimation, S - Salivation\nNicotinic: Fasciculations, Weakness, Hypertension, Tachycardia, Mydriasis\nCns: Anxiety, Ataxia, Restlessness, Confusion, Convulsions, Coma\nDisposition: Internal Medicine consultation\nWarnings: Avoid succinylcholine if intubation required (causes prolonged paralysis); Atropine only treats muscarinic symptoms, not nicotinic; May cause anticholinergic toxidrome at high doses - monitor closely; Urine catheter essential due to urinary retention from atropine; SECTION 21 FORM required for atropine (100mg amps in resus)"
+      },
+      {
+        "item": "Anaphylaxis",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "N/A",
+          "gastric_lavage": "N/A",
+          "whole_bowel_irrigation": "N/A",
+          "skin_decon": "Stop/remove the suspected allergen"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Stop/remove suspected allergen",
+            "details": "Remove trigger if possible",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Position patient",
+            "details": "Place supine and elevate legs",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Adrenaline IM",
+            "details": "0.5 ml IM 1:1000 anterolateral thigh STAT. Repeat every 3-5 min if no improvement.",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "High-flow oxygen",
+            "details": "Apply immediately",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Monitors and IV access",
+            "details": "Establish monitoring and IV access",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Airway assessment",
+            "details": "Partial obstruction: Nebulized adrenaline 5mg, prepare for difficult airway. Complete obstruction: Bag-mask ventilation with high-flow O2, prepare for difficult airway.",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Breathing management",
+            "details": "Continuous nebulization with beta-2 agonists for wheeze/dyspnoea",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Circulation support",
+            "details": "Crystalloid (Ringers Lactate/Balsol) 20 ml/kg, repeat as necessary - large amounts may be required",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "Antihistamine",
+            "details": "Promethazine 12.5 mg slow IV (max 25 mg)",
+            "caution": ""
+          },
+          {
+            "step_number": 10,
+            "action": "Steroid",
+            "details": "Hydrocortisone 200 mg slow IV",
+            "caution": ""
+          },
+          {
+            "step_number": 11,
+            "action": "Adrenaline infusion",
+            "details": "Start if poor response/deterioration despite repeated IM doses (see infusion protocol)",
+            "caution": ""
+          },
+          {
+            "step_number": 12,
+            "action": "Cardiac arrest protocol",
+            "details": "If cardiac arrest 2° anaphylaxis: ACLS protocol + immediate high-dose adrenaline + high volume IV fluids",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Adrenaline (Epinephrine)",
+            "adult_dose": "0.5 ml IM STAT (0.01 mg/kg up to 0.5 mg), using 1mg/ml 1:1000 concentration",
+            "route": "IM anterolateral thigh",
+            "frequency": "Repeat every 3-5 minutes if no improvement. For cardiac arrest: 3-5mg every 2-3 minutes (high-dose escalation).",
+            "notes": "First-line treatment. Do not delay. Nebulized adrenaline (5mg) for partial airway obstruction."
+          },
+          {
+            "item": "Promethazine (Phenergan)",
+            "adult_dose": "12.5 mg slow IV (max 25 mg)",
+            "route": "IV slow",
+            "frequency": "STAT",
+            "notes": "Children - weight dependent. H1 antihistamine."
+          },
+          {
+            "item": "Hydrocortisone (Solucortef)",
+            "adult_dose": "200 mg slow IV",
+            "route": "IV slow",
+            "frequency": "STAT",
+            "notes": "Children - weight dependent. May help prevent biphasic reaction."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Blood pressure",
+            "frequency": "Continuous",
+            "target": "SBP stable"
+          },
+          {
+            "parameter": "Airway patency",
+            "frequency": "Continuous",
+            "target": "No obstruction"
+          },
+          {
+            "parameter": "Oxygen saturation",
+            "frequency": "Continuous",
+            "target": ">94%"
+          }
+        ],
+        "warnings": [
+          "Biphasic reaction can occur in 5-20% of cases",
+          "Risk factors for biphasic: delayed adrenaline, slow response, repeated doses, need for IV fluids, lack of steroids",
+          "If partial airway obstruction: nebulized adrenaline 5mg, prepare for difficult airway",
+          "If complete airway obstruction: bag-mask ventilation, prepare for difficult airway",
+          "Adrenaline infusion may be needed for poor response",
+          "Do NOT give beta-blockers - unopposed alpha agonism"
+        ],
+        "disposition": "Monitor for biphasic reaction (5-20% recurrence). Risk factors: delayed adrenaline, slow response, repeated doses needed, IV fluids required, lack of steroid use. Observation period required.",
+        "formulas": [],
+        "notes_updates": "Disposition: Monitor for biphasic reaction (5-20% recurrence). Risk factors: delayed adrenaline, slow response, repeated doses needed, IV fluids required, lack of steroid use. Observation period required.\nWarnings: Biphasic reaction can occur in 5-20% of cases; Risk factors for biphasic: delayed adrenaline, slow response, repeated doses, need for IV fluids, lack of steroids; If partial airway obstruction: nebulized adrenaline 5mg, prepare for difficult airway; If complete airway obstruction: bag-mask ventilation, prepare for difficult airway; Adrenaline infusion may be needed for poor response; Do NOT give beta-blockers - unopposed alpha agonism",
+        "reversal_agents": [
+          {
+            "name": "Adrenaline",
+            "indication": "Anaphylaxis (first-line)",
+            "dose": "0.5 ml IM 1:1000, repeat every 3-5 min",
+            "route": "IM anterolateral thigh"
+          },
+          {
+            "name": "Nebulized Adrenaline",
+            "indication": "Partial airway obstruction",
+            "dose": "5 mg",
+            "route": "Nebulizer"
+          }
+        ]
+      },
+      {
+        "item": "Angioedema",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "N/A",
+          "gastric_lavage": "N/A",
+          "whole_bowel_irrigation": "N/A",
+          "skin_decon": "Stop offending agent (ACE-I/ARB) - document in discharge summary"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to high care/monitored area (Resus/Orange)",
+            "details": "Continuous monitoring",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Assess for imminent airway compromise",
+            "details": "Dyspnoea, dysphagia/odynophagia, dysphonia, stridor, hoarseness, drooling. CALL FOR HELP if present.",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "2 large-bore IV lines",
+            "details": "Assess for shock: fluid bolus and vasopressors per anaphylaxis guidelines if needed",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Prepare for extremely difficult airway",
+            "details": "Avoid airway manipulation if possible. Most skilled person to attempt intubation. Ideally intubate in theatre with awake fibre-optic laryngoscopy and surgical airway double setup. LMA unlikely to be successful - move directly to cricothyrotomy if intubation fails.",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Identify trigger and type",
+            "details": "ACE-I/ARB (bradykinin-mediated) vs allergic (histaminergic). Check exposures, medications, family history, past presentations.",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "ACE-I/ARB specific therapy",
+            "details": "STOP offending agent. Tranexamic acid 1g over 10 min. FFP 2 units. Adrenaline, steroids, antihistamines unlikely to be effective. Many resolve with observation over 24-48 hours.",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Histaminergic specific therapy",
+            "details": "Adrenaline 0.5ml IM, Solucortef 200mg IV, Promethazine 12.5mg IV. Follow anaphylaxis pathway.",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Special investigations",
+            "details": "Fibreoptic laryngoscopy (preferably in theatre), C1 esterase inhibitor assays, C4 levels, serial tryptase levels. CT abdomen if severe abdominal pain. CT neck to exclude mimics (do NOT send with unprotected airway).",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Tranexamic acid (Cyclokapron)",
+            "adult_dose": "1 g over 10 minutes",
+            "route": "IV",
+            "frequency": "STAT",
+            "notes": "For ACE-I/ARB (bradykinin-mediated) angioedema. Reduces conversion of plasminogen to plasmin which reduces bradykinin production."
+          },
+          {
+            "item": "Fresh Frozen Plasma (FFP)",
+            "adult_dose": "2 units",
+            "route": "IV",
+            "frequency": "STAT",
+            "notes": "For ACE-I/ARB angioedema. FFP contains ACE which degrades bradykinin."
+          },
+          {
+            "item": "Adrenaline",
+            "adult_dose": "0.5 ml neat IM antero-lateral thigh, repeat 2-5 min or start infusion",
+            "route": "IM",
+            "frequency": "Repeat as needed",
+            "notes": "For histaminergic cases only. Unlikely effective in bradykinin-mediated (ACE-I/ARB) cases."
+          },
+          {
+            "item": "Hydrocortisone (Solucortef)",
+            "adult_dose": "200 mg IV stat",
+            "route": "IV",
+            "frequency": "STAT",
+            "notes": "For histaminergic cases"
+          },
+          {
+            "item": "Promethazine (Phenergan)",
+            "adult_dose": "12.5 mg IV stat",
+            "route": "IV",
+            "frequency": "STAT",
+            "notes": "For histaminergic cases"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Airway patency",
+            "frequency": "Continuous",
+            "target": "No signs of obstruction"
+          },
+          {
+            "parameter": "Vital signs",
+            "frequency": "Continuous",
+            "target": "Haemodynamic stability"
+          }
+        ],
+        "warnings": [
+          "HAE (Hereditary Angioedema) vs allergic angioedema have different management pathways",
+          "ACE-I/ARB cases (bradykinin-mediated): Adrenaline, steroids, antihistamines UNLIKELY effective",
+          "LMA unlikely to be successful in angioedema - move directly to cricothyrotomy if intubation fails",
+          "Do NOT send to CT with an unprotected airway",
+          "Avoid airway manipulation if possible - failed attempts may worsen compromise",
+          "Most skilled person should attempt intubation",
+          "Many ACE-I/ARB cases can be managed with observation only, tend to resolve over 24-48 hours"
+        ],
+        "disposition": "Isolated face/lips involvement: monitor 4-8 hours, consider discharge with outpatient follow-up. Monitored admission for: incomplete resolution, previous angioedema history, tongue/laryngeal/pharyngeal oedema, concern for severe allergic reaction. Ensure patient aware of ACEi/ARB brand names (drugs ending in 'pril' and 'sartan') - give written report and document on TTO.",
+        "formulas": [],
+        "notes_updates": "Disposition: Isolated face/lips involvement: monitor 4-8 hours, consider discharge with outpatient follow-up. Monitored admission for: incomplete resolution, previous angioedema history, tongue/laryngeal/pharyngeal oedema, concern for severe allergic reaction. Ensure patient aware of ACEi/ARB brand names (drugs ending in 'pril' and 'sartan') - give written report and document on TTO.\nWarnings: HAE (Hereditary Angioedema) vs allergic angioedema have different management pathways; ACE-I/ARB cases (bradykinin-mediated): Adrenaline, steroids, antihistamines UNLIKELY effective; LMA unlikely to be successful in angioedema - move directly to cricothyrotomy if intubation fails; Do NOT send to CT with an unprotected airway; Avoid airway manipulation if possible - failed attempts may worsen compromise; Most skilled person should attempt intubation; Many ACE-I/ARB cases can be managed with observation only, tend to resolve over 24-48 hours"
+      },
+      {
+        "item": "Toxic Alcohol Ingestion (Ethylene Glycol, Methanol, Isopropyl Alcohol)",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [
+            "Ethylene glycol: coma, seizures, meningism, muscle spasms, ocular paralysis",
+            "Methanol: Parkinsonism, transverse myelitis, basal ganglia haemorrhages, inebriation",
+            "Isopropyl: profound intoxication, cerebellar signs, coma"
+          ],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "Not recommended for toxic alcohols",
+          "gastric_lavage": "Not recommended",
+          "whole_bowel_irrigation": "Not mentioned",
+          "skin_decon": "N/A"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Correct abnormal electrolytes",
+            "details": "Especially potassium, magnesium",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Crystalloid fluid bolus",
+            "details": "20 ml/kg if hypotensive",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Comprehensive history and exam",
+            "details": "Amount and time of ingestion, co-ingestants, comorbidities, chronic medications, symptoms prior to arrival",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Document specific features of toxicity",
+            "details": "Ocular (methanol: snowstorm vision), neurologic, cardiopulmonary",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Further investigations",
+            "details": "FBC, U&E, LFT, Paracetamol/Salicylate level, urine tox screen, serum alcohol level. Calculate anion gap and osmolar gap - HAGMA with high osmolar gap suggests toxic alcohol ingestion.",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "pH correction",
+            "details": "Sodabic boluses 1 ml/kg 8.5% until pH > 7.2",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "Seizure management",
+            "details": "IV benzodiazepines. Monitor for arrhythmias/hypoglycaemia as cause.",
+            "caution": ""
+          },
+          {
+            "step_number": 10,
+            "action": "Airway protection",
+            "details": "Intubation prior to ethanol administration (if using ethanol as antidote)",
+            "caution": ""
+          },
+          {
+            "step_number": 11,
+            "action": "Administer antidote",
+            "details": "Fomepizole 15 mg/kg loading then 10 mg/kg 12hrly OR Ethanol 40% 1.5-2 ml/kg load then 0.3 ml/kg/hr NGT",
+            "caution": ""
+          },
+          {
+            "step_number": 12,
+            "action": "Cofactor therapy",
+            "details": "Ethylene glycol: pyridoxine 100mg QID + thiamine 100mg QID. Methanol: folic acid 50mg 4-6hrly.",
+            "caution": ""
+          },
+          {
+            "step_number": 13,
+            "action": "Enhanced elimination",
+            "details": "Haemodialysis effective, usually required. Medicine/renal consult.",
+            "caution": ""
+          },
+          {
+            "step_number": 14,
+            "action": "Isopropyl alcohol",
+            "details": "Supportive treatment only + PPI. No antidote required.",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Fomepizole",
+            "adult_dose": "15 mg/kg loading dose, then 10 mg/kg 12 hourly",
+            "route": "IV",
+            "frequency": "12 hourly after loading dose",
+            "notes": "Preferred antidote for ethylene glycol and methanol. Continue until vital signs and lab values normalize or patient receives dialysis."
+          },
+          {
+            "item": "Ethanol (40% e.g. Vodka)",
+            "adult_dose": "1.5-2 ml/kg loading dose, then 0.3 ml/kg/hr maintenance",
+            "route": "NGT",
+            "frequency": "Continuous maintenance infusion",
+            "notes": "Alternative if fomepizole unavailable. Airway protection required prior to administration (intubate first). Continue until vital signs and lab values normalize or patient receives dialysis."
+          },
+          {
+            "item": "Pyridoxine (Vitamin B6)",
+            "adult_dose": "100 mg QID",
+            "route": "IV/NGT",
+            "frequency": "QID",
+            "notes": "Cofactor for ethylene glycol - promotes conversion to non-toxic metabolites"
+          },
+          {
+            "item": "Thiamine",
+            "adult_dose": "100 mg QID",
+            "route": "IV/NGT",
+            "frequency": "QID",
+            "notes": "Cofactor for ethylene glycol"
+          },
+          {
+            "item": "Folic acid",
+            "adult_dose": "50 mg 4-6 hourly",
+            "route": "IV/NGT",
+            "frequency": "4-6 hourly",
+            "notes": "Cofactor for methanol - promotes conversion to non-toxic metabolites"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "pH",
+            "frequency": "Serial VBG",
+            "target": ">7.2"
+          },
+          {
+            "parameter": "Anion gap",
+            "frequency": "Serial",
+            "target": "Normalization"
+          },
+          {
+            "parameter": "Osmolar gap",
+            "frequency": "Serial",
+            "target": "Normalization"
+          },
+          {
+            "parameter": "Electrolytes",
+            "frequency": "Serial",
+            "target": "Correct abnormalities"
+          },
+          {
+            "parameter": "ECG",
+            "frequency": "Serial",
+            "target": "Monitor for arrhythmias"
+          },
+          {
+            "parameter": "Visual acuity",
+            "frequency": "Monitor",
+            "target": "Assess for methanol ocular toxicity"
+          }
+        ],
+        "warnings": [
+          "HAGMA with high osmolar gap suggests toxic alcohol ingestion",
+          "Airway protection required prior to ethanol administration",
+          "Haemodialysis usually required - consult renal early",
+          "Isopropyl alcohol does NOT cause acidosis (metabolized to acetone, ketosis only)",
+          "Ethylene glycol causes artefactual lactic acidosis, hypocalcaemia, prolonged QT, acute renal failure due to calcium oxalate crystalluria",
+          "Methanol causes ocular toxicity: blurry vision, reduced visual acuity, photophobia, snowstorm vision",
+          "Decontamination NOT recommended for toxic alcohols"
+        ],
+        "disposition": "Medicine/renal consult. Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.",
+        "formulas": [
+          {
+            "name": "Anion Gap",
+            "formula": "Na - (Cl + HCO3)",
+            "variables": [
+              "Na",
+              "Cl",
+              "HCO3"
+            ]
+          },
+          {
+            "name": "Osmolar Gap",
+            "formula": "Measured osmolality - Calculated osmolality",
+            "variables": [
+              "Measured osmolality",
+              "Calculated osmolality"
+            ]
+          }
+        ],
+        "notes_updates": "Cns: Ethylene glycol: coma, seizures, meningism, muscle spasms, ocular paralysis, Methanol: Parkinsonism, transverse myelitis, basal ganglia haemorrhages, inebriation, Isopropyl: profound intoxication, cerebellar signs, coma\nDisposition: Medicine/renal consult. Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.\nWarnings: HAGMA with high osmolar gap suggests toxic alcohol ingestion; Airway protection required prior to ethanol administration; Haemodialysis usually required - consult renal early; Isopropyl alcohol does NOT cause acidosis (metabolized to acetone, ketosis only); Ethylene glycol causes artefactual lactic acidosis, hypocalcaemia, prolonged QT, acute renal failure due to calcium oxalate crystalluria; Methanol causes ocular toxicity: blurry vision, reduced visual acuity, photophobia, snowstorm vision; Decontamination NOT recommended for toxic alcohols"
+      },
+      {
+        "item": "Isoniazid (INH) Overdose",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [
+            "Seizures (refractory, high doses of benzodiazepines may be required)",
+            "Profound CNS depression"
+          ],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "Consider activated charcoal 50 g via NGT once airway is secured, IF ingestion < 1 hour ago",
+          "gastric_lavage": "Not mentioned",
+          "whole_bowel_irrigation": "Not mentioned",
+          "skin_decon": "N/A"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Consider INH toxicity",
+            "details": "In all refractory seizures, especially if on TB Rx/prophylaxis",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Terminate seizures",
+            "details": "Benzodiazepines (high doses may be required). See Status Epilepticus protocol. Avoid anti-epileptic agents.",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Early airway management",
+            "details": "Will require intubation prior to pyridoxine administration",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Correct abnormal electrolytes",
+            "details": "Consider other causes of seizures",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Crystalloid fluid bolus",
+            "details": "20 ml/kg if hypotensive",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Comprehensive history and exam",
+            "details": "Amount and time of ingestion, co-ingestants, comorbidities, chronic medications, symptoms prior to arrival",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "Document specific features of toxicity",
+            "details": "HAGMA, severe lactic acidosis, sinus tachycardia on ECG",
+            "caution": ""
+          },
+          {
+            "step_number": 10,
+            "action": "Further investigations",
+            "details": "FBC, U&E, LFT, Paracetamol/Salicylate level, urine tox screen, imaging as clinically indicated",
+            "caution": ""
+          },
+          {
+            "step_number": 11,
+            "action": "Decontamination",
+            "details": "Activated charcoal 50 g via NGT once airway secured, IF ingestion < 1 hour ago",
+            "caution": ""
+          },
+          {
+            "step_number": 12,
+            "action": "Haemodynamic support",
+            "details": "Fluid bolus/inotropes PRN. Consider co-ingestants if persistent hypotension.",
+            "caution": ""
+          },
+          {
+            "step_number": 13,
+            "action": "Pyridoxine administration",
+            "details": "Known amount: 1g per gram INH ingested (max 5g). Unknown amount: 5g total, repeat after 10-20 min if no response. Crush 25mg tablets, give via NGT.",
+            "caution": ""
+          },
+          {
+            "step_number": 14,
+            "action": "Enhanced elimination note",
+            "details": "Dialysis too slow, not indicated for INH overdose",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Pyridoxine (Vitamin B6)",
+            "adult_dose": "KNOWN amount: 1 g pyridoxine for each gram of INH ingested, max 5 g total or 70 mg/kg in children. UNKNOWN amount: 5 g total, repeat after 10-20 min if no response.",
+            "route": "NGT (crush tablets and administer via NGT once airway protected)",
+            "frequency": "Single dose (repeat once if unknown amount and no response after 10-20 min)",
+            "notes": "Specific antidote. Available as 25 mg tablets. 5 g = 200 tablets. Call pharmacy early - unlikely to be available in ED. Therapeutic endpoint: seizure termination, resolution of lactic acidosis."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Blood gas",
+            "frequency": "Serial VBG",
+            "target": "Resolution of HAGMA and lactic acidosis (therapeutic endpoint)"
+          },
+          {
+            "parameter": "Seizure activity",
+            "frequency": "Continuous",
+            "target": "Seizure termination (therapeutic endpoint)"
+          },
+          {
+            "parameter": "ECG",
+            "frequency": "Serial",
+            "target": "Monitor for sinus tachycardia"
+          }
+        ],
+        "warnings": [
+          "INH depletes Vitamin B6, causing decreased GABA - leads to seizures and lactic acidosis",
+          "Blood gas shows HAGMA with severe lactic acidosis",
+          "ECG: No specific features, sinus tachycardia",
+          "Avoid anti-epileptic agents - use benzodiazepines only",
+          "Early intubation required prior to pyridoxine administration",
+          "Dialysis too slow - not indicated",
+          "Pyridoxine 5g = 200 tablets of 25mg - call pharmacy early",
+          "Persistent hypotension - consider co-ingestants"
+        ],
+        "disposition": "Internal medicine referral. Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.",
+        "formulas": [],
+        "notes_updates": "Cns: Seizures (refractory, high doses of benzodiazepines may be required), Profound CNS depression\nDisposition: Internal medicine referral. Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.\nWarnings: INH depletes Vitamin B6, causing decreased GABA - leads to seizures and lactic acidosis; Blood gas shows HAGMA with severe lactic acidosis; ECG: No specific features, sinus tachycardia; Avoid anti-epileptic agents - use benzodiazepines only; Early intubation required prior to pyridoxine administration; Dialysis too slow - not indicated; Pyridoxine 5g = 200 tablets of 25mg - call pharmacy early; Persistent hypotension - consider co-ingestants"
+      },
+      {
+        "item": "Salicylate Overdose",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [
+            "Minimal (<150 mg/kg): minimal symptoms",
+            "Moderate (150-300 mg/kg): hyperpnoea, vomiting, nausea, tinnitus",
+            "Severe (>300 mg/kg): metabolic acidosis, seizures, coma, hypotension, pulmonary oedema, hyperthermia",
+            "Lethal (>500 mg/kg)",
+            "Chronic: non-specific delirium, confusion, fever, unexplained acidosis (common in elderly)"
+          ],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "If >150 mg/kg ingested - 50 g activated charcoal up to 8 hours post ingestion. If >300 mg/kg - SECURE AIRWAY PRIOR to activated charcoal.",
+          "gastric_lavage": "Not mentioned",
+          "whole_bowel_irrigation": "Consider MDAC if salicylate levels continue to rise",
+          "skin_decon": "N/A"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Correct electrolyte abnormalities",
+            "details": "Especially potassium (hypokalaemia common)",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Crystalloid fluid bolus",
+            "details": "20 ml/kg if hypotensive",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Comprehensive history and exam",
+            "details": "Amount and time of ingestion, co-ingestants, comorbidities, chronic medications, symptoms prior to arrival",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Document specific features of toxicity",
+            "details": "Tinnitus, hyperpnoea, vomiting, acidosis, neurological status",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Further investigations",
+            "details": "FBC, U&E, LFT, Paracetamol/Salicylate level, urine tox screen",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Decontamination",
+            "details": "If >150 mg/kg: 50 g activated charcoal up to 8 hours post ingestion. If >300 mg/kg: secure airway FIRST then charcoal. Consider MDAC if levels continue to rise.",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "Urinary and serum alkalinisation",
+            "details": "Sodium bicarbonate 1 ml/kg IV 8.5%. Goal: serum pH 7.45-7.55, urine pH >7.5",
+            "caution": ""
+          },
+          {
+            "step_number": 10,
+            "action": "Seizure management",
+            "details": "IV benzodiazepines. Monitor for arrhythmias/hypoglycaemia as cause.",
+            "caution": ""
+          },
+          {
+            "step_number": 11,
+            "action": "Intubation considerations",
+            "details": "AVOID intubation if possible - associated with high peri-intubation mortality. If necessary: Sodabic boluses prior to intubation, minimise apnoeic period, match patient's respiratory rate to maintain respiratory alkalosis.",
+            "caution": ""
+          },
+          {
+            "step_number": 12,
+            "action": "Haemodialysis",
+            "details": "Very effective but seldom required. Indications: see warnings. Renal consult if required.",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Sodium bicarbonate (Sodabic)",
+            "adult_dose": "1 ml/kg IV of 8.5% sodium bicarbonate for urinary and serum alkalinisation",
+            "route": "IV",
+            "frequency": "Repeat boluses as needed",
+            "notes": "Goal serum pH 7.45-7.55, urine pH >7.5. Mainstay of treatment."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Serum pH",
+            "frequency": "Serial VBG",
+            "target": "7.45-7.55"
+          },
+          {
+            "parameter": "Urine pH",
+            "frequency": "Serial",
+            "target": ">7.5"
+          },
+          {
+            "parameter": "Salicylate level",
+            "frequency": "Serial",
+            "target": "Levels correlate poorly with severity but serial levels monitor response to treatment"
+          },
+          {
+            "parameter": "Potassium",
+            "frequency": "Serial",
+            "target": "Correct hypokalaemia"
+          },
+          {
+            "parameter": "Blood glucose",
+            "frequency": "Serial",
+            "target": "Normoglycaemia (neuroglycopenia can occur even at normal HGT levels)"
+          },
+          {
+            "parameter": "ECG",
+            "frequency": "Serial",
+            "target": "Monitor for arrhythmias"
+          }
+        ],
+        "warnings": [
+          "Levels correlate POORLY with severity of toxicity, but serial levels can monitor response to treatment",
+          "Neuroglycopenia can occur even at normal HGT levels",
+          "AVOID intubation if possible - associated with high peri-intubation mortality",
+          "If intubation required: Sodabic boluses prior, minimise apnoeic period, match patient's respiratory rate",
+          "Activated charcoal effective up to 8 hours post ingestion (enterohepatic circulation)",
+          "Secure airway PRIOR to charcoal if >300 mg/kg ingested",
+          "Blood gas features: Respiratory alkalosis (direct stimulation of respiratory centres) + Metabolic acidosis HAGMA (uncoupling of oxidative phosphorylation) + Hypokalaemia + Hyper/hypoglycaemia",
+          "Winter's formula: 1.5 x HCO3 + 8 +/- 2 = expected CO2 (if pure metabolic acidosis)",
+          "Chronic toxicity common in elderly: non-specific delirium, confusion, fever, unexplained acidosis",
+          "Haemodialysis indications: severe acidosis refractory to bicarbonate, intractable hyperkalaemia, worsening mental status, renal failure, pulmonary oedema, salicylate level >100 mg/dL (7.2 mmol/L) in acute overdose or >60 mg/dL (4.3 mmol/L) in chronic"
+        ],
+        "disposition": "Renal consult if dialysis required. Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.",
+        "formulas": [
+          {
+            "name": "Winter's Formula",
+            "formula": "Expected CO2 = 1.5 x HCO3 + 8 +/- 2",
+            "variables": [
+              "HCO3"
+            ]
+          }
+        ],
+        "notes_updates": "Cns: Minimal (<150 mg/kg): minimal symptoms, Moderate (150-300 mg/kg): hyperpnoea, vomiting, nausea, tinnitus, Severe (>300 mg/kg): metabolic acidosis, seizures, coma, hypotension, pulmonary oedema, hyperthermia, Lethal (>500 mg/kg), Chronic: non-specific delirium, confusion, fever, unexplained acidosis (common in elderly)\nDisposition: Renal consult if dialysis required. Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.\nWarnings: Levels correlate POORLY with severity of toxicity, but serial levels can monitor response to treatment; Neuroglycopenia can occur even at normal HGT levels; AVOID intubation if possible - associated with high peri-intubation mortality; If intubation required: Sodabic boluses prior, minimise apnoeic period, match patient's respiratory rate; Activated charcoal effective up to 8 hours post ingestion (enterohepatic circulation); Secure airway PRIOR to charcoal if >300 mg/kg ingested; Blood gas features: Respiratory alkalosis (direct stimulation of respiratory centres) + Metabolic acidosis HAGMA (uncoupling of oxidative phosphorylation) + Hypokalaemia + Hyper/hypoglycaemia; Winter's formula: 1.5 x HCO3 + 8 +/- 2 = expected CO2 (if pure metabolic acidosis); Chronic toxicity common in elderly: non-specific delirium, confusion, fever, unexplained acidosis; Haemodialysis indications: severe acidosis refractory to bicarbonate, intractable hyperkalaemia, worsening mental status, renal failure, pulmonary oedema, salicylate level >100 mg/dL (7.2 mmol/L) in acute overdose or >60 mg/dL (4.3 mmol/L) in chronic"
+      },
+      {
+        "item": "Warfarin Toxicity",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "N/A",
+          "gastric_lavage": "N/A",
+          "whole_bowel_irrigation": "N/A",
+          "skin_decon": "N/A"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS/ORANGE AREA",
+            "details": "For uncontrolled/life-threatening haemorrhage",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG, Crossmatch tube, INR",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Assess INR and bleeding status",
+            "details": "Categorise: High INR not bleeding/minor bleeding vs uncontrolled/life-threatening haemorrhage",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "HIGH INR, NOT BLEEDING/MINOR BLEEDING",
+            "details": "INR 3-4.5: Lower or omit next dose, retest daily. INR 4.5-10: Stop warfarin, assess causes, give 1-2.5 mg oral Vit K if bleeding risk high. INR >10: Stop warfarin, 2.5-5 mg oral Vit K.",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "UNCONTROLLED/LIFE-THREATENING HAEMORRHAGE",
+            "details": "PCC (Haemosolvex) 25-50 IU/kg. If PCC not available: FFP/FDP 10-15 ml/kg IV stat. Vit K 5-10 mg IV slow infusion. Further resus per ATLS/ACLS.",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Recheck PT/INR",
+            "details": "30 minutes after PCC administration. May require repeat dosing.",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Manage specific bleeding complications",
+            "details": "According to appropriate protocols: UGIB, ICH, AAA etc.",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Consider other causes of bleeding",
+            "details": "Thrombocytopaenia, DIC, other anticoagulants/antiplatelet agents",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "DO NOT WAIT FOR INR in catastrophic bleeding",
+            "details": "Start reversal immediately if clinical picture suggests life-threatening bleed",
+            "caution": ""
+          },
+          {
+            "step_number": 10,
+            "action": "Acute non-accidental overdose",
+            "details": ">2 mg/kg warfarin can cause elevated INR within 72 hours. Usually asymptomatic initially. Baseline INR/PTT, paracetamol/salicylates/other co-ingestants. Vit K 5-10 mg if symptomatic, otherwise monitor, repeat INR 24-48 hourly.",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "4-Factor Prothrombin Concentrate Complex (PCC - Haemosolvex)",
+            "adult_dose": "25-50 IU/kg",
+            "route": "IV",
+            "frequency": "STAT",
+            "notes": "For uncontrolled/life-threatening haemorrhage. NB do not confuse with Haemosolvate (factor VIII only). Recheck PT/INR 30 minutes after administration, may require repeat dosing."
+          },
+          {
+            "item": "Fresh Frozen Plasma / Freeze Dried Plasma (FFP/FDP)",
+            "adult_dose": "10-15 ml/kg IV stat",
+            "route": "IV",
+            "frequency": "STAT",
+            "notes": "Alternative if PCC not available. For uncontrolled/life-threatening haemorrhage."
+          },
+          {
+            "item": "Vitamin K (Phytomenadione)",
+            "adult_dose": "Life-threatening bleed: 5-10 mg IV slow infusion. INR 4.5-10: 1-2.5 mg oral. INR >10: 2.5-5 mg oral. Acute overdose symptomatic: 5-10 mg.",
+            "route": "IV slow infusion (emergency) or Oral",
+            "frequency": "Single dose (repeat INR-guided)",
+            "notes": "IV route reserved for life-threatening bleeding only. Oral preferred for non-bleeding patients. Goal is return to THERAPEUTIC INR, not sub-therapeutic/normal INR."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "INR/PT",
+            "frequency": "30 min after PCC, then serial",
+            "target": "Return to therapeutic range (not sub-therapeutic/normal)"
+          },
+          {
+            "parameter": "Haemoglobin",
+            "frequency": "Serial",
+            "target": "Monitor for ongoing bleeding"
+          },
+          {
+            "parameter": "Vital signs",
+            "frequency": "Continuous",
+            "target": "Haemodynamic stability"
+          }
+        ],
+        "warnings": [
+          "Non-bleeding patients should NOT receive PCC/FFP",
+          "Do NOT wait for INR result in catastrophic bleeding",
+          "Goal of treatment is return to THERAPEUTIC INR, not sub-therapeutic/normal INR",
+          "Do NOT confuse Haemosolvex (PCC) with Haemosolvate (factor VIII only)",
+          "Mechanical heart valves: Early expert cardiology consultation. Do NOT give IV Vit K unless life-threatening uncontrolled haemorrhage - high risk of valve thrombosis",
+          "Factors affecting INR: comorbidities (CCF, liver/renal disease), antibiotics, NSAIDs, paracetamol, dietary Vit K, acute illness, dehydration, elderly/frail/fall risk",
+          "Super-warfarin (rat poison/Coumadin): >2 mg/kg can cause elevated INR within 72 hours",
+          "For mechanical heart valves with INR 5-10 no life-threatening bleeding: hold warfarin to gradually reduce INR. Vit K generally not necessary",
+          "For mechanical heart valves with INR >10 no life-threatening bleeding: stop warfarin temporarily, consider oral Vit K 1 mg. Restart when INR nears therapeutic"
+        ],
+        "disposition": "Internal medicine referral. ICU if ongoing bleeding or haemodynamic instability.",
+        "formulas": [],
+        "notes_updates": "Disposition: Internal medicine referral. ICU if ongoing bleeding or haemodynamic instability.\nWarnings: Non-bleeding patients should NOT receive PCC/FFP; Do NOT wait for INR result in catastrophic bleeding; Goal of treatment is return to THERAPEUTIC INR, not sub-therapeutic/normal INR; Do NOT confuse Haemosolvex (PCC) with Haemosolvate (factor VIII only); Mechanical heart valves: Early expert cardiology consultation. Do NOT give IV Vit K unless life-threatening uncontrolled haemorrhage - high risk of valve thrombosis; Factors affecting INR: comorbidities (CCF, liver/renal disease), antibiotics, NSAIDs, paracetamol, dietary Vit K, acute illness, dehydration, elderly/frail/fall risk; Super-warfarin (rat poison/Coumadin): >2 mg/kg can cause elevated INR within 72 hours; For mechanical heart valves with INR 5-10 no life-threatening bleeding: hold warfarin to gradually reduce INR. Vit K generally not necessary; For mechanical heart valves with INR >10 no life-threatening bleeding: stop warfarin temporarily, consider oral Vit K 1 mg. Restart when INR nears therapeutic",
+        "reversal_agents": [
+          {
+            "name": "4-Factor PCC (Haemosolvex)",
+            "indication": "Life-threatening warfarin-associated haemorrhage",
+            "dose": "25-50 IU/kg",
+            "route": "IV"
+          },
+          {
+            "name": "FFP/FDP",
+            "indication": "Life-threatening warfarin-associated haemorrhage (if PCC unavailable)",
+            "dose": "10-15 ml/kg",
+            "route": "IV"
+          },
+          {
+            "name": "Vitamin K",
+            "indication": "All warfarin reversal scenarios",
+            "dose": "5-10 mg IV (life-threatening) or 1-5 mg oral (non-bleeding)",
+            "route": "IV slow infusion or Oral"
+          }
+        ]
+      },
+      {
+        "item": "Tricyclic Antidepressant (TCA) Overdose",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [
+            "Sedation/coma",
+            "Seizures",
+            "Anticholinergic syndrome"
+          ],
+          "anticholinergic": [
+            "Delirium",
+            "Tachycardia",
+            "Dry/flushed skin",
+            "Dilated pupils",
+            "Hyperthermia",
+            "Myoclonus",
+            "Urinary retention",
+            "Decreased bowel sounds"
+          ],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "1 g/kg activated charcoal via NGT ONLY once airway is protected (even if presentation >1 hour after ingestion). Consider MDAC in severe cases.",
+          "gastric_lavage": "Not mentioned",
+          "whole_bowel_irrigation": "Not mentioned",
+          "skin_decon": "N/A"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well. Significant overdose >10 mg/kg.",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Correct electrolyte abnormalities",
+            "details": "Especially potassium",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Comprehensive history and exam",
+            "details": "Amount and time of ingestion, co-ingestants, comorbidities, chronic medications, symptoms prior to arrival",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Document specific features of TCA OD",
+            "details": "Sedation/coma/seizures, metabolic acidosis, broad complex tachydysrhythmias, hypotension, anticholinergic syndrome, ECG changes",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "ECG assessment",
+            "details": "Na channel blocking: sinus tachycardia, prolonged PR, QRS >100ms (predicts seizures), QRS >160ms (predicts ventricular arrhythmias), prolonged QT, RBBB, right axis deviation of terminal QRS, terminal R wave >3mm in aVR, R/S ratio >0.7 in aVR",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Further investigations",
+            "details": "FBC, U&E, LFT, Paracetamol/Salicylate level, urine tox screen",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Sodium bicarbonate administration",
+            "details": "1-2 mmol/kg IV, repeat every 5 min until BP improves and QRS narrows. MAINSTAY of treatment.",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "Intubation and hyperventilation",
+            "details": "Intubate early for airway protection. Hyperventilate to maintain pH at 7.5-7.55. BEWARE worsening acidosis.",
+            "caution": ""
+          },
+          {
+            "step_number": 10,
+            "action": "Activated charcoal",
+            "details": "1 g/kg via NGT once airway protected. Consider MDAC in severe cases.",
+            "caution": ""
+          },
+          {
+            "step_number": 11,
+            "action": "Seizure management",
+            "details": "Benzodiazepines. AVOID anti-epileptic drugs. Sodabic is 1st line for seizures.",
+            "caution": ""
+          },
+          {
+            "step_number": 12,
+            "action": "Fluid resuscitation",
+            "details": "20 ml/kg crystalloid. Consider inotropes if still hypotensive.",
+            "caution": ""
+          },
+          {
+            "step_number": 13,
+            "action": "Arrhythmia management",
+            "details": "If arrhythmias: cardioversion unlikely to be successful. Continue Sodabic boluses until rhythm normalizes. Lignocaine 1.5 mg/kg IV once pH >7.5.",
+            "caution": ""
+          },
+          {
+            "step_number": 14,
+            "action": "Additional considerations",
+            "details": "Consider Magnesium Sulphate if significant QT prolongation. Consider Intralipid in consultation with GIT/ICU. Consider ECMO in refractory cases.",
+            "caution": ""
+          },
+          {
+            "step_number": 15,
+            "action": "Contraindicated drugs",
+            "details": "Type 1a antiarrhythmics (Procainamide), Amiodarone, beta-blockers",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Sodium bicarbonate (Sodabic)",
+            "adult_dose": "1-2 mmol/kg (1-2 ml/kg 8.4% or 2-4 ml/kg 4.2%)",
+            "route": "IV",
+            "frequency": "Repeat every 5 minutes until BP improves and QRS complexes narrow",
+            "notes": "MAINSTAY OF TREATMENT. Indications: pH <7.1, QRS >100ms, arrhythmias, seizures, hypotension. If arrhythmias occur, cardioversion unlikely to be successful - continue Sodabic boluses until rhythm normalizes. If seizures occur, Sodabic is 1st line treatment. Target QRS <100 msec."
+          },
+          {
+            "item": "Hypertonic saline",
+            "adult_dose": "3% 100 ml boluses",
+            "route": "IV",
+            "frequency": "As needed",
+            "notes": "If Sodabic unavailable. 3rd line treatment."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "QRS duration",
+            "frequency": "Serial ECG",
+            "target": "<100 msec"
+          },
+          {
+            "parameter": "pH",
+            "frequency": "Serial VBG",
+            "target": "7.5-7.55 (if intubated)"
+          },
+          {
+            "parameter": "Blood pressure",
+            "frequency": "Continuous",
+            "target": "SBP stable"
+          },
+          {
+            "parameter": "Terminal R wave aVR",
+            "frequency": "Serial ECG",
+            "target": "<3 mm (R wave in aVR >=3 mm indicator of possible TCA toxicity)"
+          }
+        ],
+        "warnings": [
+          "Significant overdose: >10 mg/kg",
+          "QRS >100 msec predictive of seizures",
+          "QRS >160 msec predictive of ventricular arrhythmias",
+          "MAINSTAY of treatment is sodium bicarbonate and hyperventilation",
+          "If arrhythmias occur, cardioversion is UNLIKELY to be successful - continue Sodabic boluses",
+          "Sodabic is 1st line for TCA-induced seizures",
+          "AVOID anti-epileptic drugs - use benzodiazepines only",
+          "Contraindicated: Type 1a antiarrhythmics (Procainamide), Amiodarone, beta-blockers",
+          "Indicator of possible TCA toxicity: R wave in aVR >=3 mm",
+          "Propranolol OD can present similarly (Na channel blocker)",
+          "Hypertonic saline 3% if Sodabic unavailable (3rd line)",
+          "Consider Intralipid emulsion in consultation with specialists",
+          "Consider ECMO in refractory cases"
+        ],
+        "disposition": "Medicine consult. Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.",
+        "formulas": [],
+        "notes_updates": "Cns: Sedation/coma, Seizures, Anticholinergic syndrome\nAnticholinergic: Delirium, Tachycardia, Dry/flushed skin, Dilated pupils, Hyperthermia, Myoclonus, Urinary retention, Decreased bowel sounds\nDisposition: Medicine consult. Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.\nWarnings: Significant overdose: >10 mg/kg; QRS >100 msec predictive of seizures; QRS >160 msec predictive of ventricular arrhythmias; MAINSTAY of treatment is sodium bicarbonate and hyperventilation; If arrhythmias occur, cardioversion is UNLIKELY to be successful - continue Sodabic boluses; Sodabic is 1st line for TCA-induced seizures; AVOID anti-epileptic drugs - use benzodiazepines only; Contraindicated: Type 1a antiarrhythmics (Procainamide), Amiodarone, beta-blockers; Indicator of possible TCA toxicity: R wave in aVR >=3 mm; Propranolol OD can present similarly (Na channel blocker); Hypertonic saline 3% if Sodabic unavailable (3rd line); Consider Intralipid emulsion in consultation with specialists; Consider ECMO in refractory cases",
+        "reversal_agents": [
+          {
+            "name": "Sodium Bicarbonate",
+            "indication": "TCA-induced QRS widening, arrhythmias, seizures, hypotension, acidosis",
+            "dose": "1-2 mmol/kg IV, repeat q5min",
+            "route": "IV"
+          }
+        ]
+      },
+      {
+        "item": "Toxidromes - Classic Recognition and Management",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [
+            "DUMBELS: Diaphoresis, diarrhoea; Urination; Miosis; Bradycardia, bronchorrhoea, bronchospasm; Emesis; Lacrimation; Salivation"
+          ],
+          "nicotinic": [
+            "Fasciculations, weakness, hypertension, tachycardia, mydriasis"
+          ],
+          "cns": [],
+          "anticholinergic": [
+            "Mad as a hatter: Delirium",
+            "Blind as a bat: Dilated pupils, blurred vision",
+            "Red as a beet: Flushed skin, hyperthermia",
+            "Dry as a bone: Dry skin/mucous membranes, urinary retention",
+            "Hot as a hare: Hyperthermia",
+            "Tachycardia, myoclonus, decreased bowel sounds, seizures"
+          ],
+          "sympathomimetic": [
+            "Agitation, delusions, paranoia",
+            "Tachycardia, hypertension",
+            "Hyperthermia, mydriasis, hyperreflexia",
+            "Seizures, diaphoresis"
+          ],
+          "opioid": [
+            "Sedation, coma, respiratory depression",
+            "Miosis (pinpoint pupils)",
+            "Bradycardia, hypotension",
+            "Decreased bowel sounds"
+          ],
+          "sedative_hypnotic": [
+            "Sedation, coma",
+            "Respiratory and cardiovascular depression",
+            "Miosis OR mydriasis",
+            "Ataxia, dysarthria"
+          ]
+        },
+        "decontamination": {
+          "activated_charcoal": "1 g/kg may be considered if potentially life-threatening quantity ingested and presents within 1 hour",
+          "gastric_lavage": "Not routinely recommended",
+          "whole_bowel_irrigation": "Consider for body packers",
+          "skin_decon": "Remove clothing, wash with soap and water for dermal exposures"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "General toxicology approach: Resus-RSI-DEAD",
+            "details": "Resuscitation (Airway, Breathing, Circulation, Seizure control, Correct hypoglycaemia, Correct hyperthermia, Resuscitation antidotes) -> Risk Assessment -> Supportive Care & Monitoring -> Investigations -> Decontamination & Enhanced Elimination -> Antidotes -> Disposition",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "CHOLINERGIC TOXIDROME",
+            "details": "Agents: Organophosphates, carbamates, physostigmine, mushroom toxins. Features: DUMBELS + nicotinic (fasciculations, weakness) + CNS (confusion, seizures, coma). Management: Atropine boluses/infusion. See Acetylcholinesterase Inhibitor Overdose Protocol.",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "ANTICHOLINERGIC TOXIDROME",
+            "details": "Agents: Antihistamines, antiparkinsonians, atropine, antispasmodics, plant toxins (Devil's trumpet, Jimson weed, Nightshade). Features: Delirium, tachycardia, dry/flushed skin, dilated pupils, hyperthermia, myoclonus, urinary retention, seizures, decreased bowel sounds. Management: Benzodiazepines for agitation, activated charcoal, physostigmine (expert consultation).",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "SYMPATHOMIMETIC TOXIDROME",
+            "details": "Agents: Amphetamines ('Tik'), cocaine, withdrawal states, hypermetabolic syndromes (MH, NMS), novel street drugs, body packers. Features: Agitation, delusions, paranoia, tachycardia, hypertension, hyperthermia, mydriasis, hyperreflexia, seizures. Management: Benzodiazepines for agitation, supportive care. AVOID beta-blockers (unopposed alpha agonism).",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "OPIOID TOXIDROME",
+            "details": "Agents: Opioids, Nyaope and other opioid-based illicit substances. Features: Sedation, coma, respiratory and cardiovascular depression, miosis. Management: Naloxone 0.04-2 mg IV boluses. Titrate to respiratory effort.",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "SEDATIVE-HYPNOTIC TOXIDROME",
+            "details": "Agents: Opioids, benzodiazepines, barbiturates, Nyaope. Features: Sedation, coma, respiratory and cardiovascular depression, miosis/mydriasis. Management: Mainstay is ventilatory and cardiovascular support. Opioids: naloxone. Benzos: AVOID flumazenil (can precipitate withdrawal/seizures).",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Atropine",
+            "adult_dose": "0.04-0.05 mg/kg IV, double every 5 min until atropinisation",
+            "route": "IV/IM",
+            "frequency": "Every 5 min escalating",
+            "notes": "For cholinergic toxidrome (organophosphate/carbamate). Only treats muscarinic symptoms."
+          },
+          {
+            "item": "Naloxone",
+            "adult_dose": "0.04-2 mg IV boluses",
+            "route": "IV",
+            "frequency": "Repeat as needed",
+            "notes": "For opioid toxidrome. Titrate to respiratory effort, not full consciousness."
+          },
+          {
+            "item": "Physostigmine",
+            "adult_dose": "As per expert consultation",
+            "route": "IV",
+            "frequency": "Per specialist guidance",
+            "notes": "For anticholinergic toxidrome. Expert consultation required. Contraindicated in TCA overdose, cardiac conduction abnormalities."
+          },
+          {
+            "item": "Benzodiazepines",
+            "adult_dose": "Varies by agent (see individual protocols)",
+            "route": "IV",
+            "frequency": "Titrate to effect",
+            "notes": "For agitation in sympathomimetic and anticholinergic toxidromes. Mainstay for sedative-hypnotic supportive care."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "ECG",
+            "frequency": "All toxicology patients",
+            "target": "Assess for sodium channel blockade (QRS>100ms), potassium channel blockade (QT prolongation), specific drug changes"
+          },
+          {
+            "parameter": "Paracetamol level",
+            "frequency": "All toxicology patients",
+            "target": "Exclude paracetamol co-ingestion"
+          },
+          {
+            "parameter": "Blood glucose",
+            "frequency": "All toxicology patients",
+            "target": "Normoglycaemia"
+          },
+          {
+            "parameter": "Temperature",
+            "frequency": "Continuous",
+            "target": "Detect hypo/hyperthermia"
+          }
+        ],
+        "warnings": [
+          "AVOID beta-blockers in sympathomimetic toxidrome - unopposed alpha agonism",
+          "AVOID flumazenil in benzodiazepine overdose - can precipitate withdrawal/seizures",
+          "Physostigmine contraindicated in TCA overdose and cardiac conduction abnormalities",
+          "All toxicology patients need ECG and paracetamol level",
+          "FASTHUGS IN BED PLEASE monitoring framework applies",
+          "Sodium channel blockers: wide QRS >100ms = 1/3 seizures risk, >160ms = ventricular dysrhythmias risk",
+          "Potassium channel blockers: prolonged QT, risk of Torsades de Pointes",
+          "Activated charcoal (1 g/kg) if life-threatening quantity and within 1 hour of ingestion"
+        ],
+        "disposition": "Urgent Medicine/ICU referral for significant ingestions. ECG and paracetamol level for ALL poisoned patients.",
+        "formulas": [],
+        "notes_updates": "Muscarinic: DUMBELS: Diaphoresis, diarrhoea; Urination; Miosis; Bradycardia, bronchorrhoea, bronchospasm; Emesis; Lacrimation; Salivation\nNicotinic: Fasciculations, weakness, hypertension, tachycardia, mydriasis\nAnticholinergic: Mad as a hatter: Delirium, Blind as a bat: Dilated pupils, blurred vision, Red as a beet: Flushed skin, hyperthermia, Dry as a bone: Dry skin/mucous membranes, urinary retention, Hot as a hare: Hyperthermia, Tachycardia, myoclonus, decreased bowel sounds, seizures\nSympathomimetic: Agitation, delusions, paranoia, Tachycardia, hypertension, Hyperthermia, mydriasis, hyperreflexia, Seizures, diaphoresis\nOpioid: Sedation, coma, respiratory depression, Miosis (pinpoint pupils), Bradycardia, hypotension, Decreased bowel sounds\nSedative Hypnotic: Sedation, coma, Respiratory and cardiovascular depression, Miosis OR mydriasis, Ataxia, dysarthria\nDisposition: Urgent Medicine/ICU referral for significant ingestions. ECG and paracetamol level for ALL poisoned patients.\nWarnings: AVOID beta-blockers in sympathomimetic toxidrome - unopposed alpha agonism; AVOID flumazenil in benzodiazepine overdose - can precipitate withdrawal/seizures; Physostigmine contraindicated in TCA overdose and cardiac conduction abnormalities; All toxicology patients need ECG and paracetamol level; FASTHUGS IN BED PLEASE monitoring framework applies; Sodium channel blockers: wide QRS >100ms = 1/3 seizures risk, >160ms = ventricular dysrhythmias risk; Potassium channel blockers: prolonged QT, risk of Torsades de Pointes; Activated charcoal (1 g/kg) if life-threatening quantity and within 1 hour of ingestion",
+        "reversal_agents": [
+          {
+            "name": "Naloxone",
+            "indication": "Opioid toxidrome",
+            "dose": "0.04-2 mg IV boluses, titrate to effect",
+            "route": "IV/IM/SC"
+          },
+          {
+            "name": "Atropine",
+            "indication": "Cholinergic (muscarinic) toxidrome",
+            "dose": "0.04-0.05 mg/kg IV, double q5min",
+            "route": "IV"
+          },
+          {
+            "name": "Physostigmine",
+            "indication": "Anticholinergic toxidrome (expert consultation only)",
+            "dose": "Per specialist guidance",
+            "route": "IV"
+          }
+        ]
+      },
+      {
+        "item": "Paracetamol Overdose",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [
+            "Stage 1 (0-24 hours): Often asymptomatic or mild nausea/vomiting",
+            "Stage 2 (24-72 hours): Right upper quadrant pain, elevated LFTs",
+            "Stage 3 (72-96 hours): Peak hepatotoxicity - jaundice, coagulopathy, encephalopathy, renal failure",
+            "Stage 4 (4 days-2 weeks): Recovery or progression to fulminant hepatic failure"
+          ],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "50 g PO (not via NGT) if presentation <1 hour from ingestion",
+          "gastric_lavage": "Not mentioned",
+          "whole_bowel_irrigation": "Not mentioned",
+          "skin_decon": "N/A"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess and support ABCs",
+            "details": "Airway, breathing, circulation",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Monitor glucose",
+            "details": "Check and treat hypoglycaemia",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Quantify ingestion",
+            "details": "Attempt to quantify amount ingested and any co-ingestants. Toxic dose: 150 mg/kg or >10 g in adults.",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Establish timeframe",
+            "details": "Time from ingestion to presentation. Start treatment <8 hours post-ingestion if indicated.",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Decontamination",
+            "details": "Activated charcoal 50 g PO (not via NGT) if <1 hour from ingestion",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "ECG",
+            "details": "Look for signs of co-ingestants e.g. prolonged QT",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Laboratory investigations",
+            "details": "Blood gas, U&E, salicylate level. Paracetamol levels (provided >4 hours post ingestion). No need for AST/ALT/INR unless >12 hours post ingestion.",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Use Paracetamol Treatment Nomogram",
+            "details": "To establish need for antidote. Plot paracetamol level against time post-ingestion.",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "Administer NAC if indicated",
+            "details": "If high dosage suspected, rather give the antidote. DO NOT withhold even if ingestion was 48-72 hours prior. IF IN DOUBT, GIVE NAC.",
+            "caution": ""
+          },
+          {
+            "step_number": 10,
+            "action": "SNAP Protocol (preferred)",
+            "details": "100 mg/kg in 200 ml 5% Dextrose over 2 hours, then 200 mg/kg in 1 L 5% Dextrose over 10 hours.",
+            "caution": ""
+          },
+          {
+            "step_number": 11,
+            "action": "Old regimen (if SNAP unavailable)",
+            "details": "150 mg/kg in 200 ml over 1 hour, then 50 mg/kg in 500 ml over 4 hours, then 100 mg/kg in 1 L over 16 hours.",
+            "caution": ""
+          },
+          {
+            "step_number": 12,
+            "action": "Pregnancy management",
+            "details": "Paracetamol crosses placenta. Administer NAC as above.",
+            "caution": ""
+          },
+          {
+            "step_number": 13,
+            "action": "High risk patients",
+            "details": "Hypotensive, pre-existing liver dysfunction (e.g. alcoholic), elderly - lower threshold for treatment",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "N-Acetylcysteine (NAC) - Old Regimen (3-bag)",
+            "adult_dose": "Bag 1: 150 mg/kg in 200 ml 5% Dextrose IV over 1 hour. Bag 2: 50 mg/kg in 500 ml 5% Dextrose IV over 4 hours. Bag 3: 100 mg/kg in 1 L 5% Dextrose IV over 16 hours.",
+            "route": "IV infusion",
+            "frequency": "Sequential 3-bag protocol (total 21 hours)",
+            "notes": "Total dose 300 mg/kg over 21 hours. Traditional regimen."
+          },
+          {
+            "item": "N-Acetylcysteine (NAC) - SNAP Protocol (PREFERRED)",
+            "adult_dose": "Bag 1: 100 mg/kg in 200 ml 5% Dextrose IV over 2 hours. Bag 2: 200 mg/kg in 1 L 5% Dextrose IV over 10 hours.",
+            "route": "IV infusion",
+            "frequency": "2-bag protocol (total 12 hours)",
+            "notes": "PREFERRED regimen. Less anaphylaxis and vomiting. NB Inform admitting doctor to continue this regimen. Total dose 300 mg/kg over 12 hours."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Paracetamol level",
+            "frequency": "At presentation if >4 hours post-ingestion",
+            "target": "Plot on nomogram to determine treatment need"
+          },
+          {
+            "parameter": "LFTs (AST/ALT/INR)",
+            "frequency": "If >12 hours post-ingestion",
+            "target": "Detect hepatotoxicity"
+          },
+          {
+            "parameter": "Blood glucose",
+            "frequency": "Serial",
+            "target": "Normoglycaemia"
+          },
+          {
+            "parameter": "U&E",
+            "frequency": "Serial",
+            "target": "Detect renal impairment"
+          },
+          {
+            "parameter": "NAC side effects",
+            "frequency": "During infusion",
+            "target": "Anaphylaxis, vomiting (less common with SNAP)"
+          }
+        ],
+        "warnings": [
+          "Toxic dose: 150 mg/kg or >10 g in adults",
+          "Use the Paracetamol Treatment Nomogram to establish need for antidote",
+          "If high dosage suspected, rather give the antidote",
+          "DO NOT withhold NAC even if ingestion was 48-72 hours prior to presentation",
+          "IF IN DOUBT, GIVE NAC",
+          "Start treatment preferably <8 hours post-ingestion",
+          "Paracetamol levels only meaningful if >4 hours post-ingestion",
+          "No need for AST/ALT/INR unless >12 hours post-ingestion",
+          "NAC cautions/side effects: Anaphylaxis, vomiting (less common with SNAP protocol)",
+          "Separate IV infusion as may be inactivated by other medications",
+          "Paracetamol crosses placenta - administer NAC in pregnancy as above",
+          "High risk patients: hypotensive, pre-existing liver dysfunction, elderly",
+          "Staggered overdose: treat if total dose potentially toxic",
+          "Activated charcoal 50 g PO (not via NGT) if <1 hour from ingestion"
+        ],
+        "disposition": "Internal Medicine referral. Admit for completion of NAC infusion.",
+        "formulas": [],
+        "notes_updates": "Cns: Stage 1 (0-24 hours): Often asymptomatic or mild nausea/vomiting, Stage 2 (24-72 hours): Right upper quadrant pain, elevated LFTs, Stage 3 (72-96 hours): Peak hepatotoxicity - jaundice, coagulopathy, encephalopathy, renal failure, Stage 4 (4 days-2 weeks): Recovery or progression to fulminant hepatic failure\nDisposition: Internal Medicine referral. Admit for completion of NAC infusion.\nWarnings: Toxic dose: 150 mg/kg or >10 g in adults; Use the Paracetamol Treatment Nomogram to establish need for antidote; If high dosage suspected, rather give the antidote; DO NOT withhold NAC even if ingestion was 48-72 hours prior to presentation; IF IN DOUBT, GIVE NAC; Start treatment preferably <8 hours post-ingestion; Paracetamol levels only meaningful if >4 hours post-ingestion; No need for AST/ALT/INR unless >12 hours post-ingestion; NAC cautions/side effects: Anaphylaxis, vomiting (less common with SNAP protocol); Separate IV infusion as may be inactivated by other medications; Paracetamol crosses placenta - administer NAC in pregnancy as above; High risk patients: hypotensive, pre-existing liver dysfunction, elderly; Staggered overdose: treat if total dose potentially toxic; Activated charcoal 50 g PO (not via NGT) if <1 hour from ingestion",
+        "reversal_agents": [
+          {
+            "name": "N-Acetylcysteine (NAC)",
+            "indication": "Paracetamol overdose (hepatoprotective antidote)",
+            "dose": "SNAP: 100 mg/kg over 2h then 200 mg/kg over 10h. Old: 150 mg/kg over 1h, then 50 mg/kg over 4h, then 100 mg/kg over 16h.",
+            "route": "IV infusion"
+          }
+        ]
+      },
+      {
+        "item": "Calcium Channel Blocker and Beta-Blocker Overdose",
+        "protocol_type": "ed_protocol",
+        "toxidrome_features": {
+          "muscarinic": [],
+          "nicotinic": [],
+          "cns": [
+            "CNS depression",
+            "Profound CNS depression (beta-blocker OD may lead to this)"
+          ],
+          "anticholinergic": [],
+          "sympathomimetic": [],
+          "opioid": [],
+          "sedative_hypnotic": []
+        },
+        "decontamination": {
+          "activated_charcoal": "Consider activated charcoal 50 g via NGT",
+          "gastric_lavage": "Not mentioned",
+          "whole_bowel_irrigation": "Not mentioned",
+          "skin_decon": "N/A"
+        },
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Triage to RESUS AREA",
+            "details": "Even if patient initially appears well",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Rapid ABC assessment",
+            "details": "2 IV lines, monitors, HGT, VBG, urine beta-HCG, ECG",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Correct abnormal electrolytes",
+            "details": "Especially potassium",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Crystalloid fluid bolus",
+            "details": "20 ml/kg if hypotensive",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Comprehensive history and exam",
+            "details": "Amount and time of ingestion, co-ingestants, comorbidities, chronic medications, symptoms prior to arrival",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Document specific features of toxicity",
+            "details": "Hypotension, bradycardia, hyperglycaemia (CCB) or hypoglycaemia (BB), acidosis, CNS depression",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "ECG assessment",
+            "details": "Sinus bradycardia, AV blocks, junctional bradycardia, ventricular bradycardia. Note: Propranolol acts as Na channel blocker (TCA-like features). Sotalol blocks K channels (QT prolongation, Torsades).",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Enhanced elimination",
+            "details": "Consider activated charcoal 50 g via NGT",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "Haemodynamic support",
+            "details": "Fluid bolus, high-dose inotropes may be required",
+            "caution": ""
+          },
+          {
+            "step_number": 10,
+            "action": "Airway support",
+            "details": "Beta-blocker OD may lead to profound CNS depression - prepare for airway management",
+            "caution": ""
+          },
+          {
+            "step_number": 11,
+            "action": "HIET initiation",
+            "details": "50 ml 50% dextrose bolus + Actrapid 1 IU/kg IV stat. Start insulin infusion 0.5 IU/kg/hr, titrate up q30min to max 10 IU/kg/hr. Dextrose 25 g/hr via central line to maintain euglycaemia.",
+            "caution": ""
+          },
+          {
+            "step_number": 12,
+            "action": "Calcium therapy",
+            "details": "Calcium chloride 10 ml 10% over 10 min via large bore IV/central line. Target Ca 2 mmol/L.",
+            "caution": ""
+          },
+          {
+            "step_number": 13,
+            "action": "Consider glucagon",
+            "details": "For BB overdose - specialist consultation",
+            "caution": ""
+          },
+          {
+            "step_number": 14,
+            "action": "Consider Intralipid",
+            "details": "Specialist consultation",
+            "caution": ""
+          },
+          {
+            "step_number": 15,
+            "action": "Consider ECMO",
+            "details": "If no response to HIET - specialist consultation",
+            "caution": ""
+          },
+          {
+            "step_number": 16,
+            "action": "Consider dialysis",
+            "details": "Renal consult - some beta-blockers dialyzable",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "High-Dose Insulin Euglycaemic Therapy (HIET)",
+            "adult_dose": "Loading: 50 ml 50% dextrose bolus + Actrapid 1 IU/kg (60-80 units) IV stat. Infusion: Actrapid 0.5 IU/kg/hr, titrate up every 30 min to max 10 IU/kg/hr. Dextrose: 25 g/hr maintenance (50 ml 50% dextrose/hr or 100 ml 25% dextrose) via central line.",
+            "route": "IV (central line for dextrose)",
+            "frequency": "Insulin titrated every 30 min. Dextrose continuous.",
+            "notes": "Specific antidote for CCB and BB overdose. Monitor HGT every 20 min for 1st hour, then every 1 hour. Monitor potassium - replace if <2.5 mmol/L."
+          },
+          {
+            "item": "Calcium chloride",
+            "adult_dose": "10 ml 10% over 10 minutes via large bore IV or central line",
+            "route": "IV (large bore or central line)",
+            "frequency": "Target calcium 2 mmol/L",
+            "notes": "For calcium channel blocker overdose specifically."
+          },
+          {
+            "item": "Glucagon",
+            "adult_dose": "Per specialist consultation",
+            "route": "IV",
+            "frequency": "Per specialist guidance",
+            "notes": "Consider for beta-blocker overdose. Specialist consultation required."
+          },
+          {
+            "item": "Intralipid emulsion",
+            "adult_dose": "Per specialist consultation",
+            "route": "IV",
+            "frequency": "Per specialist guidance",
+            "notes": "Consider for both CCB and BB overdose. Specialist consultation."
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Blood glucose (HGT)",
+            "frequency": "Every 20 min for 1st hour, then hourly",
+            "target": "Euglycaemia (maintain with dextrose infusion)"
+          },
+          {
+            "parameter": "Potassium",
+            "frequency": "Serial",
+            "target": ">2.5 mmol/L (replace if below)"
+          },
+          {
+            "parameter": "Ejection fraction",
+            "frequency": "Serial",
+            "target": ">50%"
+          },
+          {
+            "parameter": "Blood pressure",
+            "frequency": "Continuous",
+            "target": "SBP >90 mmHg"
+          },
+          {
+            "parameter": "Heart rate",
+            "frequency": "Continuous",
+            "target": ">60 bpm"
+          },
+          {
+            "parameter": "pH",
+            "frequency": "Serial VBG",
+            "target": "Resolution of acidaemia"
+          },
+          {
+            "parameter": "QRS duration",
+            "frequency": "Serial ECG",
+            "target": "<120 ms"
+          },
+          {
+            "parameter": "GCS",
+            "frequency": "Serial",
+            "target": "Improved GCS"
+          },
+          {
+            "parameter": "Urine output",
+            "frequency": "Hourly",
+            "target": "1-2 ml/kg/hr"
+          }
+        ],
+        "warnings": [
+          "Propranolol: Also acts as Na channel blocker - TCA-like features of OD",
+          "Sotalol: Blocks myocardial K channels - QT prolongation, Torsades in OD",
+          "CCB causes hyperglycaemia; BB causes hypoglycaemia",
+          "HIET: Monitor HGT every 20 min for 1st hour, then hourly",
+          "Replace potassium if <2.5 mmol/L during HIET",
+          "Dextrose infusion via central line for euglycaemia maintenance",
+          "Therapeutic endpoints for HIET: EF>50%, SBP>90mmHg, HR>60bpm, resolution of acidaemia, euglycaemia, urine output 1-2ml/kg/hr, QRS<120ms, improved GCS",
+          "Consider ECMO if no response to HIET",
+          "Beta-blocker OD may lead to profound CNS depression",
+          "Dihydropyridine class (non-selective CCBs) at lower doses may cause peripheral vasodilation with reflex tachycardia"
+        ],
+        "disposition": "Int Med consult (consider renal consult
