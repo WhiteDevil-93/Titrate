@@ -1,0 +1,1182 @@
+eri-arrest. Preparation: 1mg in 10ml NS (0.1mg/ml). Take 1ml of this and add 9ml NS = 10mcg/ml.. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Adrenaline (Infusion)",
+            "adult_dose": "0.05-1.0mcg/kg/min",
+            "route": "IV infusion",
+            "notes": "Indication: Cardiac arrest, anaphylaxis, shock. Preparation: 12mg in 200ml normal saline (withdraw 12ml NS before adding 12ml adrenaline) = 100mcg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate",
+          "Rhythm",
+          "Urine output"
+        ],
+        "warnings": [
+          "Tachycardia",
+          "Hypertension",
+          "Arrhythmias",
+          "Tissue necrosis if extravasation"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Dobutamine Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Dobutamine",
+            "adult_dose": "2.5-20mcg/kg/min (max 40mcg/kg/min)",
+            "route": "IV infusion",
+            "notes": "Indication: Cardiogenic shock, low cardiac output. Preparation: 250mg in 200ml normal saline (withdraw 20ml NS before adding 20ml/1 amp dobutamine).. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate",
+          "Rhythm"
+        ],
+        "warnings": [
+          "Tachycardia",
+          "Arrhythmias",
+          "Hypotension at high doses"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Phenylephrine Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Phenylephrine",
+            "adult_dose": "0.1-6mcg/kg/min. Bolus: 50-250mcg (0.5-2.5ml of infusion mixture) for adult.",
+            "route": "IV infusion",
+            "notes": "Indication: Vasoplegic shock (spinal cord injury). Preparation: 2 x 1ml amps (10mg/ml) of phenylephrine in 200ml normal saline (withdraw 2ml saline prior to adding) = 0.1mg/ml (100mcg/ml).. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate",
+          "Urine output"
+        ],
+        "warnings": [
+          "Reflex bradycardia",
+          "Hypertension",
+          "Tissue necrosis if extravasation"
+        ],
+        "disposition": "",
+        "notes_updates": "",
+        "contraindications": [
+          "Severe uncontrolled hypertension",
+          "Peripheral vascular disease",
+          "Hyperthyroidism",
+          "Heart block with bradycardia",
+          "CCF",
+          "Bradycardia <50bpm",
+          "MAOI use",
+          "Concurrent alpha-agonist or sympathomimetic use"
+        ]
+      },
+      {
+        "item": "Labetalol Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Labetalol",
+            "adult_dose": "Step 1: 20mg bolus (4ml). Then add remaining 16ml (80mg) + 2nd vial (100mg) to 200ml 0.9% NS = 0.76mg/ml. Start infusion at 80ml/hr. Increase by 10ml/hr every 5 min until BP target reached. Max 160ml/hr (2mg/min).",
+            "route": "IV infusion",
+            "notes": "Indication: Hypertensive emergency (aortic dissection, encephalopathy, stroke). Preparation: 180mg labetalol in 200ml normal saline = 0.76mg/ml. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate",
+          "Rhythm"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Bradycardia",
+          "Bronchospasm"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Isosorbide Dinitrate (Isoket) Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Isosorbide Dinitrate (Isoket)",
+            "adult_dose": "Initial 1-2mg/hour. Maximum usually 8-10mg/hour; up to 50mg/hour in acute decompensated heart failure.",
+            "route": "IV infusion",
+            "notes": "Indication: Acute heart failure, hypertensive emergency, cardiogenic pulmonary oedema. Preparation: 20mg in 200ml normal saline (withdraw 20ml NS before adding 20ml/2 amps isosorbide dinitrate) = 0.1mg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Headache",
+          "Tachycardia",
+          "Methemoglobinemia"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Nitroglycerin (Nitrocine) Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Nitroglycerin (Nitrocine)",
+            "adult_dose": "Start at 10mcg/min, titrate up to 200mcg/min.",
+            "route": "IV infusion",
+            "notes": "Indication: ACS, cardiogenic pulmonary oedema, hypertensive emergency. Preparation: 10mg in 200ml normal saline (withdraw 10ml NS before adding 10ml/1 amp nitroglycerin) = 50mcg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Heart rate"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Headache",
+          "Tachycardia",
+          "Methemoglobinemia"
+        ],
+        "disposition": "",
+        "notes_updates": "",
+        "contraindications": [
+          "SBP <90mmHg",
+          "Severe bradycardia <50bpm",
+          "Severe tachycardia >100bpm",
+          "RV infarction (inferior MI)",
+          "Sildenafil/Vardenafil within 24hrs",
+          "Tadalafil within 48hrs"
+        ]
+      },
+      {
+        "item": "Morphine + Midazolam Infusion (Single Bag)",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Morphine + Midazolam (combined)",
+            "adult_dose": "0.05-0.5mg/kg/hr of EACH drug",
+            "route": "IV infusion",
+            "notes": "Indication: Sedation for ventilated patients. Preparation: 90mg Midazolam + 90mg Morphine in 180ml volume. Remove 44ml fluid from 200ml saline bag. Add 6 amps Morphine (15mg/ml) and 6 amps Midazolam (15mg/3ml) (24ml total drug volume) to remaining fluid = 0.5mg/ml of EACH drug.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Respiratory rate",
+          "SpO2",
+          "Sedation level"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Respiratory depression",
+          "Oversedation"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Midazolam (Dormicum) Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Midazolam",
+            "adult_dose": "Loading: Slow IV push using 1mg/ml solution. Maintenance: 0.05-1.0mg/kg/hr.",
+            "route": "IV infusion",
+            "notes": "Indication: Sedation for ventilated patients. Preparation: Loading: 1 amp midazolam (15mg/3ml) with 12ml NS in 20ml syringe = 1mg/ml. Maintenance: 90mg midazolam in 45ml volume (6 x 3ml amps with 27ml NS in 50ml syringe) = 2mg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Respiratory rate",
+          "SpO2",
+          "Sedation level"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Respiratory depression",
+          "Paradoxical agitation"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Propofol Infusion",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Propofol",
+            "adult_dose": "1-9mg/kg/hr (typical range)",
+            "route": "IV infusion",
+            "notes": "Indication: Sedation for ventilated patients. Preparation: 400mg pure propofol: 2 x 20ml amps of propofol (40ml) in a 50ml empty NS bag for infusion pump = 20mg/ml.. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "BP",
+          "Respiratory rate",
+          "SpO2",
+          "Triglycerides (if prolonged use)",
+          "CK (if prolonged use)"
+        ],
+        "warnings": [
+          "Hypotension",
+          "Respiratory depression",
+          "Propofol infusion syndrome",
+          "Hypertriglyceridemia"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Procedural Sedation & Analgesia (PSA) Checklist",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Pre-sedation assessment",
+            "details": "Evaluate airway (Mallampati, LEMON), fasting status, comorbidities, allergies, current medications",
+            "caution": "Assess for difficult airway"
+          },
+          {
+            "step_number": 2,
+            "action": "Obtain informed consent",
+            "details": "Explain procedure, risks, benefits, alternatives",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Ensure NPO status",
+            "details": "Solid food: 6 hours, Clear liquids: 2 hours, Breast milk: 4 hours, Formula: 6 hours",
+            "caution": "Emergency procedures may proceed with caution"
+          },
+          {
+            "step_number": 4,
+            "action": "Establish IV access",
+            "details": "Patent IV line in place",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Apply monitoring",
+            "details": "Continuous cardiac monitoring, pulse oximetry, NIBP, capnography (ETCO2)",
+            "caution": "Capnography is essential"
+          },
+          {
+            "step_number": 6,
+            "action": "Administer sedation agent",
+            "details": "Titrate to desired sedation level",
+            "caution": "Use lowest effective dose, titrate slowly"
+          },
+          {
+            "step_number": 7,
+            "action": "Monitor throughout procedure",
+            "details": "Continuous observation of airway, breathing, circulation, sedation depth",
+            "caution": "Dedicated observer for monitoring only - NOT performing procedure"
+          },
+          {
+            "step_number": 8,
+            "action": "Post-procedure monitoring",
+            "details": "Continue monitoring until patient returns to baseline. Document recovery.",
+            "caution": "Discharge only when criteria met"
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Ketamine",
+            "adult_dose": "IV: 0.5-2mg/kg (1-2mg/kg for induction, 0.5-1mg/kg for PSA)",
+            "route": "IV",
+            "notes": "Indication: Dissociative sedation. Preparation: 10/50/100mg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Propofol",
+            "adult_dose": "0.5-1mg/kg IV bolus, then 25-100mcg/kg/min infusion",
+            "route": "IV",
+            "notes": "Indication: Deep sedation. Preparation: 10mg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Midazolam",
+            "adult_dose": "0.05-0.1mg/kg IV (max 5mg)",
+            "route": "IV",
+            "notes": "Indication: Anxiolysis/light sedation. Preparation: 1mg/ml or 5mg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Fentanyl",
+            "adult_dose": "1-2mcg/kg IV",
+            "route": "IV",
+            "notes": "Indication: Analgesia. Preparation: 50mcg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Ketamine + Propofol (Ketofol)",
+            "adult_dose": "Ketamine 0.5-1mg/kg + Propofol 0.5-1mg/kg combined",
+            "route": "IV",
+            "notes": "Indication: Procedural sedation. Preparation: . Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Continuous cardiac monitoring",
+          "Pulse oximetry",
+          "NIBP",
+          "Capnography (ETCO2)",
+          "Airway patency",
+          "Level of consciousness"
+        ],
+        "warnings": [
+          "Airway obstruction",
+          "Respiratory depression/apnoea",
+          "Aspiration",
+          "Hypotension",
+          "Paradoxical reaction"
+        ],
+        "disposition": "",
+        "notes_updates": "",
+        "equipment": [
+          "Oxygen source",
+          "Suction",
+          "Airway equipment (including rescue devices)",
+          "Monitoring (ECG, NIBP, SpO2, ETCO2)",
+          "Reversal agents (Flumazenil, Naloxone)",
+          "IV access"
+        ],
+        "contraindications": [
+          "Inability to obtain consent (unless emergency)",
+          "Unfasted patient for elective procedures (relative)",
+          "No IV access",
+          "No monitoring equipment available",
+          "No airway/resuscitation skills present",
+          "No reversal agents available"
+        ]
+      },
+      {
+        "item": "Pain Management in the ED",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess pain severity",
+            "details": "Use appropriate pain scale (VAS/NRS for adults, FLACC/FACES for children)",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Non-pharmacological measures",
+            "details": "Explanation, immobilisation, calm environment, distraction (medals/toys for children)",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Step 1 - Non-opioid analgesia",
+            "details": "Paracetamol 1g PO/IV. NSAIDs (Ibuprofen 200-600mg PO, Diclofenac 75-100mg IV).",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Step 2 - Mild opioid",
+            "details": "Tramadol 1mg/kg PO/IV (TTO only, not for ED use). Consider ketamine 0.3-1mg/kg IV.",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Step 3 - Strong opioid",
+            "details": "Morphine 0.1mg/kg IV. Fentanyl 1mcg/kg IV.",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Regional nerve blockade",
+            "details": "Consider for specific injuries (femoral nerve block for NOF, etc.)",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Paracetamol",
+            "adult_dose": "Adults: 1g PO/IV. Paeds: 15-20mg/kg PO q8hrly. Syrup: Weight x 0.6 = ml of 120mg/5ml syrup.",
+            "route": "PO/IV",
+            "notes": "Indication: Mild-moderate pain, fever. Preparation: 1g tablets, 120mg/5ml syrup, 1g IV infusion. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Ibuprofen",
+            "adult_dose": "Adults: 200-600mg PO. Paeds: 5-10mg/kg/dose PO q6-8hrly (max 40mg/kg/day).",
+            "route": "PO",
+            "notes": "Indication: Mild-moderate pain, inflammation. Preparation: 200mg, 400mg tablets. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Diclofenac",
+            "adult_dose": "75-100mg IV in 500ml R/Lactate. TTO: 50mg q8h.",
+            "route": "IV/PO",
+            "notes": "Indication: Moderate pain, inflammation. Preparation: 75mg/3ml ampoules. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Fentanyl",
+            "adult_dose": "1mcg/kg IV slowly. 1-2mcg/kg/hr infusion. Paeds IN: 1.5mcg/kg (max 0.5ml/nostril).",
+            "route": "IV/IN",
+            "notes": "Indication: Moderate-severe pain. Preparation: 50mcg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Morphine",
+            "adult_dose": "0.1mg/kg IV. 0.1mg/kg/hr infusion.",
+            "route": "IV",
+            "notes": "Indication: Severe pain. Preparation: 10mg/ml, 15mg/ml ampoules. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Ketamine",
+            "adult_dose": "IV: 0.3-1mg/kg slow over 5-10min. 0.2-1mg/kg/hr infusion. Paeds IM: 2-6mg/kg. PO: 6-10mg/kg (mix with 0.2-0.3ml/kg beverage, 30min prior). IN: 1mg/kg (max 0.5ml/nostril).",
+            "route": "IV/IM/PO/IN",
+            "notes": "Indication: Moderate-severe pain, procedural sedation. Preparation: 10/50/100mg/ml. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Tramadol",
+            "adult_dose": "1mg/kg PO/IV. TTO: 50-100mg PO q8hrly. Max 1 week.",
+            "route": "PO/IV",
+            "notes": "Indication: Moderate pain (TTO only). Preparation: 50mg capsules, 100mg/2ml ampoules. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Lignocaine",
+            "adult_dose": "3-4mg/kg without adrenaline. 7mg/kg with adrenaline.",
+            "route": "Local infiltration",
+            "notes": "Indication: Local anaesthesia. Preparation: 1% or 2%. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Bupivacaine",
+            "adult_dose": "3mg/kg with or without adrenaline.",
+            "route": "Local infiltration",
+            "notes": "Indication: Regional nerve block. Preparation: 0.25% or 0.5%. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Marcaine (Bupivacaine)",
+            "adult_dose": "20ml (2-3mg/kg)",
+            "route": "Local infiltration",
+            "notes": "Indication: Femoral nerve block. Preparation: 0.25% or 0.5%. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Pain score reassessment",
+          "Respiratory rate",
+          "Sedation level",
+          "BP",
+          "SpO2"
+        ],
+        "warnings": [
+          "Respiratory depression (opioids)",
+          "Sedation",
+          "Constipation",
+          "Nausea/vomiting",
+          "Hypotension"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Blood and Blood Products including Freeze-Dried Plasma",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Consent required for all blood products",
+            "details": "Document consent",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Blood warming",
+            "details": "Only necessary if >2 units to be transfused (>50ml/kg/hr adults)",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Continuous monitoring during transfusion",
+            "details": "Vital signs before, during, and after transfusion",
+            "caution": "Watch for transfusion reactions"
+          },
+          {
+            "step_number": 4,
+            "action": "Transfuse according to indications and triggers",
+            "details": "Specific indications decrease mortality, morbidity, and costs",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Packed Red Cells (PRC)",
+            "adult_dose": "Acute haemorrhage: Based on clinical features, lactate, vital signs, amount of bleeding, Hb <10. Anaemia: Hb <7; Hb <10 if high risk of myocardial ischaemia.",
+            "route": "IV",
+            "notes": "Indication: Acute haemorrhage, anaemia. Preparation: 1 unit. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Fresh Frozen Plasma (FFP)",
+            "adult_dose": "15-20ml/kg",
+            "route": "IV",
+            "notes": "Indication: Warfarin overdose (INR >1.5 and actively bleeding), acute haemorrhage. Preparation: 1 unit. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Freeze-Dried Plasma (FDP)",
+            "adult_dose": "1 unit FDP = 1 unit FFP",
+            "route": "IV",
+            "notes": "Indication: Life-threatening bleeding until FFP available. Preparation: Ward stock, room temperature. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Platelets (Mega-unit)",
+            "adult_dose": "10ml/kg",
+            "route": "IV",
+            "notes": "Indication: Thrombocytopenia, bleeding, massive transfusion. Preparation: Use platelet-specific transfusion set. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Prothrombin Complex Concentrate (PCC/ Haemosolvex)",
+            "adult_dose": "1ml/kg",
+            "route": "IV",
+            "notes": "Indication: Warfarin overdose, reversal of DOACs. Preparation: Available from pharmacy. Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Cryoprecipitate",
+            "adult_dose": "5-10ml/kg",
+            "route": "IV",
+            "notes": "Indication: DIC, haemophilia, vWD, hypofibrinogenaemia. Preparation: . Onset: . Duration: . Caution:"
+          },
+          {
+            "item": "Tranexamic Acid (TXA)",
+            "adult_dose": "1g IV stat",
+            "route": "IV",
+            "notes": "Indication: Major trauma, bleeding. Preparation: 1g/10ml. Onset: . Duration: . Caution:"
+          }
+        ],
+        "monitoring": [
+          "Vital signs before, during, after transfusion",
+          "Temperature",
+          "Watch for transfusion reactions"
+        ],
+        "warnings": [
+          "{'reaction': 'ABO mismatch and haemolysis', 'features': 'Fever, tachycardia, chest pain, shock, DIC', 'management': 'STOP TRANSFUSION immediately, supportive care'}",
+          "{'reaction': 'Rh mismatch', 'features': '', 'management': 'Rh negative females of childbearing age MUST receive Rh negative products'}",
+          "{'reaction': 'Anaphylaxis', 'features': 'See anaphylaxis protocol', 'management': 'STOP transfusion, manage per anaphylaxis protocol'}",
+          "{'reaction': 'TRALI (Transfusion-Related Acute Lung Injury)', 'features': 'ARDS-type non-cardiogenic pulmonary oedema, shock. More common with FFP.', 'management': 'STOP transfusion, supportive care'}",
+          "{'reaction': 'TACO (Transfusion-Associated Circulatory Overload)', 'features': 'Fluid overload, may mimic TRALI. More common in chronic anaemia/poor circulatory compliance.', 'management': 'STOP transfusion, diuretics, supportive care'}",
+          "{'reaction': 'Hypothermia', 'features': 'More common with massive transfusion of cooled products', 'management': 'Blood warming'}",
+          "{'reaction': 'Electrolyte abnormalities', 'features': 'Low Calcium/Magnesium/Potassium', 'management': 'Monitor and replace'}"
+        ],
+        "disposition": "",
+        "notes_updates": ""
+      },
+      {
+        "item": "Oncological Emergencies",
+        "notes_updates": "SUB-PROTOCOL: Tumour Lysis Syndrome | Pathophysiology: Massive tumour cell lysis - release of tumour cell contents into circulation causing electrolyte derangement (low Ca2+, high K+, high PO4, high uric acid), renal failure, metabolic acidosis, seizures, cardiac arrhythmias | Triggers: Chemotherapy, Radiotherapy, High dose steroids, Hormonal therapy, Surgery, Rapidly growing tumour | Risk factors: Leukaemia, Lymphoma, Aggressive treatment, High tumour burden | Diagnostic criteria: Cairo-Bishop criteria | Management: Monitored bed | Aggressive IV fluids (balanced crystalloid) - aim urine output >2ml/kg/hr | If volume overloaded: Lasix | Manage electrolyte abnormalities (hyperkalaemia, hyperphosphataemia, hypocalcaemia) | Supportive treatment | Dialysis indications: oliguria, anuria, volume overload, persistent hyperkalaemia, hyperphosphataemia-induced symptomatic hypocalcaemia | Disposition: Urgent Oncology referral. ICU referral for severe cases | | SUB-PROTOCOL: Febrile Neutropenia | Definition: Fever + neutropenia (ANC <1000/microlitre). Fever: single oral temp >38.3C or >38C for >1 hour | Often 5-10 days after last chemotherapy | Management: Rapid work-up and empiric antibiotics | Look carefully for signs of infection but defer PR (typhlitis) | Look everywhere: skin, mucous membranes, peri-anal, indwelling lines/catheters | Consider typhlitis: necrotising enterocolitis, appendicitis mimic - CT Abdo, NGT, NPO, IV fluid | Send appropriate samples (blood cultures, urine culture, etc.) | Early antibiotics: Tazocin adequate broad spectrum | Consider fungal cover | Differential: Drug reaction, PE, other oncological emergency | Disposition: Early oncology referral | | SUB-PROTOCOL: Superior Vena Cava (SVC) Syndrome | Pathophysiology: Mechanical obstruction of SVC. Internal: clot. External: tumour/lymph node | Cancers: Lung, NHL Lymphoma | Symptoms: Dyspnoea, Facial oedema, Cough, Chest pain, Dysphagia, Distended neck veins, Facial plethora, Arm oedema. RARE: vocal cord oedema | Management: Head elevated, Dexamethasone 8mg STAT | If thrombus: thrombolysis/anticoagulation | Urgent Oncology referral | CXR: normal/widened mediastinum/pleural effusion. CT gold standard | SUB-PROTOCOL: Malignant Spinal Cord Compression | Cancers: Breast, Prostate, Lung, Lymphoma, Multiple myeloma | Symptoms: Back pain worse at night/lying, Bladder/bowel symptoms, Lower limb weakness, Saddle anaesthesia, Acute paralysis | Management: Dexamethasone 10mg STAT | Urgent Ortho Spine and Radiation Oncology referral | MRI is best imaging | SUB-PROTOCOL: Hypercalcaemia of Malignancy | Pathophysiology: PTHrP, direct bone destruction, Vit D analogues | Symptoms: Stones/Bones/Abdominal Moans/Psychic Groans | Neuro: fatigue, weakness, delirium | GIT: N+V, constipation, ileus | Cardiac: arrhythmias | Renal: polydipsia, polyuria, AKI | ECG: Osborne waves, ST elevation, shortened QTc, widened T-wave, bundle branch patterns, heart block, brady-dysrhythmias | Management: Aggressive IV fluids | Lasix if overloaded | Bisphosphonates (prolonged onset) | SUB-PROTOCOL: Malignant Pericardial Effusion/Tamponade | Symptoms: Exertional dyspnoea, chest pain, tachycardia, pulsus paradoxus, Becks triad (muffled heart sounds, JVP, hypotension - only 1/3 patients) | ECG: low amplitude QRS, electrical alternans | Bedside US: fluid around heart, RA collapse late diastole, RV collapse early diastole | Management: US-guided Seldinger pericardiocentesis with CVP set. Identify deepest pocket. DO NOT SLASH MYOCARDIUM | Avoid intubation if possible (worsens haemodynamics) | Oncology referral",
+        "diagnostic_criteria": {
+          "tumour_lysis_cairo_bishop": "Low Ca2+, high K+, high PO4, high uric acid, renal failure, metabolic acidosis",
+          "tumour_lysis_triggers": "Chemotherapy, Radiotherapy, High dose steroids, Hormonal therapy, Surgery, Rapidly growing tumour",
+          "tumour_lysis_dialysis_indications": "Oliguria, Anuria, Volume overload, Persistent hyperkalaemia, Hyperphosphataemia-induced symptomatic hypocalcaemia",
+          "febrile_neutropenia_definition": "Fever + ANC <1000/microlitre. Fever: single oral temp >38.3C or >38C for >1 hour",
+          "svc_imaging": "CXR: normal/widened mediastinum/pleural effusion. CT gold standard",
+          "spinal_compression_cancers": "Breast, Prostate, Lung, Lymphoma, Multiple myeloma",
+          "spinal_compression_best_imaging": "MRI",
+          "hypercalcaemia_ecg": "Osborne waves, ST elevation, shortened QTc, widened T-wave, bundle branch patterns, heart block, brady-dysrhythmias",
+          "pericardial_bedside_us": "Fluid around heart, RA collapse late diastole, RV collapse early diastole",
+          "pericardial_ecg": "Low amplitude QRS, electrical alternans",
+          "pericardial_becks_triad": "Muffled heart sounds, distended neck veins, hypotension (only 1/3 patients)"
+        },
+        "clinical_features": {
+          "tumour_lysis": "Electrolyte derangement (low Ca2+, high K+, high PO4, high uric acid), renal failure, metabolic acidosis, seizures, cardiac arrhythmias",
+          "svc_symptoms": "Dyspnoea, facial oedema, cough, chest pain, dysphagia, distended neck veins, facial plethora, arm oedema. RARE: vocal cord oedema",
+          "spinal_compression_symptoms": "Back pain worse at night/lying, bladder/bowel symptoms, lower limb weakness, saddle anaesthesia, acute paralysis",
+          "hypercalcaemia_symptoms": "Stones/Bones/Abdominal Moans/Psychic Groans. Neuro: fatigue, weakness, delirium. GIT: N+V, constipation, ileus. Cardiac: arrhythmias. Renal: polydipsia, polyuria, AKI",
+          "pericardial_effusion_signs": "Exertional dyspnoea, chest pain, tachycardia, pulsus paradoxus, Becks triad (muffled heart sounds, JVP, hypotension)"
+        },
+        "drugs": [
+          {
+            "item": "Lasix (Furosemide)",
+            "adult_dose": "As clinically indicated",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For volume overload in tumour lysis syndrome and hypercalcaemia"
+          },
+          {
+            "item": "Dexamethasone",
+            "adult_dose": "8mg STAT (SVC) or 10mg STAT (spinal compression)",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "8mg for SVC syndrome, 10mg for malignant spinal cord compression"
+          },
+          {
+            "item": "Tazocin (Piperacillin-Tazobactam)",
+            "adult_dose": "Adequate broad spectrum coverage",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Empiric antibiotic for febrile neutropenia"
+          },
+          {
+            "item": "Bisphosphonates",
+            "adult_dose": "As prescribed",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For hypercalcaemia of malignancy - prolonged onset of action"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Tumour Lysis Syndrome: Aggressive IV fluids",
+            "details": "Balanced crystalloid, aim urine output >2ml/kg/hr. Manage electrolytes.",
+            "caution": "Dialysis if oliguria, anuria, volume overload, persistent hyperkalaemia"
+          },
+          {
+            "step_number": 2,
+            "action": "Febrile Neutropenia: Empiric antibiotics",
+            "details": "Rapid work-up, Tazocin broad spectrum, consider fungal cover, blood cultures",
+            "caution": "Defer PR exam (typhlitis risk). Often 5-10 days post-chemo."
+          },
+          {
+            "step_number": 3,
+            "action": "SVC Syndrome: Airway and steroids",
+            "details": "Dexamethasone 8mg STAT. Elevate head. Consider anticoagulation if thrombus.",
+            "caution": "Expect difficult airway if vocal cord oedema. CT is gold standard."
+          },
+          {
+            "step_number": 4,
+            "action": "Spinal Cord Compression: Steroids and urgent referral",
+            "details": "Dexamethasone 10mg STAT. Urgent Ortho Spine and Radiation Oncology referral.",
+            "caution": "MRI is best imaging."
+          },
+          {
+            "step_number": 5,
+            "action": "Hypercalcaemia: IV fluids",
+            "details": "Aggressive IV fluids. Lasix if overloaded. Bisphosphonates.",
+            "caution": "Monitor ECG for arrhythmias."
+          },
+          {
+            "step_number": 6,
+            "action": "Pericardial Effusion/Tamponade: Pericardiocentesis",
+            "details": "US-guided Seldinger technique with CVP set. Identify deepest pocket.",
+            "caution": "DO NOT SLASH MYOCARDIUM. Avoid intubation if possible (worsens haemodynamics)."
+          }
+        ],
+        "monitoring": "Monitored bed for tumour lysis and hypercalcaemia | Serial electrolytes, renal function | ECG for hypercalcaemia and pericardial effusion | Bedside US for pericardial effusion",
+        "warnings": [
+          "Tumour lysis syndrome: Dialysis indications include oliguria, anuria, volume overload, persistent hyperkalaemia",
+          "SVC syndrome: Vocal cord oedema is rare and dangerous - expect difficult airway",
+          "Pericardial tamponade: DO NOT SLASH MYOCARDIUM during pericardiocentesis",
+          "Try avoiding intubation in pericardial tamponade - worsens haemodynamic status",
+          "Febrile neutropenia: Often 5-10 days after last chemotherapy"
+        ],
+        "disposition": "Tumour Lysis: Urgent Oncology referral, ICU if severe | Febrile Neutropenia: Early oncology referral | SVC Syndrome: Oncology referral, ultimate Rx = chemo/radiotherapy/stenting | Spinal Compression: Urgent Ortho Spine + Radiation Oncology | Hypercalcaemia: Oncology if known, Renal if unknown | Pericardial Effusion: Oncology referral"
+      },
+      {
+        "item": "Ophthalmology Emergencies",
+        "notes_updates": "SUB-PROTOCOL: Acute Red Eye - Differential Diagnosis | 1. Conjunctivitis: Vision NOT affected | Pain: scratchy sensation | Pupil: Normal, reactive | IOP: Normal | Signs: Mucoid/purulent discharge | Treatment: Topical chloramphenicol, saline eye drops | Disposition: Discharge - return if reduced vision | 2. Acute angle-closure glaucoma: Vision VERY REDUCED/blurred, halos around lights | Pain: SEVERE pain, photophobia | Pupil: Moderately dilated, non-reactive | IOP: Raised | Signs: Nausea, vomiting | Treatment: Topical beta-blocker (timolol 0.5% 1-2 drops), topical cholinergic (pilocarpine 2% 1-2 drops q15min until pupillary constriction), Acetazolamide 500mg IV/PO, +/- Mannitol. Consider steroid eye drops - consult ophthalmology first | Disposition: URGENT Ophthalmology referral | 3. Anterior uveitis/Iritis: Vision SLIGHTLY REDUCED/blurred | Pain: Moderate deep aching pain, worse with eye movements, photophobia | Pupil: Small, irregular, poorly reactive | IOP: Normal | Signs: Ciliary flush - diffuse redness most pronounced at limbus | Treatment: Topical chloramphenicol, saline eye drops. Consider steroid eye drops - consult ophthalmology first | Disposition: Semi-urgent Ophthalmology referral | 4. Corneal abrasion or ulcer: Vision SLIGHTLY REDUCED/blurred | Pain: Moderate to severe pain, scratchy sensation, photophobia | Pupil: Normal, reactive | IOP: Normal | Signs: Corneal defect that stains with fluorescein | Treatment: Topical chloramphenicol, saline eye drops | Disposition: Semi-urgent Ophthalmology referral | | SUB-PROTOCOL: Chemical Eye Injury | Alkalis: Lime, Mortar, Plaster, Drain cleaner, Oven cleaner, Ammonia | Acids: Toilet cleaners, Battery fluid, Pool acid | Neutral: Solvents, Detergents, Aerosols, Mace, Pepper spray | History: Chemical involved, Time of exposure, First aid administered, Symptoms (vision loss, pain, redness) | Examination: Measure eye pH using litmus paper, Visual acuity, Fundoscopy, Intraocular pressure (tonometry), Identify agent | Management: Copious irrigation minimum 30 minutes with 3L Normal Saline | Continue until pH = 7.5 | Topical anaesthetic (e.g., amethocaine/proxymetacaine) should NOT delay irrigation | Topical antibiotic (e.g., chloramphenicol) after irrigation | Disposition: Urgent Ophthalmology referral | | SUB-PROTOCOL: Penetrating Eye Injury | Symptoms: Pain, vision loss, obvious wound | Signs: Proptosis, distorted pupil, uveal prolapse, extrusion of contents | History: Mechanism of injury, time, any first aid, agent (chemical?) | Examination: Visual acuity both eyes, pH (if chemical involved), Seidel test (leaking aqueous), Pupil reaction and shape, Range of eye movements, IOP (DON'T measure if suspect rupture), CT orbits (1mm cuts, no contrast) | Management: Protective shield (NOT eye pad - do not place pressure on eye), NPO, IV Kefazolin, Oral Ciprofloxacin, Tetanus if needed, Antiemetic (prevent Valsalva), Analgesia, CT orbits | DO NOT place pressure on eye, DO NOT pad, DO NOT remove object, DO NOT clean eye | | SUB-PROTOCOL: Retinal Artery Occlusion | Symptoms: Acute painless monocular visual loss - URGENT referral within 4-6 hours | Signs: Pale retina, cherry red spot, retinal emboli, afferent pupillary defect | Management: Urgent Ophthalmology within 4-6 hours | Ocular massage (digital massage) to dislodge embolus | Lower IOP: topical beta-blocker, acetazolamide 500mg IV/PO, +/- mannitol | Rebreathing into paper bag to increase CO2 and dilate artery | | SUB-PROTOCOL: Retrobulbar Haematoma | Cause: Blunt trauma to eye/orbit | Signs: Proptosis, elevated IOP, impaired eye movement, decreased visual acuity, relative afferent pupillary defect (RAPD), blown pupil | POCUS: Guitar pick sign | Management: Lateral canthotomy if orbital compartment syndrome | Tranexamic acid, reverse anticoagulation | | SUB-PROTOCOL: Hyphaema | Definition: Blood in anterior chamber | High risk: Sickle cell, bleeding disorders, anticoagulation | Management: Tranexamic acid, reverse anticoagulation, ophthalmology referral | | SUB-PROTOCOL: Blunt Eye Injury | Retrobulbar haematoma (lateral canthotomy if indicated), Hyphaema (TXA, reverse anticoagulation), Globe rupture, Blow-out fracture",
+        "diagnostic_criteria": {
+          "conjunctivitis": "Vision not affected, scratchy pain, normal reactive pupil, normal IOP, mucoid/purulent discharge",
+          "acute_angle_closure_glaucoma": "Very reduced/blurred vision with halos, severe pain/photophobia, moderately dilated non-reactive pupil, raised IOP, nausea/vomiting",
+          "anterior_uveitis_iritis": "Slightly reduced/blurred vision, moderate deep aching pain worse with eye movement, photophobia, small irregular poorly reactive pupil, normal IOP, ciliary flush",
+          "corneal_abrasion_ulcer": "Slightly reduced/blurred vision, moderate-severe pain/photophobia, normal reactive pupil, normal IOP, corneal defect stains with fluorescein",
+          "retinal_artery_occlusion": "Acute painless monocular visual loss - URGENT referral within 4-6 hours",
+          "retrobulbar_haematoma": "Proptosis, elevated IOP, impaired eye movement, decreased visual acuity, RAPD, blown pupil, guitar pick sign on POCUS",
+          "hyphaema": "Blood in anterior chamber. High risk: sickle cell, bleeding disorders, anticoagulation",
+          "chemical_alkalis": "Lime, Mortar, Plaster, Drain cleaner, Oven cleaner, Ammonia",
+          "chemical_acids": "Toilet cleaners, Battery fluid, Pool acid",
+          "chemical_neutral": "Solvents, Detergents, Aerosols, Mace, Pepper spray"
+        },
+        "clinical_features": {
+          "conjunctivitis": "Mucoid/purulent discharge, scratchy sensation, normal vision",
+          "acute_glaucoma": "Severe pain, photophobia, halos around lights, nausea/vomiting, mid-dilated fixed pupil",
+          "iritis": "Ciliary flush (redness at limbus), small irregular pupil, pain worse with eye movement",
+          "corneal_abrasion": "Pain, photophobia, corneal defect staining with fluorescein",
+          "retinal_artery_occlusion": "Acute painless monocular visual loss",
+          "retrobulbar_haematoma": "Proptosis, elevated IOP, impaired eye movement, RAPD, blown pupil"
+        },
+        "drugs": [
+          {
+            "item": "Timolol 0.5%",
+            "adult_dose": "1-2 drops",
+            "paediatric_dose": "",
+            "route": "Topical ophthalmic",
+            "notes": "Topical beta-blocker for acute angle-closure glaucoma and retinal artery occlusion"
+          },
+          {
+            "item": "Pilocarpine 2%",
+            "adult_dose": "1-2 drops q15min until pupillary constriction",
+            "paediatric_dose": "",
+            "route": "Topical ophthalmic",
+            "notes": "Topical cholinergic for acute angle-closure glaucoma"
+          },
+          {
+            "item": "Acetazolamide",
+            "adult_dose": "500mg IV/PO",
+            "paediatric_dose": "",
+            "route": "IV/PO",
+            "notes": "For acute angle-closure glaucoma and retinal artery occlusion"
+          },
+          {
+            "item": "Mannitol",
+            "adult_dose": "As clinically indicated",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For acute angle-closure glaucoma if needed"
+          },
+          {
+            "item": "Chloramphenicol eye drops",
+            "adult_dose": "As directed",
+            "paediatric_dose": "",
+            "route": "Topical ophthalmic",
+            "notes": "For conjunctivitis, iritis, corneal abrasion"
+          },
+          {
+            "item": "Kefazolin (Cefazolin)",
+            "adult_dose": "IV dose",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For penetrating eye injury"
+          },
+          {
+            "item": "Ciprofloxacin",
+            "adult_dose": "Oral dose",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "For penetrating eye injury"
+          },
+          {
+            "item": "Tranexamic Acid (TXA)",
+            "adult_dose": "As clinically indicated",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Consider for retrobulbar haematoma and hyphaema"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Acute Red Eye: Assess vision, pain, pupil, IOP",
+            "details": "Differentiate conjunctivitis, glaucoma, iritis, corneal abrasion. Check visual acuity, pupil reactivity, IOP.",
+            "caution": "Acute angle-closure glaucoma is an emergency"
+          },
+          {
+            "step_number": 2,
+            "action": "Chemical injury: Immediate irrigation",
+            "details": "Copious irrigation minimum 30 minutes with 3L Normal Saline. Continue until pH = 7.5.",
+            "caution": "Do NOT delay irrigation. Topical anaesthetic should not delay irrigation. Alkali injuries are worse than acids."
+          },
+          {
+            "step_number": 3,
+            "action": "Penetrating injury: Protect eye",
+            "details": "Protective shield, NPO, IV Kefazolin + oral Ciprofloxacin, tetanus, antiemetic, analgesia, CT orbits.",
+            "caution": "DO NOT place pressure on eye, DO NOT pad, DO NOT remove object, DO NOT clean eye"
+          },
+          {
+            "step_number": 4,
+            "action": "Retinal artery occlusion: Urgent measures",
+            "details": "Urgent Ophthalmology within 4-6 hours. Ocular massage, lower IOP, rebreathing into paper bag.",
+            "caution": "Time-critical - vision loss is irreversible if delayed"
+          },
+          {
+            "step_number": 5,
+            "action": "Blunt injury: Assess for complications",
+            "details": "Retrobulbar haematoma (lateral canthotomy if indicated), hyphaema (TXA, reverse anticoagulation), globe rupture, blow-out fracture.",
+            "caution": "Guitar pick sign on POCUS for retrobulbar haematoma. Lateral canthotomy if orbital compartment syndrome."
+          }
+        ],
+        "monitoring": "Visual acuity both eyes | IOP monitoring | pH monitoring (chemical injury)",
+        "warnings": [
+          "Acute angle-closure glaucoma: medical emergency - untreated can cause blindness within hours to days",
+          "Chemical injury: alkalis cause worse damage than acids, penetrate deeper",
+          "Penetrating injury: do not apply pressure, do not pad, do not remove object",
+          "Retinal artery occlusion: irreversible vision loss if delayed >4-6 hours",
+          "Retrobulbar haematoma: lateral canthotomy if orbital compartment syndrome"
+        ],
+        "disposition": "Conjunctivitis: Discharge | Glaucoma: URGENT Ophthalmology | Iritis: Semi-urgent Ophthalmology | Corneal abrasion: Semi-urgent Ophthalmology | Chemical injury: Urgent Ophthalmology | Penetrating injury: Urgent Ophthalmology + CT orbits | Retinal artery occlusion: URGENT Ophthalmology <4-6hrs | Retrobulbar haematoma: Ophthalmology, lateral canthotomy if indicated | Hyphaema: Ophthalmology referral",
+        "contraindications": [
+          "Do not measure IOP if suspect globe rupture"
+        ]
+      },
+      {
+        "item": "Dengue",
+        "notes_updates": "SUB-PROTOCOL: Dengue (BMJ Best Practice 2024) | Definition: Arbovirus (flavivirus) transmitted by Aedes mosquitoes | Endemic: Tropical/subtropical regions | Incubation: 3-14 days | Clinical features: Fever, headache, retro-orbital pain, myalgia, arthralgia, rash (maculopapular), nausea/vomiting, minor bleeding (epistaxis, gum bleeding, petechiae) | Warning signs (WHO 2009): Abdominal pain/tenderness, Persistent vomiting, Clinical fluid accumulation (ascites/pleural effusion), Mucosal bleeding, Lethargy/restlessness, Hepatomegaly >2cm, Rapid haematocrit rise with rapid platelet drop | Severe dengue criteria: Severe plasma leakage, Severe bleeding, Severe organ impairment | | Dengue with warning signs: Requires urgent intervention and close monitoring | Defervescence (3-7 days) is the critical period - risk of plasma leakage and bleeding | Management: | 1. Outpatient care if no warning signs, tolerating oral fluids, good social support | 2. Admit if any warning signs, comorbidities, extremes of age, uncertain diagnosis, poor social support | 3. Aggressive IV fluids for plasma leakage (crystalloid preferred) | 4. Regular monitoring: FBC, haematocrit, platelets, LFTs, UEC | 5. Blood transfusion if significant bleeding | 6. Discharge when: afebrile >24hrs, clinically improved, platelets stable/rising, tolerating oral intake | | Differential: Malaria, Chikungunya, Zika, Influenza, Typhoid, Leptospirosis, Meningococcaemia",
+        "diagnostic_criteria": {
+          "dengue_case_definition": "Fever + two of: nausea/vomiting, rash, aches/pains, tourniquet test positive, leucopenia, any warning sign",
+          "warning_signs": "Abdominal pain/tenderness, Persistent vomiting, Clinical fluid accumulation, Mucosal bleeding, Lethargy/restlessness, Hepatomegaly >2cm, Rapid haematocrit rise with rapid platelet drop",
+          "severe_dengue": "Severe plasma leakage leading to shock (DSS), Severe bleeding, Severe organ impairment (hepatic: ALT/AST >1000, CNS: impaired consciousness, cardiac: myocarditis)",
+          "critical_period": "Defervescence days 3-7 - risk of plasma leakage and bleeding"
+        },
+        "clinical_features": {
+          "classic_dengue": "Fever, headache, retro-orbital pain, myalgia, arthralgia, maculopapular rash, nausea/vomiting, minor bleeding",
+          "warning_signs_features": "Abdominal pain, persistent vomiting, fluid accumulation, mucosal bleeding, lethargy, hepatomegaly, rising haematocrit with falling platelets",
+          "severe_dengue_features": "Shock (DSS), severe bleeding, severe organ impairment"
+        },
+        "drugs": [
+          {
+            "item": "Paracetamol",
+            "adult_dose": "1g PO/IV q6hrly",
+            "paediatric_dose": "15mg/kg/dose",
+            "route": "PO/IV",
+            "notes": "For fever and pain. AVOID NSAIDs and aspirin (bleeding risk)"
+          },
+          {
+            "item": "IV Crystalloid",
+            "adult_dose": "As clinically indicated",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Aggressive IV fluids for plasma leakage. Monitor for fluid overload."
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess for warning signs and severe dengue criteria",
+            "details": "Check all WHO 2009 warning signs and severe dengue criteria",
+            "caution": "Defervescence (days 3-7) is critical period"
+          },
+          {
+            "step_number": 2,
+            "action": "Decision: Outpatient vs Admission",
+            "details": "Outpatient: no warning signs, tolerating oral fluids, good support. Admit: warning signs, comorbidities, extremes of age, poor support.",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "IV fluid resuscitation if indicated",
+            "details": "Crystalloid preferred. Monitor for fluid overload.",
+            "caution": "Avoid fluid overload especially in critical phase"
+          },
+          {
+            "step_number": 4,
+            "action": "Regular monitoring",
+            "details": "FBC, haematocrit, platelets, LFTs, UEC",
+            "caution": "Rising haematocrit with falling platelets = warning sign"
+          },
+          {
+            "step_number": 5,
+            "action": "Discharge criteria",
+            "details": "Afebrile >24hrs, clinically improved, platelets stable/rising, tolerating oral intake",
+            "caution": ""
+          }
+        ],
+        "monitoring": "FBC | Haematocrit | Platelets | LFTs | UEC | Fluid balance",
+        "warnings": [
+          "AVOID NSAIDs and aspirin - bleeding risk",
+          "Defervescence (days 3-7) is critical period for plasma leakage",
+          "Rising haematocrit with falling platelets is a warning sign",
+          "Monitor for fluid overload during IV resuscitation"
+        ],
+        "disposition": "No warning signs + good support: outpatient | Warning signs or comorbidities: admit | Severe dengue: ICU",
+        "contraindications": [
+          "Avoid NSAIDs and aspirin"
+        ]
+      },
+      {
+        "item": "Malaria",
+        "notes_updates": "SUB-PROTOCOL: Malaria (BMJ Best Practice 2024) | Definition: Protozoal infection transmitted by female Anopheles mosquitoes | Causative organisms: Plasmodium falciparum (most severe), P. vivax, P. ovale, P. malariae, P. knowlesi | Endemic: Tropical/subtropical regions (sub-Saharan Africa, SE Asia, South America) | Incubation: P. falciparum 7-14 days, others 12-40 days | Clinical features: Fever (cyclical/periodic in non-falciparum), chills, rigors, headache, myalgia, arthralgia, nausea/vomiting, diarrhoea, abdominal pain, anaemia, jaundice, hepatosplenomegaly, confusion/seizures (cerebral malaria) | Severe falciparum criteria (WHO): Impaired consciousness/coma (GCS<11), Prostration/inability to sit/stand, Multiple convulsions (>2 in 24hrs), Acidosis, Hypoglycaemia, Severe anaemia (Hb<7g/dL), Renal impairment (creatinine>265micromol/L), Jaundice (bilirubin>50micromol/L), Pulmonary oedema, Significant bleeding, Shock (SBP<80mmHg adults), Hyperparasitaemia (>5% in non-immune, >10% any) | | Diagnosis: Thick and thin blood films (Giemsa stain) | Rapid diagnostic tests (RDTs) available | PCR for species identification | FBC, UEC, LFT, glucose, blood cultures | | Management: | 1. Uncomplicated falciparum: Artemisinin-based combination therapy (ACT) - Artemether-lumefantrine (Coartem) or Artesunate-amodiaquine | 2. Severe falciparum: IV Artesunate (first line) or IV Quinine | 3. Non-falciparum: Chloroquine (if sensitive) or ACT | 4. Supportive care: antipyretics, fluids, glucose monitoring, blood transfusion if severe anaemia | 5. Exchange transfusion if hyperparasitaemia >10% | | P. vivax/ovale: Requires radical cure with primaquine (G6PD screening required) | Pregnant women: Avoid ACT in first trimester, use quinine + clindamycin | | Disposition: Uncomplicated: outpatient with follow-up | Severe: admit, often ICU | Cerebral malaria: ICU, neuro-obs",
+        "diagnostic_criteria": {
+          "malaria_diagnosis": "Blood film (thick and thin) with Giemsa stain or RDT or PCR",
+          "severe_falciparum_who": "Impaired consciousness/coma (GCS<11), Prostration, Multiple convulsions (>2/24hrs), Acidosis, Hypoglycaemia, Severe anaemia (Hb<7g/dL), Renal impairment (creatinine>265micromol/L), Jaundice (bilirubin>50micromol/L), Pulmonary oedema, Significant bleeding, Shock (SBP<80mmHg), Hyperparasitaemia (>5% non-immune, >10% any)",
+          "species": "P. falciparum (most severe), P. vivax, P. ovale, P. malariae, P. knowlesi"
+        },
+        "clinical_features": {
+          "uncomplicated": "Fever, chills, rigors, headache, myalgia, arthralgia, nausea/vomiting, diarrhoea, abdominal pain, anaemia, jaundice, hepatosplenomegaly",
+          "severe_falciparum": "Impaired consciousness/coma, prostration, multiple convulsions, acidosis, hypoglycaemia, severe anaemia, renal impairment, jaundice, pulmonary oedema, significant bleeding, shock, hyperparasitaemia",
+          "cerebral_malaria": "Altered mental status, seizures, coma, focal neurological signs"
+        },
+        "drugs": [
+          {
+            "item": "Artemether-Lumefantrine (Coartem)",
+            "adult_dose": "Weight-based dosing: 1 tablet = 20mg artemether + 120mg lumefantrine. 5-14kg: 1 tab, 15-24kg: 2 tabs, 25-34kg: 3 tabs, >35kg: 4 tabs. Doses at 0, 8, 24, 36, 48, 60 hours.",
+            "paediatric_dose": "Weight-based as above",
+            "route": "PO",
+            "notes": "First-line ACT for uncomplicated falciparum"
+          },
+          {
+            "item": "IV Artesunate",
+            "adult_dose": "2.4mg/kg IV at 0, 12, 24 hours, then daily until oral therapy possible",
+            "paediatric_dose": "Same as adult",
+            "route": "IV",
+            "notes": "First-line for severe falciparum malaria"
+          },
+          {
+            "item": "IV Quinine",
+            "adult_dose": "Loading: 20mg/kg in 10ml/kg IV fluid over 4 hours. Maintenance: 10mg/kg q8hrly in 4-hour infusions.",
+            "paediatric_dose": "Same as adult",
+            "route": "IV",
+            "notes": "Alternative for severe falciparum if artesunate unavailable"
+          },
+          {
+            "item": "Chloroquine",
+            "adult_dose": "Total dose 25mg/kg base over 3 days: 10mg/kg day 1, 10mg/kg day 2, 5mg/kg day 3",
+            "paediatric_dose": "Same as adult (mg/kg)",
+            "route": "PO",
+            "notes": "For non-falciparum malaria (if chloroquine-sensitive)"
+          },
+          {
+            "item": "Primaquine",
+            "adult_dose": "0.25-0.5mg/kg daily for 14 days",
+            "paediatric_dose": "Same as adult (mg/kg)",
+            "route": "PO",
+            "notes": "Radical cure for P. vivax/ovale (hypnozoites). G6PD screening REQUIRED."
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Confirm diagnosis with blood film/RDT",
+            "details": "Thick and thin blood films (Giemsa), RDT, PCR for species",
+            "caution": "Falciparum is most severe - needs urgent treatment"
+          },
+          {
+            "step_number": 2,
+            "action": "Assess severity",
+            "details": "Check WHO severe falciparum criteria. Blood tests: FBC, UEC, LFT, glucose, blood cultures.",
+            "caution": "Cerebral malaria is life-threatening"
+          },
+          {
+            "step_number": 3,
+            "action": "Treat uncomplicated falciparum",
+            "details": "ACT (Coartem or artesunate-amodiaquine)",
+            "caution": "Complete full course"
+          },
+          {
+            "step_number": 4,
+            "action": "Treat severe falciparum",
+            "details": "IV Artesunate first line. ICU admission. Monitor glucose, fluid balance.",
+            "caution": "Exchange transfusion if hyperparasitaemia >10%"
+          },
+          {
+            "step_number": 5,
+            "action": "Treat non-falciparum",
+            "details": "Chloroquine (if sensitive) or ACT. Add primaquine for P. vivax/ovale radical cure.",
+            "caution": "G6PD screening before primaquine"
+          },
+          {
+            "step_number": 6,
+            "action": "Supportive care",
+            "details": "Antipyretics, fluids, glucose monitoring, blood transfusion if severe anaemia",
+            "caution": "Monitor for hypoglycaemia with quinine"
+          }
+        ],
+        "monitoring": "FBC | UEC | LFT | Glucose | Blood films | Fluid balance | Conscious level",
+        "warnings": [
+          "P. falciparum can be fatal if untreated",
+          "Cerebral malaria: altered consciousness, seizures, coma",
+          "Hypoglycaemia with quinine treatment",
+          "G6PD screening required before primaquine",
+          "Exchange transfusion if hyperparasitaemia >10%"
+        ],
+        "disposition": "Uncomplicated: outpatient with follow-up | Severe: admit, often ICU | Cerebral malaria: ICU",
+        "contraindications": [
+          "Primaquine contraindicated in G6PD deficiency"
+        ]
+      },
+      {
+        "item": "Snake Bite",
+        "notes_updates": "SUB-PROTOCOL: Snake Bite (SA Guidelines 2024) | History: Time of bite, Snake identification (colour, pattern, size, shape of head, pupil shape - bring photo/dead snake if safe), Circumstances (provoked/unprovoked), Symptoms progression | Examination: Vital signs, Bite marks (fang punctures), Local effects (pain, swelling, bruising, blistering, lymphangitis), Systemic effects (nausea/vomiting, abdominal pain, dizziness, collapse, coagulopathy, neurotoxicity, myotoxicity, renal failure) | First aid: Pressure immobilisation bandage (PIB) - apply firm bandage over bite site and extend entire limb, Splint limb to prevent movement, Do NOT wash/incise/suck/tourniquet, Keep victim still, Mark edge of swelling, Remove rings/watches | | Cytotoxic snakes (puff adder, Mozambique spitting cobra): Local swelling, pain, blistering, tissue necrosis, compartment syndrome | Haemotoxic snakes (boomslang): Coagulopathy, bleeding (DIC-like picture) | Neurotoxic snakes (mamba, Cape cobra, Rinkhals): Ptosis, ophthalmoplegia, bulbar palsy, respiratory paralysis | | Management: | 1. Resuscitation ABCDE | 2. First aid: PIB + splint | 3. Blood tests: FBC, coagulation profile, UEC, CK, blood group and hold | 4. Antivenom if indicated (polyvalent antivenom for SA snakes) | 5. Wound care: leave open, elevate, monitor for compartment syndrome | 6. Tetanus prophylaxis | 7. Analgesia | 8. Surgical consult if compartment syndrome | | Antivenom indications: Systemic envenomation (neurotoxicity, coagulopathy, myotoxicity, renal failure) | Significant local effects | Rapidly progressive swelling | | Disposition: Admit all patients with significant envenomation for observation (minimum 12-24 hours for cytotoxic, longer for haemotoxic)",
+        "diagnostic_criteria": {
+          "snake_bite_assessment": "History of snake bite, fang puncture marks, local/systemic effects",
+          "cytotoxic": "Puff adder, Mozambique spitting cobra. Local swelling, pain, blistering, tissue necrosis, compartment syndrome",
+          "haemotoxic": "Boomslang. Coagulopathy, bleeding, DIC-like picture",
+          "neurotoxic": "Mamba, Cape cobra, Rinkhals. Ptosis, ophthalmoplegia, bulbar palsy, respiratory paralysis",
+          "first_aid": "Pressure immobilisation bandage (PIB), splint, keep still, do NOT wash/incise/suck/tourniquet"
+        },
+        "clinical_features": {
+          "local_effects": "Pain, swelling, bruising, blistering, lymphangitis, tissue necrosis",
+          "systemic_cytotoxic": "Nausea/vomiting, abdominal pain, dizziness, collapse, coagulopathy",
+          "systemic_neurotoxic": "Ptosis, ophthalmoplegia, bulbar palsy, respiratory paralysis",
+          "systemic_haemotoxic": "Coagulopathy, DIC-like bleeding"
+        },
+        "drugs": [
+          {
+            "item": "Polyvalent Antivenom",
+            "adult_dose": "Initial 2-4 vials IV in 200ml NS over 30-60 min. Repeat 2 vials if inadequate response after 1-2 hours.",
+            "paediatric_dose": "Same as adult (dose is vial-based, not weight-based)",
+            "route": "IV",
+            "notes": "For systemic envenomation. SAIMR polyvalent for SA snakes. Test dose not required. Have adrenaline ready for anaphylaxis."
+          },
+          {
+            "item": "Adrenaline",
+            "adult_dose": "0.01ml/kg of 1:1000 IM (max 0.5ml). For anaphylaxis to antivenom.",
+            "paediatric_dose": "0.01ml/kg of 1:1000 IM",
+            "route": "IM",
+            "notes": "Have ready before antivenom administration"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "First aid: PIB + splint",
+            "details": "Pressure immobilisation bandage over bite site and entire limb. Splint. Keep still.",
+            "caution": "Do NOT wash, incise, suck, or apply tourniquet"
+          },
+          {
+            "step_number": 2,
+            "action": "Resuscitation ABCDE",
+            "details": "Airway, breathing, circulation, disability, exposure",
+            "caution": "Neurotoxic snakes can cause respiratory paralysis"
+          },
+          {
+            "step_number": 3,
+            "action": "Blood tests",
+            "details": "FBC, coagulation profile, UEC, CK, blood group and hold",
+            "caution": "Monitor for coagulopathy and renal failure"
+          },
+          {
+            "step_number": 4,
+            "action": "Antivenom if indicated",
+            "details": "Polyvalent antivenom 2-4 vials IV. Repeat 2 vials if inadequate response.",
+            "caution": "Have adrenaline ready. Test dose not required."
+          },
+          {
+            "step_number": 5,
+            "action": "Wound care and monitoring",
+            "details": "Leave wound open, elevate, monitor for compartment syndrome. Tetanus prophylaxis.",
+            "caution": "Surgical consult if compartment syndrome suspected"
+          }
+        ],
+        "monitoring": "Vital signs | Swelling progression | Coagulation profile | UEC | CK | Respiratory function (neurotoxic)",
+        "warnings": [
+          "Do NOT wash, incise, suck, or apply tourniquet",
+          "Neurotoxic snakes: monitor respiratory function closely",
+          "Antivenom can cause anaphylaxis - have adrenaline ready",
+          "Compartment syndrome: surgical emergency",
+          "Admit all significant envenomation for 12-24+ hours observation"
+        ],
+        "disposition": "Admit all with significant envenomation | ICU if neurotoxic/respiratory compromise | Surgical consult if compartment syndrome"
+      },
+      {
+        "item": "Tetanus",
+        "notes_updates": "SUB-PROTOCOL: Tetanus Prophylaxis (WHO/SA Guidelines 2024) | Tetanus is caused by Clostridium tetani toxin | Spores found in soil, dust, faeces | Enters through wounds (especially puncture, contaminated, necrotic wounds) | Clinical features: Trismus (lockjaw), Risus sardonicus (grimacing), Opisthotonus (arching of back), Muscle spasms, Dysphagia, Autonomic dysfunction (tachycardia, BP fluctuations, sweating), Respiratory failure | Incubation: 3-21 days (shorter = worse prognosis) | | Wound classification: | Clean minor wounds: <6 hours old, non-devitalised tissue, no contamination | All other wounds: >6 hours old, devitalised tissue, contamination (soil, faeces, saliva), puncture wounds, crush injuries, burns, frostbite | | Immunisation history assessment: | Unknown or <3 doses: Give Td/Tdap + tetanus immunoglobulin (TIG) for dirty wounds | 3+ doses, last dose >10 years (clean) or >5 years (dirty): Give Td/Tdap booster | 3+ doses, last dose <10 years (clean) or <5 years (dirty): No booster needed | | Tetanus immunoglobulin (TIG): 250-500 units IM (different site from vaccine) | For severe wounds: 500 units IM | For established tetanus: 3000-6000 units IM/IV | | Management of established tetanus: | 1. ICU admission | 2. Human tetanus immunoglobulin (HTIG) 3000-6000 units IM/IV | 3. Wound debridement | 4. Metronidazole 500mg IV q8hrly (preferred) OR Penicillin G 2-4 MU IV q4-6hrly | 5. Diazepam for muscle spasms | 6. Magnesium sulphate for autonomic dysfunction | 7. Ventilatory support if needed | 8. Quiet, dark environment (stimuli trigger spasms) | | Disposition: All established tetanus cases: ICU | Prophylaxis: Outpatient",
+        "diagnostic_criteria": {
+          "clinical_diagnosis": "Trismus, risus sardonicus, opisthotonus, muscle spasms, dysphagia, autonomic dysfunction",
+          "incubation": "3-21 days (shorter = worse)",
+          "wound_clean_minor": "<6 hours old, non-devitalised, no contamination",
+          "wound_all_other": ">6 hours old, devitalised, contaminated, puncture, crush, burns, frostbite"
+        },
+        "clinical_features": {
+          "established_tetanus": "Trismus (lockjaw), risus sardonicus, opisthotonus, muscle spasms, dysphagia, autonomic dysfunction, respiratory failure"
+        },
+        "drugs": [
+          {
+            "item": "Tetanus Toxoid (Td/Tdap)",
+            "adult_dose": "0.5ml IM",
+            "paediatric_dose": "Age-appropriate tetanus vaccine",
+            "route": "IM",
+            "notes": "Booster if >10 years (clean) or >5 years (dirty) since last dose"
+          },
+          {
+            "item": "Tetanus Immunoglobulin (TIG)",
+            "adult_dose": "250-500 units IM (different site from vaccine). Severe wounds: 500 units. Established tetanus: 3000-6000 units IM/IV.",
+            "paediatric_dose": "Same as adult",
+            "route": "IM/IV",
+            "notes": "For dirty wounds with unknown/<3 doses immunisation. Different site from vaccine."
+          },
+          {
+            "item": "Metronidazole",
+            "adult_dose": "500mg IV q8hrly",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Preferred antibiotic for established tetanus"
+          },
+          {
+            "item": "Penicillin G",
+            "adult_dose": "2-4 MU IV q4-6hrly",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Alternative to metronidazole for established tetanus"
+          },
+          {
+            "item": "Diazepam",
+            "adult_dose": "5-10mg IV q2-4hrly PRN",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For muscle spasms in established tetanus"
+          },
+          {
+            "item": "Magnesium Sulphate",
+            "adult_dose": "Loading 5g IV over 30 min, then 2g/hr infusion",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For autonomic dysfunction in established tetanus"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess wound and immunisation history",
+            "details": "Classify wound (clean minor vs other). Check tetanus immunisation status.",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Give prophylaxis based on history",
+            "details": "Unknown/<3 doses: Td/Tdap + TIG for dirty wounds. 3+ doses: booster if overdue.",
+            "caution": "TIG at different site from vaccine"
+          },
+          {
+            "step_number": 3,
+            "action": "Established tetanus: ICU admission",
+            "details": "HTIG 3000-6000 units, wound debridement, antibiotics, muscle relaxants, quiet dark room",
+            "caution": "Mortality 10-50% even with treatment"
+          }
+        ],
+        "monitoring": "Vital signs | Wound healing | Muscle spasms | Respiratory function | Autonomic function",
+        "warnings": [
+          "Shorter incubation = worse prognosis",
+          "Mortality 10-50% even with treatment",
+          "Stimuli trigger muscle spasms - quiet dark environment",
+          "TIG and vaccine at different sites"
+        ],
+        "disposition": "Established tetanus: ICU | Prophylaxis: outpatient"
+      }
+    ]
+  }
+]
