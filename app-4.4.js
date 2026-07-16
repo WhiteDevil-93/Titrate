@@ -74,31 +74,21 @@ async function load(){
     // Try single data.json first
     let r=await fetch('data.json?v='+APP_VERSION,{cache:'no-store'});
     let txt=await r.text();
-    // If placeholder or empty, load chunks in parallel with retry
+    // If placeholder or empty, load category files in parallel
     if(txt.length<100||txt.includes('PLACEHOLDER')){
-      const chunkUrls=[];
-      for(let i=0;i<10;i++){
-        if(i===8){chunkUrls.push('data_8a.json','data_8b.json')}
-        else{chunkUrls.push('data_'+i+'.json')}
-      }
-      // Fetch all chunks in parallel
-      const fetchChunk=async(url)=>{
-        for(let attempt=0;attempt<3;attempt++){
-          try{
-            const rc=await fetch(url+'?v='+APP_VERSION,{cache:'no-store'});
-            if(rc.ok)return await rc.text();
-          }catch(e){}
-          await new Promise(r=>setTimeout(r,500));
-        }
-        throw new Error('Failed to load '+url);
+      const CAT_FILES=['cat_1_resuscitation_fluids_and_inotropes.json','cat_2_airway_and_ventilation.json','cat_3_sedation_analgesia_and_neurology.json','cat_4_antimicrobials_and_infectious_diseases.json','cat_5_metabolic_electrolytes_and_nutrition.json','cat_6_poisoning_and_toxicology.json','cat_7_useful_formulae.json','cat_8_cardiovascular.json','cat_9_blood_products.json','cat_10_endocrine_and_other.json','cat_11_ed_medical_emergencies_protocols_10.json','cat_11_ed_medical_emergencies_protocols_11.json','cat_11_ed_medical_emergencies_protocols_12.json','cat_12_ed_toxicology_protocols_13.json','cat_12_ed_toxicology_protocols_14.json','cat_13_ed_trauma_surgical_protocols_15.json','cat_13_ed_trauma_surgical_protocols_16.json','cat_14_ed_metabolic.json','cat_15_ed_procedures_protocols_18.json','cat_15_ed_procedures_protocols_19.json','cat_16_score_calculators.json'];
+      const fetchCat=async(url)=>{
+        for(let a=0;a<3;a++){try{const r=await fetch('cats/'+url+'?v='+APP_VERSION,{cache:'no-store'});if(r.ok)return await r.json()}catch(e){}await new Promise(r=>setTimeout(r,400))}
+        throw new Error('Failed: '+url);
       };
-      const results=await Promise.allSettled(chunkUrls.map(fetchChunk));
+      const results=await Promise.allSettled(CAT_FILES.map(fetchCat));
       const failed=results.filter(r=>r.status==='rejected').map(r=>r.reason.message);
       if(failed.length)throw new Error(failed.join('; '));
-      txt=results.map(r=>r.value).join('');
+      D={};
+      for(const r of results){if(r.status==='fulfilled')Object.assign(D,r.value)}
     }
     D=JSON.parse(txt);mkNav();renderAll();updF();
-  }catch(e){document.getElementById('c').innerHTML='<div class="nores"><div class=ico>⚠️</div>Failed to load data: '+e.message+'</div>'}
+  }catch(e){document.getElementById('c').innerHTML='<div class="nores"><div class=ico>⚠️</div>Failed to load data. Please check connection.</div>'}
   // Show onboarding on first visit
   if(!localStorage.getItem('tr_onboarded')){
     showOnboarding();
@@ -1593,7 +1583,7 @@ function calcFormula(key) {
     // Replace variables in formula with their numeric values
     let expr = calc.formula || '';
     for (const [k, v] of Object.entries(values)) {
-      expr = expr.replace(new RegExp('\\b' + k + '\\b', 'g'), v);
+      expr = expr.replace(new RegExp('\b' + k + '\b', 'g'), v);
     }
 
     // Replace bracket notation [expr] with parenthesised (expr)
