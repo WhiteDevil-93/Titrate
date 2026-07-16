@@ -1,0 +1,1063 @@
+r dialysis). Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.",
+        "formulas": [],
+        "notes_updates": "Cns: CNS depression, Profound CNS depression (beta-blocker OD may lead to this)\nDisposition: Int Med consult (consider renal consult for dialysis). Will likely require ICU/High care. Continue serial ECG and VBG monitoring in ED.\nWarnings: Propranolol: Also acts as Na channel blocker - TCA-like features of OD; Sotalol: Blocks myocardial K channels - QT prolongation, Torsades in OD; CCB causes hyperglycaemia; BB causes hypoglycaemia; HIET: Monitor HGT every 20 min for 1st hour, then hourly; Replace potassium if <2.5 mmol/L during HIET; Dextrose infusion via central line for euglycaemia maintenance; Therapeutic endpoints for HIET: EF>50%, SBP>90mmHg, HR>60bpm, resolution of acidaemia, euglycaemia, urine output 1-2ml/kg/hr, QRS<120ms, improved GCS; Consider ECMO if no response to HIET; Beta-blocker OD may lead to profound CNS depression; Dihydropyridine class (non-selective CCBs) at lower doses may cause peripheral vasodilation with reflex tachycardia",
+        "reversal_agents": [
+          {
+            "name": "HIET (High-Dose Insulin)",
+            "indication": "CCB and BB overdose",
+            "dose": "Actrapid 1 IU/kg load then 0.5-10 IU/kg/hr infusion",
+            "route": "IV"
+          },
+          {
+            "name": "Calcium chloride",
+            "indication": "CCB overdose",
+            "dose": "10 ml 10% over 10 min",
+            "route": "IV (large bore/central)"
+          },
+          {
+            "name": "Glucagon",
+            "indication": "BB overdose",
+            "dose": "Per specialist",
+            "route": "IV"
+          }
+        ]
+      },
+      {
+        "item": "General Toxicology approach",
+        "notes_updates": "Remembered by the mnemonic 'Resus - RSI - DEAD' | RESUSCITATION | Airway | Breathing | Circulation | Seizure control | Correct hypoglycaemia | Correct hyperthermia | Resuscitation antidotes: e.g. atropine for organophosphates; NaHCO3 for tricyclic antidepressants & salicylates; HIET for beta-blockers | RISK ASSESSMENT | Agent(s) | Dose(s) | Time since ingestion | Current clinical status | Patient factors | SUPPORTIVE CARE & MONITORING | FASTHUGS IN BED Please (see below) - applies where appropriate | INVESTIGATIONS | ECG and paracetamol level for ALL | Further tests as indicated by specific presentation | Rationale for investigations: Refine risk assessment or prognosis | Exclude or confirm an important differential | Exclude or confirm an important specific poisoning | Exclude or confirm a complication requiring specific management | Establish an indication for antidote administration | Establish an indication for institution of enhanced elimination | Monitor response to therapy | Define an endpoint for therapeutic interventions | DECONTAMINATION & ENHANCED ELIMINATION | Activated charcoal (1g/kg) may be considered if a patient has ingested a potentially life-threatening quantity of substance/s and presents within 1 hour of ingestion | Consider transferring for dialysis (see box) | INGESTIONS THAT MAY REQUIRE DIALYSIS | Barbiturates | Salicylates | Lithium | Toxic alcohols (methanol, ethanol, ethylene glycol) | Theophylline/Caffeine | INH (Seldom) | Metformin | Dabigatran | Sodium valproate | Carbamazepine | FASTHUGS IN BED Please | F - fluid therapy & feeding | A - analgesia & antiemetics | S - sedation | T - thrombo-prophylaxis | H - head up position (30 degrees) | U - ulcer prophylaxis | G - glucose control | S - skin/eye care; suctioning | I - indwelling catheter | N - nasogastric tube | B - bowel cares | E - environment (temp control) | D - de-escalation | P - psychosocial support | DISPOSITION | Urgent Medicine/ICU referral",
+        "drugs": [
+          {
+            "item": "Activated Charcoal",
+            "adult_dose": "1g/kg",
+            "paediatric_dose": "1g/kg",
+            "route": "Oral/NGT",
+            "notes": "Consider if potentially life-threatening ingestion and presents within 1 hour"
+          },
+          {
+            "item": "Atropine",
+            "adult_dose": "As per organophosphate protocol",
+            "paediatric_dose": "As per organophosphate protocol",
+            "route": "IV/IM",
+            "notes": "Resuscitation antidote for organophosphates/carbamates"
+          },
+          {
+            "item": "Sodium Bicarbonate (NaHCO3)",
+            "adult_dose": "As per specific overdose protocol",
+            "paediatric_dose": "As per specific overdose protocol",
+            "route": "IV",
+            "notes": "For tricyclic antidepressants and salicylates overdose"
+          },
+          {
+            "item": "High-Dose Insulin Euglycaemic Therapy (HIET)",
+            "adult_dose": "Actrapid 1 IU/kg IV stat, then 0.5 IU/kg/hr titrate to max 10 IU/kg/hr. Dextrose 25g/hr maintenance.",
+            "paediatric_dose": "As per adult dosing",
+            "route": "IV",
+            "notes": "For beta-blocker and calcium channel blocker overdose. Start with 50ml 50% dextrose bolus. Monitor HGT every 20 min for 1st hour, then hourly. Monitor potassium - replace if <2.5 mmol."
+          },
+          {
+            "item": "Calcium gluconate/chloride",
+            "adult_dose": "Calcium chloride 10ml 10% over 10 min via large bore IV or central line (target Ca 2mmol)",
+            "paediatric_dose": "Not specified",
+            "route": "IV",
+            "notes": "For calcium channel blocker overdose"
+          },
+          {
+            "item": "Intralipid emulsion",
+            "adult_dose": "As per specific protocol",
+            "paediatric_dose": "As per specific protocol",
+            "route": "IV",
+            "notes": "For local anaesthetic toxicity and consider for beta-blocker/CCB overdose"
+          },
+          {
+            "item": "Desferrioxamine",
+            "adult_dose": "As per iron overdose protocol",
+            "paediatric_dose": "As per iron overdose protocol",
+            "route": "IV",
+            "notes": "Antidote for iron overdose"
+          },
+          {
+            "item": "Ethanol / Folic acid",
+            "adult_dose": "As per methanol toxicity protocol",
+            "paediatric_dose": "As per methanol toxicity protocol",
+            "route": "IV",
+            "notes": "For methanol toxicity"
+          },
+          {
+            "item": "Methylene blue",
+            "adult_dose": "As per methaemoglobinaemia protocol",
+            "paediatric_dose": "As per methaemoglobinaemia protocol",
+            "route": "IV",
+            "notes": "For methaemoglobinaemia"
+          },
+          {
+            "item": "N-acetylcysteine (NAC)",
+            "adult_dose": "As per paracetamol overdose protocol",
+            "paediatric_dose": "As per paracetamol overdose protocol",
+            "route": "IV",
+            "notes": "Antidote for paracetamol overdose"
+          },
+          {
+            "item": "Pyridoxine",
+            "adult_dose": "As per INH overdose protocol",
+            "paediatric_dose": "As per INH overdose protocol",
+            "route": "IV",
+            "notes": "Antidote for isoniazid (INH) overdose"
+          },
+          {
+            "item": "Vitamin K / FFPs",
+            "adult_dose": "As per warfarin toxicity protocol",
+            "paediatric_dose": "As per warfarin toxicity protocol",
+            "route": "IV/Oral",
+            "notes": "For warfarin toxicity"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Resuscitation (R in DEAD)",
+            "details": "Airway, Breathing, Circulation, Seizure control, Correct hypoglycaemia, Correct hyperthermia. Give resuscitation antidotes if indicated (atropine for OPs, NaHCO3 for TCAs/salicylates, HIET for beta-blockers).",
+            "caution": "Address life-threatening issues first"
+          },
+          {
+            "step_number": 2,
+            "action": "Risk Assessment",
+            "details": "Identify: Agent(s), Dose(s), Time since ingestion, Current clinical status, Patient factors.",
+            "caution": "Accurate risk assessment guides all subsequent management"
+          },
+          {
+            "step_number": 3,
+            "action": "Supportive Care & Monitoring (S in DEAD)",
+            "details": "FASTHUGS IN BED Please: F-fluid therapy & feeding, A-analgesia & antiemetics, S-sedation, T-thrombo-prophylaxis, H-head up 30 degrees, U-ulcer prophylaxis, G-glucose control, S-skin/eye care & suctioning, I-indwelling catheter, N-nasogastric tube, B-bowel cares, E-environment/temp control, D-de-escalation, P-psychosocial support.",
+            "caution": "Apply where appropriate to all poisoned patients"
+          },
+          {
+            "step_number": 4,
+            "action": "Investigations",
+            "details": "ECG and paracetamol level for ALL patients. Further tests as indicated. Rationale: refine risk assessment/prognosis, exclude/confirm differential diagnosis, exclude/confirm specific poisoning, exclude/confirm complications, establish indication for antidote, establish indication for enhanced elimination, monitor response, define endpoint.",
+            "caution": "Never miss paracetamol overdose - test ALL"
+          },
+          {
+            "step_number": 5,
+            "action": "Decontamination & Enhanced Elimination",
+            "details": "Activated charcoal (1g/kg) may be considered if potentially life-threatening quantity ingested and presents within 1 hour. Consider dialysis for specific ingestions (barbiturates, salicylates, lithium, toxic alcohols, theophylline/caffeine, INH, metformin, dabigatran, sodium valproate, carbamazepine).",
+            "caution": "Charcoal only within 1 hour of ingestion for life-threatening quantities"
+          },
+          {
+            "step_number": 6,
+            "action": "Antidotes",
+            "details": "Give specific antidote if available and indicated: Atropine (OPs/carbamates), Calcium (CCBs), Desferrioxamine (iron), Ethanol/folic acid (methanol), HIET (beta-blockers), Intralipid (local anaesthetics), Methylene blue (methaemoglobinaemia), NAC (paracetamol), Pyridoxine (INH), Sodium bicarbonate (TCAs/salicylates), Vit K/FFP (warfarin).",
+            "caution": "Refer to specific overdose protocols for dosing details"
+          },
+          {
+            "step_number": 7,
+            "action": "Disposition",
+            "details": "Urgent Medicine/ICU referral as indicated by clinical status and risk assessment.",
+            "caution": "Even if patient initially appears well, may require ICU level care"
+          }
+        ],
+        "diagnostic_criteria": {
+          "risk_assessment_components": "Agent(s), Dose(s), Time since ingestion, Current clinical status, Patient factors",
+          "investigation_rationale": "1) Refine risk assessment or prognosis, 2) Exclude/confirm differential, 3) Exclude/confirm specific poisoning, 4) Exclude/confirm complication, 5) Establish antidote indication, 6) Establish enhanced elimination indication, 7) Monitor response, 8) Define endpoint"
+        },
+        "clinical_features": {
+          "toxidromes_to_consider": "See specific toxidrome protocol for details",
+          "general_approach": "Resus-RSI-DEAD mnemonic covers all poisoned patients systematically"
+        },
+        "monitoring": "FASTHUGS IN BED Please: F-fluid therapy & feeding, A-analgesia & antiemetics, S-sedation, T-thrombo-prophylaxis, H-head up 30 degrees, U-ulcer prophylaxis, G-glucose control, S-skin/eye care & suctioning, I-indwelling catheter, N-nasogastric tube, B-bowel cares, E-environment/temp control, D-de-escalation, P-psychosocial support",
+        "warnings": [
+          "ECG and paracetamol level for ALL poisoned patients",
+          "Activated charcoal only within 1 hour of ingestion for potentially life-threatening quantities",
+          "Dialysis may be required for: barbiturates, salicylates, lithium, toxic alcohols, theophylline/caffeine, INH, metformin, dabigatran, sodium valproate, carbamazepine",
+          "FASTHUGS IN BED Please applies where appropriate to all poisoned patients",
+          "Disposition: Urgent Medicine/ICU referral as indicated"
+        ],
+        "disposition": "Urgent Medicine/ICU referral as indicated by clinical status and risk assessment. All poisoned patients require appropriate level of care based on risk stratification."
+      },
+      {
+        "item": "Paracetamol Treatment Nomogram",
+        "notes_updates": "Use the Paracetamol Treatment Nomogram to establish need for antidote | If high dosage suspected, rather give the antidote to the patient | DO NOT withhold NAC even if ingestion was 48-72 hours prior to presentation | Start treatment ASAP if indicated, preferably <8 hours post-ingestion | IF IN DOUBT, GIVE NAC | TOXIC DOSE: 150mg/kg or >10g in adults | INITIAL ASSESSMENT: Assess and support ABCs | Monitor glucose | Quantify amount ingested and co-ingestants | Establish timeframe from ingestion to presentation | Presentation <1 hour from ingestion: Activated charcoal 50g PO (not via NGT) | ECG for signs of co-ingestants e.g. prolonged QT | LAB INVESTIGATIONS: Blood gas, U&E, salicylate level | Paracetamol levels (provided >4 hours post ingestion) | No need for AST/ALT/INR unless >12 hours post ingestion | NAC CAUTIONS/SIDE-EFFECTS: Anaphylaxis, vomiting | Separate IV infusion as may be inactivated by other medications | Side-effects less common with SNAP Protocol | PREGNANCY: Paracetamol crosses placenta | Administer NAC as above | HIGH RISK PATIENTS: Hypotensive, pre-existing liver dysfunction (e.g. alcoholic), elderly | DISPOSITION: Internal Medicine referral | Refer to Protocol: General management principles of a poisoned/overdose patient",
+        "drugs": [
+          {
+            "item": "N-Acetylcysteine (NAC) - Old Regimen (Parvolex/Paradote)",
+            "adult_dose": "150mg/kg in 200ml 5% Dextrose IV over 1 hour, then 50mg/kg in 500ml 5% Dextrose IV over 4 hours, then 100mg/kg in 1L 5% Dextrose IV over 16 hours",
+            "paediatric_dose": "Weight-based dosing as per adult regimen",
+            "route": "IV infusion",
+            "notes": "Total 21-hour regimen; old regimen with higher side-effect profile"
+          },
+          {
+            "item": "N-Acetylcysteine (NAC) - SNAP Protocol (Preferred)",
+            "adult_dose": "100mg/kg in 200ml 5% Dextrose IV over 2 hours, then 200mg/kg in 1L 5% Dextrose IV over 10 hours",
+            "paediatric_dose": "Weight-based dosing as per adult regimen",
+            "route": "IV infusion",
+            "notes": "Preferred dosing regimen; fewer side-effects; inform admitting doctor to continue this regimen; total 12-hour regimen"
+          },
+          {
+            "item": "Activated Charcoal",
+            "adult_dose": "50g PO",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "Give if presentation <1 hour from ingestion; do NOT administer via NGT"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess and support ABCs",
+            "details": "Ensure airway, breathing, circulation are stable; monitor glucose",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Quantify ingestion",
+            "details": "Attempt to quantify amount ingested and any co-ingestants; establish timeframe from ingestion to presentation",
+            "caution": "Toxic dose: 150mg/kg or >10g in adults"
+          },
+          {
+            "step_number": 3,
+            "action": "Consider activated charcoal",
+            "details": "50g PO if presentation <1 hour from ingestion",
+            "caution": "Do NOT administer via NGT"
+          },
+          {
+            "step_number": 4,
+            "action": "ECG and laboratory investigations",
+            "details": "ECG for co-ingestant signs (e.g. prolonged QT); Blood gas, U&E, salicylate level; Paracetamol level if >4 hours post-ingestion; AST/ALT/INR only if >12 hours post-ingestion",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Use nomogram to determine need for NAC",
+            "details": "Plot paracetamol level against time since ingestion on treatment nomogram",
+            "caution": "If high dosage suspected, rather give antidote; IF IN DOUBT, GIVE NAC"
+          },
+          {
+            "step_number": 6,
+            "action": "Administer NAC if indicated",
+            "details": "Preferred: SNAP Protocol - 100mg/kg in 200ml 5% Dextrose over 2hr, then 200mg/kg in 1L 5% Dextrose over 10hr; Alternative: Old regimen - 150mg/kg over 1hr, then 50mg/kg over 4hr, then 100mg/kg over 16hr",
+            "caution": "Start ASAP preferably <8hrs post-ingestion; do NOT withhold even if 48-72hrs post-ingestion; separate IV infusion; watch for anaphylaxis and vomiting"
+          },
+          {
+            "step_number": 7,
+            "action": "Refer to Internal Medicine",
+            "details": "All paracetamol overdose patients requiring NAC need admission",
+            "caution": "Inform admitting doctor to continue SNAP Protocol if used"
+          }
+        ],
+        "diagnostic_criteria": {
+          "toxic_dose": "150mg/kg or >10g in adults",
+          "nomogram_use": "Plot paracetamol level against time since ingestion; treatment required if above treatment line",
+          "paracetamol_level_timing": "Levels must be taken >4 hours post-ingestion for nomogram interpretation"
+        },
+        "clinical_features": {
+          "early": "Often asymptomatic in first 24 hours",
+          "phase_1": "Nausea, vomiting, anorexia, malaise, diaphoresis, pallor",
+          "phase_2": "24-72 hours: Right upper quadrant pain, elevated liver enzymes",
+          "phase_3": "72-96 hours: Peak hepatotoxicity, jaundice, coagulopathy, encephalopathy",
+          "phase_4": "Recovery phase if patient survives"
+        },
+        "monitoring": "Monitor for NAC side-effects (anaphylaxis, vomiting); liver function if >12 hours post-ingestion; serial paracetamol levels; blood glucose monitoring",
+        "warnings": [
+          "DO NOT withhold NAC even if ingestion was 48-72 hours prior to presentation",
+          "IF IN DOUBT, GIVE NAC",
+          "Start treatment preferably <8 hours post-ingestion",
+          "NAC may cause anaphylaxis and vomiting - monitor closely",
+          "Separate IV infusion as NAC may be inactivated by other medications",
+          "High risk patients: hypotensive, pre-existing liver dysfunction (alcoholic), elderly",
+          "Paracetamol crosses the placenta - administer NAC in pregnancy as above",
+          "Do NOT give activated charcoal via NGT"
+        ],
+        "disposition": "Internal Medicine referral for all patients requiring NAC treatment"
+      },
+      {
+        "item": "Scorpion envenomation guideline",
+        "notes_updates": "Scorpion stings may cause life-threatening envenomation | Species identification guide: scorpions with thick tails and slender pincers are more venomous than those with thin tails and large pincers | Scorpions are mainly nocturnal and active during summer months | Apart from local pain and occasional mild local inflammation, most scorpion stings are relatively harmless | In South Africa, only two Parabuthus species associated with severe envenomation: Parabuthus granulatus and Parabuthus transvaalicus | Severity usually evident within 15-60 minutes, but in adults systemic symptoms may be delayed for 8 hours | Children may present with unique restlessness marked by crying and thrashing - indication of severe systemic envenomation | Bulbar paralysis accompanied by respiratory failure is more frequent in children and primary cause of death | Differential diagnoses without history of sting: neurotoxic spider bites, snake bites, cholinesterase inhibitor toxicity, drug overdose, Guillain-Barre syndrome, tetanus | Scorpion antivenom should be given to all patients with symptoms and signs of severe envenomation | Standard antivenom dose: 5-10mL IV for both children and adults, diluted in small volume normal saline, given over 15 minutes | May take 2-6 hours to reach maximum effect | Additional dose of 5mL may be given after 6 hours if response inadequate | Patients kept under observation for 6-12 hours after antivenom administration | Pain management: if simple analgesia ineffective, infiltrate sting site with local anaesthetic | Opioids are relatively ineffective and increase risk of respiratory depression | Generalised muscle cramps: IV calcium gluconate 10% (Adults 10mL, children 0.5mL/kg) temporarily alleviates for 20-30 minutes | Support cardiorespiratory function as needed | Do NOT give antihistamines and steroids routinely | Tetanus toxoid if required | Poisons Information Helpline of the Western Cape: 0861 555 777",
+        "drugs": [
+          {
+            "item": "Scorpion antivenom",
+            "adult_dose": "5-10mL IV diluted in small volume normal saline, given over 15 minutes; additional 5mL after 6 hours if inadequate response",
+            "paediatric_dose": "5-10mL IV diluted in small volume normal saline, given over 15 minutes; additional 5mL after 6 hours if inadequate response",
+            "route": "IV",
+            "notes": "For severe envenomation only; onset 2-6 hours; observe 6-12 hours after administration"
+          },
+          {
+            "item": "Calcium gluconate 10%",
+            "adult_dose": "10mL IV",
+            "paediatric_dose": "0.5mL/kg IV",
+            "route": "IV",
+            "notes": "For generalised muscle cramps; temporary relief for 20-30 minutes"
+          },
+          {
+            "item": "Local anaesthetic",
+            "adult_dose": "Infiltrate sting site",
+            "paediatric_dose": "Infiltrate sting site",
+            "route": "Local infiltration",
+            "notes": "For local pain if simple analgesia ineffective"
+          },
+          {
+            "item": "Tetanus toxoid",
+            "adult_dose": "As per immunisation schedule",
+            "paediatric_dose": "As per immunisation schedule",
+            "route": "IM",
+            "notes": "Give if tetanus status not up to date"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess severity of envenomation",
+            "details": "Most stings cause local pain only; assess for systemic symptoms; severity evident within 15-60 minutes (may be delayed 8 hours in adults)",
+            "caution": "Children may present with unique restlessness (crying and thrashing) indicating severe envenomation"
+          },
+          {
+            "step_number": 2,
+            "action": "Supportive care - ABC and cardiorespiratory support",
+            "details": "Support airway, breathing, circulation as needed; monitor for respiratory failure especially in children",
+            "caution": "Bulbar paralysis with respiratory failure more frequent in children and is primary cause of death"
+          },
+          {
+            "step_number": 3,
+            "action": "Local wound care and pain management",
+            "details": "Simple analgesia first line; if ineffective infiltrate sting site with local anaesthetic; avoid opioids",
+            "caution": "Opioids are relatively ineffective and increase risk of respiratory depression"
+          },
+          {
+            "step_number": 4,
+            "action": "Manage generalised muscle cramps",
+            "details": "IV calcium gluconate 10%: Adults 10mL, children 0.5mL/kg; provides temporary relief for 20-30 minutes",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Administer scorpion antivenom for severe envenomation",
+            "details": "5-10mL IV diluted in small volume normal saline over 15 minutes; may repeat 5mL after 6 hours if inadequate response",
+            "caution": "Observe patient 6-12 hours after administration; onset of effect 2-6 hours"
+          },
+          {
+            "step_number": 6,
+            "action": "Tetanus prophylaxis",
+            "details": "Give tetanus toxoid if immunisation status not up to date",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Observation and monitoring",
+            "details": "Observe for 6-12 hours after antivenom; monitor cardiorespiratory function",
+            "caution": "Do NOT give antihistamines and steroids routinely"
+          }
+        ],
+        "diagnostic_criteria": {
+          "severity_assessment": "Mild: local pain and occasional mild local inflammation; Severe: systemic symptoms and signs of envenomation",
+          "timecourse": "Severity usually evident within 15-60 minutes; adults may have delayed symptoms up to 8 hours",
+          "high_risk_species": "Parabuthus granulatus and Parabuthus transvaalicus in South Africa",
+          "identification_guide": "Thick tails and slender pincers = more venomous; thin tails and large pincers = less venomous"
+        },
+        "clinical_features": {
+          "local_features": [
+            "Immediate severe local pain",
+            "Occasional mild local inflammation"
+          ],
+          "severe_envenomation_features": [
+            "Generalised paraesthesia and hyperaesthesia",
+            "Muscle pain and cramps",
+            "Tremors and fasciculations",
+            "Involuntary movements",
+            "Agitation",
+            "Visual disturbances",
+            "Hypertension, tachycardia and cardiac arrhythmias",
+            "General weakness - unable to walk, difficulty in breathing, dysphagia and drooling"
+          ],
+          "pediatric_features": [
+            "Unique restlessness marked by crying and thrashing indicating severe envenomation",
+            "Bulbar paralysis more frequent",
+            "Respiratory failure - primary cause of death"
+          ]
+        },
+        "monitoring": "Observe 6-12 hours after antivenom administration; monitor cardiorespiratory function; watch for respiratory failure especially in children",
+        "warnings": [
+          "Scorpions with thick tails and slender pincers are more venomous",
+          "Severity may be delayed up to 8 hours in adults",
+          "Children: unique restlessness (crying/thrashing) indicates severe envenomation",
+          "Bulbar paralysis with respiratory failure more frequent in children - primary cause of death",
+          "Opioids are relatively ineffective and increase risk of respiratory depression",
+          "Do NOT give antihistamines and steroids routinely",
+          "Only two South African species cause severe envenomation: Parabuthus granulatus and Parabuthus transvaalicus"
+        ],
+        "disposition": "Observe for 6-12 hours after antivenom administration; admit patients with severe envenomation or respiratory compromise; contact Poisons Information Helpline: 0861 555 777"
+      }
+    ]
+  },
+  "13_ed_trauma_surgical": {
+    "protocols": [
+      {
+        "item": "Head Injury",
+        "notes_updates": "Glasgow Coma Scale (GCS) - Total range 3-15 | Record best motor response | GCS Eye Opening: 4=Opening spontaneously, 3=Opening to verbal command, 2=Opening to pressure, 1=None | GCS Verbal Response: 5=Coherent speech, 4=Confused disorientated, 3=Words only, 2=Sounds only, 1=None | GCS Motor Response: 6=Obeys commands, 5=Localises painful stimulus, 4=Withdraws from painful stimulus, 3=Flexion to painful stimulus, 2=Extension to painful stimulus, 1=None | GCS <13 on initial assessment OR <15 at 2 hours after injury indicates need for CT | CT Imaging Criteria - Absolute indications: GCS <13 on initial assessment OR <15 at 2 hours after injury | Suspected open/depressed skull fracture/base of skull fracture/facial fractures | Post-traumatic seizure | Two or more episodes of vomiting since head injury | Intubated | Focal neurological deficit | Anticoagulant patients (Warfarin/DOAC): Perform non-contrast CT Brain and C-spine | Relative indications (if LOC or amnesia): Risk factors - Age >65, Bleeding/clotting disorder, Dangerous mechanism, >30min retrograde amnesia | If risk factors present: Perform CT Brain and C-spine | If absent: No imaging required | Dangerous mechanism: Pedestrian/cyclist struck by vehicle, Ejection from vehicle, Fall from height >1m or 5 stairs | Base of skull fracture signs: Raccoon eyes (periorbital ecchymosis), CSF otorrhoea/rhinorrhoea, Battle sign (bruising over mastoid process), Haemotympanum | Neuroprotective measures: Head up 30-45 degrees | MAP >90mmHg unless ICH then MAP >75-80mmHg | Normocarbia PCO2 34-40mmHg (lower end of normal) | Normoxia PaO2 60-100mmHg, O2 sats target >95% | Normothermia (Temp <37.5C) | Normoglycaemia (Blood glucose target 5-10 mmol/l) | Correct electrolyte abnormalities | Monitor for seizures - Phenytoin 20mg/kg IV max rate 50mg/min loading dose in traumatic ICH | Sedation and analgesia to avoid coughing/gagging (raises ICP) | Consider Fentanyl 1-3 mcg/kg over 60 seconds, 3 minutes prior to intubation | Facemask RSI technique for intubation in head injury (see RSI protocol) | Neurosurgery registrar HJH during working hours; CMJAH after 16:00",
+        "diagnostic_criteria": {
+          "gcs_total_range": "3-15",
+          "gcs_eye_opening": "4=Spontaneous, 3=To verbal, 2=To pressure, 1=None",
+          "gcs_verbal": "5=Coherent, 4=Confused, 3=Words, 2=Sounds, 1=None",
+          "gcs_motor": "6=Obeys, 5=Localises, 4=Withdraws, 3=Flexion, 2=Extension, 1=None",
+          "ct_absolute_indications": "GCS <13 initial OR <15 at 2hrs | Open/depressed skull fracture | Post-traumatic seizure | >2 vomiting episodes | Intubated | Focal neurological deficit",
+          "ct_relative_risk_factors": "Age >65 | Bleeding/clotting disorder | Dangerous mechanism | >30min retrograde amnesia",
+          "dangerous_mechanism": "Pedestrian/cyclist struck by vehicle | Ejection from vehicle | Fall >1m or 5 stairs",
+          "base_of_skull_fracture_signs": "Raccoon eyes | CSF otorrhoea/rhinorrhoea | Battle sign | Haemotympanum",
+          "raised_icp_pocus": "Optic nerve sheath diameter >5mm"
+        },
+        "clinical_features": {
+          "early_signs_racied_icp": "Headache, vomiting, altered LOC, visual alterations, abducens nerve palsies",
+          "late_signs_raised_icp": "Cushings triad (HTN, bradycardia, irregular respiration), unilateral dilated pupil, fixed constricted pupils"
+        },
+        "drugs": [
+          {
+            "item": "Phenytoin",
+            "adult_dose": "20mg/kg IV loading dose, max rate 50mg/min",
+            "paediatric_dose": "20mg/kg IV loading dose",
+            "route": "IV",
+            "notes": "For traumatic ICH seizure prophylaxis"
+          },
+          {
+            "item": "Fentanyl",
+            "adult_dose": "1-3 mcg/kg over 60 seconds",
+            "paediatric_dose": "1-3 mcg/kg over 60 seconds",
+            "route": "IV",
+            "notes": "3 minutes prior to intubation, to blunt sympathetic response"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess GCS",
+            "details": "Eye opening, verbal, motor response. Record best motor response. GCS 3-15.",
+            "caution": "GCS <13 initially or <15 at 2hrs needs CT"
+          },
+          {
+            "step_number": 2,
+            "action": "CT imaging decision",
+            "details": "Check absolute and relative indications for CT Brain and C-spine",
+            "caution": "Anticoagulant patients need CT regardless"
+          },
+          {
+            "step_number": 3,
+            "action": "Neuroprotective measures",
+            "details": "Head up 30-45deg, MAP >90 (or >75-80 if ICH), Normocarbia PCO2 34-40, Normoxia PaO2 60-100, Temp <37.5C, Glucose 5-10 mmol/l",
+            "caution": "Avoid neck pressure, excessive PEEP, steroids"
+          },
+          {
+            "step_number": 4,
+            "action": "Monitor for raised ICP",
+            "details": "Early and late signs. POCUS optic nerve sheath diameter >5mm",
+            "caution": "Cushings triad = late sign"
+          },
+          {
+            "step_number": 5,
+            "action": "Discharge or admit",
+            "details": "GCS 15, not intoxicated, responsible person available = discharge with advice sheet. Otherwise admit.",
+            "caution": ""
+          }
+        ],
+        "monitoring": "GCS monitoring | MAP >90mmHg (or >75-80 if ICH) | PCO2 34-40mmHg | PaO2 60-100mmHg O2 sats >95% | Temp <37.5C | Blood glucose 5-10 mmol/l | Optic nerve sheath diameter on POCUS | Seizure monitoring",
+        "warnings": [
+          "GCS <13 on initial assessment or <15 at 2 hours after injury = CT needed",
+          "Avoid steroids in traumatic ICH - no role",
+          "Avoid neck pressure from C-spine collars, tight ETT tape, CVP in IJV",
+          "Avoid excessive PEEP and elevated airway pressures",
+          "Rabies immunoglobulin is CRITICAL in head/neck/face wounds due to short incubation period"
+        ],
+        "disposition": "Discharge: GCS 15/15, not intoxicated, responsible person available, discharge advice sheet given | Admission: Surgical intervention needed, abnormal CT, normal CT but not meeting discharge criteria, other indications | Neurosurgery registrar HJH working hours; CMJAH after 16:00"
+      },
+      {
+        "item": "EFAST / RUSH Protocol",
+        "notes_updates": "EFAST (Extended Focused Assessment with Sonography in Trauma) | 2 accredited EFASTs required | EFAST cannot exclude retroperitoneal or hollow viscus injuries | EFAST can ONLY confirm: free fluid in abdomen, haemo-pneumothorax, pericardial fluid | Less sensitive/specific in pregnancy and paediatrics | RUSH protocol (Rapid Ultrasound for Shock and Hypotension) referenced as policy annexure | Standard RUSH views include: Heart (pericardial/subxiphoid), IVC, Lung (sliding/sign), Morrisons pouch/hepatorenal, Splenorenal, Suprapubic/pelvic, Paracolic gutters | Detailed RUSH protocol not available in extracted text",
+        "diagnostic_criteria": {
+          "efast_can_confirm": "Free fluid in abdomen | Haemo-pneumothorax | Pericardial fluid",
+          "efast_cannot_exclude": "Retroperitoneal injuries | Hollow viscus injuries",
+          "efast_limitations": "Less sensitive in pregnancy | Less sensitive in paediatrics",
+          "rush_views": "Heart (pericardial/subxiphoid) | IVC | Lung (sliding/sign) | Morrisons pouch/hepatorenal | Splenorenal | Suprapubic/pelvic | Paracolic gutters"
+        },
+        "clinical_features": {},
+        "drugs": [],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Perform EFAST examination",
+            "details": "2 accredited EFASTs required. Assess for free fluid in abdomen, haemo/pneumothorax, pericardial fluid.",
+            "caution": "Cannot exclude retroperitoneal or hollow viscus injuries"
+          },
+          {
+            "step_number": 2,
+            "action": "Consider RUSH protocol for shock/hypotension",
+            "details": "Assess heart (pericardial/subxiphoid), IVC, lung sliding, Morrisons pouch, splenorenal, suprapubic, paracolic gutters",
+            "caution": "RUSH protocol is detailed annexure - refer to full policy"
+          }
+        ],
+        "monitoring": "Serial EFASTs as clinically indicated | Correlation with clinical picture and other imaging",
+        "warnings": [
+          "EFAST cannot exclude retroperitoneal or hollow viscus injuries",
+          "EFAST is less sensitive/specific in pregnancy and paediatrics",
+          "2 accredited EFASTs are required",
+          "Positive EFAST for free fluid only confirms presence, not source"
+        ],
+        "disposition": "EFAST findings guide further imaging (CT pan-scan) and surgical consultation as clinically indicated"
+      },
+      {
+        "item": "Non-traumatic Back Pain",
+        "protocol_type": "ed_protocol",
+        "subcategory": "back_pain",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Suspected Metastases",
+            "adult_dose": "Dexamethasone 10mg IV stat, urgent MRI",
+            "route": "IV",
+            "notes": ""
+          }
+        ],
+        "monitoring": [],
+        "warnings": [],
+        "disposition": "{'low_risk': 'Non-specific pain < 6 weeks with no red flags, monoradiculopathy/sciatica - DC with simple analgesics and physio/spine OPD follow up', 'high_risk': 'Manage underlying cause, admit to appropriate subspecialty once stable'}",
+        "notes_updates": "Disposition: {\n  \"low_risk\": \"Non-specific pain < 6 weeks with no red flags, monoradiculopathy/sciatica - DC with simple analgesics and physio/spine OPD follow up\",\n  \"high_risk\": \"Manage underlying cause, admit to appropriate subspecialty once stable\"\n}",
+        "red_flags": [
+          "New pain at extremes of age (< 20 or > 50)",
+          "History of malignancy",
+          "Constant, non-mechanical pain, or worse lying down/at night",
+          "ANY neurology - weakness, numbness, paraesthesias",
+          "Bilateral symptoms",
+          "Immune suppression (HIV, DM, steroids, immune suppressants)",
+          "IV drug use",
+          "Bowel/bladder function change, erectile dysfunction",
+          "Fever, night sweats, weight loss",
+          "Anticoagulant use e.g. warfarin"
+        ],
+        "examination_concerning_features": [
+          "Motor: arm/leg weakness, especially bilateral",
+          "Sensory: saddle anaesthesia, paraesthesia, sensory level",
+          "Reflexes: any abnormal reflexes, including Babinski",
+          "Sphincter dysfunction: decreased rectal tone, urinary retention/incontinence",
+          "Midline spinal tenderness, deformity, swelling, fluctuance",
+          "Systemic: wasting, fever, lymphadenopathy, other pathologic fractures"
+        ],
+        "spine_related_causes": {
+          "infectious": [
+            "Spinal epidural abscess",
+            "Vertebral osteomyelitis",
+            "Infectious discitis",
+            "TB spine"
+          ],
+          "oncological": [
+            "Pathological fracture",
+            "Bone or epidural metastases",
+            "Spinal tumours"
+          ],
+          "haematological": [
+            "Spinal epidural haematoma - anticoagulants, recent lumbar puncture/epidural/spinal surgery"
+          ],
+          "neurological": [
+            "Cauda equina syndrome",
+            "Disc herniation causing cord compression"
+          ],
+          "degenerative": [
+            "Spondylolysis/spondylolisthesis/OA with radiculopathy"
+          ]
+        },
+        "non_spine_related_causes": {
+          "vascular": [
+            "AAA",
+            "Aortic dissection",
+            "Renal artery dissection/thrombosis"
+          ],
+          "renal": [
+            "Renal colic",
+            "Pyelonephritis",
+            "Perinephric abscess",
+            "Prostatitis"
+          ],
+          "git": [
+            "Pancreatitis",
+            "PUD",
+            "Cholecystitis"
+          ],
+          "anticoagulants": [
+            "Retroperitoneal haemorrhage"
+          ],
+          "gynae": [
+            "PID",
+            "Ectopic pregnancy (rare)",
+            "Lower back pain common in pregnancy"
+          ],
+          "soft_tissue": [
+            "Psoas abscess",
+            "Muscle spasm"
+          ]
+        },
+        "imaging": {
+          "x_rays": "Neither sensitive nor specific for back pain",
+          "mri": "Back pain with new neurology, or suspicion for epidural abscess requires URGENT MRI",
+          "ct": "As clinically indicated"
+        },
+        "specific_management": {
+          "epidural_abscess": "Antibiotics - Consider Ceftriaxone, Cefazolin or Vancomycin",
+          "suspected_metastases": "Dexamethasone 10mg IV stat, urgent MRI",
+          "cauda_equina": "Urgent surgical referral, MRI"
+        }
+      },
+      {
+        "item": "Brainstem Death Testing",
+        "protocol_type": "ed_protocol",
+        "subcategory": "brainstem_death",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [],
+        "monitoring": [],
+        "warnings": [],
+        "disposition": "Certify death at time of BRAIN DEATH; Counsel family prior to cessation of mechanical ventilation; Consider for organ donation referral if appropriate",
+        "notes_updates": "Disposition: Certify death at time of BRAIN DEATH; Counsel family prior to cessation of mechanical ventilation; Consider for organ donation referral if appropriate",
+        "prerequisites": [
+          "Coma, irreversible and cause known",
+          "Normothermia (>36°C)",
+          "Systolic blood pressure > 100mmHg (or MAP > 60, age appropriate paeds targets)",
+          "Significant metabolic, electrolyte, endocrine abnormality excluded",
+          "Sedative/analgesic/neuromuscular drug effect excluded"
+        ],
+        "examination_criteria": [
+          "Pupils fixed and non-reactive (do not have to be dilated)",
+          "Absent corneal reflex",
+          "Absent gag reflex",
+          "Absent cough reflex on deep suctioning down ETT",
+          "No facial grimace to supra-orbital pain",
+          "Absence of motor response in all limbs (spinal reflexes may persist)",
+          "Absent oculovestibular (cold caloric) reflex - visible intact eardrum, HOB 30°, 50ml ice-cold water flushed into canal, observe for 60 seconds, eye movement should be absent"
+        ],
+        "apnoea_test": {
+          "description": "Test for spontaneous respiratory effort",
+          "performers": "Two doctors should perform a single apnoea test together",
+          "prerequisites": "Only proceed if all other brainstem reflexes are absent and patient is haemodynamically stable (may be on inotropes)",
+          "steps": [
+            "Pre-oxygenate with 100% O2 for 10 minutes",
+            "Perform baseline ABG - assess CO2",
+            "Disconnect from mechanical ventilation and supply continuous O2 via T-piece",
+            "Observe continuously for spontaneous breathing",
+            "Repeat ABG after 10 minutes",
+            "No spontaneous respiratory effort once CO2 has risen > 60 and pH < 7.3 is compatible with brain death",
+            "Halt testing if patient becomes unstable or spontaneous respirations are witnessed"
+          ]
+        },
+        "findings_incompatible_with_brain_death": [
+          "Decerebrate or decorticate posturing",
+          "True extensor or flexor motor response",
+          "Witnessed seizures"
+        ],
+        "findings_compatible_with_brain_death": [
+          "Spinal reflexes",
+          "Sweating, blushing",
+          "Tachycardia, normal blood pressure"
+        ],
+        "requirements": "Testing can be done by 2 doctors simultaneously, one of whom must have more than 5 years experience. No doctor may be involved with the transplant team."
+      },
+      {
+        "item": "Burns",
+        "notes_updates": "Burn Depth Classification | First degree (Superficial/Epidermal): Red, painful, dry, no blisters. Healing: 3-6 days without scarring | Second degree partial (Superficial dermal): Blisters, moist, very painful, pink/red, blanches. Healing: 7-21 days, may have pigment changes | Second degree deep (Deep dermal): Moist/dry, mottled, less painful, does not blanch. Healing: >21 days, scarring likely, may need grafting | Third degree (Full thickness): Dry, leathery, charred, white/tan/brown, painless (nerve destruction). Does not heal spontaneously, requires grafting | Fourth degree (Full thickness + fascia/muscle/bone): Charred, exposed bone/tendon. Life/limb threatening | TBSA Calculation: Lund and Browder Chart or E-burn app (most accurate, accounts for age-related changes). Rule of Nines for rapid adult estimation | Modified Brooke Formula for fluid resuscitation: 2ml x %burn x weight(kg) | Administration: Half fluid in first 8 hours, half in following 16 hours | Fluid type: Ringers Lactate/Balsol | Indications: Adults TBSA >20%, Children >15% | Fluid goals: Urine output 1-2mls/kg/hr | Lactate clearance within 2 hours | CRT <3 seconds | Smaller TBSA = normal maintenance fluids/oral intake UNLESS metabolic acidosis present | Burn Severity - Minor: Partial thickness <10%, no special areas involved | Minor management: Analgesia Morphine 0.1mg/kg IVI or Fentanyl 1mcg/kg IVI + Paracetamol | Dressings: Jelonet and gauze, Chloromex ointment for face (no dressing) | Review SOPD/Local Clinic | Moderate: Partial thickness 10-14%, smaller TBSA + unstable patient, major special area involvement, deep burns <10% | Moderate management: Paracetamol/NSAIDS + Morphine 0.1mg/kg or Fentanyl 1mcg/kg IVI or Ketamine 1-2mg/kg IVI or 2-4mg/kg IMI | IV line and maintenance fluids | Venous blood gas | Catheter only for perineal/genital burns | Dressings: Jelonet and gauze | Discuss with surgeon | Major: Partial thickness >15% adults (>10% paeds), deep burns >10%, inhalation injury, electrical burns | Major management: Secure airway (intubate if inhalation), fluid resuscitation, NGT, urinary catheter, analgesia, surgeon ASAP | Transfer to burns unit (CHBAH Burns/CMJAH 163) | Special considerations: | Inhalation injury: suspect if respiratory distress, stridor, hoarseness, oropharynx blisters/charring, deep face/neck burns, decreased GCS, carbonaceous sputum, RR>30, Sats<90%, PaO2<60, CO>10%, PF<200 | Isolated nasal hair singeing/facial skin burns is NOT indication for intubation | CO toxicity: suspect with indoor fire, generator/gas stove, vehicle exhaust; altered mental status; O2 saturation gap | High voltage electrical injury: cable theft = high voltage; monitor cardiac rhythm 6-8 hours; ECG, CK, VBG, lactate, renal function; escharotomy if needed | >50% TBSA = palliative care consideration, senior consultant decision ONLY",
+        "diagnostic_criteria": {
+          "depth_first_degree": "Red, painful, dry, no blisters. Healing 3-6 days without scarring",
+          "depth_second_partial": "Blisters, moist, very painful, pink/red, blanches. Healing 7-21 days",
+          "depth_second_deep": "Moist/dry, mottled, less painful, does not blanch. Healing >21 days, scarring likely",
+          "depth_third_degree": "Dry, leathery, charred, white/tan/brown, painless. Requires grafting",
+          "depth_fourth_degree": "Charred, exposed bone/tendon. Life/limb threatening",
+          "tbsa_method": "Lund and Browder Chart or E-burn app (most accurate). Rule of Nines for rapid adult estimation",
+          "modified_brooke_formula": "2ml x %burn x weight(kg)",
+          "fluid_administration": "Half in first 8 hours, half in next 16 hours",
+          "fluid_resuscitation_indications": "Adults TBSA >20%, Children >15%",
+          "minor_criteria": "Partial thickness <10%, no special areas",
+          "moderate_criteria": "Partial thickness 10-14%, smaller TBSA + unstable, major special areas, deep burns <10%",
+          "major_criteria": "Partial thickness >15% adults (>10% paeds), deep burns >10%, inhalation injury, electrical burns",
+          "special_areas": "Face, Hands, Feet, Genitalia/perineum, Major joints",
+          "inhalation_suspect_if": "Respiratory distress, stridor, hoarseness, oropharynx blisters/charring, deep face/neck burns, decreased GCS, carbonaceous sputum, RR>30, Sats<90%, PaO2<60, CO>10%, PF<200",
+          "co_suspect_if": "Indoor fire/generator/gas stove, vehicle exhaust, altered mental status, O2 saturation gap"
+        },
+        "clinical_features": {
+          "first_degree": "Red, painful, dry, no blisters",
+          "second_partial": "Blisters, moist, very painful, pink/red, blanches",
+          "second_deep": "Moist/dry, mottled, less painful, does not blanch",
+          "third_degree": "Dry, leathery, charred, white/tan/brown, painless",
+          "fourth_degree": "Charred, exposed bone/tendon",
+          "inhalation_signs": "Respiratory distress, stridor, hoarseness, oropharyngeal blisters, carbonaceous sputum, RR>30, Sats<90%",
+          "co_toxicity_signs": "Altered mental status, nausea, headache, confusion, ataxia, dizziness, seizures, O2 saturation gap"
+        },
+        "classification": {
+          "minor_burns": "Partial thickness <10%, no special areas",
+          "moderate_burns": "Partial thickness 10-14%, smaller TBSA + unstable, major special area involvement, deep burns <10%",
+          "major_burns": "Partial thickness >15% adults (>10% paeds), deep burns >10%, inhalation injury, electrical burns"
+        },
+        "drugs": [
+          {
+            "item": "Morphine",
+            "adult_dose": "0.1mg/kg IVI",
+            "paediatric_dose": "0.1mg/kg IVI",
+            "route": "IV",
+            "notes": "Analgesia for burns"
+          },
+          {
+            "item": "Fentanyl",
+            "adult_dose": "1mcg/kg IVI",
+            "paediatric_dose": "1mcg/kg IVI",
+            "route": "IV",
+            "notes": "Analgesia for burns"
+          },
+          {
+            "item": "Ketamine",
+            "adult_dose": "1-2mg/kg IVI or 2-4mg/kg IM",
+            "paediatric_dose": "1-2mg/kg IVI or 2-4mg/kg IM",
+            "route": "IV/IM",
+            "notes": "Analgesia/sedation for burns"
+          },
+          {
+            "item": "Paracetamol",
+            "adult_dose": "1g",
+            "paediatric_dose": "15mg/kg",
+            "route": "PO/IV",
+            "notes": "Analgesia adjunct"
+          },
+          {
+            "item": "Ringers Lactate / Balsol",
+            "adult_dose": "2ml x %burn x weight(kg)",
+            "paediatric_dose": "2ml x %burn x weight(kg)",
+            "route": "IV",
+            "notes": "Modified Brooke formula. Half in first 8 hours, half in next 16 hours"
+          },
+          {
+            "item": "Chloromex ointment",
+            "adult_dose": "Topical",
+            "paediatric_dose": "Topical",
+            "route": "Topical",
+            "notes": "For face burns, no dressing"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Primary survey - ABC",
+            "details": "Airway, Breathing, Circulation assessment",
+            "caution": "Consider inhalation injury early"
+          },
+          {
+            "step_number": 2,
+            "action": "Cool running water",
+            "details": "If burns <3 hours, cool running water over burn for 20 minutes",
+            "caution": "Dry patient and keep warm after cooling"
+          },
+          {
+            "step_number": 3,
+            "action": "Clean and assess burn",
+            "details": "Remove all blisters and debris. Adult: wash burn with sterile water/saline. Child: wash whole patient. Shave head if facial burns in child.",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Evaluate depth and TBSA",
+            "details": "Use Lund and Browder Chart or E-burn app. Classify as minor, moderate, or major.",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Fluid resuscitation if indicated",
+            "details": "Modified Brooke: 2ml x %burn x weight(kg). Half in 8hrs, half in 16hrs. RL/Balsol.",
+            "caution": "Adults >20% TBSA, Children >15% TBSA"
+          },
+          {
+            "step_number": 6,
+            "action": "Analgesia",
+            "details": "Paracetamol/NSAIDS + Morphine 0.1mg/kg or Fentanyl 1mcg/kg or Ketamine",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Dressings",
+            "details": "Jelonet and gauze. Chloromex for face (no dressing).",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Special considerations",
+            "details": "Inhalation injury, CO toxicity, electrical injury, escharotomy if needed",
+            "caution": "Intubate early for inhalation injury. High voltage needs cardiac monitoring 6-8hrs."
+          }
+        ],
+        "monitoring": "Urine output 1-2mls/kg/hr | Lactate clearance within 2 hours | CRT <3 seconds | Temperature | Blood glucose | Fluid resuscitation volumes and response",
+        "warnings": [
+          "Isolated nasal hair singeing/facial skin burns is NOT an indication for intubation",
+          "Cable theft = high voltage electrical injury",
+          ">50% TBSA - palliative care consideration, senior consultant decision ONLY",
+          "Avoid nerve blocks/regional anaesthesia if compartment syndrome suspected",
+          "Never administer undiluted phenylephrine"
+        ],
+        "disposition": "Minor: Review SOPD/Local Clinic, discharge with analgesia | Moderate: IV fluids, blood gas, discuss with surgeon | Major: Secure airway, fluid resuscitation, NGT/urinary catheter, surgeon ASAP, transfer to burns unit (CHBAH Burns/CMJAH 163)"
+      },
+      {
+        "item": "C-spine Imaging Decision Rules",
+        "notes_updates": "NEXUS Criteria - If ALL criteria met, NO indication for C-spine imaging | NEXUS criteria: GCS 15 and stable vitals | No focal neurological deficit | No altered LOC | No intoxication | No midline spinal tenderness | No distracting injury | NEXUS LESS RELIABLE IF AGE >65 | Canadian C-spine Rule - Stepwise decision tool | Not applicable if: Non-trauma pain | GCS <15 | Unstable vitals | Age <16 | Acute paralysis | Known vertebral disease | Previous C-spine surgery | Pregnant | High-risk factors (imaging indicated): Age >65 | Focal peripheral neurological deficit or paraesthesias | Dangerous mechanism: Pedestrian or cyclist struck by vehicle | MVA with ejection/high speed/roll-over | Fall from height >1m or 5 stairs | Axial load to head (e.g. diving) | Quad-bike accident | Low-risk factors: Involved in simple rear-end MVA | Comfortable in sitting position in ED | Ambulatory at any time since injury | Delayed onset of neck pain | Absence of midline neck tenderness | Range of motion test: Able to rotate neck 45 degrees left and right | CT decision: If any indication for CT Brain as per head injury protocol - Perform non-contrast CT Brain AND C-spine | NO ROLE FOR X-RAYS IF CT AVAILABLE",
+        "diagnostic_criteria": {
+          "nexus_criteria_all_must_be_met": "GCS 15 and stable vitals | No focal neurological deficit | No altered LOC | No intoxication | No midline spinal tenderness | No distracting injury",
+          "nexus_limitation": "Less reliable if age >65",
+          "canadian_not_applicable": "Non-trauma pain | GCS <15 | Unstable vitals | Age <16 | Acute paralysis | Known vertebral disease | Previous C-spine surgery | Pregnant",
+          "canadian_high_risk": "Age >65 | Focal peripheral neurological deficit or paraesthesias | Dangerous mechanism",
+          "canadian_dangerous_mechanism": "Pedestrian/cyclist struck by vehicle | MVA ejection/high speed/roll-over | Fall >1m or 5 stairs | Axial load to head (diving) | Quad-bike accident",
+          "canadian_low_risk": "Simple rear-end MVA | Comfortable sitting | Ambulatory at any time | Delayed onset neck pain | Absence midline neck tenderness",
+          "canadian_rom_test": "Able to rotate neck 45 degrees left and right",
+          "imaging_rule": "NO ROLE FOR X-RAYS IF CT AVAILABLE"
+        },
+        "clinical_features": {},
+        "drugs": [],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Apply NEXUS criteria",
+            "details": "Check all 6 criteria: GCS 15, no focal neuro deficit, no altered LOC, no intoxication, no midline tenderness, no distracting injury",
+            "caution": "Less reliable if age >65"
+          },
+          {
+            "step_number": 2,
+            "action": "If NEXUS not met, apply Canadian C-spine Rule",
+            "details": "Check if applicable, then assess high-risk factors, low-risk factors, and ROM",
+            "caution": "Not applicable for GCS<15, age<16, pregnant, known vertebral disease, etc."
+          },
+          {
+            "step_number": 3,
+            "action": "CT imaging decision",
+            "details": "If any indication per head injury protocol: CT Brain AND C-spine. No x-rays if CT available.",
+            "caution": ""
+          }
+        ],
+        "monitoring": "Reassess neurological status | Monitor for delayed symptoms",
+        "warnings": [
+          "NEXUS is less reliable if age >65",
+          "No role for x-rays if CT available",
+          "Canadian C-spine rule not applicable for GCS <15, age <16, pregnant, acute paralysis, known vertebral disease, previous C-spine surgery"
+        ],
+        "disposition": "No imaging if all NEXUS criteria met and low risk per Canadian rule | CT Brain and C-spine if any high-risk factor or indication for head CT"
+      },
+      {
+        "item": "Compartment Syndrome",
+        "protocol_type": "ed_protocol",
+        "subcategory": "compartment_syndrome",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [],
+        "monitoring": [],
+        "warnings": [
+          "TIME SENSITIVE LIMB THREATENING DIAGNOSIS! DO NOT DELAY!"
+        ],
+        "disposition": "",
+        "notes_updates": "Causes: Blunt soft tissue injury, Burns (especially electrical), Casts, Contrast extravasation/high-speed fluid injectors, DVT - phlegmasia cerulea/alba dolens, Fractures (common), Haemorrhage (Haemophilia), Infections, IV/IO infusions, Skin/skeletal traction, Snake bites (NB more likely PSEUDO-compartment syndrome)",
+        "six_ps": {
+          "note": "Classic signs - do NOT wait for all signs, especially late signs",
+          "early_signs": [
+            "Pain out of proportion to the injury",
+            "Pain on passive stretch (most sensitive)",
+            "Tense compartment (wood-hard)",
+            "Decreased capillary refill time"
+          ],
+          "late_signs": [
+            "Pallor",
+            "Paralysis",
+            "Paraesthesia",
+            "Pulselessness (pulses usually PRESENT until very late)"
+          ],
+          "notes": "Absent pulses may be due to systemic hypotension, arterial occlusion or vascular injury. Do not delay until late signs appear."
+        },
+        "pressure_thresholds": {
+          "normal": "< 10 mmHg",
+          "fasciotomy_indications": [
+            "Absolute pressure > 30mmHg",
+            "Perfusion pressure (DBP - compartment pressure) < 30 mmHg"
+          ],
+          "measurement": "Serial or continuous measurements preferred. Can use A-line set."
+        },
+        "management": {
+          "urgency": "TIME SENSITIVE LIMB THREATENING DIAGNOSIS! DO NOT DELAY!",
+          "steps": [
+            "Urgent surgical consult",
+            "Emergency fasciotomy",
+            "Do not delay surgery for imaging e.g. CT angio UNLESS truly necessary",
+            "Remove constrictive dressings/casts",
+            "Reduce fractures but avoid traction/tight casts",
+            "Place limb at the level of the heart",
+            "Liberal analgesia - avoid nerve blocks/regional anaesthesia!",
+            "Measure intracompartmental pressure if available",
+            "Consider concomitant rhabdomyolysis and crush syndrome"
+          ]
+        },
+        "causes": [
+          "Blunt soft tissue injury",
+          "Burns (especially electrical)",
+          "Casts",
+          "Contrast extravasation/high-speed fluid injectors",
+          "DVT - phlegmasia cerulea/alba dolens",
+          "Fractures (common)",
+          "Haemorrhage (Haemophilia)",
+          "Infections",
+          "IV/IO infusions",
+          "Skin/skeletal traction",
+          "Snake bites (NB more likely PSEUDO-compartment syndrome)"
+        ]
+      },
+      {
+        "item": "Fractures and Dislocations",
+        "protocol_type": "ed_protocol",
+        "subcategory": "fractures_dislocations",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Ibuprofen (Nsaids)",
+            "adult_dose": "200-600mg PO, TTO: 200-400mg Q6-8h",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Diclofenac (Nsaids)",
+            "adult_dose": "75-100mg IV in 500ml R/Lactate, TTO: 50mg Q8h",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Adult (Paracetamol)",
+            "adult_dose": "1g PO or 1g IV over 30 minutes",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Paeds (Paracetamol)",
+            "adult_dose": "15-20mg/kg PO Q8h",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Fentanyl (Opioids)",
+            "adult_dose": "1mcg/kg IV slowly (duration 30-45min), 1-2mcg/kg/hr infusion",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Morphine (Opioids)",
+            "adult_dose": "0.1mg/kg IV (duration 4-6hrs), 0.1mg/kg/hr infusion",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Reversal (Opioids)",
+            "adult_dose": "Naloxone 0.4-4mg IV Q2-3min up to 10mg",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Iv (Ketamine)",
+            "adult_dose": "0.3-1mg/kg slow IV over 5-10min",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Infusion (Ketamine)",
+            "adult_dose": "0.2-1mg/kg/hr",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Paeds Im (Ketamine)",
+            "adult_dose": "2-6mg/kg IM",
+            "route": "",
+            "notes": ""
+          },
+          {
+            "item": "Paeds Po (Ketamine)",
+            "adult_dose": "6-10mg/kg PO mixed with beverage 30min prior",
+            "route": "",
+            "notes": ""
+          }
+        ],
+        "monitoring": [],
+        "warnings": [],
+        "disposition": "",
+        "notes_updates": "",
+        "general_principles": [
+          "Reduce fractures (avoid traction/tight casts in compartment syndrome risk)",
+          "Immobilise joint or fracture",
+          "Control haemorrhage",
+          "Alleviate pain",
+          "Regain length and alignment of involved bone",
+          "Attenuate muscle spasm",
+          "Relieve pressure on nerves"
+        ],
+        "traction": {
+          "midshaft_femur": {
+            "purpose": [
+              "Control haemorrhage",
+              "Alleviate pain",
+              "Attenuate muscle spasm",
+              "Relieve pressure on nerves",
+              "Regain length and alignment"
+            ],
+            "contraindications": [
+              "If signs of compartment syndrome",
+              "If fracture involves the knee"
+            ]
+          }
+        },
+        "specific_fractures": {
+          "rib_fractures": {
+            "notes": "Rib fractures commonly associated with pneumothorax, haemothorax, pulmonary contusion, flail chest",
+            "management": "Analgesia (NSAIDS/Opioids), monitor for complications, chest physiotherapy"
+          },
+          "clavicle_fractures": {
+            "notes": "Most common fracture in children",
+            "management": "Figure-of-8 bandage or sling, analgesia, orthopaedic follow-up"
+          },
+          "scaphoid_fractures": {
+            "notes": "High risk of avascular necrosis",
+            "management": "Thumb spica cast if confirmed or highly suspected, analgesia, orthopaedic referral"
+          }
+        }
+      },
+      {
+        "item": "Rabies Post Exposure Prophylaxis",
+        "protocol_type": "ed_protocol",
+        "subcategory": "rabies_pep",
+        "diagnostic_criteria": [],
+        "classification": [],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Rabies vaccine (Verorab)",
+            "adult_dose": "1 vial (0.5ml) IM on days 0, 3, 7, 14, 30",
+            "paediatric_dose": "Same as adult",
+            "route": "IM (deltoid or anterolateral thigh)",
+            "notes": "Do NOT give in gluteal area; immunocompromised add day 28 dose"
+          },
+          {
+            "item": "Rabies immunoglobulin (RIG)",
+            "adult_dose": "20 IU/kg. Infiltrate as much as possible around wound, remainder IM at site distant from vaccine",
+            "paediatric_dose": "20 IU/kg",
+            "route": "Local infiltration + IM",
+            "notes": "CRITICAL for head/neck/face wounds; give day 0 only; not needed if previously vaccinated"
+          }
+        ],
+        "monitoring": [],
+        "warnings": [
+          "Rabies is almost 100% fatal once symptoms develop - prevention is critical",
+          "RIG is CRITICAL for head/neck/face wounds due to short incubation period",
+          "Do NOT give vaccine in gluteal area",
+          "Wash wound thoroughly with soap and water for 15 minutes"
+        ],
+        "disposition": "Discharge with follow-up for remaining vaccine doses; contact local infectious disease/virology for guidance",
+        "notes_updates": "Wound care: Wash thoroughly with soap and water for 15 minutes | Risk assessment: All mammal bites/scratches - assess risk | Risk animals: Dogs, cats, cattle, goats, horses, sheep, pigs, jackals, wild cat species, mongoose, seals, dassies (rock hyrax), squirrel, antelope, bats | NOT rats/mice/reptiles/birds | Risk factors for rabies: Unprovoked bite, Abnormal animal behaviour, Animal unable to be observed for 10 days, Endemic area | Post-exposure prophylaxis: Vaccine days 0, 3, 7, 14, 30 + RIG day 0 | Previously vaccinated: Vaccine days 0 and 3 only, NO RIG | Immunocompromised: Add day 28 vaccine dose"
+      }
+    ]
+  }
+}
