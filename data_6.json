@@ -1,1 +1,141 @@
-haviour: Unprovoked attack, unusual behaviour (aggressive, salivating, wild appearing tame, uncoordinated movements) | Category of Exposure | Category 1 (Touching/feeding animal, licking of intact skin): No action if history of vaccination reliable. If history not reliable, manage as category 2 | Category 2 (Nibbling of uncovered skin, superficial scratch NO SKIN BREACH NO BLEEDING): Wound management + Rabies vaccine full course + Rabies immunoglobulin if immune-compromised | Category 3 (Bites or scratches that penetrate skin, licking of mucous membranes, ANY contact with a bat): Wound management + Rabies vaccine full course + Rabies immunoglobulin | RIG is CRITICAL in head/neck/face wounds - short incubation period | Wound Management: Flush well with soap and water | Clean with 0.05% chlorhexidine or 10% iodine | Avoid suturing and local anaesthetic agents | Antibiotics if indicated | Tetanus toxoid booster (TIG if severe wounds) | Rabies Vaccine (Verorab): 1 Amp/dose for adults and children | Schedule: Day 0, 3, 7, and 14 | Route: IMI deltoid or anterolateral thigh (avoid gluteus maximus) | If dose delayed, resume and complete regimen, do not restart | SAFE in lactation and pregnancy, same dose | Human Rabies Immunoglobulin (Human Rabigam): Dose 20 IU/kg | Infiltrate entire dose around/into wound | Dilute with saline if more volume needed for multiple wounds | Can be given up to 7 days post vaccine administration, give ASAP | Equine Rabies Immunoglobulin (Equirab): Dose 40 IU/kg | 1:150,000 risk of anaphylaxis | Administer in setting with resuscitation equipment available | Human Rabigam dosing table: 5kg=100 units/0.7ml, 10kg=200/1.3ml, 15kg=300/2.0ml, 20kg=400/2.7ml, 25kg=500/3.3ml, 30kg=600/4.0ml, 40kg=800/5.3ml, 50kg=1000/6.7ml, 60kg=1200/8.0ml, 70kg=1400/9.3ml, 80kg=1600/10.7ml, 90kg=1800/12.0ml, 100kg=2000/13.3ml | Equine Equirab dosing table: 5kg=200/1ml, 10kg=400/2ml, 15kg=600/3ml, 20kg=800/4ml, 25kg=1000/5ml, 30kg=1200/6ml, 40kg=1600/8ml, 50kg=2000/10ml, 60kg=2400/12ml, 70kg=2800/14ml, 80kg=3200/16ml, 90kg=3600/18ml, 100kg=4000/20ml | NICD 24-hour clinician hotline: 0800 212 552 | HJH ID Consultants | Source: NICD Rabies Guidelines 2021
+haviour: Unprovoked attack, unusual behaviour (aggressive, salivating, wild appearing tame, uncoordinated movements) | Category of Exposure | Category 1 (Touching/feeding animal, licking of intact skin): No action if history of vaccination reliable. If history not reliable, manage as category 2 | Category 2 (Nibbling of uncovered skin, superficial scratch NO SKIN BREACH NO BLEEDING): Wound management + Rabies vaccine full course + Rabies immunoglobulin if immune-compromised | Category 3 (Bites or scratches that penetrate skin, licking of mucous membranes, ANY contact with a bat): Wound management + Rabies vaccine full course + Rabies immunoglobulin | RIG is CRITICAL in head/neck/face wounds - short incubation period | Wound Management: Flush well with soap and water | Clean with 0.05% chlorhexidine or 10% iodine | Avoid suturing and local anaesthetic agents | Antibiotics if indicated | Tetanus toxoid booster (TIG if severe wounds) | Rabies Vaccine (Verorab): 1 Amp/dose for adults and children | Schedule: Day 0, 3, 7, and 14 | Route: IMI deltoid or anterolateral thigh (avoid gluteus maximus) | If dose delayed, resume and complete regimen, do not restart | SAFE in lactation and pregnancy, same dose | Human Rabies Immunoglobulin (Human Rabigam): Dose 20 IU/kg | Infiltrate entire dose around/into wound | Dilute with saline if more volume needed for multiple wounds | Can be given up to 7 days post vaccine administration, give ASAP | Equine Rabies Immunoglobulin (Equirab): Dose 40 IU/kg | 1:150,000 risk of anaphylaxis | Administer in setting with resuscitation equipment available | Human Rabigam dosing table: 5kg=100 units/0.7ml, 10kg=200/1.3ml, 15kg=300/2.0ml, 20kg=400/2.7ml, 25kg=500/3.3ml, 30kg=600/4.0ml, 40kg=800/5.3ml, 50kg=1000/6.7ml, 60kg=1200/8.0ml, 70kg=1400/9.3ml, 80kg=1600/10.7ml, 90kg=1800/12.0ml, 100kg=2000/13.3ml | Equine Equirab dosing table: 5kg=200/1ml, 10kg=400/2ml, 15kg=600/3ml, 20kg=800/4ml, 25kg=1000/5ml, 30kg=1200/6ml, 40kg=1600/8ml, 50kg=2000/10ml, 60kg=2400/12ml, 70kg=2800/14ml, 80kg=3200/16ml, 90kg=3600/18ml, 100kg=4000/20ml | NICD 24-hour clinician hotline: 0800 212 552 | HJH ID Consultants | Source: NICD Rabies Guidelines 2021",
+        "diagnostic_criteria": {
+          "category_1": "Touching/feeding animal, licking of intact skin",
+          "category_2": "Nibbling uncovered skin, superficial scratch NO SKIN BREACH NO BLEEDING",
+          "category_3": "Bites/scratches penetrating skin, licking mucous membranes, ANY bat contact",
+          "risk_animals": "Dogs, cats, cattle, goats, horses, sheep, pigs, jackals, wild cats, mongoose, seals, dassies, squirrel, antelope, bats",
+          "not_risk_animals": "Rats, mice, reptiles, birds",
+          "risk_behaviour": "Unprovoked attack, aggressive, salivating, wild appearing tame, uncoordinated movements"
+        },
+        "clinical_features": {
+          "rabies_behaviour_in_animals": "Unprovoked attack, unusual aggression, salivating, wild appearing tame, uncoordinated movements"
+        },
+        "drugs": [
+          {
+            "item": "Verorab (Rabies Vaccine)",
+            "adult_dose": "1 Amp/dose",
+            "paediatric_dose": "1 Amp/dose (same as adult)",
+            "route": "IMI deltoid or anterolateral thigh",
+            "notes": "Day 0, 3, 7, 14. Avoid gluteus maximus. Safe in pregnancy and lactation. If delayed, resume do not restart."
+          },
+          {
+            "item": "Human Rabigam (Human Rabies Immunoglobulin)",
+            "adult_dose": "20 IU/kg",
+            "paediatric_dose": "20 IU/kg",
+            "route": "Infiltrate around/into wound",
+            "notes": "Dilute with saline if needed. Can give up to 7 days post vaccine."
+          },
+          {
+            "item": "Equirab (Equine Rabies Immunoglobulin)",
+            "adult_dose": "40 IU/kg",
+            "paediatric_dose": "40 IU/kg",
+            "route": "Infiltrate around/into wound",
+            "notes": "1:150,000 risk of anaphylaxis. Administer with resuscitation equipment available."
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess exposure category",
+            "details": "Category 1, 2, or 3. Identify risk animal and behaviour.",
+            "caution": "NOT rats/mice/reptiles/birds"
+          },
+          {
+            "step_number": 2,
+            "action": "Wound management",
+            "details": "Flush with soap and water. Clean with 0.05% chlorhexidine or 10% iodine. Avoid suturing and local anaesthetic.",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Tetanus prophylaxis",
+            "details": "Tetanus toxoid booster. TIG if severe wounds.",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Antibiotics if indicated",
+            "details": "Based on wound severity and contamination",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Administer rabies vaccine",
+            "details": "Verorab 1 Amp IMI deltoid or anterolateral thigh. Days 0, 3, 7, 14.",
+            "caution": "Avoid gluteus maximus. Safe in pregnancy/lactation."
+          },
+          {
+            "step_number": 6,
+            "action": "Administer rabies immunoglobulin",
+            "details": "Category 2 (if immunocompromised) and all Category 3: Human Rabigam 20 IU/kg or Equirab 40 IU/kg infiltrated into wound.",
+            "caution": "RIG is CRITICAL in head/neck/face wounds. Equirab has 1:150,000 anaphylaxis risk."
+          }
+        ],
+        "monitoring": "Monitor for signs of infection at bite site | Observe for allergic reaction if Equirab used | NICD hotline: 0800 212 552 for consultation",
+        "warnings": [
+          "Rabies immunoglobulin is CRITICAL in head/neck/face wounds due to short incubation period",
+          "Equirab (equine) has 1:150,000 risk of anaphylaxis - administer with resuscitation equipment",
+          "Avoid gluteus maximus for rabies vaccine injection",
+          "If vaccine dose delayed, resume and complete regimen - do not restart",
+          "NOT rats/mice/reptiles/birds - these do not carry rabies"
+        ],
+        "disposition": "Complete vaccine course Days 0, 3, 7, 14 | Contact NICD 24-hour hotline 0800 212 552 or HJH ID Consultants for guidance"
+      },
+      {
+        "item": "Snake Bite",
+        "notes_updates": "Source: EM Guidance EMCT Snakebite Emergencies, accessed 24/10/2024 | NOTE: Full protocol referenced from external EMCT Snakebite Emergencies source | Limited detail in extracted document text - protocol is referenced as external EMCT pathway | Related considerations in document: Snake bites can cause pseudo-compartment syndrome | Snake bite listed as rare cause of rhabdomyolysis | Polyvalent antivenom dosing, pressure immobilisation technique, and contraindications not available in extracted text | Refer to external EMCT Snakebite Emergencies pathway for detailed management",
+        "diagnostic_criteria": {
+          "note": "Full protocol referenced from external EMCT Snakebite Emergencies source",
+          "related_conditions": "Pseudo-compartment syndrome | Rhabdomyolysis (rare cause)"
+        },
+        "clinical_features": {
+          "note": "Detailed clinical features not available in extracted text - refer to EMCT Snakebite Emergencies pathway"
+        },
+        "drugs": [
+          {
+            "item": "Polyvalent Antivenom",
+            "adult_dose": "See external EMCT protocol",
+            "paediatric_dose": "See external EMCT protocol",
+            "route": "IV",
+            "notes": "Dosing not available in extracted text - refer to EMCT Snakebite Emergencies pathway"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess ABC and envenomation signs",
+            "details": "Evaluate for systemic envenomation. Check coagulation studies.",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "First aid - pressure immobilisation",
+            "details": "Apply pressure bandage and splint affected limb. Keep patient still.",
+            "caution": "Do NOT apply tourniquet, do NOT wash bite site (affects venom identification)"
+          },
+          {
+            "step_number": 3,
+            "action": "Monitor for complications",
+            "details": "Pseudo-compartment syndrome, rhabdomyolysis, coagulopathy, neurotoxicity",
+            "caution": "Snake bites can cause pseudo-compartment syndrome - differentiate from true compartment syndrome"
+          },
+          {
+            "step_number": 4,
+            "action": "Consult external protocol",
+            "details": "Refer to EMCT Snakebite Emergencies pathway for detailed antivenom dosing and management",
+            "caution": "Polyvalent antivenom dosing, pressure immobilisation technique, and contraindications per external protocol"
+          }
+        ],
+        "monitoring": "Coagulation studies | Compartment pressure if limb swelling | Renal function (rhabdomyolysis) | Respiratory function if neurotoxic snake suspected",
+        "warnings": [
+          "Snake bites can cause pseudo-compartment syndrome",
+          "Snake bite is a rare cause of rhabdomyolysis",
+          "Do NOT apply tourniquet",
+          "Do NOT wash bite site - affects venom identification",
+          "Full protocol referenced from external EMCT Snakebite Emergencies - limited detail in extracted text"
+        ],
+        "disposition": "Refer to EMCT Snakebite Emergencies pathway for definitive management | ICU admission if systemic envenomation | Surgical consultation if compartment syndrome suspected"
+      },
+      {
+        "item": "Agitation and aggression",
+        "notes_updates": "SAFETY IS THE FIRST PRIORITY! | Contain the patient to protect staff and self | VERBAL DE-ESCALATION - SAVE THE PATIENT: Support - Let's work together | Acknowledge - I see this is hard for you | Validate - I'd probably feel the same if I were you | Emotion Naming - You seem upset/angry/sad | Verbal de-escalation is most effective for mild/moderate agitation | Do not attempt to negotiate with a completely incoherent patient | AGITATION SEVERITY: MILD: Agitated but cooperative | MODERATE: Disruptive without danger | SEVERE: Threat to staff or self | EXTREME: High degree of agitation, Diaphoretic, tachypnoeic, hyperthermic, Unusual strength, Impervious to pain and fatigue, Unable to maintain attention, Incoherent, Severe metabolic acidosis | EXTREME AGITATION IS A LIFE-THREATENING EMERGENCY | PHYSICAL RESTRAINTS: Restraints must be prescribed by a doctor on Form 48 | Appropriate PPE for all staff involved | Never turn your back on the patient or become trapped in an enclosed space | At least 6 staff: 1 per limb, 1 to control the head, 1 to administer medication | NEVER restrain pts by placing pressure on the neck or covering the mouth and nose | Use 4 or 5 point medical grade restraints | Restrain in supine position with HOB 30 degrees up | Female pt: at least 1 female team member | Restraint time: 4 hours adults, 2 hours adolescents (9-17 years) | Tie restraints to bedframe, not rails | Ensure the airway is patent and maintained | Regular limb and pulse checks (30 mins) | Minimal time restrained, review regularly | Use in conjunction with chemical restraint, to avoid physical injury/rhabdomyolysis | Place an oxygen mask on the face to avoid biting/spitting | SEDATED PATIENTS MUST BE PLACED IN RECOVERY POSITION IN A MONITORED BED UNTIL THEY ARE FULLY AWAKE AND ALERT | ANY SEDATION CAN CAUSE RESPIRATORY DEPRESSION AND HYPOTENSION | RESUSCITATION FACILITIES MUST BE AVAILABLE | SPECIAL POPULATIONS: ELDERLY: avoid benzodiazepines. Consider 0.5 mg
