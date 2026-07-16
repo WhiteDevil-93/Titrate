@@ -1,13 +1,1 @@
-{
-  "1_resuscitation_fluids_and_inotropes": {
-    "shock": [
-      {
-        "item": "Fluid Bolus (Sepsis)",
-        "adult_dose": "Balanced Salt Solution (e.g., Ringer's Lactate): 500ml IV bolus",
-        "child_dose": "Balanced Salt Solution (e.g., Ringer's Lactate): 10-20 ml/kg IV bolus",
-        "route": "IV",
-        "notes": "Assess response (HR, BP, CRT, lactate); repeat as needed. Up to 30ml/kg in first hour for septic shock."
-      }
-    ]
-  }
-}
+PLACEHOLDER
