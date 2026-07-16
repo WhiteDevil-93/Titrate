@@ -1,4 +1,3 @@
-
 /* ===== THEME MANAGEMENT ===== */
 function initTheme() {
   const isLight = document.body.classList.contains('light');
@@ -13,7 +12,7 @@ function togTheme() {
   localStorage.setItem('tr_theme', isLight ? 'light' : 'dark');
   initTheme();
 }
-const APP_VERSION='4.7';
+const APP_VERSION='4.8';
 let D=null,W=0,act='all',deferred=null,scoreSt={};
 
 const C={favourites:'Favourites',all:'All','1_resuscitation_fluids_and_inotropes':'Resuscitation','2_airway_and_ventilation':'Airway & Vent','3_sedation_analgesia_and_neurology':'Sedation & Neuro','4_antimicrobials_and_infectious_diseases':'Antimicrobials','5_metabolic_electrolytes_and_nutrition':'Metabolic','6_poisoning_and_toxicology':'Toxicology','7_useful_formulae':'Formulae','8_cardiovascular':'Cardiovascular','9_blood_products':'Blood','10_endocrine_and_other':'Endocrine','11_ed_medical_emergencies':'ED Medical','12_ed_toxicology':'ED Toxic','13_ed_trauma_surgical':'ED Trauma','14_ed_metabolic':'ED Metabolic','15_ed_procedures':'ED Procedures','16_score_calculators':'Score Calc'};
