@@ -1,3 +1,4 @@
+
 /* ===== THEME MANAGEMENT ===== */
 function initTheme() {
   const isLight = document.body.classList.contains('light');
@@ -88,15 +89,17 @@ async function load(){
             const rc=await fetch(url+'?v='+APP_VERSION,{cache:'no-store'});
             if(rc.ok)return await rc.text();
           }catch(e){}
-          await new Promise(r=>setTimeout(r,300));
+          await new Promise(r=>setTimeout(r,500));
         }
         throw new Error('Failed to load '+url);
       };
-      const chunks=await Promise.all(chunkUrls.map(fetchChunk));
-      txt=chunks.join('');
+      const results=await Promise.allSettled(chunkUrls.map(fetchChunk));
+      const failed=results.filter(r=>r.status==='rejected').map(r=>r.reason.message);
+      if(failed.length)throw new Error(failed.join('; '));
+      txt=results.map(r=>r.value).join('');
     }
     D=JSON.parse(txt);mkNav();renderAll();updF();
-  }catch(e){document.getElementById('c').innerHTML='<div class="nores"><div class=ico>⚠️</div>Failed to load data. Please check connection.</div>'}
+  }catch(e){document.getElementById('c').innerHTML='<div class="nores"><div class=ico>⚠️</div>Failed to load data: '+e.message+'</div>'}
   // Show onboarding on first visit
   if(!localStorage.getItem('tr_onboarded')){
     showOnboarding();
