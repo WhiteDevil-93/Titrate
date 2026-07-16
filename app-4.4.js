@@ -1,3 +1,4 @@
+
 /* ===== THEME MANAGEMENT ===== */
 function initTheme() {
   const isLight = document.body.classList.contains('light');
@@ -71,9 +72,26 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 async function load(){
   try{
-    // Cache-busting fetch
-    const r=await fetch('data.json?v='+APP_VERSION,{cache:'no-store'});
-    D=await r.json();mkNav();renderAll();updF();
+    // Try single data.json first
+    let r=await fetch('data.json?v='+APP_VERSION,{cache:'no-store'});
+    let txt=await r.text();
+    // If placeholder or empty, load chunks
+    if(txt.length<100||txt.includes('PLACEHOLDER')){
+      const chunks=[];
+      for(let i=0;i<10;i++){
+        if(i===8){
+          // Chunk 8 split into 8a+8b
+          const r8a=await fetch('data_8a.json?v='+APP_VERSION,{cache:'no-store'});
+          const r8b=await fetch('data_8b.json?v='+APP_VERSION,{cache:'no-store'});
+          chunks.push(await r8a.text(),await r8b.text());
+        }else{
+          const rc=await fetch('data_'+i+'.json?v='+APP_VERSION,{cache:'no-store'});
+          chunks.push(await rc.text());
+        }
+      }
+      txt=chunks.join('');
+    }
+    D=JSON.parse(txt);mkNav();renderAll();updF();
   }catch(e){document.getElementById('c').innerHTML='<div class="nores"><div class=ico>⚠️</div>Failed to load data. Please check connection.</div>'}
   // Show onboarding on first visit
   if(!localStorage.getItem('tr_onboarded')){
@@ -1577,7 +1595,7 @@ function calcFormula(key) {
 
     // Validate expression: only allow safe math characters
     // Whitelist: numbers, operators, parens, math functions, whitespace, dots
-    const safeExpr = /^[\d\s+\-*/().,^%!&|<>='"a-zA-Z]+$/.test(expr);
+    const safeExpr = /^[\d\s+\-*/().,^%!&|<>=a-zA-Z]+$/.test(expr);
     if (!safeExpr) {
       resEl.innerHTML = '<div class="tot">--</div><div class="calc-res-label">Invalid formula</div>';
       return;
