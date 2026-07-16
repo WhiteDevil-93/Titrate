@@ -1,1 +1,546 @@
-file:/mnt/agents/output/data_8b.json
+monitoring for chemical injuries | Pupil size and reactivity",
+        "warnings": [
+          "Acute angle-closure glaucoma: URGENT Ophthalmology referral required",
+          "Retinal artery occlusion: Urgent referral within 4-6 hours - time-critical",
+          "Chemical eye injury: Copious irrigation minimum 30 minutes, do not delay",
+          "Penetrating eye injury: DO NOT place pressure, DO NOT pad, DO NOT remove object, DO NOT clean",
+          "Alkali chemical injuries are generally worse than acid injuries"
+        ],
+        "disposition": "Conjunctivitis: Discharge, return if reduced vision | Acute glaucoma: URGENT Ophthalmology | Iritis/Corneal abrasion: Semi-urgent Ophthalmology | Chemical injury: URGENT Ophthalmology after irrigation | Penetrating injury: URGENT Ophthalmology, CT orbits | Retinal artery occlusion: URGENT within 4-6 hours"
+      },
+      {
+        "item": "Vascular Emergencies",
+        "notes_updates": "SUB-PROTOCOL: Abdominal Aortic Aneurysm (AAA) | History: Sudden onset abdo/flank/back/groin/sciatic pain | Syncope | Hypovolaemic shock if leaking/ruptured | Lower limb ischaemia/cyanosis | Physical: Pulsatile abdominal mass (50%) | Unexplained hypotension/tachycardia | Tender/distended abdomen | May present with melena/GI bleed | Abdominal wall ecchymosis (flank/umbilical/thigh/scrotum - low sensitivity) | Risk factors: Male | Age >50 | Smoking | Atherosclerosis | Hypertension | Family history | Imaging: POCUS 1st line: OUTER LUMEN TO OUTER LUMEN aorta >3cm = aneurysmal, >6cm = high risk of rupture, free fluid = rupture until proven otherwise | CTA gold standard - preferred pre-op for surgical planning | UNSTABLE PATIENTS NEED THEATRE, NOT CT | Management: Urgent vascular consult | Resus as for major trauma - 2 IV lines, consider CVP | Minimise clear IV fluids | Crossmatch for massive transfusion, emergency blood in interim | Hypotensive resuscitation - aim SBP 80-90 mmHg | Tranexamic acid 1g stat | Fentanyl 1mcg/kg analgesia | Labetalol infusion if HPT emergency | Complications: Sudden death | Organ ischaemia (renal, mesenteric, lower limb) | Distal embolization | Rhabdomyolysis | | SUB-PROTOCOL: Thoracic Aortic Aneurysm/Dissection | History: Sudden tearing central chest pain radiating to back | Sudden neuro deficit | Physical: May present as HPT emergency, ACS, CVA, ADHF, SVC syndrome, pericardial tamponade | Pulse/BP discrepancy | New aortic regurg murmur | Unexplained syncope/hypotension | Risk factors: As for AAA | Connective tissue disorders | Bicuspid aortic valve | Syphilis | Imaging: CXR: widened mediastinum, loss of aortic knuckle, calcium sign | POCUS: widened aortic root, pericardial effusion | CTA gold standard | Types: Stanford A: Any ascending aorta involvement | Stanford B: Descending aorta only | Management: Urgent cardiothoracic consult | As for AAA management | NB: Pain control | Labetalol infusion 1st - aim pulse <60 bpm, SBP <110 mmHg | Add Nitrocine infusion if BP still elevated | Complications: Sudden death | Stroke | MI | Pericardial tamponade | ADHF due to valvular regurgitation | | SUB-PROTOCOL: Critical and Acute Limb Ischaemia | History: New/worsening pain/claudication | Altered sensation | Muscle weakness | The 6 Ps: PAIN, PALLOR, PULSELESSNESS, PERISHING COLD, PARAESTHESIA, PARALYSIS (LATE SIGNS) | Physical: Cold, blue/mottled limb | Decreased/absent pulses | Tissue necrosis | Embolus vs Thrombosis: Embolus = Acute onset, complete cutoff, no prior claudication/skin changes/ulcers/bruits (clinical diagnosis) | Thrombosis = Chronic, usually good collaterals, history of claudication/ulcers/chronic skin changes/bruits (CTA diagnosis) | Risk factors: Smoking | Atherosclerosis | Hypertension | AF | Large vessel aneurysms | DVT | DM | Investigations: Handheld Doppler | ABI <0.5 = SEVERE ARTERIAL ISCHAEMIA | CT Angio | Management: Urgent surgical/vascular consult | Fluid bolus, maintain MAP >65mmHg | Adequate analgesia, O2 if necessary | Anticoagulation in consultation with Vascular Surgery team | Complications: Limb loss | Rhabdomyolysis",
+        "diagnostic_criteria": {
+          "aaa_pocus": "Outer lumen to outer lumen aorta >3cm = aneurysmal, >6cm = high rupture risk, free fluid = rupture until proven otherwise",
+          "aaa_risk_factors": "Male, Age >50, Smoking, Atherosclerosis, Hypertension, Family history",
+          "aaa_imaging": "POCUS 1st line, CTA gold standard. UNSTABLE PATIENTS NEED THEATRE NOT CT",
+          "aaa_resuscitation_target": "SBP 80-90 mmHg (hypotensive resuscitation)",
+          "thoracic_types": "Stanford A: Any ascending aorta involvement | Stanford B: Descending aorta only",
+          "thoracic_imaging": "CXR: widened mediastinum, loss of aortic knuckle, calcium sign | POCUS: widened aortic root, pericardial effusion | CTA gold standard",
+          "thoracic_bp_target": "Pulse <60 bpm, SBP <110 mmHg",
+          "limb_ischaemia_6_ps": "PAIN, PALLOR, PULSELESSNESS, PERISHING COLD, PARAESTHESIA, PARALYSIS (late)",
+          "limb_ischaemia_abi": "ABI <0.5 = SEVERE ARTERIAL ISCHAEMIA",
+          "embolus_vs_thrombosis": "Embolus = acute onset, complete cutoff, no prior claudication (clinical). Thrombosis = chronic, good collaterals, claudication history (CTA)"
+        },
+        "clinical_features": {
+          "aaa_presentation": "Sudden abdo/flank/back/groin/sciatic pain, syncope, hypotensive shock, pulsatile abdominal mass (50%)",
+          "thoracic_dissection_presentation": "Sudden tearing central chest pain radiating to back, pulse/BP discrepancy, new aortic regurg murmur",
+          "limb_ischaemia_6_ps": "PAIN, PALLOR, PULSELESSNESS, PERISHING COLD, PARAESTHESIA, PARALYSIS (late signs)",
+          "limb_ischaemia_physical": "Cold, blue/mottled limb, decreased/absent pulses, tissue necrosis"
+        },
+        "drugs": [
+          {
+            "item": "Tranexamic Acid",
+            "adult_dose": "1g stat",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For AAA/ruptured aneurysm"
+          },
+          {
+            "item": "Fentanyl",
+            "adult_dose": "1mcg/kg",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Analgesia for AAA"
+          },
+          {
+            "item": "Labetalol",
+            "adult_dose": "Infusion",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "For AAA if HPT emergency. For thoracic dissection: aim pulse <60, SBP <110."
+          },
+          {
+            "item": "Nitrocine (Nitroglycerin)",
+            "adult_dose": "Infusion",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Add if BP still elevated after labetalol in thoracic dissection"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "AAA: Resuscitate and image",
+            "details": "2 IV lines, consider CVP. POCUS first. CTA if stable. Hypotensive resuscitation SBP 80-90.",
+            "caution": "UNSTABLE PATIENTS NEED THEATRE, NOT CT"
+          },
+          {
+            "step_number": 2,
+            "action": "AAA: Urgent vascular consult",
+            "details": "TXA 1g stat, crossmatch for massive transfusion, emergency blood, analgesia.",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Thoracic dissection: BP and rate control",
+            "details": "Labetalol infusion 1st - aim pulse <60, SBP <110. Add Nitrocine if needed.",
+            "caution": "Urgent cardiothoracic consult. May present as HPT emergency, ACS, CVA, ADHF, tamponade."
+          },
+          {
+            "step_number": 4,
+            "action": "Acute limb ischaemia: Urgent vascular consult",
+            "details": "Fluid bolus, MAP >65, analgesia, O2. Anticoagulation per vascular surgery.",
+            "caution": "Distinguish embolus (acute, clinical diagnosis) vs thrombosis (chronic, CTA diagnosis)"
+          }
+        ],
+        "monitoring": "Serial BP and HR (aim pulse <60, SBP <110 for thoracic dissection) | MAP >65 for limb ischaemia | SBP 80-90 for AAA | Doppler/ABI for limb ischaemia",
+        "warnings": [
+          "UNSTABLE AAA PATIENTS NEED THEATRE, NOT CT",
+          "AAA POCUS: Outer lumen to outer lumen >3cm = aneurysmal, >6cm = high rupture risk",
+          "Thoracic dissection may present as HPT emergency, ACS, CVA, ADHF, SVC syndrome, or pericardial tamponade",
+          "ABI <0.5 = SEVERE ARTERIAL ISCHAEMIA",
+          "Paralysis is a LATE sign in limb ischaemia"
+        ],
+        "disposition": "AAA: Urgent vascular consult, theatre if unstable/unruptured | Thoracic dissection: Urgent cardiothoracic consult | Acute limb ischaemia: Urgent surgical/vascular consult"
+      },
+      {
+        "item": "ICU Referral, Medicolegal Documentation & Triage SOP",
+        "notes_updates": "SUB-PROTOCOL: ICU Referral Criteria | Indications: Ventilated patients | Patients requiring vasopressor/inotropic support | Patients requiring invasive monitoring | Multi-organ dysfunction | Severe sepsis/septic shock | Post-cardiac arrest care | Severe traumatic brain injury | Status epilepticus | Severe metabolic derangements | Airway compromise requiring ongoing management | Process: Discuss with senior ED doctor | Contact ICU registrar/consultant | Provide clear handover (SBAR) | Document referral and response | Ensure ongoing care until ICU accepts/assumes care | | SUB-PROTOCOL: Medicolegal Recordkeeping | Principles: Legible, dated, timed, signed entries | Objective factual documentation | All clinical decisions documented with rationale | Consent discussions recorded | Refusals of treatment documented | Patient quotes for important conversations | Chain of custody for specimens | J88 form: For assault cases - complete medicolegal examination and documentation | Natural death: BI 1663 or DHA 1663 - for normal disease processes | Unnatural death: D28 (HJH269) - criminal/accidental processes, drug-related deaths. Do NOT fill BI 1663 | Forensic post-mortem: D28 taken with corpse to forensic mortuary. Police report required. Postmortem mandatory by law | Academic post-mortem: Family/HCW can request autopsy for cause of death. Form available in ED. Consent by next of kin | | SUB-PROTOCOL: Triage SOP | All patients triaged as soon as possible after arrival | Dedicated triage nurse required at all times | Triage allocation: 1 doctor for complex cases (24/7, ad hoc), 2 enrolled nurses supervised by senior staff | All patients must have vital signs: BP, Pulse, RR, Temp, O2 sat, Finger prick glucose | Additional triage investigations: urinalysis, pregnancy test (all females of childbearing age), ECG | TEWS score must be calculated accurately | Patient screened for SATS discriminators | Patients triaged using South African Triage Scale (SATS) | RED patients to resus without delay | Formal divert protocol if applicable | No paediatrics or obstetrics in ED - divert to paediatric hospital or maternity hospital | Surgical patients 12 years and above | Medical patients 14 years and above",
+        "diagnostic_criteria": {
+          "icu_referral_indications": "Ventilated patients | Vasopressor/inotropic support | Invasive monitoring | Multi-organ dysfunction | Severe sepsis/septic shock | Post-cardiac arrest care | Severe TBI | Status epilepticus | Severe metabolic derangements | Airway compromise",
+          "triage_vital_signs": "BP, Pulse, RR, Temp, O2 sat, Finger prick glucose",
+          "triage_additional_investigations": "Urinalysis, pregnancy test (all females childbearing age), ECG",
+          "triage_scale": "South African Triage Scale (SATS) with TEWS score",
+          "age_criteria_surgical": "12 years and above",
+          "age_criteria_medical": "14 years and above",
+          "j88_form": "For assault cases - medicolegal examination and documentation",
+          "natural_death_form": "BI 1663 or DHA 1663 - normal disease processes",
+          "unnatural_death_form": "D28 (HJH269) - criminal/accidental processes, drug-related deaths. Do NOT fill BI 1663",
+          "forensic_post_mortem": "D28 taken with corpse to forensic mortuary. Police report required. Postmortem mandatory by law",
+          "academic_post_mortem": "Family/HCW can request autopsy. Form available in ED. Consent by next of kin"
+        },
+        "clinical_features": {},
+        "drugs": [],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "ICU Referral",
+            "details": "Discuss with senior ED doctor. Contact ICU registrar/consultant with SBAR handover. Document referral and response.",
+            "caution": "Ensure ongoing care until ICU accepts/assumes care"
+          },
+          {
+            "step_number": 2,
+            "action": "Medicolegal documentation",
+            "details": "Legible, dated, timed, signed entries. Objective factual documentation. J88 for assault. Correct death form (BI 1663 for natural, D28 for unnatural).",
+            "caution": "Do NOT fill BI 1663 for unnatural deaths. Chain of custody for specimens."
+          },
+          {
+            "step_number": 3,
+            "action": "Triage",
+            "details": "Triage ASAP. All patients: vital signs + TEWS + SATS. Additional: urinalysis, pregnancy test, ECG.",
+            "caution": "RED patients to resus without delay. Surgical 12+, Medical 14+. No paediatrics/obstetrics."
+          }
+        ],
+        "monitoring": "TEWS score accurately calculated | SATS discriminators screened | All vital signs documented | ECG and pregnancy test as indicated",
+        "warnings": [
+          "Do NOT fill BI 1663 for unnatural deaths - use D28 (HJH269)",
+          "Forensic post-mortem: D28 taken with corpse to forensic mortuary, police report required, postmortem mandatory by law",
+          "HJH treats children 12+ (surgical) and 14+ (medical) - no paediatrics/obstetrics",
+          "RED patients to resus without delay",
+          "Ensure ongoing care until ICU accepts/assumes care"
+        ],
+        "disposition": "ICU referral per indications with senior ED doctor discussion and SBAR handover | Assault cases: J88 form completed | Deaths: correct form per natural vs unnatural | Triage: RED to resus, formal divert protocol if applicable"
+      },
+      {
+        "item": "Post Exposure Prophylaxis (PEP) - Occupational and Non-Occupational",
+        "notes_updates": "SUB-PROTOCOL: Non-Occupational HIV PEP (nPEP) | Exposures: Sexual exposure/Burst condom | Assault with exposure to blood from multiple sources | Human bite | Contact sports with blood exposure | Sharing of needles | Blood contact with mucous membranes or non-intact skin | Timing: Start PEP within 2 hours up to 72 hours post-exposure. Give 3 days supply | History required: When exposure occurred, Where, How, Source HIV status, Recipient and source HBV status, Recent CD4/VL of source if known | Source management - Negative source: Start PEP within 2-72hrs. Give 3 days supply. Consider window period. If concerned, take TPHA/HBV/HCV/HIV with consent. Stop after confirmed negative and window period excluded | Unknown source: Start PEP within 2-72hrs. Give 3 days supply. Take TPHA/HBV/HCV/HIV with consent. If source NOT AVAILABLE assume HIV positive due to high community prevalence | Positive source: Start PEP within 2-72hrs. Give 3 days supply. Take TPHA/HBV/HCV/VL. Check ARV history, possible resistance (consult HIV doctor), recent VL/CD4 | Drug regimen: Preferred TLD (Tenofovir/Lamivudine/Dolutegravir) 1 tablet daily for 28 days | Safe in pregnancy | Dual therapy is no longer recommended | Follow-up: Go to Thembalethu next working day to get rest of PEP for 28/7 | Counsel: reassure, provide undivided attention, provide information on side effects | For further information call infectious diseases | FAQ - Patient keeps coming back for NPEP: Look into circumstances and risk behaviour. If negative with unprotected sex, consider PrEP - refer to HIV clinician at TLC | FAQ - Source tests negative but concerned about window period: Still prescribe NPEP. If source in acute/early infection, viral load very high and risk 8-12x higher than at viral set point | FAQ - Breastfeeding: If at all possible, STOP breastfeeding. Only recommence 3 months after exposure and recipient tests HIV negative | FAQ - Not tolerating ARVs and wants to stop early: Animal studies show inadequate protection at 7, 14, or 21 days - must complete 28 days | | SUB-PROTOCOL: Occupational PEP | Significant exposures: Needle stick injuries | Mucosal splash injuries | Sexual assault | Exposure of non-intact skin | Human bites with break of skin and blood exposure | Non-significant: Intact skin exposed to infected material | HIV transmission risk: Needle stick 0.3% (increased with hollow bore needles, deep injury, high viral load) | Mucosal splash 0.09% | Risk 8-12x higher if source in acute/early infection | Hepatitis B risk: eAg positive 22-30% (needle stick), eAg negative 1-6% (needle stick) | Recipient immunity: Non-immune (anti-HBs <10 IU/L): HBIG + start hepatitis B vaccine series | Partially immune (anti-HBs 10-100 IU/L): Consider HBIG + booster vaccine | Fully immune (anti-HBs >100 IU/L): No treatment needed | | SUB-PROTOCOL: Sexual Assault | Immediate wound care: Needle stick - wash with water and soap (NOT alcohol). Mucosal splash - irrigate copiously with water/saline | STI prophylaxis: Ceftriaxone 250mg IM stat + Metronidazole 2g PO stat + Azithromycin 1g PO stat (or 2g if penicillin allergic) | Emergency contraception: Ovral/Escapelle 2 tablets PO stat then 2 tablets 12 hours later (safe in pregnancy) | Nausea prophylaxis: Metoclopramide 10mg PO 8hrly PRN | SAECK kit for evidence collection | J88 form for medicolegal documentation | Chaperone for examination | Consent required for examination and treatment | Social worker and psychologist referrals | Follow-up: Thembalethu next working day |",
+        "diagnostic_criteria": {
+          "npep_exposures": "Sexual exposure/Burst condom | Assault with blood exposure | Human bite | Contact sports blood exposure | Sharing needles | Blood contact with mucous membranes or non-intact skin",
+          "npep_timing": "Start within 2 hours up to 72 hours post-exposure. Give 3 days supply.",
+          "occupational_significant_exposures": "Needle stick injuries | Mucosal splash injuries | Sexual assault | Exposure of non-intact skin | Human bites with break of skin and blood exposure",
+          "occupational_non_significant": "Intact skin exposed to infected material",
+          "hiv_transmission_risk_needle_stick": "0.3% (increased with hollow bore needles, deep injury, high viral load)",
+          "hiv_transmission_risk_mucus": "0.09%",
+          "hiv_transmission_risk_window_period": "8-12x higher risk if source in acute/early infection",
+          "hepb_risk_eag_positive": "22-30% (needle stick)",
+          "hepb_risk_eag_negative": "1-6% (needle stick)",
+          "hepb_immunity_non_immune": "HBIG + start hepatitis B vaccine series",
+          "hepb_immunity_partial": "anti-HBs 10-100 IU/L: Consider HBIG + booster vaccine",
+          "hepb_immunity_fully_immune": "anti-HBs >100 IU/L: No treatment needed",
+          "ars_duration": "2-4 weeks, can present months later",
+          "ars_symptoms": "Headache, Fever, Fatigue, Lymphadenopathy, Myalgia, Arthralgia, Sore throat, Mucocutaneous ulcers"
+        },
+        "clinical_features": {
+          "acute_retroviral_syndrome": "Headache, Fever, Fatigue, Lymphadenopathy, Myalgia, Arthralgia, Sore throat, Mucocutaneous ulcers. 10-60% asymptomatic.",
+          "note": "If source has ARS symptoms with mucocutaneous ulcers, most infectious state. Risk 8-12x higher."
+        },
+        "drugs": [
+          {
+            "item": "TLD (Tenofovir/Lamivudine/Dolutegravir)",
+            "adult_dose": "1 tablet daily for 28 days",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "Preferred regimen for HIV PEP. Safe in pregnancy. Start within 2-72 hours."
+          },
+          {
+            "item": "Ceftriaxone",
+            "adult_dose": "250mg IM stat",
+            "paediatric_dose": "",
+            "route": "IM",
+            "notes": "STI prophylaxis for sexual assault"
+          },
+          {
+            "item": "Metronidazole",
+            "adult_dose": "2g PO stat",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "STI prophylaxis for sexual assault"
+          },
+          {
+            "item": "Azithromycin",
+            "adult_dose": "1g PO stat (or 2g if penicillin allergic)",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "STI prophylaxis for sexual assault"
+          },
+          {
+            "item": "Ovral/Escapelle (Emergency Contraception)",
+            "adult_dose": "2 tablets PO stat then 2 tablets 12 hours later",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "Emergency contraception for sexual assault"
+          },
+          {
+            "item": "Metoclopramide",
+            "adult_dose": "10mg PO 8hrly PRN",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "Nausea prophylaxis for sexual assault"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess exposure type and timing",
+            "details": "Within 72 hours? Significant vs non-significant? Source HIV/HBV status?",
+            "caution": "Start PEP within 2 hours up to 72 hours. Earlier is better."
+          },
+          {
+            "step_number": 2,
+            "action": "Immediate wound care",
+            "details": "Needle stick: Wash with water and soap (NOT alcohol). Mucosal splash: Irrigate copiously with water/saline.",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Start HIV PEP",
+            "details": "TLD 1 tablet daily for 28 days. Give 3 days supply from ED. Safe in pregnancy.",
+            "caution": "Dual therapy no longer recommended. If source positive, check ARV history and resistance."
+          },
+          {
+            "step_number": 4,
+            "action": "Hepatitis B assessment",
+            "details": "Check recipient anti-HBs. Non-immune: HBIG + vaccine series. Partially immune: HBIG + booster. Fully immune: no treatment.",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Sexual assault: Complete prophylaxis",
+            "details": "HIV PEP (3 days TLD) + STI prophylaxis (Ceftriaxone 250mg IM, Metronidazole 2g PO, Azithromycin 1g PO) + Emergency contraception + Nausea prophylaxis",
+            "caution": "Document in J88. Consent required. Chaperone for examination. SAECK kit for evidence."
+          },
+          {
+            "step_number": 6,
+            "action": "Follow-up arrangements",
+            "details": "Thembalethu next working day for rest of PEP. COIDA forms for occupational. Window period counselling.",
+            "caution": "Inadequate protection at 7, 14, or 21 days - complete 28 days."
+          }
+        ],
+        "monitoring": "Adherence to PEP regimen | Side effects (nausea, vomiting, diarrhoea, headache, fatigue, renal dysfunction) | Follow-up HIV testing at 6 weeks, 3 months, 6 months",
+        "warnings": [
+          "Start PEP within 2 hours up to 72 hours post-exposure - earlier is better",
+          "If source NOT AVAILABLE assume HIV positive due to high community prevalence",
+          "Dual therapy is no longer recommended for HIV PEP",
+          "Animal studies show inadequate protection at 7, 14, or 21 days - must complete 28 days",
+          "If source in acute/early infection, viral load very high and risk 8-12x higher",
+          "Breastfeeding: If at all possible, STOP breastfeeding. Only recommence 3 months after exposure and recipient tests HIV negative",
+          "For sexual assault: Document in J88, consent required, chaperone for examination"
+        ],
+        "disposition": "Non-occupational PEP: Thembalethu next working day for remainder of 28-day course | Occupational PEP: Complete COIDA forms, Thembalethu follow-up | Sexual assault: J88 documentation, SAECK kit, social worker/psychologist referrals"
+      },
+      {
+        "item": "Principles of medicolegal recordkeeping",
+        "notes_updates": "Principles of Documentation for Medical Records | 1. The medical record should be complete and legible | 2. The documentation of each patient encounter should include: the date, the reason for the encounter, appropriate history and physical exam in relationship to the patient's chief complaint, review of lab, X-Ray data and other ancillary services where appropriate, assessment, a plan for care (including discharge plan, if appropriate) | 3. The reasons for and results of X-Rays, lab tests and other ancillary services should be documented or included in the medical record | 4. Relevant health risk factors should be identified | 5. The patient's progress, including response to treatment, change in treatment, change in diagnosis, and patient non-compliance, should be documented | 6. The written plan for care should include when appropriate: treatments and medications specifying frequency and dosage, any referrals and consultations, patient/family education, specific instructions for follow-up | 7. The documentation should support the intensity of the patient evaluation and/or the treatment, including thought processes and the complexity of medical decision-making as it relates to the patient's chief complaint for the encounter | 8. All entries to the medical record should be dated and authenticated | 9. The ICD-10 code should be reflected in the documentation in the medical record | DISCHARGE FROM ED: All patients discharged from the Emergency Department must receive an ED discharge summary | This allows local clinic or OPD follow up with all relevant information available to the receiving doctor | ED DISCHARGE SUMMARY should include: patient name, hospital number, date seen, referral doctor/institution, reason for referral, discharge diagnosis, investigation findings (including barcode numbers for X-rays, labs, ECG, other), follow-up/discharge plan with dates where applicable, TTO (take home medication), doctor name, MP number, and signature",
+        "drugs": [],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Ensure medical record is complete and legible",
+            "details": "All entries must be dated and authenticated; ICD-10 code should be reflected",
+            "caution": "Incomplete or illegible records compromise medicolegal defensibility"
+          },
+          {
+            "step_number": 2,
+            "action": "Document each patient encounter comprehensively",
+            "details": "Include: date, reason for encounter, history and physical exam relevant to chief complaint, review of labs/imaging, assessment, care plan with discharge plan if appropriate",
+            "caution": "Documentation must support intensity of evaluation and complexity of decision-making"
+          },
+          {
+            "step_number": 3,
+            "action": "Document reasons and results for all investigations",
+            "details": "X-rays, lab tests, and other ancillary services - document reasons for ordering and include results",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Identify and document relevant health risk factors",
+            "details": "Include risk factors relevant to presentation and management",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Document patient progress",
+            "details": "Include response to treatment, changes in treatment, changes in diagnosis, and any patient non-compliance",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Write a clear plan for care",
+            "details": "Include treatments and medications with frequency and dosage, referrals and consultations, patient/family education, specific follow-up instructions",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Complete ED discharge summary for all discharged patients",
+            "details": "Include: name, hospital number, date seen, referral doctor/institution, reason for referral, discharge diagnosis, investigation findings with barcodes, follow-up plan, TTO, doctor name, MP number, signature",
+            "caution": "Discharge summary enables local clinic or OPD follow-up with all relevant information"
+          }
+        ],
+        "diagnostic_criteria": {},
+        "clinical_features": {},
+        "monitoring": "Regular review of documentation quality and completeness; ensure all entries dated and authenticated",
+        "warnings": [
+          "Incomplete or illegible medical records compromise medicolegal defensibility",
+          "All entries must be dated and authenticated",
+          "Documentation must support the intensity of patient evaluation and treatment complexity",
+          "All discharged patients must receive an ED discharge summary"
+        ],
+        "disposition": "Ensure complete documentation before patient leaves ED; provide discharge summary for all discharged patients"
+      },
+      {
+        "item": "AHA Resuscitation Algorithms 2020",
+        "notes_updates": "Comprehensive AHA 2020 resuscitation algorithms for adult and paediatric patients. | Includes Adult BLS, Adult Cardiac Arrest ACLS, Post-Cardiac Arrest Care, Bradycardia, Tachycardia, Cardiac Arrest in Pregnancy, Neonatal Resuscitation, Paediatric BLS (single and 2+ rescuer), Paediatric Cardiac Arrest, Paediatric Post-Cardiac Arrest Care, Paediatric Bradycardia, Paediatric Tachycardia. | CPR Quality: Push hard (at least 2 inches/5 cm) and fast (100-120/min), allow complete chest recoil, minimize interruptions, change compressor every 2 minutes. | Compression-ventilation ratio: Adults 30:2, Paediatric 15:2 (with advanced airway: 1 breath every 6 seconds adults/10 breaths/min, 1 breath every 2-3 seconds paeds). | Shock energy: Biphasic 120-200J initial (or max available if unknown), Monophasic 360J. | Reversible causes (H's and T's): Hypovolemia, Hypoxia, Hydrogen ion (acidosis), Hypo-/hyperkalemia, Hypothermia, Tension pneumothorax, Tamponade (cardiac), Toxins, Thrombosis (pulmonary), Thrombosis (coronary).",
+        "drugs": [
+          {
+            "item": "Epinephrine (Adult Cardiac Arrest)",
+            "adult_dose": "1 mg IV/IO every 3-5 minutes",
+            "paediatric_dose": "0.01 mg/kg IV/IO (0.1 mL/kg of 0.1 mg/mL concentration), max 1 mg. Repeat every 3-5 min. ET dose: 0.1 mg/kg (0.1 mL/kg of 1 mg/mL concentration)",
+            "route": "IV/IO/ET",
+            "notes": "Give ASAP in cardiac arrest. Standard dose every 3-5 min throughout arrest."
+          },
+          {
+            "item": "Amiodarone (Adult Cardiac Arrest - VF/pVT)",
+            "adult_dose": "First dose: 300 mg bolus IV/IO. Second dose: 150 mg.",
+            "paediatric_dose": "5 mg/kg bolus during cardiac arrest. May repeat up to 3 total doses for refractory VF/pulseless VT.",
+            "route": "IV/IO",
+            "notes": "Give after 3rd shock in refractory VF/pVT. Follow with maintenance infusion for recurrent VT."
+          },
+          {
+            "item": "Amiodarone (Stable Wide-QRS Tachycardia Infusion)",
+            "adult_dose": "150 mg over 10 minutes. Repeat as needed if VT recurs. Follow by maintenance infusion of 1 mg/min for first 6 hours.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "For stable wide-QRS tachycardia only. Loading dose 5mg/kg (max 300mg) in 200ml 5% dextrose over 1 hour. Maintenance: 900mg in 200ml 5% dextrose at 9.5ml/hr over 23 hours."
+          },
+          {
+            "item": "Lidocaine (Adult Cardiac Arrest - alternative to Amiodarone)",
+            "adult_dose": "First dose: 1-1.5 mg/kg IV/IO. Second dose: 0.5-0.75 mg/kg.",
+            "paediatric_dose": "Initial: 1 mg/kg loading dose IV/IO",
+            "route": "IV/IO",
+            "notes": "Alternative to amiodarone in cardiac arrest. Also for stable wide-QRS tachycardia."
+          },
+          {
+            "item": "Atropine (Adult Bradycardia)",
+            "adult_dose": "First dose: 1 mg bolus IV. Repeat every 3-5 minutes. Maximum: 3 mg.",
+            "paediatric_dose": "0.02 mg/kg IV/IO. May repeat once. Minimum dose 0.1 mg, maximum single dose 0.5 mg.",
+            "route": "IV",
+            "notes": "For symptomatic bradycardia with pulse. Not effective in heart transplant patients."
+          },
+          {
+            "item": "Dopamine (Bradycardia Infusion)",
+            "adult_dose": "Usual infusion rate 5-20 mcg/kg per minute. Titrate to patient response; taper slowly.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Alternative to epinephrine infusion for symptomatic bradycardia unresponsive to atropine."
+          },
+          {
+            "item": "Epinephrine Infusion (Bradycardia)",
+            "adult_dose": "2-10 mcg per minute infusion. Titrate to patient response.",
+            "paediatric_dose": "0.01 mg/kg IV/IO (0.1 mL/kg of 0.1 mg/mL concentration). Repeat every 3-5 minutes.",
+            "route": "IV infusion",
+            "notes": "For bradycardia unresponsive to atropine and transcutaneous pacing."
+          },
+          {
+            "item": "Adenosine (Adult Tachycardia)",
+            "adult_dose": "First dose: 6 mg rapid IV push; follow with NS flush. Second dose: 12 mg if required.",
+            "paediatric_dose": "First dose: 0.1 mg/kg rapid bolus (maximum 6 mg). Second dose: 0.2 mg/kg (maximum 12 mg).",
+            "route": "IV rapid push",
+            "notes": "Only for regular narrow-complex tachycardia. Follow each dose with rapid NS flush."
+          },
+          {
+            "item": "Procainamide (Stable Wide-QRS Tachycardia)",
+            "adult_dose": "20-50 mg/min until arrhythmia suppressed, hypotension ensues, QRS duration increases >50%, or maximum dose 17 mg/kg given. Maintenance infusion: 1-4 mg/min.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Avoid if prolonged QT or CHF. Requires blood pressure and ECG monitoring."
+          },
+          {
+            "item": "Sotalol (Stable Wide-QRS Tachycardia)",
+            "adult_dose": "100 mg (1.5 mg/kg) over 5 minutes.",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Avoid if prolonged QT. Risk of torsades de pointes."
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": "BLS-1",
+            "action": "Verify scene safety",
+            "details": "Ensure the scene is safe before approaching the patient",
+            "caution": "Do not proceed if scene is unsafe"
+          },
+          {
+            "step_number": "BLS-2",
+            "action": "Check responsiveness",
+            "details": "Check for responsiveness, shout for nearby help, activate emergency response system, get AED and emergency equipment",
+            "caution": "Minimize delay in activating emergency response"
+          },
+          {
+            "step_number": "BLS-3",
+            "action": "Assess breathing and pulse",
+            "details": "Look for no breathing or only gasping and check pulse simultaneously. Check for no more than 10 seconds.",
+            "caution": "Do not delay CPR if pulse is uncertain"
+          },
+          {
+            "step_number": "BLS-4A",
+            "action": "Normal breathing, pulse felt",
+            "details": "Monitor until emergency responders arrive",
+            "caution": "Continue to reassess"
+          },
+          {
+            "step_number": "BLS-4B",
+            "action": "No normal breathing, pulse felt",
+            "details": "Provide rescue breathing: 1 breath every 6 seconds (adult) or 1 breath every 2-3 seconds (paediatric). Check pulse every 2 minutes.",
+            "caution": "If possible opioid overdose, administer naloxone per protocol"
+          },
+          {
+            "step_number": "BLS-4C",
+            "action": "No breathing or only gasping, pulse not felt",
+            "details": "Start CPR immediately. Perform cycles of 30 compressions and 2 breaths (adult). Use AED as soon as available.",
+            "caution": "Push hard (at least 2 inches/5 cm) and fast (100-120/min), allow complete recoil"
+          },
+          {
+            "step_number": "ACLS-1",
+            "action": "Start CPR for cardiac arrest",
+            "details": "Give oxygen, attach monitor/defibrillator. High-quality CPR: push hard (at least 2 inches/5cm) and fast (100-120/min), allow complete chest recoil, minimize interruptions, change compressor every 2 minutes. 30:2 ratio without advanced airway; 1 breath every 6 seconds with advanced airway.",
+            "caution": "Quantitative waveform capnography - if PetCO2 is low or decreasing, reassess CPR quality"
+          },
+          {
+            "step_number": "ACLS-2",
+            "action": "Check rhythm - shockable?",
+            "details": "Assess if rhythm is VF/pVT (shockable) or Asystole/PEA (non-shockable)",
+            "caution": "Minimize pauses in CPR for rhythm checks"
+          },
+          {
+            "step_number": "ACLS-3A",
+            "action": "VF/pVT pathway - Shock",
+            "details": "Give 1 shock. Biphasic: Manufacturer recommendation (initial 120-200J) or max available. Monophasic: 360J. Resume CPR immediately for 2 minutes.",
+            "caution": "Do not delay CPR after shock - resume immediately"
+          },
+          {
+            "step_number": "ACLS-3B",
+            "action": "VF/pVT - IV/IO access + epinephrine",
+            "details": "Continue CPR 2 min, establish IV/IO access. Give epinephrine 1 mg IV/IO ASAP, then every 3-5 minutes.",
+            "caution": "Do not interrupt CPR for drug administration"
+          },
+          {
+            "step_number": "ACLS-3C",
+            "action": "VF/pVT - Second shock",
+            "details": "Check rhythm after 2 min CPR. If still shockable, give shock. Resume CPR 2 min.",
+            "caution": "Continue CPR immediately after shock"
+          },
+          {
+            "step_number": "ACLS-3D",
+            "action": "VF/pVT - Amiodarone or Lidocaine",
+            "details": "After 3rd shock, give Amiodarone 300 mg bolus IV/IO OR Lidocaine 1-1.5 mg/kg IV/IO. Continue CPR 2 min.",
+            "caution": "Amiodarone second dose: 150 mg if needed. Lidocaine second dose: 0.5-0.75 mg/kg"
+          },
+          {
+            "step_number": "ACLS-4A",
+            "action": "Asystole/PEA pathway",
+            "details": "Continue CPR 2 min. IV/IO access. Give epinephrine every 3-5 min. Consider advanced airway, capnography.",
+            "caution": "Do not shock asystole. Search and treat reversible causes (H's and T's)"
+          },
+          {
+            "step_number": "ACLS-4B",
+            "action": "Asystole/PEA - continue CPR",
+            "details": "Continue CPR 2 min, epinephrine every 3-5 min, treat reversible causes. Check rhythm after each 2 min cycle.",
+            "caution": "Consider appropriateness of continued resuscitation if no ROSC after prolonged effort"
+          },
+          {
+            "step_number": "ACLS-5",
+            "action": "ROSC achieved",
+            "details": "Signs: Pulse and BP, abrupt sustained increase in PetCO2 (typically >/=40 mmHg), spontaneous arterial pressure waves. Go to Post-Cardiac Arrest Care.",
+            "caution": "Post-cardiac arrest care begins immediately"
+          },
+          {
+            "step_number": "POST-1",
+            "action": "Initial stabilization - Airway management",
+            "details": "Early placement of endotracheal tube. Waveform capnography or capnometry to confirm and monitor ET tube placement.",
+            "caution": "Avoid hypoxemia during intubation"
+          },
+          {
+            "step_number": "POST-2",
+            "action": "Manage respiratory parameters",
+            "details": "Titrate FiO2 for SpO2 92%-98%. Start at 10 breaths/min, titrate to PaCO2 of 35-45 mmHg.",
+            "caution": "Avoid both hyperoxia and hypoxia"
+          },
+          {
+            "step_number": "POST-3",
+            "action": "Manage hemodynamic parameters",
+            "details": "Administer crystalloid and/or vasopressor or inotrope for goal SBP >90 mmHg or MAP >65 mmHg.",
+            "caution": "Avoid hypotension"
+          },
+          {
+            "step_number": "POST-4",
+            "action": "Obtain 12-lead ECG",
+            "details": "Check for STEMI. If STEMI present, consider emergent cardiac intervention.",
+            "caution": "STEMI requires emergent intervention even in comatose patients"
+          },
+          {
+            "step_number": "POST-5",
+            "action": "Targeted Temperature Management (TTM)",
+            "details": "If patient not following commands, start TTM as soon as possible. Begin at 32-36 degrees C for 24 hours using cooling device with feedback loop.",
+            "caution": "Monitor blood pressure and treat hypotension during rewarming. Prevent shivering."
+          },
+          {
+            "step_number": "POST-6",
+            "action": "Neurological assessment",
+            "details": "If follows commands: awake pathway. If comatose: TTM + obtain brain CT.",
+            "caution": "Consider early brain imaging to diagnose treatable causes"
+          },
+          {
+            "step_number": "BRADY-1",
+            "action": "Assess appropriateness for clinical condition",
+            "details": "Heart rate typically <50/min. Identify and treat underlying cause. Maintain patent airway. Oxygen if hypoxemic. IV access. 12-lead ECG if available.",
+            "caution": "Consider possible hypoxic and toxicologic causes"
+          },
+          {
+            "step_number": "BRADY-2",
+            "action": "Persistent bradycardia causing symptoms?",
+            "details": "Check for: acutely altered mental status, signs of shock, acute heart failure.",
+            "caution": "If no symptoms, monitor and observe"
+          },
+          {
+            "step_number": "BRADY-3A",
+            "action": "Atropine",
+            "details": "First dose: 1 mg bolus IV. Repeat every 3-5 minutes. Maximum: 3 mg.",
+            "caution": "Not effective in heart transplant patients"
+          }
+        ]
+      }
+    ]
+  }
+]
