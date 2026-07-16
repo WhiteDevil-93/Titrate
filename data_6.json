@@ -138,4 +138,1609 @@ haviour: Unprovoked attack, unusual behaviour (aggressive, salivating, wild appe
       },
       {
         "item": "Agitation and aggression",
-        "notes_updates": "SAFETY IS THE FIRST PRIORITY! | Contain the patient to protect staff and self | VERBAL DE-ESCALATION - SAVE THE PATIENT: Support - Let's work together | Acknowledge - I see this is hard for you | Validate - I'd probably feel the same if I were you | Emotion Naming - You seem upset/angry/sad | Verbal de-escalation is most effective for mild/moderate agitation | Do not attempt to negotiate with a completely incoherent patient | AGITATION SEVERITY: MILD: Agitated but cooperative | MODERATE: Disruptive without danger | SEVERE: Threat to staff or self | EXTREME: High degree of agitation, Diaphoretic, tachypnoeic, hyperthermic, Unusual strength, Impervious to pain and fatigue, Unable to maintain attention, Incoherent, Severe metabolic acidosis | EXTREME AGITATION IS A LIFE-THREATENING EMERGENCY | PHYSICAL RESTRAINTS: Restraints must be prescribed by a doctor on Form 48 | Appropriate PPE for all staff involved | Never turn your back on the patient or become trapped in an enclosed space | At least 6 staff: 1 per limb, 1 to control the head, 1 to administer medication | NEVER restrain pts by placing pressure on the neck or covering the mouth and nose | Use 4 or 5 point medical grade restraints | Restrain in supine position with HOB 30 degrees up | Female pt: at least 1 female team member | Restraint time: 4 hours adults, 2 hours adolescents (9-17 years) | Tie restraints to bedframe, not rails | Ensure the airway is patent and maintained | Regular limb and pulse checks (30 mins) | Minimal time restrained, review regularly | Use in conjunction with chemical restraint, to avoid physical injury/rhabdomyolysis | Place an oxygen mask on the face to avoid biting/spitting | SEDATED PATIENTS MUST BE PLACED IN RECOVERY POSITION IN A MONITORED BED UNTIL THEY ARE FULLY AWAKE AND ALERT | ANY SEDATION CAN CAUSE RESPIRATORY DEPRESSION AND HYPOTENSION | RESUSCITATION FACILITIES MUST BE AVAILABLE | SPECIAL POPULATIONS: ELDERLY: avoid benzodiazepines. Consider 0.5 mg
+        "notes_updates": "SAFETY IS THE FIRST PRIORITY! | Contain the patient to protect staff and self | VERBAL DE-ESCALATION - SAVE THE PATIENT: Support - Let's work together | Acknowledge - I see this is hard for you | Validate - I'd probably feel the same if I were you | Emotion Naming - You seem upset/angry/sad | Verbal de-escalation is most effective for mild/moderate agitation | Do not attempt to negotiate with a completely incoherent patient | AGITATION SEVERITY: MILD: Agitated but cooperative | MODERATE: Disruptive without danger | SEVERE: Threat to staff or self | EXTREME: High degree of agitation, Diaphoretic, tachypnoeic, hyperthermic, Unusual strength, Impervious to pain and fatigue, Unable to maintain attention, Incoherent, Severe metabolic acidosis | EXTREME AGITATION IS A LIFE-THREATENING EMERGENCY | PHYSICAL RESTRAINTS: Restraints must be prescribed by a doctor on Form 48 | Appropriate PPE for all staff involved | Never turn your back on the patient or become trapped in an enclosed space | At least 6 staff: 1 per limb, 1 to control the head, 1 to administer medication | NEVER restrain pts by placing pressure on the neck or covering the mouth and nose | Use 4 or 5 point medical grade restraints | Restrain in supine position with HOB 30 degrees up | Female pt: at least 1 female team member | Restraint time: 4 hours adults, 2 hours adolescents (9-17 years) | Tie restraints to bedframe, not rails | Ensure the airway is patent and maintained | Regular limb and pulse checks (30 mins) | Minimal time restrained, review regularly | Use in conjunction with chemical restraint, to avoid physical injury/rhabdomyolysis | Place an oxygen mask on the face to avoid biting/spitting | SEDATED PATIENTS MUST BE PLACED IN RECOVERY POSITION IN A MONITORED BED UNTIL THEY ARE FULLY AWAKE AND ALERT | ANY SEDATION CAN CAUSE RESPIRATORY DEPRESSION AND HYPOTENSION | RESUSCITATION FACILITIES MUST BE AVAILABLE | SPECIAL POPULATIONS: ELDERLY: avoid benzodiazepines. Consider 0.5 mg haloperidol IM or atypical antipsychotics | ALCOHOL WITHDRAWAL: benzodiazepines e.g. Diazepam 10mg every 5 minutes | PREGNANCY: benzodiazepines, 1st and 2nd generation antipsychotics safe in pregnancy. Avoid valproic acid, carbamazepine, lithium. Physical restraints last option, restrain in left lateral position to avoid IVC compression | CAUSES: AGITATION IS A SYMPTOM, NOT A DIAGNOSIS - IT IS VITAL TO FIND THE UNDERLYING CAUSE URGENTLY | NEUROLOGIC - SOL, ICH, CVA, post-ictal, neurodegenerative | METABOLIC - hypoxia, hypercarbia, hyperthermia, hypo/hyperglycemia, thyrotoxicosis, nutritional deficiencies, organ failure, electrolyte abnormalities | INFECTIOUS - CNS infections, any systemic infection, NB travel hx | TOXICOLOGIC - intoxication, withdrawal, overdoses, drug interactions, steroids, antibiotics, serotonin syndrome, NMS, MH, recreational/hallucinogenic/stimulant drug use | TRAUMA - Head injury, electrical injury, sexual assault | PSYCHIATRIC - psychosis, mania, personality disorders | SITUATIONAL - pain, discomfort, emotional trauma, frustration due to poor communication, waiting times, interpersonal conflict | FIRST 5 MINUTES: Apply monitors including capnography | 2 large-bore IV lines | Assess and treat: Hypoxia - O2 | Hyperthermia - core temperature, start cooling measures | Hypoglycaemia - HGT check, 50% dextrose | Hypovolaemia - 20ml/kg crystalloid bolus | ABC management as indicated | Intubate early if airway is threatened/likely to become compromised | NEXT 10 MINUTES: Blood gas - correct electrolytes, acidosis | Head to toe examination - Toxidromes, trauma, track marks | Systemic and neurological exam | ECG - toxicology features, ischaemia, arrhythmias, QT interval | Urine for dipstix, BetaHCG and tox screen | Special investigations: bloods, CXR, CTB, LP as appropriate | POCUS as indicated - fluid status, diagnostic aid | Comprehensive history: co-morbidities, psychiatric conditions, drug use, recent illness/activities/trauma, previous episodes, baseline functional level. NB History from a reliable collateral source | NEXT FEW HOURS: Continue monitoring level of agitation and consciousness | Monitor and de-escalate restraints as appropriate | Follow up all investigations and formulate a working diagnosis | Start definitive management for underlying pathology | Consult appropriate inpatient services e.g. Psychiatry, Neurology, ID, GIT etc | Monitor for agitation complications e.g. rhabdomyolysis, hyperthermia, dehydration | Other healthcare services e.g. social work, psychology as indicated",
+        "drugs": [
+          {
+            "item": "Lorazepam (Ativan)",
+            "adult_dose": "1-2 mg SL (mild); 2-4 mg IM/IV stat (moderate/severe)",
+            "paediatric_dose": "",
+            "route": "SL / IM / IV",
+            "notes": "Mild agitation: 1-2mg SL. Can be combined with Haloperidol in same syringe - halve the dose of each drug"
+          },
+          {
+            "item": "Midazolam (Dormicum)",
+            "adult_dose": "2-5 mg IM (moderate); 5-10 mg IM/IV stat (severe)",
+            "paediatric_dose": "",
+            "route": "IM / IV",
+            "notes": "Moderate: 2-5mg IM, onset 10 minutes. Severe: 5-10mg IM/IV stat. Monitor for respiratory depression. Avoid in elderly"
+          },
+          {
+            "item": "Haloperidol",
+            "adult_dose": "2.5-10 mg IM (moderate); 10 mg IM (severe/extreme)",
+            "paediatric_dose": "",
+            "route": "IM / IV",
+            "notes": "NB SECTION 21 FORM required. Can be repeated every 30-60 minutes. Onset of action: 30 minutes. Max 3 doses. Elderly: 2.5mg. Can combine with Lorazepam in same syringe - halve dose of each drug. Can combine with Clonazepam - separate syringes, halve dose of each"
+          },
+          {
+            "item": "Etomine",
+            "adult_dose": "40 mg IM/IV stat",
+            "paediatric_dose": "",
+            "route": "IM / IV",
+            "notes": "Alternative if Haloperidol OS. Avoid in elderly"
+          },
+          {
+            "item": "Ketamine",
+            "adult_dose": "5 mg/kg IM; 1-2 mg/kg IV",
+            "paediatric_dose": "",
+            "route": "IM / IV",
+            "notes": "Severe/Extreme agitation only. Onset <5 minutes IM. Avoid in elderly"
+          },
+          {
+            "item": "Clonazepam (Rivotril)",
+            "adult_dose": "1-2 mg IM/IV stat only",
+            "paediatric_dose": "",
+            "route": "IM / IV",
+            "notes": "Geriatic: 1mg. Can be combined with Haloperidol - separate syringes. Halve the dose of each drug"
+          },
+          {
+            "item": "Diazepam",
+            "adult_dose": "5-10 mg oral/IV/IM; 10mg every 5 minutes (alcohol withdrawal)",
+            "paediatric_dose": "",
+            "route": "oral / IV / IM",
+            "notes": "Least recommended. Avoid PR route! Avoid in elderly. For alcohol withdrawal: 10mg every 5 minutes"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Ensure safety first",
+            "details": "Contain the patient to protect staff and self. Appropriate PPE for all staff involved. Never turn your back on the patient or become trapped in an enclosed space",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Verbal de-escalation (SAVE)",
+            "details": "Support: Let's work together | Acknowledge: I see this is hard for you | Validate: I'd probably feel the same | Emotion Naming: You seem upset/angry/sad. Most effective for mild/moderate agitation. Do not attempt to negotiate with a completely incoherent patient",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Assess agitation severity",
+            "details": "MILD: Agitated but cooperative | MODERATE: Disruptive without danger | SEVERE: Threat to staff or self | EXTREME: High degree of agitation, diaphoretic, tachypnoeic, hyperthermic, unusual strength, impervious to pain and fatigue, incoherent. Extreme agitation is a life-threatening emergency",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "First 5 minutes - Resuscitate",
+            "details": "Apply monitors including capnography | 2 large-bore IV lines | Assess and treat: Hypoxia (O2), Hyperthermia (core temperature, cooling), Hypoglycaemia (HGT check, 50% dextrose), Hypovolaemia (20ml/kg crystalloid bolus) | ABC management | Intubate early if airway threatened",
+            "caution": "EXTREME AGITATION IS A LIFE-THREATENING EMERGENCY"
+          },
+          {
+            "step_number": 5,
+            "action": "Next 10 minutes - Investigate",
+            "details": "Blood gas (correct electrolytes, acidosis) | Head-to-toe examination (toxidromes, trauma, track marks) | Systemic and neurological exam | ECG (toxicology features, ischaemia, arrhythmias, QT) | Urine dipstix, BetaHCG, tox screen | Special investigations: bloods, CXR, CTB, LP as appropriate | POCUS | Comprehensive history from patient and collateral source",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Chemical sedation if needed",
+            "details": "MILD: Lorazepam 1-2mg SL | MODERATE: Midazolam 2-5mg IM OR Oral antipsychotic e.g. Haloperidol 5mg OR Haloperidol 2.5-10mg IM (onset up to 30 min, max 3 doses q30-60min). Alternative: Etomine 40mg IM stat | SEVERE/EXTREME: Ketamine 5mg/kg IM (<5 min onset) OR Haloperidol 10mg IM AND Midazolam 10mg IM",
+            "caution": "NB SECTION 21 FORM for Haloperidol. SEDATED PATIENTS MUST BE PLACED IN RECOVERY POSITION IN MONITORED BED UNTIL FULLY AWAKE. ANY SEDATION CAN CAUSE RESPIRATORY DEPRESSION AND HYPOTENSION. RESUSCITATION FACILITIES MUST BE AVAILABLE"
+          },
+          {
+            "step_number": 7,
+            "action": "Physical restraints if needed",
+            "details": "Prescribed by doctor on Form 48 | At least 6 staff: 1 per limb, 1 head, 1 medication | 4 or 5 point medical grade restraints | Supine position HOB 30 degrees | Restraint time: 4 hours adults, 2 hours adolescents (9-17 years) | Tie to bedframe not rails | Regular limb and pulse checks (30 mins) | Use with chemical restraint to avoid injury/rhabdomyolysis | Oxygen mask to avoid biting/spitting",
+            "caution": "NEVER restrain by placing pressure on neck or covering mouth and nose. Female pt: at least 1 female team member"
+          },
+          {
+            "step_number": 8,
+            "action": "Next few hours - Definitive management",
+            "details": "Continue monitoring agitation and consciousness | Monitor and de-escalate restraints | Follow up investigations and formulate working diagnosis | Start definitive management for underlying pathology | Consult appropriate services: Psychiatry, Neurology, ID, GIT etc | Monitor for complications: rhabdomyolysis, hyperthermia, dehydration | Social work, psychology as indicated",
+            "caution": ""
+          }
+        ],
+        "diagnostic_criteria": {
+          "agitation_severity_mild": "Agitated but cooperative",
+          "agitation_severity_moderate": "Disruptive without danger",
+          "agitation_severity_severe": "Threat to staff or self",
+          "agitation_severity_extreme": "High degree of agitation, Diaphoretic, tachypnoeic, hyperthermic, Unusual strength, Impervious to pain and fatigue, Unable to maintain attention, Incoherent, Severe metabolic acidosis - LIFE-THREATENING EMERGENCY"
+        },
+        "clinical_features": {
+          "neurologic_causes": "SOL, ICH, CVA, post-ictal, neurodegenerative",
+          "metabolic_causes": "hypoxia, hypercarbia, hyperthermia, hypo/hyperglycemia, thyrotoxicosis, nutritional deficiencies, organ failure, electrolyte abnormalities",
+          "infectious_causes": "CNS infections, any systemic infection, NB travel history",
+          "toxicologic_causes": "intoxication, withdrawal, overdoses, drug interactions, steroids, antibiotics, serotonin syndrome, NMS, MH, recreational/hallucinogenic/stimulant drug use",
+          "trauma_causes": "Head injury, electrical injury, sexual assault",
+          "psychiatric_causes": "psychosis, mania, personality disorders",
+          "situational_causes": "pain, discomfort, emotional trauma, frustration due to poor communication, waiting times, interpersonal conflict"
+        },
+        "monitoring": "Apply monitors including capnography | Regular limb and pulse checks every 30 minutes for restrained patients | Monitor level of agitation and consciousness | Monitor for complications: rhabdomyolysis, hyperthermia, dehydration | Sedated patients must be in recovery position in monitored bed until fully awake and alert",
+        "warnings": [
+          "EXTREME AGITATION IS A LIFE-THREATENING EMERGENCY",
+          "SAFETY IS THE FIRST PRIORITY - contain the patient to protect staff and self",
+          "AGITATION IS A SYMPTOM, NOT A DIAGNOSIS - IT IS VITAL TO FIND THE UNDERLYING CAUSE URGENTLY",
+          "NEVER restrain pts by placing pressure on the neck or covering the mouth and nose",
+          "Never turn your back on the patient or become trapped in an enclosed space",
+          "SEDATED PATIENTS MUST BE PLACED IN RECOVERY POSITION IN A MONITORED BED UNTIL THEY ARE FULLY AWAKE AND ALERT",
+          "ANY SEDATION CAN CAUSE RESPIRATORY DEPRESSION AND HYPOTENSION - RESUSCITATION FACILITIES MUST BE AVAILABLE",
+          "Do not attempt to negotiate with a completely incoherent patient",
+          "Physical restraints last option in pregnancy - restrain in left lateral position to avoid IVC compression",
+          "Avoid benzodiazepines in elderly - consider 0.5mg haloperidol IM or atypical antipsychotics",
+          "NB SECTION 21 FORM required for Haloperidol"
+        ],
+        "disposition": "Consult appropriate inpatient services: Psychiatry, Neurology, ID, GIT etc based on underlying cause | Other healthcare services e.g. social work, psychology as indicated | Continue definitive management for underlying pathology"
+      },
+      {
+        "item": "Crush Injury & Syndrome (Rhabdomyolysis)",
+        "notes_updates": "DEFINITIONS: Crush Injury: physical injury from prolonged compression. May be due to direct effect of trauma or ischaemia related to compression | Crush Syndrome: systemic manifestations resulting from crush injury, i.e. rhabdomyolysis leading to acute kidney injury, multisystem organ injury or death | CAUSES: Extensive soft tissue trauma (community assault, sjambok injury) | Snake bite (rare) | Compartment syndrome | Strenuous exercise | Hyperthermia | Electric injury | Burns (3rd and 4th degree) | Severe sepsis | Metabolic myopathies | Tetanus muscle spasms | Drug overdose (Isoniazid, Corticosteroids, Colchicine, Anti-malarials, Heroin, Zidovudine) | CLINICAL EXAMINATION: Tramline bruising | Tense, oedematous, painful muscle groups | Dark / tea-coloured urine | Circulatory shock | INVESTIGATIONS: Blood gas - metabolic acidosis (bicarb < 20, pH < 7.3, elevated lactate) | U-dipstix - haemoglobin / protein | eFAST | Bloods: Creatinine kinase, U&E, CMP | No indication for repeat CK/trending of levels | ED MANAGEMENT: ABCD approach to resuscitation | Aggressive fluid administration - Crystalloids (Balsol / Ringers Lactate) at rate 15-30 ml/kg/hr | Consider Normal saline/5%dextrose-bicarb solution if potassium is raised | Monitor urinary output - Aim for urinary output of 2-4ml/kg/hr, 200-300 mls/hr | Correct Electrolyte Abnormalities | Indication for Mannitol (expert consultation): urine output > 20mls/hr - CONTRAINDICATED IN ANURIA/SEVERE OLIGURIA | Indications for NaHCO3 8.5% (1ml/kg) (expert consultation): severe metabolic acidosis | hyperkalaemia correction | AVOID: Synthetic colloids e.g. Voluven, Gelofusin | Loop diuretics | Potassium containing fluids if K+ is raised | Nephrotoxic drugs | Indications for dialysis: Refractory acidosis | Refractory hyperkalaemia | DISPOSITION: Refer Surgery depending on cause",
+        "drugs": [
+          {
+            "item": "Crystalloids (Balsol / Ringers Lactate)",
+            "adult_dose": "15-30 ml/kg/hr",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Aggressive fluid administration. Mainstay of resuscitation"
+          },
+          {
+            "item": "Normal saline/5% dextrose-bicarb solution",
+            "adult_dose": "",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Consider if potassium is raised"
+          },
+          {
+            "item": "Mannitol",
+            "adult_dose": "",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Expert consultation only. Indicated if urine output > 20mls/hr. CONTRAINDICATED IN ANURIA/SEVERE OLIGURIA"
+          },
+          {
+            "item": "Sodium Bicarbonate (NaHCO3) 8.5%",
+            "adult_dose": "1 ml/kg",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Expert consultation. Indications: severe metabolic acidosis, hyperkalaemia correction"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "ABCD approach to resuscitation",
+            "details": "Standard primary survey approach",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Aggressive fluid resuscitation",
+            "details": "Crystalloids (Balsol / Ringers Lactate) at 15-30 ml/kg/hr IV. Consider Normal saline/5% dextrose-bicarb solution if potassium is raised",
+            "caution": "AVOID synthetic colloids (Voluven, Gelofusin). AVOID potassium containing fluids if K+ is raised. AVOID loop diuretics. AVOID nephrotoxic drugs"
+          },
+          {
+            "step_number": 3,
+            "action": "Monitor urinary output",
+            "details": "Aim for urinary output of 2-4ml/kg/hr (200-300 mls/hr)",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Correct electrolyte abnormalities",
+            "details": "Monitor and correct all electrolyte disturbances",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Consider Mannitol",
+            "details": "Expert consultation required. Indicated if urine output > 20mls/hr",
+            "caution": "CONTRAINDICATED IN ANURIA/SEVERE OLIGURIA"
+          },
+          {
+            "step_number": 6,
+            "action": "Consider Sodium Bicarbonate 8.5%",
+            "details": "1ml/kg IV. Expert consultation required",
+            "caution": "Indications: severe metabolic acidosis, hyperkalaemia correction"
+          },
+          {
+            "step_number": 7,
+            "action": "Investigations",
+            "details": "Blood gas (metabolic acidosis: bicarb <20, pH <7.3, elevated lactate) | U-dipstix (haemoglobin/protein) | eFAST | Bloods: CK, U&E, CMP | No indication for repeat CK/trending",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Disposition",
+            "details": "Refer Surgery depending on cause",
+            "caution": ""
+          }
+        ],
+        "diagnostic_criteria": {
+          "crush_injury_definition": "Physical injury from prolonged compression. May be due to direct effect of trauma or ischaemia related to compression",
+          "crush_syndrome_definition": "Systemic manifestations resulting from crush injury, i.e. rhabdomyolysis leading to acute kidney injury, multisystem organ injury or death",
+          "urinary_output_target": "2-4ml/kg/hr, 200-300 mls/hr",
+          "mannitol_indication": "Urine output > 20mls/hr",
+          "mannitol_contraindication": "ANURIA/SEVERE OLIGURIA",
+          "bicarbonate_indications": "Severe metabolic acidosis, hyperkalaemia correction",
+          "dialysis_indications": "Refractory acidosis, Refractory hyperkalaemia"
+        },
+        "clinical_features": {
+          "skin": "Tramline bruising",
+          "muscle": "Tense, oedematous, painful muscle groups",
+          "urine": "Dark / tea-coloured urine",
+          "circulation": "Circulatory shock",
+          "blood_gas": "Metabolic acidosis (bicarb < 20, pH < 7.3, elevated lactate)"
+        },
+        "monitoring": "Monitor urinary output - aim for 2-4ml/kg/hr (200-300 mls/hr) | Monitor electrolytes | Monitor for metabolic acidosis on blood gas",
+        "warnings": [
+          "CONTRAINDICATED IN ANURIA/SEVERE OLIGURIA for Mannitol",
+          "AVOID synthetic colloids e.g. Voluven, Gelofusin",
+          "AVOID loop diuretics",
+          "AVOID potassium containing fluids if K+ is raised",
+          "AVOID nephrotoxic drugs",
+          "No indication for repeat CK/trending of levels"
+        ],
+        "disposition": "Refer Surgery depending on cause"
+      },
+      {
+        "item": "Difficult Airway Approach including cricothyrotomy",
+        "notes_updates": "SPECIAL CONSIDERATIONS: Anaphylaxis and angioedema: LMA unlikely to be effective. If unable to intubate, consider early surgical airway | UGIB/Haemoptysis: Consider suction assisted laryngoscopy and decontamination (SALAD). DL may offer better views than VL due to blood on fibre-optic scope | Stridor: LMA unlikely to be effective. If unable to intubate, consider early surgical airway. Early ENT consultation | Ludwig's Angina/Retropharyngeal Abscess: Avoid airway manipulation if possible. Likely to require formal surgical airway in theatre | PREDICT THE DIFFICULT AIRWAY - LEMON: L: Look externally | E: Evaluate 3-3-2 rule (mouth opening at least 3 fingers, distance from tip of chin to hyoid bone at least 3 fingers, distance from hyoid bone to thyroid cartilage at least 2 fingers) | M: Mallampati score | O: Obesity/Obstruction | N: Neck mobility | S: Saturation (oxygen) | SETUP FOR THE PREDICTED DIFFICULT AIRWAY: Prepare all equipment and staff beforehand if time allows | Video laryngoscope prepared if not initial device | Difficult/surgical airway box on top shelf in resus | Double setup - 1 staff member to intubate, 1 for surgical airway, scrubbed and ready. All equipment laid out and ready | Mark cricothyroid membrane with permanent marker prior to induction | Consider DSI (delayed sequence intubation) and vocal cord visualization prior to muscle relaxation | OPTIMISE ALL FACTORS: Most experienced intubator | Height of bed | Patient position | Neck extension/shoulder elevation/ramping | Different laryngoscope blade/video scope | 2-handed pull technique | Consider awake or nasal intubation - experienced operator ONLY | CRICOTHYROTOMY REFERENCES FROM OTHER PROTOCOLS: From Angioedema protocol: Prepare for an EXTREMELY difficult airway (see Difficult airway & Cricothyrotomy protocols) - Avoid airway manipulation if possible | Most skilled person to attempt intubation; failed attempts may worsen compromise | Ideally intubate in theatre with awake fibre-optic laryngoscopy and surgical airway double setup | LMA unlikely to be successful in angioedema - move directly to Cricothyrotomy | From Smoke Inhalation protocol: Smoke inhalation - anticipate a difficult airway - see difficult airway protocol. Early airway intervention. SuPara glottic devices unlikely to be successful - move directly to cricothyrotomy | Failed intubation attempts may worsen the airway compromise | From Anaphylaxis protocol: Prepare for an EXTREMELY difficult airway (see Difficult airway & Cricothyrotomy protocols). Avoid airway manipulation if possible. Most skilled person to attempt intubation; failed attempts may worsen compromise | POST-INTUBATION: Confirm ETT placement with bilateral chest rise AND capnography | Secure ETT | Repeat BP and check all vital signs | Chest X-Ray | ABG after 30 minutes | Sedation if required | Attach to ventilator with HME Filter",
+        "drugs": [],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Predict the difficult airway using LEMON assessment",
+            "details": "L: Look externally | E: Evaluate 3-3-2 rule (mouth opening at least 3 fingers, chin-to-hyoid at least 3 fingers, hyoid-to-thyroid at least 2 fingers) | M: Mallampati score | O: Obesity/Obstruction | N: Neck mobility | S: Saturation (oxygen)",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Setup for predicted difficult airway",
+            "details": "Prepare all equipment and staff beforehand if time allows | Video laryngoscope prepared if not initial device | Difficult/surgical airway box on top shelf in resus | Double setup: 1 staff to intubate, 1 for surgical airway scrubbed and ready | Mark cricothyroid membrane with permanent marker prior to induction | Consider DSI and vocal cord visualization prior to muscle relaxation",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Optimise all factors",
+            "details": "Most experienced intubator | Correct height of bed | Optimal patient position | Neck extension/shoulder elevation/ramping | Different laryngoscope blade/video scope | 2-handed pull technique | Consider awake or nasal intubation - experienced operator ONLY",
+            "caution": "Awake or nasal intubation: experienced operator ONLY"
+          },
+          {
+            "step_number": 4,
+            "action": "Special considerations by condition",
+            "details": "Anaphylaxis/Angioedema: LMA unlikely to be effective, consider early surgical airway | UGIB/Haemoptysis: Consider SALAD technique, DL may be better than VL | Stridor: LMA unlikely to be effective, consider early surgical airway, early ENT consult | Ludwig's Angina/Retropharyngeal abscess: Avoid airway manipulation if possible, likely formal surgical airway in theatre",
+            "caution": "In angioedema: LMA unlikely to be successful, move directly to Cricothyrotomy if intubation fails"
+          },
+          {
+            "step_number": 5,
+            "action": "If intubation fails - surgical airway (cricothyrotomy)",
+            "details": "From referenced protocols: Most skilled person to attempt intubation; failed attempts may worsen compromise | LMA unlikely to be successful in special circumstances (angioedema, inhalation injury, stridor) - move directly to cricothyrotomy | Dual setup for surgical airway should be ready | Cricothyroid membrane should be marked prior to induction",
+            "caution": "Failed intubation attempts may worsen airway compromise. Be prepared to move directly to surgical airway"
+          },
+          {
+            "step_number": 6,
+            "action": "Post-intubation care",
+            "details": "Confirm ETT placement | Secure ETT | Repeat BP and check all vital signs | Chest X-Ray | ABG after 30 minutes | Sedation if required | Attach to ventilator with HME Filter",
+            "caution": ""
+          }
+        ],
+        "diagnostic_criteria": {
+          "lemon_assessment": "L: Look externally | E: Evaluate 3-3-2 rule | M: Mallampati score | O: Obesity/Obstruction | N: Neck mobility | S: Saturation",
+          "3-3-2_rule": "Mouth opening at least 3 fingers | Distance from tip of chin to hyoid bone at least 3 fingers | Distance from hyoid bone to thyroid cartilage at least 2 fingers"
+        },
+        "clinical_features": {
+          "difficult_airway_predictors": "LEMON: Look externally, Evaluate 3-3-2 rule, Mallampati, Obesity/Obstruction, Neck mobility, Saturation"
+        },
+        "monitoring": "Capnography | Pulse oximetry | Blood pressure | All vital signs post-intubation | ABG after 30 minutes",
+        "warnings": [
+          "Anaphylaxis and angioedema: LMA unlikely to be effective. If unable to intubate, consider early surgical airway",
+          "Stridor: LMA unlikely to be effective. If unable to intubate, consider early surgical airway. Early ENT consultation",
+          "Ludwig's Angina/Retropharyngeal Abscess: Avoid airway manipulation if possible. Likely to require formal surgical airway in theatre",
+          "Failed intubation attempts may worsen compromise - most skilled person should attempt",
+          "Mark cricothyroid membrane with permanent marker prior to induction",
+          "Awake or nasal intubation - experienced operator ONLY",
+          "Double setup: 1 staff member to intubate, 1 for surgical airway scrubbed and ready"
+        ],
+        "disposition": "Depends on underlying condition requiring airway management | Urgent ENT consultation for stridor, Ludwig's angina, retropharyngeal abscess | Ideally intubate in theatre with awake fibre-optic laryngoscopy and surgical airway double setup for angioedema"
+      }
+    ]
+  },
+  "14_ed_metabolic": {
+    "protocols": [
+      {
+        "item": "Hyperglycaemia",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Blood glucose (HGT)",
+            "threshold": "> 11",
+            "unit": "mmol/L",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "pH",
+            "threshold": "< 7.35",
+            "unit": "",
+            "severity": "critical - refer to DKA protocol"
+          },
+          {
+            "parameter": "HCO3",
+            "threshold": "< 20",
+            "unit": "mmol/L",
+            "severity": "critical - refer to DKA protocol"
+          },
+          {
+            "parameter": "Base Excess",
+            "threshold": "< -4",
+            "unit": "",
+            "severity": "critical - refer to DKA protocol"
+          }
+        ],
+        "classification": [
+          {
+            "name": "Uncomplicated Hyperglycaemia",
+            "criteria": "HGT >11 mmol/L, no ketones, no nausea/vomiting, no dehydration, normal mental state, no acidosis"
+          },
+          {
+            "name": "Complicated Hyperglycaemia (DKA/HHS)",
+            "criteria": "Any of: urine ketones positive, nausea/vomiting, dehydration, altered mental state, acidotic breathing, pH < 7.35, HCO3 < 20, BE < -4"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [],
+        "monitoring": [
+          {
+            "parameter": "HGT",
+            "frequency": "Hourly during acute phase",
+            "target": "< 15 mmol/L before switching to dextrose-containing fluids"
+          }
+        ],
+        "warnings": [
+          "Always assess for DKA/HHS criteria in hyperglycaemic patients"
+        ],
+        "disposition": "Uncomplicated: discharge with referral to Poly Clinic/local clinic within 3 days. Complicated: Admit to Medicine.",
+        "formulas": [],
+        "notes_updates": "Causes: Infection (UTI, pneumonia), Infarction, Ischaemia, Ignorance (defaulter), Intoxication, Implantation (pregnancy), Intra-abdominal (pancreatitis, cholecystitis, appendicitis), Undiagnosed Type 1 DM (age < 35 years)\nDiagnostic criteria:\n  Blood glucose (HGT): > 11 mmol/L (diagnostic)\n  pH: < 7.35  (critical - refer to DKA protocol)\n  HCO3: < 20 mmol/L (critical - refer to DKA protocol)\n  Base Excess: < -4  (critical - refer to DKA protocol)\nClassification:\n  Uncomplicated Hyperglycaemia: HGT >11 mmol/L, no ketones, no nausea/vomiting, no dehydration, normal mental state, no acidosis\n  Complicated Hyperglycaemia (DKA/HHS): Any of: urine ketones positive, nausea/vomiting, dehydration, altered mental state, acidotic breathing, pH < 7.35, HCO3 < 20, BE < -4\nDisposition: Uncomplicated: discharge with referral to Poly Clinic/local clinic within 3 days. Complicated: Admit to Medicine.\nWarnings: Always assess for DKA/HHS criteria in hyperglycaemic patients",
+        "causes": [
+          "Infection (UTI, pneumonia)",
+          "Infarction",
+          "Ischaemia",
+          "Ignorance (defaulter)",
+          "Intoxication",
+          "Implantation (pregnancy)",
+          "Intra-abdominal (pancreatitis, cholecystitis, appendicitis)",
+          "Undiagnosed Type 1 DM (age < 35 years)"
+        ],
+        "complications": [
+          "DKA",
+          "HHS",
+          "Dehydration",
+          "Electrolyte abnormalities"
+        ],
+        "workup_flowchart": {
+          "step_1": "Check HGT > 11 mmol/L",
+          "step_2": "Assess for DKA/HHS criteria (ketones, vomiting, dehydration, altered mental state, acidotic breathing, pH < 7.35, HCO3 < 20, BE < -4)",
+          "step_3_if_no": "Manage as uncomplicated hyperglycaemia - find and treat cause, optimise diabetes medication, diabetic education, discharge with referral to follow up within 3 days",
+          "step_4_if_yes": "Manage as DKA/HHS (see DKA/HHS protocol), find and treat cause, admit"
+        }
+      },
+      {
+        "item": "Diabetic Ketoacidosis (DKA)",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Blood glucose (HGT)",
+            "threshold": "> 11, often > 30",
+            "unit": "mmol/L",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "pH",
+            "threshold": "< 7.3",
+            "unit": "",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "HCO3",
+            "threshold": "< 18",
+            "unit": "mmol/L",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "Anion Gap",
+            "threshold": "> 16",
+            "unit": "mmol/L",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "Serum Osmolality",
+            "threshold": "< 320",
+            "unit": "mOsm/kg",
+            "severity": "DKA (vs HHS > 350)"
+          },
+          {
+            "parameter": "Urine Ketones",
+            "threshold": "Positive",
+            "unit": "",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "Base Excess",
+            "threshold": "< -4",
+            "unit": "",
+            "severity": "diagnostic"
+          }
+        ],
+        "classification": [
+          {
+            "name": "DKA",
+            "criteria": "HGT > 11 (often > 30), pH < 7.3, HCO3 < 18, AG > 16, osmolality < 320, ketones positive, metabolic acidosis"
+          },
+          {
+            "name": "HHS",
+            "criteria": "HGT > 30, pH > 7.3 (minimal acidosis), osmolality > 350, ketones absent/weakly positive, altered mental state common"
+          },
+          {
+            "name": "Euglycemic DKA",
+            "criteria": "DKA with near-normal glucose; risk factors: SGLT2 inhibitors, carbohydrate restriction, fasting, dehydration, alcohol, partially treated DKA"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Actrapid (Insulin)",
+            "adult_dose": "0.1 U/kg",
+            "route": "IV stat",
+            "frequency": "Then hourly",
+            "notes": "Conditions: Delay until K+ > 3.5. Max: 10 U stat"
+          },
+          {
+            "item": "Actrapid (Insulin)",
+            "adult_dose": "0.1 U/kg/hr",
+            "route": "IV infusion",
+            "frequency": "Continuous",
+            "notes": "Conditions: Alternative to hourly boluses"
+          },
+          {
+            "item": "Potassium Chloride",
+            "adult_dose": "20-40 mmol/L",
+            "route": "IV fluids",
+            "frequency": "Added to IV fluids",
+            "notes": "Conditions: To maintain K+ 4-5 mmol/L"
+          },
+          {
+            "item": "Magnesium Sulfate",
+            "adult_dose": "2g",
+            "route": "IV",
+            "frequency": "Added to maintenance fluids",
+            "notes": "Conditions: Not bolus fluids"
+          },
+          {
+            "item": "Potassium Phosphate",
+            "adult_dose": "20 mmol/hr",
+            "route": "IV",
+            "frequency": "If phosphate low",
+            "notes": "Conditions: Use KPO4 if phosphate low"
+          },
+          {
+            "item": "Sodium Bicarbonate",
+            "adult_dose": "1 ml/kg of 8.5%",
+            "route": "IV over 30 min",
+            "frequency": "Once only",
+            "notes": "Conditions: ONLY if pH < 6.8, HCO3 < 5 (expert consultation required)"
+          },
+          {
+            "item": "Clexane (Enoxaparin)",
+            "adult_dose": "0.5 mg/kg",
+            "route": "SC",
+            "frequency": "STAT",
+            "notes": "Conditions: HHS and severe DKA - prophylaxis"
+          },
+          {
+            "item": "Thiamine",
+            "adult_dose": "",
+            "route": "",
+            "frequency": "",
+            "notes": "Conditions: Supplementation when feeding restarted"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "HGT",
+            "frequency": "Hourly",
+            "target": "< 15 mmol/L (then switch to dextrose fluids)"
+          },
+          {
+            "parameter": "Potassium",
+            "frequency": "Regularly",
+            "target": "4-5 mmol/L"
+          },
+          {
+            "parameter": "pH / HCO3 / Anion Gap",
+            "frequency": "1 ABG then 4-hourly VBG",
+            "target": "pH > 7.3, HCO3 > 18, AG < 12, BE > -4"
+          },
+          {
+            "parameter": "Urine output",
+            "frequency": "Continuous",
+            "target": "1-2 ml/kg/hr"
+          },
+          {
+            "parameter": "Serum Osmolality",
+            "frequency": "Regularly",
+            "target": "Monitor trends"
+          },
+          {
+            "parameter": "Chloride",
+            "frequency": "Regularly",
+            "target": "If > 110, change to 1/2 saline or RHS"
+          }
+        ],
+        "warnings": [
+          "Delay insulin until K+ > 3.5 mmol/L",
+          "Do NOT routinely use sodium bicarbonate",
+          "Avoid intubation if possible",
+          "Do not correct too fast - risk of cerebral oedema",
+          "DKA and HHS may overlap"
+        ],
+        "disposition": "Admit Medicine unless surgical precipitant. ICU consult if pH < 7, shock, or CNS abnormalities.",
+        "formulas": [
+          {
+            "name": "Serum Osmolality",
+            "formula": "2(Na + K) + Urea + Glucose",
+            "variables": [
+              "Na (mmol/L)",
+              "K (mmol/L)",
+              "Urea (mmol/L)",
+              "Glucose (mmol/L)"
+            ],
+            "units": "mOsm/kg"
+          },
+          {
+            "name": "Anion Gap",
+            "formula": "(Na + K) - (Cl + HCO3)",
+            "variables": [
+              "Na",
+              "K",
+              "Cl",
+              "HCO3 (all mmol/L)"
+            ],
+            "units": "mmol/L"
+          },
+          {
+            "name": "Corrected Potassium",
+            "formula": "For every 0.1 pH drop from 7.4, K+ drops by 0.5",
+            "variables": [
+              "pH",
+              "Measured K+"
+            ],
+            "units": "mmol/L"
+          },
+          {
+            "name": "Corrected Sodium for Glucose",
+            "formula": "For every 5.5 mmol/L glucose above 5.5: Na increases by 1.6 if glucose 11-22; by 2.4 if glucose > 22",
+            "variables": [
+              "Measured Na",
+              "Glucose"
+            ],
+            "units": "mmol/L"
+          }
+        ],
+        "notes_updates": "Diagnostic criteria:\n  Blood glucose (HGT): > 11, often > 30 mmol/L (diagnostic)\n  pH: < 7.3  (diagnostic)\n  HCO3: < 18 mmol/L (diagnostic)\n  Anion Gap: > 16 mmol/L (diagnostic)\n  Serum Osmolality: < 320 mOsm/kg (DKA (vs HHS > 350))\n  Urine Ketones: Positive  (diagnostic)\n  Base Excess: < -4  (diagnostic)\nClassification:\n  DKA: HGT > 11 (often > 30), pH < 7.3, HCO3 < 18, AG > 16, osmolality < 320, ketones positive, metabolic acidosis\n  HHS: HGT > 30, pH > 7.3 (minimal acidosis), osmolality > 350, ketones absent/weakly positive, altered mental state common\n  Euglycemic DKA: DKA with near-normal glucose; risk factors: SGLT2 inhibitors, carbohydrate restriction, fasting, dehydration, alcohol, partially treated DKA\nDisposition: Admit Medicine unless surgical precipitant. ICU consult if pH < 7, shock, or CNS abnormalities.\nWarnings: Delay insulin until K+ > 3.5 mmol/L; Do NOT routinely use sodium bicarbonate; Avoid intubation if possible; Do not correct too fast - risk of cerebral oedema; DKA and HHS may overlap",
+        "fluid_protocols": [
+          {
+            "fluid": "Balsol/Ringers Lactate",
+            "rate": "20 ml/kg bolus",
+            "duration": "STAT",
+            "conditions": "If shocked"
+          },
+          {
+            "fluid": "Balsol/Ringers Lactate",
+            "rate": "150-200 ml/hr",
+            "duration": "First 4 hours/until euvolaemic",
+            "conditions": "DKA maintenance"
+          },
+          {
+            "fluid": "Balsol/Ringers Lactate",
+            "rate": "Maintenance",
+            "duration": "Ongoing",
+            "conditions": "Aim for urine output 1-2 ml/kg/hr"
+          },
+          {
+            "fluid": "5% Dextrose-Ringers/Balsol",
+            "rate": "Maintenance",
+            "duration": "Ongoing",
+            "conditions": "When HGT < 15 (add 100ml 50% dextrose to 1L fluid)"
+          }
+        ],
+        "complications": [
+          "Hypokalaemia",
+          "Cerebral oedema",
+          "Hypoglycaemia",
+          "Acute kidney injury",
+          "Thromboembolism",
+          "Shock"
+        ],
+        "presentation": [
+          "Nausea",
+          "Vomiting",
+          "Vague abdominal pain",
+          "Dehydration",
+          "Acidotic breathing (Kussmaul)",
+          "Confusion"
+        ],
+        "out_of_dka_criteria": [
+          "pH > 7.3",
+          "HCO3 > 18",
+          "AG < 12",
+          "BE -4 or above"
+        ],
+        "transition_to_sc_insulin": "Restart maintenance regimen 1-3 hours prior to stopping DKA protocol, top up with sliding scale (in consultation with Internal Medicine). FEED the patient."
+      },
+      {
+        "item": "Hyperosmolar Hyperglycaemic State (HHS)",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Blood glucose (HGT)",
+            "threshold": "> 30",
+            "unit": "mmol/L",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "Serum Osmolality",
+            "threshold": "> 350",
+            "unit": "mOsm/kg",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "pH",
+            "threshold": "> 7.3 (minimal acidosis)",
+            "unit": "",
+            "severity": "diagnostic - distinguishes from DKA"
+          },
+          {
+            "parameter": "Anion Gap",
+            "threshold": "Normal (12-16)",
+            "unit": "mmol/L",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "Urine Ketones",
+            "threshold": "Absent or weakly positive",
+            "unit": "",
+            "severity": "diagnostic"
+          }
+        ],
+        "classification": [
+          {
+            "name": "HHS",
+            "criteria": "HGT > 30, osmolality > 350, minimal acidosis/normal pH, ketones absent/weakly positive, altered mental state common"
+          },
+          {
+            "name": "HHS-DKA Overlap",
+            "criteria": "May have features of both HHS and DKA"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Actrapid (Insulin)",
+            "adult_dose": "0.1 U/kg",
+            "route": "IV stat",
+            "frequency": "Then hourly",
+            "notes": "Conditions: Delay until K+ > 3.5. Max: 10 U stat"
+          },
+          {
+            "item": "Actrapid (Insulin)",
+            "adult_dose": "0.1 U/kg/hr",
+            "route": "IV infusion",
+            "frequency": "Continuous",
+            "notes": "Conditions: Alternative to hourly boluses"
+          },
+          {
+            "item": "Potassium Chloride",
+            "adult_dose": "20-40 mmol/L",
+            "route": "IV fluids",
+            "frequency": "Added to IV fluids",
+            "notes": "Conditions: To maintain K+ 4-5 mmol/L"
+          },
+          {
+            "item": "Magnesium Sulfate",
+            "adult_dose": "2g",
+            "route": "IV",
+            "frequency": "Added to maintenance fluids",
+            "notes": "Conditions: Not bolus fluids"
+          },
+          {
+            "item": "Clexane (Enoxaparin)",
+            "adult_dose": "0.5 mg/kg",
+            "route": "SC",
+            "frequency": "STAT",
+            "notes": "Conditions: HHS and severe DKA - prophylaxis"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "HGT",
+            "frequency": "Hourly",
+            "target": "< 15 mmol/L (then switch to dextrose fluids)"
+          },
+          {
+            "parameter": "Potassium",
+            "frequency": "Regularly",
+            "target": "4-5 mmol/L"
+          },
+          {
+            "parameter": "pH / HCO3 / Anion Gap",
+            "frequency": "1 ABG then 4-hourly VBG",
+            "target": "pH > 7.3, HCO3 > 18, AG < 12"
+          },
+          {
+            "parameter": "Serum Osmolality",
+            "frequency": "Regularly",
+            "target": "Monitor trends - slower correction than DKA"
+          },
+          {
+            "parameter": "Mental status",
+            "frequency": "Continuous",
+            "target": "Monitor for improvement"
+          }
+        ],
+        "warnings": [
+          "Slower fluid correction than DKA",
+          "Higher thromboembolism risk than DKA - anticoagulate",
+          "Do not correct too fast - risk of cerebral oedema",
+          "Altered mental state is common presentation"
+        ],
+        "disposition": "Admit Medicine. ICU consult if shock or CNS abnormalities.",
+        "formulas": [
+          {
+            "name": "Serum Osmolality",
+            "formula": "2(Na + K) + Urea + Glucose",
+            "variables": [
+              "Na (mmol/L)",
+              "K (mmol/L)",
+              "Urea (mmol/L)",
+              "Glucose (mmol/L)"
+            ],
+            "units": "mOsm/kg"
+          },
+          {
+            "name": "Anion Gap",
+            "formula": "(Na + K) - (Cl + HCO3)",
+            "variables": [
+              "Na",
+              "K",
+              "Cl",
+              "HCO3 (all mmol/L)"
+            ],
+            "units": "mmol/L"
+          }
+        ],
+        "notes_updates": "Diagnostic criteria:\n  Blood glucose (HGT): > 30 mmol/L (diagnostic)\n  Serum Osmolality: > 350 mOsm/kg (diagnostic)\n  pH: > 7.3 (minimal acidosis)  (diagnostic - distinguishes from DKA)\n  Anion Gap: Normal (12-16) mmol/L (diagnostic)\n  Urine Ketones: Absent or weakly positive  (diagnostic)\nClassification:\n  HHS: HGT > 30, osmolality > 350, minimal acidosis/normal pH, ketones absent/weakly positive, altered mental state common\n  HHS-DKA Overlap: May have features of both HHS and DKA\nDisposition: Admit Medicine. ICU consult if shock or CNS abnormalities.\nWarnings: Slower fluid correction than DKA; Higher thromboembolism risk than DKA - anticoagulate; Do not correct too fast - risk of cerebral oedema; Altered mental state is common presentation",
+        "fluid_protocols": [
+          {
+            "fluid": "Balsol/Ringers Lactate",
+            "rate": "20 ml/kg bolus",
+            "duration": "STAT",
+            "conditions": "If shocked"
+          },
+          {
+            "fluid": "Balsol/Ringers Lactate",
+            "rate": "100-200 ml/hr",
+            "duration": "Slower rate than DKA",
+            "conditions": "HHS maintenance - slower correction than DKA"
+          },
+          {
+            "fluid": "5% Dextrose-Ringers/Balsol",
+            "rate": "Maintenance",
+            "duration": "Ongoing",
+            "conditions": "When HGT < 15 (add 100ml 50% dextrose to 1L fluid)"
+          }
+        ],
+        "complications": [
+          "Thromboembolism",
+          "Cerebral oedema (with rapid correction)",
+          "Hypokalaemia",
+          "Acute kidney injury",
+          "Shock"
+        ],
+        "presentation": [
+          "CNS findings (altered mental state, focal neurology)",
+          "Dehydration",
+          "Nausea",
+          "Vomiting"
+        ]
+      },
+      {
+        "item": "Hypoglycaemia",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Blood glucose (HGT)",
+            "threshold": "< 4",
+            "unit": "mmol/L",
+            "severity": "immediate correction required"
+          },
+          {
+            "parameter": "Blood glucose (severe)",
+            "threshold": "< 2.2",
+            "unit": "mmol/L",
+            "severity": "severe (malaria criteria)"
+          }
+        ],
+        "classification": [
+          {
+            "name": "Early/Mild",
+            "criteria": "Sweating, dizziness, bad mood, trembling, palpitations, hunger"
+          },
+          {
+            "name": "Late/Severe",
+            "criteria": "Confusion, visual changes, slurred speech, seizures, lethargy, stupor, coma"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "50% Dextrose",
+            "adult_dose": "1-2 ml/kg",
+            "route": "IV/IO",
+            "frequency": "STAT",
+            "notes": "Conditions: If unable to take PO"
+          },
+          {
+            "item": "25% Dextrose",
+            "adult_dose": "2-4 ml/kg",
+            "route": "IV/IO",
+            "frequency": "STAT",
+            "notes": "Conditions: Paediatric cases (dilute to max 25%)"
+          },
+          {
+            "item": "50% Dextrose",
+            "adult_dose": "",
+            "route": "Oral",
+            "frequency": "STAT",
+            "notes": "Conditions: If awake AND able to swallow"
+          },
+          {
+            "item": "5-10% Dextrose Ringers Lactate",
+            "adult_dose": "Maintenance",
+            "route": "IV infusion",
+            "frequency": "Continuous",
+            "notes": "Conditions: After initial correction, titrate to effect"
+          },
+          {
+            "item": "Hydrocortisone",
+            "adult_dose": "",
+            "route": "",
+            "frequency": "",
+            "notes": "Conditions: Add in refractory/recurrent hypoglycaemia"
+          },
+          {
+            "item": "Octreotide",
+            "adult_dose": "",
+            "route": "",
+            "frequency": "",
+            "notes": "Conditions: Add in sulfonylurea overdose"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "HGT",
+            "frequency": "Hourly checks",
+            "target": "> 4 mmol/L sustained"
+          }
+        ],
+        "warnings": [
+          "Severe hypoglycaemia is a life-threatening emergency",
+          "Prolonged hypoglycaemia can lead to permanent brain damage",
+          "Correct any HGT < 4 mmol/L immediately",
+          "If HGT unavailable, treat empirically with dextrose",
+          "Add steroid in refractory/recurrent hypoglycaemia",
+          "Add octreotide in sulfonylurea overdose"
+        ],
+        "disposition": "Identify and treat underlying cause or admit for HGT monitoring and further workup. Ensure early NGT feeds in intubated/critically ill patients.",
+        "formulas": [],
+        "notes_updates": "Causes: Drugs: insulin, sulfonylureas (accidental, suicidal, iatrogenic), Specific diseases: Sepsis, adrenal insufficiency, myxoedema coma, hepatic failure, renal failure, insulinoma, malignancy, gastric bypass, Intake/use mismatch: starvation, anorexia nervosa, extreme exercise, pregnancy/lactation, alcohol abuse, dysphagia\nDiagnostic criteria:\n  Blood glucose (HGT): < 4 mmol/L (immediate correction required)\n  Blood glucose (severe): < 2.2 mmol/L (severe (malaria criteria))\nClassification:\n  Early/Mild: Sweating, dizziness, bad mood, trembling, palpitations, hunger\n  Late/Severe: Confusion, visual changes, slurred speech, seizures, lethargy, stupor, coma\nDisposition: Identify and treat underlying cause or admit for HGT monitoring and further workup. Ensure early NGT feeds in intubated/critically ill patients.\nWarnings: Severe hypoglycaemia is a life-threatening emergency; Prolonged hypoglycaemia can lead to permanent brain damage; Correct any HGT < 4 mmol/L immediately; If HGT unavailable, treat empirically with dextrose; Add steroid in refractory/recurrent hypoglycaemia; Add octreotide in sulfonylurea overdose",
+        "causes": [
+          "Drugs: insulin, sulfonylureas (accidental, suicidal, iatrogenic)",
+          "Specific diseases: Sepsis, adrenal insufficiency, myxoedema coma, hepatic failure, renal failure, insulinoma, malignancy, gastric bypass",
+          "Intake/use mismatch: starvation, anorexia nervosa, extreme exercise, pregnancy/lactation, alcohol abuse, dysphagia"
+        ],
+        "complications": [
+          "Permanent brain damage (prolonged hypoglycaemia)",
+          "Seizures",
+          "Coma"
+        ],
+        "patient_education": {
+          "home_treatment_early": "Sugary snack, soft drink",
+          "home_treatment_late": "Buccal honey/syrup/lollipop",
+          "common_cause": "No insulin without meals (most common cause of presentation)",
+          "follow_up": "Diabetic clinic/dietician for diabetic education"
+        },
+        "criteria_for_discharge": [
+          "Cause for hypoglycaemia identified and resolved",
+          "No recurrent hypoglycaemia after carbohydrate rich meal",
+          "Family/escort at home to monitor HGT and administer home treatment",
+          "Transport to return if hypoglycaemia recurs",
+          "Adequate patient education",
+          "Functional HGT monitor and strips",
+          "Follow-up appointment at OPD/local clinic within one week"
+        ]
+      },
+      {
+        "item": "Hyperkalaemia",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Potassium (K+)",
+            "threshold": "> 5.5",
+            "unit": "mmol/L",
+            "severity": "diagnostic"
+          }
+        ],
+        "classification": [
+          {
+            "name": "Mild",
+            "criteria": "K+ 5.5-6.0 mmol/L"
+          },
+          {
+            "name": "Moderate",
+            "criteria": "K+ 6.0-6.5 mmol/L"
+          },
+          {
+            "name": "Severe",
+            "criteria": "K+ > 6.5 mmol/L or ECG changes"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Stop exogenous K+ administration",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "Stabilise the cardiac membrane (calcium)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": 3,
+            "action": "Shift K+ intracellularly (insulin/glucose, salbutamol, bicarbonate if indicated)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": 4,
+            "action": "Increase K+ excretion (furosemide, dialysis if intractable)",
+            "details": "",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Treat the underlying cause",
+            "details": "",
+            "caution": ""
+          }
+        ],
+        "drugs": [
+          {
+            "item": "Calcium Chloride",
+            "adult_dose": "10 ml 10% (20 mg/kg)",
+            "route": "IV over 10 min",
+            "frequency": "STAT",
+            "notes": "Conditions: Myocardial stabilisation - given until QRS narrows"
+          },
+          {
+            "item": "Calcium Gluconate",
+            "adult_dose": "30 ml 10% (60 mg/kg)",
+            "route": "IV over 10 min",
+            "frequency": "STAT",
+            "notes": "Conditions: Myocardial stabilisation - given until QRS narrows"
+          },
+          {
+            "item": "Salbutamol (Beta-2 agonist)",
+            "adult_dose": "UDV continuous nebulisation",
+            "route": "Inhalation",
+            "frequency": "30 min",
+            "notes": "Conditions: Patients taking beta-blockers may be resistant"
+          },
+          {
+            "item": "Actrapid (Insulin)",
+            "adult_dose": "10 U (0.1 U/kg)",
+            "route": "IV",
+            "frequency": "STAT with dextrose",
+            "notes": "Conditions: Administer IV dextrose PRIOR to insulin (separate IV lines)"
+          },
+          {
+            "item": "50% Dextrose",
+            "adult_dose": "1 ml/kg",
+            "route": "IV",
+            "frequency": "With insulin",
+            "notes": "Conditions: Administer BEFORE insulin to prevent hypoglycaemia"
+          },
+          {
+            "item": "Furosemide",
+            "adult_dose": "0.5-1 mg/kg",
+            "route": "IV",
+            "frequency": "",
+            "notes": "Conditions: Not in renal failure. Patient needs to be passing urine."
+          },
+          {
+            "item": "Sodium Bicarbonate",
+            "adult_dose": "1 mEq/kg (= 1 ml/kg of 8.5%)",
+            "route": "IV",
+            "frequency": "",
+            "notes": "Conditions: Routine use NOT recommended. May benefit in NORMAL ANION GAP metabolic acidosis. Administer in separate IV line to calcium."
+          },
+          {
+            "item": "Dialysis",
+            "adult_dose": "",
+            "route": "",
+            "frequency": "",
+            "notes": "Conditions: Intractable hyperkalaemia"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "ECG",
+            "frequency": "Continuous",
+            "target": "QRS narrowing, resolution of peaked T waves"
+          },
+          {
+            "parameter": "Potassium",
+            "frequency": "Follow-up monitoring",
+            "target": "< 5.5 mmol/L"
+          },
+          {
+            "parameter": "Blood glucose",
+            "frequency": "After insulin/dextrose",
+            "target": "Prevent hypoglycaemia"
+          }
+        ],
+        "warnings": [
+          "Administer dextrose PRIOR to insulin (separate IV lines)",
+          "Give calcium until QRS narrows (if wide and not bundle branch block)",
+          "Sodium bicarbonate routine use no longer recommended",
+          "Separate IV line for bicarbonate and calcium",
+          "More useful in mineral metabolic acidosis (renal failure) than organic acidosis (DKA, lactate)"
+        ],
+        "disposition": "Admit for monitoring and treatment of underlying cause. Dialysis for intractable cases.",
+        "formulas": [
+          {
+            "name": "Potassium Correction for Acidosis",
+            "formula": "Decrease of pH by 0.1 = Increased K+ of 0.3-0.5 mmol/L",
+            "variables": [
+              "pH",
+              "Measured K+"
+            ],
+            "units": "mmol/L"
+          },
+          {
+            "name": "Example Correction",
+            "formula": "pH 7.1 and K+ 6, then corrected K+ = 5.1",
+            "variables": [],
+            "units": "mmol/L"
+          }
+        ],
+        "notes_updates": "Causes: Impaired excretion: renal failure, drugs (spironolactone), hypoaldosteronism (Addison's), Transcellular shifts: haemolysis (2° rhabdomyolysis), acidosis, hyperglycaemia, Measurement error: haemolysis during phlebotomy\nDiagnostic criteria:\n  Potassium (K+): > 5.5 mmol/L (diagnostic)\nClassification:\n  Mild: K+ 5.5-6.0 mmol/L\n  Moderate: K+ 6.0-6.5 mmol/L\n  Severe: K+ > 6.5 mmol/L or ECG changes\nDisposition: Admit for monitoring and treatment of underlying cause. Dialysis for intractable cases.\nWarnings: Administer dextrose PRIOR to insulin (separate IV lines); Give calcium until QRS narrows (if wide and not bundle branch block); Sodium bicarbonate routine use no longer recommended; Separate IV line for bicarbonate and calcium; More useful in mineral metabolic acidosis (renal failure) than organic acidosis (DKA, lactate)",
+        "causes": [
+          "Impaired excretion: renal failure, drugs (spironolactone), hypoaldosteronism (Addison's)",
+          "Transcellular shifts: haemolysis (2° rhabdomyolysis), acidosis, hyperglycaemia",
+          "Measurement error: haemolysis during phlebotomy"
+        ],
+        "complications": [
+          "Cardiac arrest",
+          "Sine wave pattern",
+          "Complete heart block"
+        ],
+        "ecg_changes": [
+          "Peaked T waves",
+          "Prolonged PR interval",
+          "Flattened P waves",
+          "QRS widening",
+          "Sine wave",
+          "Cardiac arrest"
+        ]
+      },
+      {
+        "item": "Hypokalaemia",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Potassium (K+)",
+            "threshold": "< 3.5",
+            "unit": "mmol/L",
+            "severity": "diagnostic"
+          }
+        ],
+        "classification": [
+          {
+            "name": "Hypokalaemia",
+            "criteria": "K+ < 3.5 mmol/L"
+          },
+          {
+            "name": "Life-threatening",
+            "criteria": "Cardiac arrest or impending arrest"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Potassium Chloride + Magnesium Sulfate",
+            "adult_dose": "40 mmol KCl + 2g MgSO4 in 200 ml 0.9% Normal Saline",
+            "route": "IV infusion",
+            "frequency": "Over 4 hours",
+            "notes": "Conditions: Standard replacement - BOTH K+ and Mg2+ must be replaced simultaneously"
+          },
+          {
+            "item": "Potassium Chloride",
+            "adult_dose": "20 mEq/mmol KCl (10 ml)",
+            "route": "IV",
+            "frequency": "1 ml/min",
+            "notes": "Conditions: Life-threatening hypokalaemia (cardiac arrest/impending arrest) - then re-check K+"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Potassium",
+            "frequency": "Re-check after life-threatening replacement",
+            "target": "> 3.5 mmol/L"
+          },
+          {
+            "parameter": "Magnesium",
+            "frequency": "Simultaneous replacement",
+            "target": "Replace together with K+"
+          }
+        ],
+        "warnings": [
+          "BOTH Potassium AND Magnesium must be replaced simultaneously",
+          "Use infusion pump/dial-a-flow for standard replacement",
+          "In life-threatening cases, 20 mEq KCl can be given at 1 ml/min IV"
+        ],
+        "disposition": "Admit for monitoring and continued replacement.",
+        "formulas": [],
+        "notes_updates": "Diagnostic criteria:\n  Potassium (K+): < 3.5 mmol/L (diagnostic)\nClassification:\n  Hypokalaemia: K+ < 3.5 mmol/L\n  Life-threatening: Cardiac arrest or impending arrest\nDisposition: Admit for monitoring and continued replacement.\nWarnings: BOTH Potassium AND Magnesium must be replaced simultaneously; Use infusion pump/dial-a-flow for standard replacement; In life-threatening cases, 20 mEq KCl can be given at 1 ml/min IV",
+        "complications": [
+          "Cardiac arrhythmias",
+          "Cardiac arrest"
+        ]
+      },
+      {
+        "item": "Hypernatraemia",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Sodium (Na+)",
+            "threshold": "> 145",
+            "unit": "mmol/L",
+            "severity": "definition"
+          },
+          {
+            "parameter": "Sodium (Na+)",
+            "threshold": "> 150",
+            "unit": "mmol/L",
+            "severity": "correction required"
+          }
+        ],
+        "classification": [
+          {
+            "name": "Mild",
+            "criteria": "Na+ 145-150 mmol/L - may not need correction"
+          },
+          {
+            "name": "Moderate-Severe",
+            "criteria": "Na+ > 150 mmol/L - correction required"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "DDAVP (Desmopressin)",
+            "adult_dose": "1-2 mcg",
+            "route": "IM/SC/IV",
+            "frequency": "",
+            "notes": "Conditions: Central Diabetes Insipidus"
+          },
+          {
+            "item": "Hydrochlorothiazide (HCTZ)",
+            "adult_dose": "",
+            "route": "",
+            "frequency": "",
+            "notes": "Conditions: Nephrogenic Diabetes Insipidus"
+          },
+          {
+            "item": "Furosemide",
+            "adult_dose": "",
+            "route": "",
+            "frequency": "",
+            "notes": "Conditions: Hypervolaemic hypernatraemia - diuretics, replace losses with 5DW or oral free water"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Sodium",
+            "frequency": "Regular",
+            "target": "Correct by 10-12 mmol/L in 24 hrs (max 0.5 mmol/L/hr)"
+          },
+          {
+            "parameter": "Urine output",
+            "frequency": "Continuous",
+            "target": "Urine output > Input by 1-2 L/day (for negative balance in hypervolaemic)"
+          }
+        ],
+        "warnings": [
+          "DO NOT CORRECT TOO FAST - risk of cerebral oedema",
+          "Aim to correct Na+ by 10-12 mmol/L in 24 hrs (not more than 0.5 mmol/L/hr)",
+          "Shock/dehydration: fluid resuscitation is 1st priority using isotonic solutions",
+          "Then estimate fluid deficit and infuse 5DW or half-normal saline over 48 hours"
+        ],
+        "disposition": "Admit for slow correction and management of underlying cause.",
+        "formulas": [
+          {
+            "name": "Calculated Serum Osmolality",
+            "formula": "(2 x sNa+) + glucose + urea",
+            "variables": [
+              "sNa+ (mmol/L)",
+              "Glucose (mmol/L)",
+              "Urea (mmol/L)"
+            ],
+            "units": "mOsm/kg"
+          },
+          {
+            "name": "Free Water Deficit",
+            "formula": "0.6 x Weight(kg) x [(sNa+ - 140)/140]",
+            "variables": [
+              "Weight (kg)",
+              "sNa+ (mmol/L)"
+            ],
+            "units": "Litres"
+          },
+          {
+            "name": "5DW or Half-normal Saline Infusion Rate",
+            "formula": "Use MDCalc",
+            "variables": [],
+            "units": "ml/hr"
+          }
+        ],
+        "notes_updates": "Diagnostic criteria:\n  Sodium (Na+): > 145 mmol/L (definition)\n  Sodium (Na+): > 150 mmol/L (correction required)\nClassification:\n  Mild: Na+ 145-150 mmol/L - may not need correction\n  Moderate-Severe: Na+ > 150 mmol/L - correction required\nDisposition: Admit for slow correction and management of underlying cause.\nWarnings: DO NOT CORRECT TOO FAST - risk of cerebral oedema; Aim to correct Na+ by 10-12 mmol/L in 24 hrs (not more than 0.5 mmol/L/hr); Shock/dehydration: fluid resuscitation is 1st priority using isotonic solutions; Then estimate fluid deficit and infuse 5DW or half-normal saline over 48 hours",
+        "fluid_protocols": [
+          {
+            "fluid": "Balsol/Ringers Lactate",
+            "rate": "Fluid resuscitation",
+            "duration": "STAT",
+            "conditions": "If shocked/dehydrated - relatively hypotonic compared to serum"
+          },
+          {
+            "fluid": "5% Dextrose Water or Half-normal Saline",
+            "rate": "Calculated deficit",
+            "duration": "Over 48 hours",
+            "conditions": "Free water deficit replacement"
+          },
+          {
+            "fluid": "Tap water",
+            "rate": "",
+            "duration": "",
+            "conditions": "Can be given orally or via NGT"
+          }
+        ],
+        "complications": [
+          "Cerebral oedema (if corrected too fast)",
+          "Seizures",
+          "Coma"
+        ],
+        "symptoms": [
+          "Nausea",
+          "Vomiting",
+          "Dehydration",
+          "Lethargy",
+          "Weakness",
+          "Muscle irritability (twitching, seizures)",
+          "Ataxia",
+          "Drowsiness",
+          "Stupor",
+          "Coma"
+        ]
+      },
+      {
+        "item": "Hyponatraemia",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Sodium (Na+)",
+            "threshold": "< 135",
+            "unit": "mmol/L",
+            "severity": "definition"
+          },
+          {
+            "parameter": "Sodium (Na+)",
+            "threshold": "< 120",
+            "unit": "mmol/L",
+            "severity": "symptomatic"
+          }
+        ],
+        "classification": [
+          {
+            "name": "Mild",
+            "criteria": "Na+ 130-135 mmol/L - usually asymptomatic"
+          },
+          {
+            "name": "Moderate",
+            "criteria": "Na+ 120-129 mmol/L"
+          },
+          {
+            "name": "Severe",
+            "criteria": "Na+ < 120 mmol/L - CNS dysfunction likely"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "3% Hypertonic Saline",
+            "adult_dose": "2 ml/kg",
+            "route": "IV over 60 min",
+            "frequency": "",
+            "notes": "Conditions: Pronounced CNS dysfunction (usually Na+ < 110) - aim to raise Na+ to 120 mmol/L"
+          },
+          {
+            "item": "Sodium Bicarbonate 8.5%",
+            "adult_dose": "1-2 ml/kg",
+            "route": "IV",
+            "frequency": "",
+            "notes": "Conditions: If no hypertonic saline available"
+          },
+          {
+            "item": "Sodium Chloride or Ringers Lactate",
+            "adult_dose": "",
+            "route": "IV",
+            "frequency": "",
+            "notes": "Conditions: Solute depletion - dehydrated with urinary Na > 20 mmol/L"
+          },
+          {
+            "item": "Furosemide",
+            "adult_dose": "40 mg",
+            "route": "IV",
+            "frequency": "",
+            "notes": "Conditions: Solute dilution - oedematous patients"
+          },
+          {
+            "item": "Fluid restriction",
+            "adult_dose": "",
+            "route": "",
+            "frequency": "",
+            "notes": "Conditions: SIADH and water overload states"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Sodium",
+            "frequency": "Regular",
+            "target": "Max increase 0.5 mmol/L/hr (12 mmol/L per 24 hrs)"
+          },
+          {
+            "parameter": "Serum osmolality",
+            "frequency": "",
+            "target": "272-295 mOsm (normal)"
+          },
+          {
+            "parameter": "Urine Na+",
+            "frequency": "",
+            "target": "Helps determine cause"
+          },
+          {
+            "parameter": "Urine osmolality",
+            "frequency": "",
+            "target": "Helps determine cause"
+          }
+        ],
+        "warnings": [
+          "DO NOT CORRECT TOO FAST - risk of pontine myelinolysis",
+          "Maximum Na+ increase: 12 mmol/L per 24 hours (max 0.5 mmol/L/hr)",
+          "If low GCS with Na > 120 mmol/L, search for other cause of coma/seizures",
+          "Once Na+ reaches 120 mmol/L, slow rate to max 0.5 mmol/L/hr",
+          "If no hypertonic saline available, sodium bicarbonate (1-2 ml/kg) can be used"
+        ],
+        "disposition": "Admit for slow correction and management of underlying cause.",
+        "formulas": [
+          {
+            "name": "Calculated Serum Osmolality",
+            "formula": "(2 x Na+) + glucose + urea",
+            "variables": [
+              "Na+ (mmol/L)",
+              "Glucose (mmol/L)",
+              "Urea (mmol/L)"
+            ],
+            "units": "mOsm"
+          },
+          {
+            "name": "Corrected Na+ for Hyperglycaemia",
+            "formula": "Na+ + [2.4(Glucose - 5.4)/5.4]",
+            "variables": [
+              "Measured Na+",
+              "Glucose (mmol/L)"
+            ],
+            "units": "mmol/L"
+          },
+          {
+            "name": "Hypertonic/Normal Saline Infusion Rate",
+            "formula": "Use MDCalc",
+            "variables": [],
+            "units": "ml/hr"
+          }
+        ],
+        "notes_updates": "Diagnostic criteria:\n  Sodium (Na+): < 135 mmol/L (definition)\n  Sodium (Na+): < 120 mmol/L (symptomatic)\nClassification:\n  Mild: Na+ 130-135 mmol/L - usually asymptomatic\n  Moderate: Na+ 120-129 mmol/L\n  Severe: Na+ < 120 mmol/L - CNS dysfunction likely\nDisposition: Admit for slow correction and management of underlying cause.\nWarnings: DO NOT CORRECT TOO FAST - risk of pontine myelinolysis; Maximum Na+ increase: 12 mmol/L per 24 hours (max 0.5 mmol/L/hr); If low GCS with Na > 120 mmol/L, search for other cause of coma/seizures; Once Na+ reaches 120 mmol/L, slow rate to max 0.5 mmol/L/hr; If no hypertonic saline available, sodium bicarbonate (1-2 ml/kg) can be used",
+        "complications": [
+          "Pontine myelinolysis (if corrected too fast)",
+          "CNS dysfunction",
+          "Seizures",
+          "Coma"
+        ],
+        "symptoms": [
+          "Nausea",
+          "Vomiting",
+          "CNS dysfunction (headache, irritability, lethargy, seizures, coma)",
+          "Death"
+        ]
+      },
+      {
+        "item": "Hyperthermia",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Temperature (Heat Exhaustion)",
+            "threshold": "< 40",
+            "unit": "°C",
+            "severity": "moderate"
+          },
+          {
+            "parameter": "Temperature (Heat Stroke)",
+            "threshold": "> 40",
+            "unit": "°C",
+            "severity": "life-threatening"
+          }
+        ],
+        "classification": [
+          {
+            "name": "Minor Heat Illness",
+            "criteria": "Muscle cramps, minor peripheral oedema, syncope, heat rash"
+          },
+          {
+            "name": "Heat Exhaustion",
+            "criteria": "Temp < 40°C, sweating intact, intact neurological function, weakness, fatigue, headache, nausea, vomiting, syncope"
+          },
+          {
+            "name": "Heat Stroke",
+            "criteria": "Temp > 40°C, ± sweating, agitation, confusion, seizures, coma, shock, AKI, coagulopathy, electrolyte disturbances. LIFE-THREATENING EMERGENCY."
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [
+          {
+            "item": "Benzodiazepines",
+            "adult_dose": "",
+            "route": "IV",
+            "frequency": "PRN",
+            "notes": "Conditions: Seizures/agitation"
+          }
+        ],
+        "monitoring": [
+          {
+            "parameter": "Core temperature",
+            "frequency": "Continuous (central monitoring)",
+            "target": "< 39°C within 30 min"
+          },
+          {
+            "parameter": "ECG",
+            "frequency": "Continuous",
+            "target": "Watch for VT/VF, electrolyte abnormalities"
+          },
+          {
+            "parameter": "HGT",
+            "frequency": "",
+            "target": "Correct abnormalities"
+          },
+          {
+            "parameter": "Electrolytes",
+            "frequency": "",
+            "target": "Correct abnormalities"
+          }
+        ],
+        "warnings": [
+          "HEAT STROKE IS A LIFE-THREATENING EMERGENCY",
+          "Avoid succinylcholine (scoline) - risk of hyperkalaemia",
+          "Avoid antipyretics - NSAIDs and aspirin not effective",
+          "Target temp < 39°C within 30 minutes",
+          "Often an underlying medical condition contributing to hyperthermia",
+          "Check for toxidrome features"
+        ],
+        "disposition": "Heat exhaustion: supportive care. Heat stroke: ICU admission.",
+        "formulas": [],
+        "notes_updates": "Causes: Environmental exposure (outdoor sports, marathons), Toxins (anticholinergic, sympathomimetic), Sepsis, Extremes of age (poor thermoregulation), Endocrine (hyperthyroid, thyroid storm, phaeochromocytoma), Serotonin syndrome, Malignant hyperthermia, Neuroleptic malignant syndrome, Hypothalamic dysfunction (trauma, stroke, CNS infection)\nInvestigations: FBC, U&E, LFT, TFTs, INR, Paracetamol/Salicylate level, Urine tox screen, Imaging as clinically indicated\nDiagnostic criteria:\n  Temperature (Heat Exhaustion): < 40 °C (moderate)\n  Temperature (Heat Stroke): > 40 °C (life-threatening)\nClassification:\n  Minor Heat Illness: Muscle cramps, minor peripheral oedema, syncope, heat rash\n  Heat Exhaustion: Temp < 40°C, sweating intact, intact neurological function, weakness, fatigue, headache, nausea, vomiting, syncope\n  Heat Stroke: Temp > 40°C, ± sweating, agitation, confusion, seizures, coma, shock, AKI, coagulopathy, electrolyte disturbances. LIFE-THREATENING EMERGENCY.\nDisposition: Heat exhaustion: supportive care. Heat stroke: ICU admission.\nWarnings: HEAT STROKE IS A LIFE-THREATENING EMERGENCY; Avoid succinylcholine (scoline) - risk of hyperkalaemia; Avoid antipyretics - NSAIDs and aspirin not effective; Target temp < 39°C within 30 minutes; Often an underlying medical condition contributing to hyperthermia; Check for toxidrome features",
+        "causes": [
+          "Environmental exposure (outdoor sports, marathons)",
+          "Toxins (anticholinergic, sympathomimetic)",
+          "Sepsis",
+          "Extremes of age (poor thermoregulation)",
+          "Endocrine (hyperthyroid, thyroid storm, phaeochromocytoma)",
+          "Serotonin syndrome",
+          "Malignant hyperthermia",
+          "Neuroleptic malignant syndrome",
+          "Hypothalamic dysfunction (trauma, stroke, CNS infection)"
+        ],
+        "complications": [
+          "Fulminant hepatic failure",
+          "Multi-organ dysfunction",
+          "Rhabdomyolysis",
+          "Sepsis",
+          "AKI",
+          "VT/VF",
+          "Coagulopathy"
+        ]
+      },
+      {
+        "item": "Hypothermia",
+        "protocol_type": "ed_protocol",
+        "diagnostic_criteria": [
+          {
+            "parameter": "Core temperature (non-trauma)",
+            "threshold": "≤ 35",
+            "unit": "°C",
+            "severity": "diagnostic"
+          },
+          {
+            "parameter": "Core temperature (trauma)",
+            "threshold": "≤ 36",
+            "unit": "°C",
+            "severity": "diagnostic"
+          }
+        ],
+        "classification": [
+          {
+            "name": "Stage I (Swiss)",
+            "criteria": "Conscious, shivering; Temperature 32-35°C",
+            "management": "Warm environment & clothing, warm sweet drinks & active movement"
+          },
+          {
+            "name": "Stage II (Swiss)",
+            "criteria": "Impaired consciousness, not shivering; Temperature 28-32°C",
+            "management": "Cardiac monitoring, careful movement, full-body insulation, active external rewarming & minimally invasive rewarming"
+          },
+          {
+            "name": "Stage III (Swiss)",
+            "criteria": "Unconscious, not shivering, vital signs present; Temperature 24-28°C",
+            "management": "Stage II + airway management + central active warming (warm IV fluids 42°C, body cavity lavage 40°C, renal replacement therapy, ECMO/bypass)"
+          },
+          {
+            "name": "Stage IV (Swiss)",
+            "criteria": "Vital signs absent; Temperature < 24°C",
+            "management": "All of above + CPR, adrenaline, defibrillation, ECMO as available"
+          }
+        ],
+        "clinical_features": {},
+        "management_steps": [],
+        "drugs": [],
+        "monitoring": [
+          {
+            "parameter": "Core temperature",
+            "frequency": "Continuous",
+            "target": "> 32°C before declaring death"
+          },
+          {
+            "parameter": "ECG",
+            "frequency": "Continuous",
+            "target": "Watch for Osborne J waves, AF, bradyarrhythmias"
+          },
+          {
+            "parameter": "Cardiac activity (ultrasound)",
+            "frequency": "If no p
