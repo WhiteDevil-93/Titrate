@@ -1,0 +1,1209 @@
+n due to rebound",
+          "Normal Hb may be falsely reassuring in early bleeding",
+          "Rh negative females of childbearing age MUST receive Rh negative products",
+          "Consent is required for all blood products",
+          "Blood warming only necessary if >2 units to be transfused (>50ml/kg/hr adults)"
+        ],
+        "disposition": "Urgent and early Haematology referral for all sickle cell crisis | Urgent Haematology referral for TTP, ITP | Renal/Haematology/Paediatrics referral for HUS | Internal Medicine/ICU referral for DIC | Urology referral for priapism"
+      },
+      {
+        "item": "Hypertensive emergencies",
+        "notes_updates": "Hypertensive Emergency = Elevated blood pressure (>180/110) WITH life-threatening acute end organ damage | Hypertensive Urgency = old terminology, manage as asymptomatic HT, NO indication for IV anti-hypertensives | Life-threatening end organ damage includes: Hypertensive encephalopathy and retinopathy, Haemorrhagic/acute ischaemic CVA, ACS (STEMI/NSTE-ACS), Acute LV dysfunction/Congestive heart failure, Acute pulmonary oedema (SCAPE), Aortic dissection, Acute renal failure, Eclampsia/Pre-eclampsia | Management of Hypertensive Emergencies: ABC approach to resuscitation | A - definitive airway if depressed level of consciousness | B - Acute pulmonary oedema but intubation not indicated: start non-invasive ventilation (see NIV protocol) | C - Fluid bolus with Balsol/Ringers Lactate 10ml/kg prior to commencing IV anti-hypertensive agent | TREATMENT GOAL: Within 1st hour reduce MAP by 20-25% only; DBP not less than 110mmHg | Exception - Aortic Dissection: Goal systolic <100-120 within 20 minutes if tolerated | Exception - ICH: avoid systolic BP <130 | No role in the ED for stat oral antihypertensives | For uncontrolled hypertension without end-organ damage: Treat initial presenting complaint, screen for TOD, True HT: discharge on oral antihypertensives (HCTZ + ACE-inhibitor/Ca Channel blocker), Reactive HT: reassure no TTO, Follow up at local clinic | Exclude reversible causes of elevated BP: incorrect cuff/technique, pain, anxiety, full bladder, medications",
+        "drugs": [
+          {
+            "item": "Labetalol (Trandate) Bolus",
+            "adult_dose": "20 mg (4mls) IV bolus",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "First line for aortic dissection, encephalopathy, CVA"
+          },
+          {
+            "item": "Labetalol (Trandate) Infusion",
+            "adult_dose": "Add 16mls (80mg) + 2nd vial (100mg) of Labetalol to 200ml 0.9% NS (0.76mg/ml). Start at 80ml/hr, increase by 10ml/hr every 5 min until target. Maximum 160ml/hr (2mg/min)",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Alternative: Esmolol (see infusions protocol)"
+          },
+          {
+            "item": "Nitroglycerin (Nitrocine) Infusion (50mcg/ml)",
+            "adult_dose": "10mg in 200ml NS. Start at 12mls/hr (10mcg/min). Double dose every 2 min until target BP reached. Maximum 200mcg/min",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "For acute pulmonary oedema, acute LV dysfunction, ACS. Alternative: Isoket (see infusions)"
+          },
+          {
+            "item": "Isosorbide dinitrate (Isoket) Infusion",
+            "adult_dose": "See infusions protocol",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Alternative to Nitrocine"
+          },
+          {
+            "item": "Esmolol Infusion",
+            "adult_dose": "See infusions protocol",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Alternative to Labetalol"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess for acute life-threatening end-organ damage",
+            "details": "Check for: hypertensive encephalopathy/retinopathy, haemorrhagic/ischaemic CVA, ACS, acute LV dysfunction/heart failure, acute pulmonary oedema, aortic dissection, acute renal failure, eclampsia/pre-eclampsia",
+            "caution": ""
+          },
+          {
+            "step_number": 2,
+            "action": "ABC approach to resuscitation",
+            "details": "Airway: definitive airway if depressed consciousness. Breathing: NIV if acute pulmonary oedema. Circulation: fluid bolus Balsol/Ringers 10ml/kg before IV anti-hypertensive",
+            "caution": "Do not lower BP too rapidly"
+          },
+          {
+            "step_number": 3,
+            "action": "Set BP target",
+            "details": "General: Reduce MAP by 20-25% within 1st hour, DBP not <110mmHg. Aortic dissection: SBP <100-120 within 20min if tolerated. ICH: avoid SBP <130",
+            "caution": "Excessive BP reduction can cause end-organ hypoperfusion"
+          },
+          {
+            "step_number": 4,
+            "action": "Labetalol for aortic dissection, encephalopathy, CVA",
+            "details": "Bolus 20mg IV, then infusion 80ml/hr titrating up by 10ml/hr every 5min, max 160ml/hr (2mg/min)",
+            "caution": "Monitor for bradycardia, hypotension. Contraindicated in asthma, heart block"
+          },
+          {
+            "step_number": 5,
+            "action": "Nitroglycerin for acute pulmonary oedema, LV dysfunction, ACS",
+            "details": "Infusion 10mcg/min (12ml/hr), double every 2min, max 200mcg/min",
+            "caution": "Monitor for hypotension, headache. Tachyphylaxis with prolonged use"
+          },
+          {
+            "step_number": 6,
+            "action": "Exclude reversible causes of hypertension",
+            "details": "Incorrect cuff/technique, pain, anxiety, full bladder, medications",
+            "caution": ""
+          },
+          {
+            "step_number": 7,
+            "action": "Disposition for hypertensive emergency",
+            "details": "Admit for ongoing management and monitoring, Internal Medicine/ICU referral",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Management of hypertensive urgency (no end-organ damage)",
+            "details": "Manage as asymptomatic HT, screen for TOD, plan BP reduction over 2-3 days, consider admission if severely elevated/poor follow-up",
+            "caution": "NO indication for IV anti-hypertensive agents in urgency"
+          }
+        ],
+        "diagnostic_criteria": {
+          "hypertensive_emergency_definition": "BP >180/110 WITH life-threatening acute end-organ damage",
+          "hypertensive_urgency_definition": "Severely elevated BP WITHOUT acute end-organ damage - old terminology",
+          "end_organ_damage_criteria": "Hypertensive encephalopathy/retinopathy, haemorrhagic/ischaemic CVA, ACS, acute LV dysfunction/CHF, acute pulmonary oedema, aortic dissection, acute renal failure, eclampsia/pre-eclampsia"
+        },
+        "clinical_features": {
+          "reversible_causes_to_exclude": [
+            "Incorrect cuff/technique",
+            "Pain",
+            "Anxiety",
+            "Full bladder",
+            "Medications"
+          ],
+          "indications_labetalol": [
+            "Aortic dissection",
+            "Encephalopathy (confusion/seizures/coma)",
+            "CVA - haemorrhagic/ischaemic"
+          ],
+          "indications_nitroglycerin": [
+            "Acute pulmonary oedema",
+            "Acute LV dysfunction",
+            "ACS - STEMI/NSTE-ACS"
+          ],
+          "alternatives": {
+            "Labetalol": "Esmolol infusion",
+            "Nitroglycerin": "Isoket infusion"
+          }
+        },
+        "monitoring": "Continuous BP monitoring with arterial line if available | Monitor for signs of end-organ damage | Check electrolytes, renal function | Monitor for medication side effects (bradycardia, hypotension)",
+        "warnings": [
+          "NO role for stat oral antihypertensives in the ED",
+          "NO indication for IV anti-hypertensives in hypertensive urgency",
+          "Do NOT lower DBP below 110mmHg in general hypertensive emergency",
+          "For ICH: avoid systolic BP <130",
+          "For aortic dissection: goal systolic <100-120 within 20 minutes if tolerated",
+          "Within 1st hour: reduce MAP by 20-25% only",
+          "Fluid bolus 10ml/kg required prior to commencing IV anti-hypertensive agent"
+        ],
+        "disposition": "Admit all hypertensive emergencies for ongoing IV anti-hypertensive management and monitoring | Internal Medicine/ICU referral | Hypertensive urgency: plan BP reduction over 2-3 days as inpatient/outpatient | Follow up at local clinic for repeat BP/Rx continuation"
+      },
+      {
+        "item": "Liver Failure",
+        "notes_updates": "Definition of Acute Liver Failure (ALF): Rapid development of severe acute liver injury characterised by impaired synthetic function (INR >1.5) and complicated by development of encephalopathy, in a person without history of liver disease or who had well-compensated liver disease | Causes (DAVES mnemonic): Drugs (paracetamol, TB drugs, ARVs, NSAIDs, traditional medicine, illicit drugs), Alcohol, Viral (Hep A/B/C/E, EBV, CMV, HSV, HZV, ParvoB19), Extras (acute fatty liver of pregnancy, HELLP, ischaemic necrosis, vascular, metabolic, autoimmune, Wilson's disease, Budd-Chiari, idiopathic, heatstroke, Reye's, malignancy), Sepsis | WEST HAVEN GRADING OF HEPATIC ENCEPHALOPATHY: Grade 0 (minimal/subclinical): No clinical manifestations, some abnormalities on psychometric testing | Grade I (mild): Euphoria/depression, mild confusion, slurred speech, disordered sleep, asterixis may/may not be present | Grade II (moderate): Lethargy, moderate confusion, asterixis usually present | Grade III (severe): Marked confusion, incoherent speech, drowsy but rousable, asterixis present | Grade IV (coma): Comatose | Alternate HE Grading - Intellectual and Neuromuscular Function: Grade I: Impaired attention/irritable/depressed/personality changes; Tremor/apraxia/incoordination | Grade II: Drowsy/poor memory/behavioural changes/sleep disturbances; Asterixis/ataxia/slow slurred speech | Grade III: Confusion/somnolence/disorientation/amnesia; Hypoactive reflexes/clonus/nystagmus/muscle rigidity | Grade IV: Stupor/coma; Dilated pupils/decerebrate posture/oculocephalic reflex absent | COMPLICATIONS OF ALF: Neurological (hepatic encephalopathy, cerebral oedema, seizures, raised ICP), Coagulopathy and bleeding, Metabolic (hypoglycaemia, hyponatraemia, hypokalaemia, hypophosphataemia, lactic acidosis, hyperammonaemia), Infection (septicaemia, peritonitis, pneumonia, UTI), Respiratory (hypoxia, aspiration, ARDS), Cardiovascular (hypotension, hypertension from raised ICP),",
+        "drugs": [
+          {
+            "item": "N-Acetylcysteine (NAC) - Standard regimen",
+            "adult_dose": "150mg/kg in 200ml 5% Dextrose IV over 1hr, then 50mg/kg in 500ml 5% Dextrose over 4hrs, then 100mg/kg in 1L 5% Dextrose over 16hrs",
+            "paediatric_dose": "Same weight-based dosing",
+            "route": "IV infusion",
+            "notes": "Used in majority of drug/toxin ALF cases. DO NOT withhold even if 48-72hrs post-ingestion. Continue until hepatic function resolves (resolving HE, INR<1.5, declining transaminases). If hepatic function not resolved, continue 150mg/kg in 1L 5% Dextrose over 24hrs"
+          },
+          {
+            "item": "N-Acetylcysteine (NAC) - SNAP Protocol (preferred)",
+            "adult_dose": "100mg/kg in 200ml 5% Dextrose IV over 2hrs, then 200mg/kg in 1L 5% Dextrose over 10hrs",
+            "paediatric_dose": "Same weight-based dosing",
+            "route": "IV infusion",
+            "notes": "Preferred regimen - inform admitting doctor to continue. Less anaphylaxis and vomiting than old regimen. IF IN DOUBT, GIVE NAC"
+          },
+          {
+            "item": "NAC for Mushroom Poisoning",
+            "adult_dose": "As per NAC regimen above",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Give with Penicillin G"
+          },
+          {
+            "item": "Vitamin K",
+            "adult_dose": "10mg IV as slow bolus",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For coagulopathy and bleeding in ALF"
+          },
+          {
+            "item": "Fresh Frozen Plasma (FFP)",
+            "adult_dose": "15ml/kg",
+            "paediatric_dose": "15ml/kg",
+            "route": "IV transfusion",
+            "notes": "Only if actively bleeding, undergoing surgery or requires procedure"
+          },
+          {
+            "item": "Platelets",
+            "adult_dose": "10ml/kg",
+            "paediatric_dose": "10ml/kg",
+            "route": "IV transfusion",
+            "notes": "If platelet count <50 and actively bleeding or undergoing surgery. Check count at 1hr and 24hrs after infusion"
+          },
+          {
+            "item": "Lactulose",
+            "adult_dose": "10ml TDS PO",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "Reduces ammonia thus reducing cerebral oedema"
+          },
+          {
+            "item": "Midazolam (seizures)",
+            "adult_dose": "0.1mg/kg",
+            "paediatric_dose": "0.1mg/kg",
+            "route": "IV",
+            "notes": "Short-acting benzodiazepine to terminate seizures. If seizures continue, load with phenytoin"
+          },
+          {
+            "item": "Mannitol (raised ICP)",
+            "adult_dose": "0.5-1g/kg",
+            "paediatric_dose": "0.5-1g/kg",
+            "route": "IV",
+            "notes": "Aim to maintain serum osmolarity <320 mOsm/L. Be vigilant for fluid overload if renal failure present"
+          },
+          {
+            "item": "30% Hypertonic Saline (hepatic encephalopathy)",
+            "adult_dose": "5-20ml/hr",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "Maintain sodium levels of 145-155 to prevent raised intracranial pressure"
+          },
+          {
+            "item": "Acyclovir",
+            "adult_dose": "5-10mg/kg q8hrly",
+            "paediatric_dose": "5-10mg/kg q8hrly",
+            "route": "IV",
+            "notes": "Suspected Herpes or Varicella Zoster causing ALF"
+          },
+          {
+            "item": "Stress-dose steroids",
+            "adult_dose": "As clinically indicated",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "If features of acute adrenal insufficiency"
+          },
+          {
+            "item": "Adrenaline (inotropes)",
+            "adult_dose": "As per infusion protocol",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "If hypotension persists after correcting hypovolaemia with crystalloids"
+          },
+          {
+            "item": "Penicillin G",
+            "adult_dose": "As per protocol",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For mushroom poisoning - give with NAC"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Immediate management - Resuscitate and stabilize",
+            "details": "ABCs, blood glucose, oxygen if hypoxic, establish IV access",
+            "caution": "Check glucose immediately - hypoglycaemia common"
+          },
+          {
+            "step_number": 2,
+            "action": "Intubation if required",
+            "details": "Intubate and ventilate if unresponsive from hepatic encephalopathy (RSI to prevent aspiration)",
+            "caution": "Nurse head up 30 degrees post-intubation"
+          },
+          {
+            "step_number": 3,
+            "action": "Address hypotension",
+            "details": "First correct hypovolaemia with crystalloids. Commence inotropes (Adrenaline) if needed",
+            "caution": "Patients often intravascularly depleted despite peripheral fluid overload"
+          },
+          {
+            "step_number": 4,
+            "action": "Glucose monitoring",
+            "details": "Monitor glucose 2 hourly, correct hypoglycaemia immediately",
+            "caution": "Hypoglycaemia is common and dangerous in ALF"
+          },
+          {
+            "step_number": 5,
+            "action": "Stop all hepatotoxic and nephrotoxic drugs",
+            "details": "Review medication chart and stop all potentially harmful drugs",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Specific metabolic management",
+            "details": "Correct hypoglycaemia, hyponatraemia, hypokalaemia, hypophosphataemia and other electrolyte abnormalities. Consider stress-dose steroids if features of acute adrenal insufficiency",
+            "caution": "Especially monitor sodium, potassium, magnesium"
+          },
+          {
+            "step_number": 7,
+            "action": "Cerebral oedema, seizures, raised ICP and hepatic encephalopathy management",
+            "details": "Exclude other causes of depressed LOC (hypoglycaemia, intracranial bleed). Lactulose 10mls TDS PO. Seizures: Midazolam 0.1mg/kg IV, load phenytoin if continues. Raised ICP: Mannitol 0.5-1g/kg, maintain serum osmol <320. HE: 30% hypertonic saline 5-20ml/hr, maintain Na+ 145-155",
+            "caution": ""
+          },
+          {
+            "step_number": 8,
+            "action": "Coagulopathy and bleeding management",
+            "details": "Vitamin K 10mg IV slow bolus. FFP 15ml/kg only if actively bleeding, undergoing surgery or requires procedure. Platelets 10ml/kg if count <50 and bleeding or surgery",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "N-Acetylcysteine (NAC) administration",
+            "details": "Indicated if suspect paracetamol or drug-induced ALF, mushroom poisoning (with Penicillin G). Standard: 150mg/kg/1hr, then 50mg/kg/4hrs, then 100mg/kg/16hrs. SNAP: 100mg/kg/2hrs then 200mg/kg/10hrs. Continue until hepatic function improves",
+            "caution": "DO NOT withhold even if 48-72hrs post-ingestion. Recommend until evidence of improved hepatic function - resolving HE, improving coagulopathy INR<1.5, declining transaminases"
+          },
+          {
+            "step_number": 10,
+            "action": "Infection management",
+            "details": "Identify and treat any suspected infection. NO role for prophylactic antibiotics. Suspected Herpes/Varicella Zoster: Acyclovir 5-10mg/kg q8hrly IV",
+            "caution": "Sepsis is a common precipitant and complication"
+          },
+          {
+            "step_number": 11,
+            "action": "Jaundice workup if presentation is jaundice",
+            "details": "If paracetamol OD suspected - start NAC immediately. Viral hepatitis studies as indicated. Supportive care. If pregnant: urgent obstetrics referral",
+            "caution": ""
+          },
+          {
+            "step_number": 12,
+            "action": "Investigations",
+            "details": "Bedside: Glucose, Urine dipstix and U-betaHCG. Laboratory: Blood gas, FBC, U&E, CMP, LFT, INR, plasma ammonia, paracetamol level, blood culture. Type and screen. Radiological: CXR, abdominal ultrasound",
+            "caution": ""
+          },
+          {
+            "step_number": 13,
+            "action": "Disposition",
+            "details": "ALL patients with ALF referred to physician. If intubated - admit/transfer to ICU. Early consultation with Liver Transplant specialists",
+            "caution": "ALF is a medical emergency requiring urgent specialist involvement"
+          }
+        ],
+        "diagnostic_criteria": {
+          "ALF_definition": "Rapid development of severe acute liver injury with INR>1.5 and encephalopathy, without history of liver disease or with well-compensated liver disease",
+          "ALF_causes_DAVES": "Drugs (paracetamol, TB drugs, ARVs, NSAIDs, traditional medicine), Alcohol, Viral (Hep A/B/C/E, EBV, CMV, HSV, HZV, ParvoB19), Extras (fatty liver pregnancy, HELLP, ischaemia, vascular, metabolic, autoimmune, Wilson's, Budd-Chiari, heatstroke, Reye's, malignancy), Sepsis",
+          "hepatic_encephalopathy_west_haven": {
+            "Grade_0": "Minimal/subclinical - no clinical manifestations, some psychometric abnormalities",
+            "Grade_I": "Mild - euphoria/depression, mild confusion, slurred speech, disordered sleep, asterixis may/may not be present",
+            "Grade_II": "Moderate - lethargy, moderate confusion, asterixis usually present",
+            "Grade_III": "Severe - marked confusion, incoherent speech, drowsy but rousable, asterixis present",
+            "Grade_IV": "Coma - comatose"
+          },
+          "jaundice_workup_unconjugated": "Increased urobilinogen, indirect>direct bilirubin. Causes: haemolysis (TTP, malaria), haematoma resorption, dyserythropoiesis",
+          "jaundice_workup_conjugated_hepatocellular": "Direct>indirect bilirubin, increased transaminases, increased INR. Causes: viral hepatitis, FHF, alcoholic hepatitis, paracetamol OD, ischaemia, autoimmune, HELLP",
+          "jaundice_workup_conjugated_obstructive": "Direct>indirect bilirubin, increased ALP/GGT. Causes: choledocholithiasis, cholangitis, strictures, neoplasms, HIV cholangiopathy, extrinsic compression"
+        },
+        "clinical_features": {
+          "ALF_history_features": [
+            "Date of onset of symptoms",
+            "Travel history",
+            "Drug use - prescription and illicit",
+            "Alcohol use",
+            "Herbal or traditional medication use",
+            "Target symptoms consistent with presenting complication",
+            "Exposure to viral illness"
+          ],
+          "ALF_examination_features": [
+            "Jaundice",
+            "RUQ tenderness",
+            "Hepatomegaly",
+            "Splenomegaly",
+            "Ascites",
+            "Evidence of bleeding",
+            "Evidence of infection",
+            "Asterixis (hepatic flap)",
+            "Evidence of encephalopathy"
+          ],
+          "ALF_complications": {
+            "Neurological": [
+              "Hepatic encephalopathy",
+              "Cerebral oedema",
+              "Seizures",
+              "Raised ICP"
+            ],
+            "Coagulopathy": [
+              "Bleeding diathesis"
+            ],
+            "Metabolic": [
+              "Hypoglycaemia",
+              "Hyponatraemia",
+              "Hypokalaemia",
+              "Hypophosphataemia",
+              "Lactic acidosis",
+              "Hyperammonaemia"
+            ],
+            "Infection": [
+              "Septicaemia",
+              "Peritonitis",
+              "Pneumonia",
+              "Urinary tract sepsis"
+            ],
+            "Respiratory": [
+              "Hypoxia",
+              "Aspiration",
+              "ARDS"
+            ],
+            "Cardiovascular": [
+              "Hypotension",
+              "Hypertension (raised ICP)"
+            ],
+            "Renal": [
+              "Renal failure"
+            ]
+          },
+          "cirrhosis_precipitants_to_correct": [
+            "GI bleed",
+            "Infection",
+            "Uraemia",
+            "Electrolyte abnormalities",
+            "Drugs/toxins",
+            "Increased protein in diet",
+            "Non-adherence to treatment"
+          ]
+        },
+        "monitoring": "Glucose monitoring 2 hourly | Electrolyte monitoring (especially Na+, K+, Mg2+, phosphate) | Coagulation profile (INR, PT, aPTT) | Platelet count at 1hr and 24hrs post-transfusion | Serum osmolarity if mannitol given (maintain <320 mOsm/L) | Ammonia levels | LFTs and transaminases trending | Neurological status and GCS monitoring | Blood pressure and fluid status monitoring",
+        "warnings": [
+          "Avoid sedatives - give short-acting benzodiazepines only if needed",
+          "NAC: DO NOT withhold even if ingestion was 48-72hrs prior to presentation",
+          "If paracetamol OD suspected - start NAC immediately without waiting for levels",
+          "NO role for prophylactic antibiotics unless specific infection suspected",
+          "FFPs only if actively bleeding, undergoing surgery or requires procedure - not for INR correction alone",
+          "All patients with ALF require urgent physician referral and potential ICU admission",
+          "Early Liver Transplant specialist consultation is critical"
+        ],
+        "disposition": "ALL patients with ALF should be referred to a physician for further management | If intubated - admit/transfer to ICU | Early consultation with Liver Transplant specialists | Pregnant patients with HELLP: urgent obstetrics referral to plan for delivery | GI bleeding: urgent surgical referral"
+      },
+      {
+        "item": "Mental Healthcare Users Protocol & Psychosis",
+        "notes_updates": "MCHA FORMS: Form 22 if brought by police (condition of patient on handover from SAPS), Form 1 to commence emergency treatment, Form 48 to commence physical restraints, Forms 4/5/7 to admit as assisted or involuntary user | GENERAL MANAGEMENT: Rapid assessment and sedation/restraint if violent or severely agitated - see AGITATION PROTOCOL | Check vital signs including HGT, monitor O2 saturation if heavily sedated | Comprehensive history and exam to exclude underlying medical conditions | Investigations as per protocol | Hand over to Psychiatry on call if bloods/vitals/exam is normal | Psychiatry to arrange rapid transfer to ward as soon as bed is available | Patients will NOT wait in ED for additional investigations/management unless medically indicated | Ensure patient comfort: toilet needs, regular meals, smoke breaks etc | ACUTE DETERIORATION causes: Underlying medical condition (sepsis/endocrine/rheumatological), Trauma, Non-compliance, Sub/supra-therapeutic medication levels, Recreational drug/alcohol use, Intracranial pathology, Poor social support, Pregnancy, Acute psychological stressor | RED FLAGS: Age >60, Trauma, Meningitis features, Recent travel history, Auto-immune/endocrine features, Potentially toxic drug levels (Epilim, Lithium), Advanced RVD features, Post-ictal features, Acute drug intoxication/withdrawal (Medical admission), Pregnancy/Recent postpartum, New onset visual/tactile hallucinations, Focal Neurology | ALL FEMALE PATIENTS MUST HAVE A PREGNANCY TEST DOCUMENTED IN THE FILE | EXCLUSIONS requiring medical admission: Advanced RVD, Thyroid dysfunction, SLE, new neurology | COMPLICATIONS ASSOCIATED WITH ANTIPSYCHOTIC DRUGS: EXTRAPYRAMIDAL SIDE EFFECTS/ACUTE DYSTONIC REACTION: fixed abnormal posture, oculogyric crisis, laryngospasm | NEUROLEPTIC MALIGNANT SYNDROME: develops over 24-72hrs, hyperthermia, muscle rigidity, rhabdomyolysis | NMS management: Resuscitate, withdraw precipitating agent, supportive care",
+        "drugs": [
+          {
+            "item": "Biperiden (Akineton) - Acute dystonic reaction/EPS",
+            "adult_dose": "2.5mg IV slowly",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "Repeat every 2 minutes prn, maximum 4 doses. For fixed abnormal posture, oculogyric crisis, laryngospasm from antipsychotics"
+          },
+          {
+            "item": "Lorazepam (Ativan) - Mild agitation",
+            "adult_dose": "1-2mg SL",
+            "paediatric_dose": "",
+            "route": "Sublingual",
+            "notes": "For mild agitation in MHCU"
+          },
+          {
+            "item": "Midazolam (Dormicum) - Moderate agitation",
+            "adult_dose": "2-5mg IM",
+            "paediatric_dose": "",
+            "route": "IM",
+            "notes": "Time of onset: 10 minutes. For moderate agitation"
+          },
+          {
+            "item": "Haloperidol - Moderate agitation",
+            "adult_dose": "2.5-10mg IM",
+            "paediatric_dose": "",
+            "route": "IM",
+            "notes": "Time of onset: up to 30 minutes. Max 3 doses every 30-60 minutes. Alternative oral: 5mg PO"
+          },
+          {
+            "item": "Haloperidol - Severe agitation",
+            "adult_dose": "10mg IM",
+            "paediatric_dose": "",
+            "route": "IM",
+            "notes": "Combined with Midazolam 10mg IM for severe/extreme agitation"
+          },
+          {
+            "item": "Ketamine - Severe/Extreme agitation",
+            "adult_dose": "5mg/kg IM",
+            "paediatric_dose": "",
+            "route": "IM",
+            "notes": "Time of onset: <5 minutes. For severe/extreme agitation when other measures fail"
+          },
+          {
+            "item": "Midazolam (combined) - Severe/Extreme agitation",
+            "adult_dose": "10mg IM",
+            "paediatric_dose": "",
+            "route": "IM",
+            "notes": "Combined with Haloperidol 10mg IM"
+          },
+          {
+            "item": "Etomine",
+            "adult_dose": "40mg IM stat",
+            "paediatric_dose": "",
+            "route": "IM",
+            "notes": "Alternative for moderate agitation"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Rapid assessment",
+            "details": "Assess for violence and severe agitation. Safety is first priority - contain patient to protect staff and self",
+            "caution": "See AGITATION PROTOCOL for sedation/restraint if violent"
+          },
+          {
+            "step_number": 2,
+            "action": "Check vital signs",
+            "details": "Check HGT, O2 saturation if heavily sedated, full vital signs",
+            "caution": "Must exclude underlying medical causes"
+          },
+          {
+            "step_number": 3,
+            "action": "Comprehensive history and examination",
+            "details": "Exclude underlying medical conditions. Check for acute deterioration causes: sepsis, endocrine, trauma, non-compliance, drug levels, recreational drugs, intracranial pathology",
+            "caution": "Agitation is a symptom, not a diagnosis"
+          },
+          {
+            "step_number": 4,
+            "action": "Perform investigations",
+            "details": "Index MHCU baseline: VBG, FBC, U&E, CRP, TPHA/RPR (CRP<60, WCC<20). CSF ONLY if acute meningitis features OR advanced RVD. CTB if clinically indicated - low threshold for immune compromised. With contrast preferred",
+            "caution": ""
+          },
+          {
+            "step_number": 5,
+            "action": "Known MHCU investigations",
+            "details": "VBG, HGT only. Further investigations only as clinically indicated. Consider drug levels - anti-epileptics, mood stabilisers",
+            "caution": ""
+          },
+          {
+            "step_number": 6,
+            "action": "Pregnancy test",
+            "details": "ALL female patients must have pregnancy test documented",
+            "caution": "Pregnancy/recent postpartum is a red flag"
+          },
+          {
+            "step_number": 7,
+            "action": "Check for red flags",
+            "details": "Age>60, trauma, meningitis features, travel hx, auto-immune/endocrine, toxic drug levels, advanced RVD, post-ictal, intoxication/withdrawal, pregnancy/postpartum, new visual/tactile hallucinations, focal neurology",
+            "caution": "If red flags present - may need medical admission rather than psychiatry referral"
+          },
+          {
+            "step_number": 8,
+            "action": "Complete MCHA forms",
+            "details": "Form 22 if brought by police, Form 1 for emergency treatment, Form 48 for physical restraints, Forms 4/5/7 for assisted/involuntary admission",
+            "caution": ""
+          },
+          {
+            "step_number": 9,
+            "action": "Physical restraints if needed",
+            "details": "Must be prescribed by doctor on Form 48. At least 6 staff: 1 per limb, 1 for head, 1 to administer medication. Never pressure on neck or cover mouth/nose. Supine position HOB 30 degrees. 4 or 5 point medical grade restraints tied to bedframe not rails. Regular limb and pulse checks every 30 min. Max 4 hours adults. Female pt: at least 1 female team member",
+            "caution": "Use in conjunction with chemical restraint to avoid injury/rhabdomyolysis"
+          },
+          {
+            "step_number": 10,
+            "action": "Chemical restraint per agitation level",
+            "details": "Mild: Lorazepam 1-2mg SL. Moderate: Midazolam 2-5mg IM OR Haloperidol 2.5-10mg IM (max 3 doses q30-60min) OR Etomine 40mg IM. Severe/Extreme: Ketamine 5mg/kg IM OR Haloperidol 10mg IM + Midazolam 10mg IM",
+            "caution": "Sedated patients must be placed in recovery position in monitored bed. Any sedation can cause respiratory depression and hypotension. Resuscitation facilities must be available"
+          },
+          {
+            "step_number": 11,
+            "action": "Manage antipsychotic complications",
+            "details": "EPS/Acute dystonic reaction: Biperiden 2.5mg IV slowly, repeat q2min prn max 4 doses. NMS: Resuscitate, withdraw precipitating agent, supportive care",
+            "caution": "NMS develops over 24-72hrs with hyperthermia, muscle rigidity, rhabdomyolysis"
+          },
+          {
+            "step_number": 12,
+            "action": "Hand over to Psychiatry",
+            "details": "If bloods/vitals/exam normal, hand over to Psychiatry on call. Psychiatry arranges rapid transfer to ward. Patient will NOT wait in ED for additional investigations unless medically indicated",
+            "caution": ""
+          },
+          {
+            "step_number": 13,
+            "action": "Ensure patient comfort while in ED",
+            "details": "Toilet needs, regular meals, smoke breaks etc.",
+            "caution": ""
+          },
+          {
+            "step_number": 14,
+            "action": "Disposition",
+            "details": "Normal investigations + no red flags: Psychiatry referral/transfer. Red flags or abnormal investigations: Medical admission for further workup",
+            "caution": "If all normal and no red flags, refer to Psychiatry"
+          }
+        ],
+        "diagnostic_criteria": {
+          "index_MHCU_baseline_investigations": "VBG, FBC, U&E, CRP, TPHA/RPR (CRP<60, WCC<20). CSF ONLY if acute meningitis features OR advanced RVD - Chemistry, cell count, MCS, India Ink, CLAT, TB GXP. Add VDRL if TPHA/RPR positive. CTB if clinically indicated - low threshold for immune compromised, with contrast preferred",
+          "known_MHCU_baseline_investigations": "VBG, HGT only. Further investigations only as clinically indicated. Consider drug levels - anti-epileptics, mood stabilisers",
+          "red_flags": [
+            "Age >60",
+            "Trauma",
+            "Meningitis features",
+            "Recent travel history",
+            "Auto-immune/endocrine features",
+            "Potentially toxic drug levels (Epilim, Lithium)",
+            "Advanced RVD features",
+            "Post-ictal features",
+            "Acute drug intoxication/withdrawal - Medical admission",
+            "Pregnancy/Recent postpartum",
+            "New onset visual/tactile hallucinations",
+            "Focal Neurology"
+          ],
+          "exclusions_requiring_medical_admission": [
+            "Advanced RVD",
+            "Thyroid dysfunction",
+            "SLE",
+            "New neurology"
+          ]
+        },
+        "clinical_features": {
+          "acute_deterioration_causes": [
+            "Underlying medical condition (sepsis/endocrine/rheumatological)",
+            "Trauma",
+            "Non-compliance",
+            "Sub/supra-therapeutic medication levels",
+            "Recreational drug/alcohol use",
+            "Intracranial pathology",
+            "Poor social support",
+            "Pregnancy",
+            "Acute psychological stressor"
+          ],
+          "antipsychotic_complications": {
+            "extrapyramidal_side_effects_acute_dystonic_reaction": "Fixed abnormal posture, oculogyric crisis, laryngospasm. Treatment: Biperiden 2.5mg IV slowly repeat q2min prn max 4 doses",
+            "neuroleptic_malignant_syndrome": "Develops over 24-72hrs, hyperthermia, muscle rigidity, rhabdomyolysis. Treatment: Resuscitate, withdraw precipitating agent, supportive care"
+          },
+          "agitation_sedation_levels": {
+            "mild": "Lorazepam 1-2mg SL",
+            "moderate": "Midazolam 2-5mg IM OR Haloperidol 2.5-10mg IM (max 3 doses q30-60min) OR Etomine 40mg IM",
+            "severe_extreme": "Ketamine 5mg/kg IM (<5min onset) OR Haloperidol 10mg IM + Midazolam 10mg IM"
+          },
+          "physical_restraints": "Prescribed on Form 48. At least 6 staff (1 per limb, 1 head, 1 medication). Supine HOB 30 degrees. 4-5 point medical grade restraints to bedframe. Regular limb/pulse checks q30min. Max 4 hours adults. Female pt: at least 1 female team member. Never pressure on neck or cover mouth/nose"
+        },
+        "monitoring": "Monitor O2 saturation if heavily sedated | Regular limb and pulse checks every 30 minutes if restrained | Monitor in recovery position until fully awake and alert | Resuscitation facilities must be available for all sedated patients | Check HGT and vital signs on all MHCU presentations",
+        "warnings": [
+          "ALL FEMALE PATIENTS MUST HAVE A PREGNANCY TEST DOCUMENTED",
+          "Sedated patients must be placed in recovery position in a monitored bed until fully awake and alert",
+          "Any sedation can cause respiratory depression and hypotension - resuscitation facilities must be available",
+          "Patients will NOT wait in ED for additional investigations unless medically indicated",
+          "Physical restraints must be prescribed by a doctor on Form 48",
+          "Red flags require medical admission, not just psychiatry referral",
+          "Exclusions (Advanced RVD, thyroid dysfunction, SLE, new neurology) require medical admission"
+        ],
+        "disposition": "If all investigations normal and no red flags: hand over to Psychiatry on call, arrange rapid transfer to ward | If red flags present or abnormal investigations: medical admission for further workup | Pregnancy/recent postpartum: consider obstetrics involvement | Acute intoxication/withdrawal: medical admission"
+      },
+      {
+        "item": "Neisseria Meningitidis infection control and chemoprophylaxis",
+        "notes_updates": "Transmission: Prolonged (>8 hours) direct close contact (<1 metre) with large-droplet respiratory secretions | Infection Control Department must be informed immediately | Notification based on clinical suspicion OR laboratory confirmation | Notifiable disease | Primary prevention: selective antimicrobial chemoprophylaxis limited to special circumstances only | Aim of chemoprophylaxis: prevent secondary cases by eliminating nasopharyngeal carriage | Chemoprophylaxis should be administered ASAP, ideally within 24 hours after identification of index patient | Chemoprophylaxis >14 days after onset of illness is ineffective | Close contacts defined as: (1) anyone directly exposed to patient's oral secretions (kissing, sharing food/beverages/utensils, mouth-to-mouth resuscitation, endotracheal intubation/management), (2) household members (same dwelling, sharing eating utensils), (3) institutional contacts sharing sleeping quarters or kitchen (boarding schools, military camps, barracks), (4) nursery school or day care centre close contacts only (pupils and teachers sharing classroom) | Mass chemoprophylaxis for non-close contacts is unwarranted and not recommended | Procedure before chemoprophylaxis: (1) Notify Infection Control of exposure type (respiratory droplet, mucosal splash, percutaneous), (2) Infection Control advises on necessity, (3) Staff report to staff clinic for WCA notification, (4) No staff to take antimicrobial drugs from ward stock | Standard and respiratory droplet isolation precautions must be implemented while in ED | Patient may be de-isolated after 24 hours therapy with agents that reliably eradicate nasopharyngeal carriage (Ceftriaxone/Cefotaxime) | Patients treated with Penicillin G alone cannot be de-isolated until they receive chemoprophylaxis with appropriate antibiotic",
+        "drugs": [
+          {
+            "item": "Ciprofloxacin (chemoprophylaxis - non-pregnant adults)",
+            "adult_dose": "500mg PO stat single dose",
+            "paediatric_dose": "10mg/kg PO stat single dose",
+            "route": "PO",
+            "notes": "Chemoprophylaxis for close contacts of meningococcal disease"
+          },
+          {
+            "item": "Rifampicin (chemoprophylaxis)",
+            "adult_dose": "600mg PO BD x 4 doses",
+            "paediatric_dose": "10mg/kg PO BD x 4 doses",
+            "route": "PO",
+            "notes": "Alternative chemoprophylaxis option for non-pregnant adults and children"
+          },
+          {
+            "item": "Ceftriaxone (chemoprophylaxis)",
+            "adult_dose": "250mg IM stat single dose",
+            "paediatric_dose": "<12 years: 125mg single dose IM",
+            "route": "IM",
+            "notes": "Preferred for pregnant adults; also reliably eradicates nasopharyngeal carriage allowing de-isolation after 24 hours"
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Identify close contacts of index patient",
+            "details": "Assess for: direct exposure to oral secretions, household members, institutional contacts, nursery/day care contacts",
+            "caution": "Mass chemoprophylaxis for non-close contacts is unwarranted"
+          },
+          {
+            "step_number": 2,
+            "action": "Notify Infection Control Department immediately",
+            "details": "Report type of exposure: respiratory droplet, mucosal splash, or percutaneous",
+            "caution": "Notification can be based on clinical suspicion or laboratory confirmation"
+          },
+          {
+            "step_number": 3,
+            "action": "Infection Control advises on necessity of chemoprophylaxis",
+            "details": "This limits unnecessary and indiscriminate antibiotic use",
+            "caution": "No staff to take antimicrobial drugs from ward stock"
+          },
+          {
+            "step_number": 4,
+            "action": "Implement standard and respiratory droplet isolation precautions",
+            "details": "Isolation in separate cubicle, surgical masks when entering, eye protection, gloves for all contact, hand washing before and after patient contact",
+            "caution": "Patient may be de-isolated after 24 hours with Ceftriaxone/Cefotaxime"
+          },
+          {
+            "step_number": 5,
+            "action": "Administer chemoprophylaxis to eligible close contacts",
+            "details": "Choose one of: Ciprofloxacin, Rifampicin, or Ceftriaxone based on patient category (non-pregnant adult, pregnant adult, or child)",
+            "caution": "Administer ASAP ideally within 24 hours; >14 days after onset is ineffective"
+          },
+          {
+            "step_number": 6,
+            "action": "Staff chemoprophylaxis follow-up",
+            "details": "Staff advised to take chemoprophylaxis must report to staff clinic for WCA notification",
+            "caution": ""
+          }
+        ],
+        "diagnostic_criteria": {
+          "notification_basis": "Clinical suspicion OR laboratory confirmation",
+          "close_contact_definition": [
+            "Anyone directly exposed to patient's oral secretions (kissing, sharing food/beverages/utensils, mouth-to-mouth resuscitation, ET intubation/management)",
+            "Household members (same dwelling, sharing eating utensils)",
+            "Institutional contacts sharing sleeping quarters or kitchen",
+            "Nursery school or day care centre close contacts only"
+          ],
+          "notifiable_disease": true
+        },
+        "clinical_features": {
+          "transmission_route": "Prolonged (>8 hours) direct close contact (<1 metre) with large-droplet respiratory secretions",
+          "incubation": "Secondary disease highest in first few days after onset in index patient"
+        },
+        "monitoring": "Monitor patient for response to therapy; de-isolation assessment at 24 hours",
+        "warnings": [
+          "Mass chemoprophylaxis for non-close contacts is unwarranted and not recommended",
+          "Chemoprophylaxis >14 days after onset of illness in index patient is ineffective",
+          "Patients treated with Penicillin G alone cannot be de-isolated until they receive chemoprophylaxis",
+          "No staff to take antimicrobial drugs from ward stock",
+          "Neisseria meningitidis is a notifiable disease"
+        ],
+        "disposition": "Refer to Infection Control Department for guidance; notify as per notifiable disease requirements"
+      },
+      {
+        "item": "Hypertension flowchart",
+        "notes_updates": "Decision tree for acute vs chronic hypertension management in the ED. | First assess for acute life-threatening end-organ damage (TOD): hypertensive encephalopathy and retinopathy, haemorrhagic/ischaemic CVA, ACS (STEMI/NSTE-ACS), acute LV dysfunction/congestive heart failure, acute pulmonary oedema (SCAPE), aortic dissection, acute renal failure, eclampsia/pre-eclampsia. | If YES TOD: This is a Hypertensive Emergency - requires immediate IV antihypertensive therapy in the ED (see Hypertensive Emergencies protocol). | If NO TOD: This is uncontrolled or poorly controlled hypertension (not an emergency). | For non-emergent hypertension: No role in ED for stat oral antihypertensives. Treat the initial presenting complaint. Screen for TOD. True HT (with TOD): Discharge on oral antihypertensive agents - HCTZ + ACE-inhibitor/Ca Channel blocker. Reactive HT (no TOD): reassure, no TTO. Follow up at local Clinic for repeat BP/Rx continuation. | Always exclude reversible causes of elevated BP: incorrect cuff/technique, pain, anxiety, full bladder, medications.",
+        "drugs": [
+          {
+            "item": "Hydrochlorothiazide (HCTZ)",
+            "adult_dose": "As per outpatient regimen - initiate at local clinic",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "First-line oral antihypertensive for discharge of true HT patients. To be initiated at local clinic follow-up."
+          },
+          {
+            "item": "ACE-inhibitor",
+            "adult_dose": "As per outpatient regimen - initiate at local clinic",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "Oral antihypertensive for discharge. Examples: Enalapril, Lisinopril."
+          },
+          {
+            "item": "Calcium Channel Blocker",
+            "adult_dose": "As per outpatient regimen - initiate at local clinic",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "Oral antihypertensive for discharge. Examples: Amlodipine."
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Assess blood pressure",
+            "details": "Confirm elevated BP. Exclude reversible causes: incorrect cuff/technique, pain, anxiety, full bladder, medications.",
+            "caution": "Always verify BP with correct cuff size and technique"
+          },
+          {
+            "step_number": 2,
+            "action": "Screen for acute life-threatening end-organ damage (TOD)",
+            "details": "Check for: Hypertensive encephalopathy and retinopathy, Haemorrhagic/Ischaemic CVA, ACS (STEMI/NSTE-ACS), Acute LV dysfunction/Congestive heart failure, Acute pulmonary oedema (SCAPE), Aortic dissection, Acute renal failure, Eclampsia/Pre-eclampsia",
+            "caution": "These conditions require immediate intervention"
+          },
+          {
+            "step_number": 3,
+            "action": "Determine if hypertensive emergency",
+            "details": "If YES acute TOD present: This is a HYPERTENSIVE EMERGENCY. Proceed to immediate IV antihypertensive therapy. See Hypertensive Emergencies protocol for specific management.",
+            "caution": "Do NOT lower BP too rapidly - risk of hypoperfusion"
+          },
+          {
+            "step_number": 4,
+            "action": "Manage uncontrolled/poorly controlled hypertension (NO TOD)",
+            "details": "No role for stat oral antihypertensives in ED. Treat the initial presenting complaint. Determine if true HT or reactive HT.",
+            "caution": "Do not treat asymptomatic elevated BP in ED"
+          },
+          {
+            "step_number": 5,
+            "action": "Disposition - True HT",
+            "details": "Discharge on oral antihypertensive agents: HCTZ + ACE-inhibitor OR Calcium Channel blocker. Arrange local clinic follow-up for repeat BP and prescription continuation.",
+            "caution": "Ensure patient has follow-up arranged"
+          },
+          {
+            "step_number": 6,
+            "action": "Disposition - Reactive HT",
+            "details": "Reassure patient. No take-out (TTO) medication. Follow up at local clinic for repeat BP.",
+            "caution": "Reactive HT often normalizes when trigger removed"
+          }
+        ],
+        "diagnostic_criteria": {
+          "hypertensive_emergency": "Severely elevated blood pressure WITH acute end-organ damage (TOD): Hypertensive encephalopathy and retinopathy | Haemorrhagic/Ischaemic CVA | ACS (STEMI/NSTE-ACS) | Acute LV dysfunction/Congestive heart failure | Acute pulmonary oedema (SCAPE) | Aortic dissection | Acute renal failure | Eclampsia/Pre-eclampsia",
+          "hypertensive_urgency": "Severely elevated blood pressure WITHOUT acute end-organ damage. NOT a hypertensive emergency.",
+          "reversible_causes": "Incorrect cuff size/technique | Pain | Anxiety | Full bladder | Medications (e.g., stimulants, decongestants, NSAIDs)"
+        },
+        "clinical_features": {
+          "end_organ_damage_signs": "Altered mental status (encephalopathy), Focal neurological deficits (CVA), Chest pain (ACS/ADHF), Dyspnoea (pulmonary oedema), Flank pain/decreased urine output (ARF), Seizures/eclampsia (pregnancy)",
+          "asymptomatic_elevated_bp": "No symptoms - incidental finding of elevated BP"
+        },
+        "monitoring": "Blood pressure monitoring (automated cuff or arterial line for emergencies) | Continuous cardiac monitoring in hypertensive emergency | Neurological status | Urine output | Renal function (U&E, creatinine)",
+        "warnings": [
+          "No role in ED for stat oral antihypertensives for asymptomatic elevated BP",
+          "Do NOT lower BP too rapidly in hypertensive emergency - risk of cerebral/hypoperfusion injury",
+          "Always exclude reversible causes before diagnosing true hypertension",
+          "Pregnant patients with elevated BP require obstetric assessment for pre-eclampsia/eclampsia",
+          "Hypertensive emergency requires immediate IV therapy and ICU admission",
+          "True HT with TOD: Discharge on oral agents with clinic follow-up",
+          "Reactive HT (no TOD): Reassure, no TTO, clinic follow-up"
+        ],
+        "disposition": "Hypertensive Emergency: ICU/High care admission for IV antihypertensive therapy and monitoring. | True HT (no emergency): Discharge on HCTZ + ACE-I or CCB with local clinic follow-up within 1 week. | Reactive HT: Reassure, no medication, local clinic follow-up for repeat BP."
+      },
+      {
+        "item": "Jaundice flowchart",
+        "notes_updates": "Diagnostic approach to jaundice in the ED. | ABCs first: If unstable, resuscitate (ABC, IV, monitors, check glucose, pregnancy test). | History: Ask about pain, fever, prior surgeries, time of onset, medications, herbal medications, alcohol/drug use, HIV history, travel, work, and family history. | Exam must include vital signs (fever/hypotension - consider cholangitis), mental status, neurologic exam, asterixis, lungs (crackles, pleural effusions), CVS (heart failure), abdomen (ascites, tenderness, masses, hepatosplenomegaly), skin (spider naevi, ecchymoses, dilated abdominal wall vessels). | Initial investigations: FBC/U&E/complete LFT/LDH/CMP/CRP/lipase/INR/VBG/glucose/paracetamol level if suspected overdose. Viral hepatitis serology if indicated (Hep A IgM/Hep B SAg/Hep B cAb/Hep C Ab). Malaria testing if travel history. CXR/POCUS. Abdominal USS: assess biliary system, hepatic architecture and vessels, masses. | West Haven Grading for Hepatic Encephalopathy: Grade 0 (subclinical), Grade I (mild - euphoria/depression, mild confusion), Grade II (moderate - lethargy, moderate confusion, asterixis), Grade III (severe - marked confusion, incoherent speech, drowsy but rousable), Grade IV (coma). | Causes of ALF (ABCDEF): A-Acetaminophen/Hep A/autoimmune, B-Hep B/Budd-Chiari, C-Hep C/CMV/cryptogenic, D-Hep D/drugs-toxins (mushroom/herbal), E-Extras (Wilson's). | If decompensated liver failure in cirrhosis patient: search for precipitants - GI bleed, infection, uraemia, electrolyte abnormalities, drugs/toxins, increased protein in diet, non-adherence to treatment.",
+        "drugs": [
+          {
+            "item": "N-Acetylcysteine (NAC)",
+            "adult_dose": "Per Paracetamol Overdose protocol - start immediately if paracetamol OD suspected",
+            "paediatric_dose": "Per weight-based protocol",
+            "route": "IV infusion",
+            "notes": "Start immediately if paracetamol overdose suspected. Do not wait for levels. Hepatoprotective even in non-paracetamol ALF (limited evidence)."
+          },
+          {
+            "item": "Vitamin K",
+            "adult_dose": "5-10mg IM/IV",
+            "paediatric_dose": "",
+            "route": "IM/IV",
+            "notes": "For coagulopathy correction in liver failure. Only effective if there is residual synthetic liver function."
+          },
+          {
+            "item": "Fresh Frozen Plasma (FFP)",
+            "adult_dose": "15-20ml/kg",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For active bleeding with coagulopathy. Not for routine correction of abnormal INR without bleeding."
+          },
+          {
+            "item": "Pantoprazole (Pantoloc)",
+            "adult_dose": "40mg IV",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For GI bleed prophylaxis/treatment in liver failure patients."
+          },
+          {
+            "item": "Somatostatin/Octreotide",
+            "adult_dose": "Per GI bleed protocol",
+            "paediatric_dose": "",
+            "route": "IV infusion",
+            "notes": "For variceal bleeding in decompensated cirrhosis. Give with urgent surgical referral."
+          },
+          {
+            "item": "Mannitol",
+            "adult_dose": "0.5-1g/kg IV bolus",
+            "paediatric_dose": "",
+            "route": "IV",
+            "notes": "For raised ICP in acute liver failure with cerebral oedema. Monitor renal function and osmolality."
+          },
+          {
+            "item": "Lactulose",
+            "adult_dose": "30-45ml PO TDS",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "For hepatic encephalopathy. Titrate to 2-3 soft bowel motions per day."
+          },
+          {
+            "item": "Rifaximin",
+            "adult_dose": "550mg BD PO",
+            "paediatric_dose": "",
+            "route": "PO",
+            "notes": "Adjunct to lactulose for hepatic encephalopathy. Reduces ammonia-producing gut bacteria."
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Initial resuscitation if unstable",
+            "details": "ABCs, IV access, monitors, check glucose, pregnancy test in appropriate female patients.",
+            "caution": "Hypotension may indicate sepsis (cholangitis) or adrenal insufficiency"
+          },
+          {
+            "step_number": 2,
+            "action": "History and examination",
+            "details": "Ask about pain, fever, prior surgeries, time of onset, medications (including herbal/traditional), alcohol/drug use, HIV history, travel, family history. Exam: vital signs, mental status, neurologic exam, asterixis, lungs, CVS, abdomen (ascites, tenderness, hepatosplenomegaly), skin (spider naevi, ecchymoses, dilated abdominal wall vessels).",
+            "caution": "Fever with hypotension and jaundice = cholangitis until proven otherwise"
+          },
+          {
+            "step_number": 3,
+            "action": "Initial investigations",
+            "details": "FBC, U&E, complete LFT (AST/ALT/ALP/GGT/bilirubin), LDH, CMP, CRP, lipase, INR, VBG, glucose. Paracetamol level if overdose suspected. Viral hepatitis serology (Hep A IgM, Hep B SAg, Hep B cAb, Hep C Ab). Malaria rapid and smear if travel to endemic region. CXR, POCUS.",
+            "caution": "Always check paracetamol level - overdoses may be unintentional or concealed"
+          },
+          {
+            "step_number": 4,
+            "action": "Classify hyperbilirubinaemia type",
+            "details": "Assess urobilinogen and bilirubin fraction. Unconjugated (indirect): Markedly elevated urobilinogen, indirect > direct bilirubin, total bili elevated with direct normal/mildly elevated. Conjugated (direct): Absent/mildly elevated urobilinogen, direct > indirect bilirubin, both total and direct elevated.",
+            "caution": "Conjugated hyperbilirubinaemia suggests hepatocellular or obstructive pathology"
+          },
+          {
+            "step_number": 5,
+            "action": "Evaluate liver enzymes and coagulation",
+            "details": "Pattern 1 - Haematological: Normal transaminases, normal ALP/GGT, normal INR. Pattern 2 - Hepatocellular: Markedly elevated transaminases, normal/elevated ALP/GGT, elevated INR. Pattern 3 - Obstructive: Normal/elevated transaminases, markedly elevated ALP/GGT, normal/elevated INR, elevated lipase.",
+            "caution": "Elevated INR with elevated transaminases = hepatocellular damage/liver failure"
+          },
+          {
+            "step_number": 6,
+            "action": "Determine cause and direct management - Haematological",
+            "details": "Possible causes: Haemolysis (TTP, infections e.g. malaria), Haematoma resorption (history of trauma/bleeding diathesis), Dyserythropoiesis/haemoglobinopathies. Management: Cross-match and transfuse PRCs if warranted (Hb<7, HD unstable, CCF). Urgent haematology consult.",
+            "caution": "Check peripheral blood film, LDH, haptoglobin, reticulocyte count"
+          },
+          {
+            "step_number": 7,
+            "action": "Determine cause and direct management - Hepatocellular",
+            "details": "Possible causes: Viral hepatitis, Fulminant hepatic failure, Alcoholic hepatitis, Toxins/drugs (paracetamol overdose), Medications (TB treatment), Ischaemia (shock, Budd-Chiari), Autoimmune, HELLP syndrome in pregnancy. Management: If paracetamol OD suspected - start NAC immediately. Exclude other toxins. Viral hepatitis studies. Supportive care for acute liver failure. Refer GIT/ID. Pregnant patients: urgent obstetrics referral.",
+            "caution": "HELLP syndrome is an obstetric emergency - urgent delivery planning required"
+          },
+          {
+            "step_number": 8,
+            "action": "Determine cause and direct management - Obstructive",
+            "details": "Intrinsic: Choledocholithiasis, Cholangitis/cholecystitis, Strictures, Neoplasms, HIV-associated cholangiopathy. Extrinsic: Neoplasms (pancreatic/liver), Infiltrative (TB), Obstructing AAA, Liver abscess. Management: Urgent abdominal USS. Early antibiotics (e.g. Augmentin/ Ceftriaxone + Metronidazole) and urgent surgical consult for suspected cholangitis.",
+            "caution": "Cholangitis with shock = Reynolds pentad - requires emergent biliary drainage"
+          },
+          {
+            "step_number": 9,
+            "action": "Supportive care for acute liver failure",
+            "details": "Correct electrolyte abnormalities (esp. sodium, potassium, magnesium). Monitor and correct hypoglycaemia. Monitor fluid status - diuretics if overloaded. Correct coagulopathy (Vit K 5-10mg IM/IV, FFP if bleeding). GI bleed management (transfuse, IV PPI, somatostatin, urgent surgical referral). Monitor GCS - if prolonged confusion or focal signs, urgent CTB to exclude ICH. Raised ICP may require mannitol 0.5-1g/kg IV. Discontinue hepatotoxic drugs.",
+            "caution": "Avoid sedatives if possible - can worsen encephalopathy and mask neurological deterioration"
+          },
+          {
+            "step_number": 10,
+            "action": "Disposition",
+            "details": "Haematological: Haematology admission. Hepatocellular: GIT/ID referral, ICU if fulminant failure. Obstructive: Surgical referral for biliary drainage. All acute liver failure patients require ICU-level care.",
+            "caution": "Fulminant hepatic failure has high mortality - early specialist involvement essential"
+          }
+        ],
+        "diagnostic_criteria": {
+          "acute_liver_failure_definition": "Rapid development of severe acute liver injury characterised by impaired synthetic function (INR > 1.5) and complicated by the development of encephalopathy, in a person without a history of liver disease or who had well-compensated liver disease.",
+          "unconjugated_hyperbilirubinaemia": "Markedly elevated urobilinogen | Indirect > direct bilirubin | Total bilirubin elevated, direct normal/mildly elevated | Normal transaminases | Normal ALP/GGT | Normal INR",
+          "conjugated_hyperbilirubinaemia": "Absent/mildly elevated urobilinogen | Direct > indirect bilirubin | Both total and direct bilirubin elevated",
+          "hepatocellular_pattern": "Markedly elevated transaminases (AST/ALT) | Normal or mildly elevated ALP/GGT | Elevated INR | Normal lipase",
+          "obstructive_pattern": "Normal or mildly elevated transaminases | Markedly elevated ALP/GGT | Normal or mildly elevated INR | Elevated lipase",
+          "haematological_pattern": "Normal transaminases | Normal ALP/GGT | Normal INR | Evidence of haemolysis on FBC/film",
+          "west_haven_he_grade_0": "Subclinical - no clinical manifestations, some abnormalities on psychometric testing",
+          "west_haven_he_grade_1": "Mild - euphoria/depression, mild confusion, slurred speech, disordered sleep, asterixis may/may not be present",
+          "west_haven_he_grade_2": "Moderate - lethargy, moderate confusion, asterixis usually present",
+          "west_haven_he_grade_3": "Severe - marked confusion, incoherent speech, drowsy but rousable, asterixis present",
+          "west_haven_he_grade_4": "Coma - comatose"
+        },
+        "clinical_features": {
+          "history_findings": "Jaundice onset, Pain (RUQ/epigastric), Fever, Alcohol use, Drug/medication use (prescription/illicit/herbal), Travel history, HIV status, Family history, Pregnancy, Prior surgeries",
+          "examination_findings": "Jaundice, RUQ tenderness, Hepatomegaly, Splenomegaly, Ascites, Evidence of bleeding (bruising, GI bleed), Evidence of infection, Asterixis (hepatic flap), Evidence of encephalopathy (confusion, altered conscious level), Spider naevi, Ecchymoses, Dilated abdominal wall vessels (caput medusae), Pallor (anaemia)",
+          "acute_liver_failure_signs": "Jaundice, Coagulopathy (elevated INR), Encephalopathy (any grade), Hypoglycaemia, Ascites, Oedema",
+          "red_flags": "Altered mental status (any grade HE), Hypotension, Fever with jaundice (cholangitis), GI bleeding, Pregnancy (HELLP), Paracetamol overdose history, Rapidly rising INR"
+        },
+        "monitoring": "Continuous cardiac and pulse oximetry monitoring | Blood glucose monitoring (hypoglycaemia common in ALF) | INR/PT monitoring | LFT trends (AST, ALT, ALP, GGT, bilirubin) | Electrolytes (Na+, K+, Mg2+) | Fluid balance/urine output | GCS monitoring (at least hourly if encephalopathy present) | Ammonia level if available | Lactate",
+        "warnings": [
+          "Always suspect paracetamol overdose - check levels and start NAC immediately if any suspicion",
+          "Fever + jaundice + hypotension = cholangitis (Reynolds pentad if also altered mental status and confusion) - requires emergent biliary drainage",
+          "HELLP syndrome in pregnancy requires urgent obstetric referral and delivery planning",
+          "Avoid sedatives in liver failure - can worsen encephalopathy and mask neurological deterioration",
+          "Hypoglycaemia is common in acute liver failure - monitor and treat promptly",
+          "Coagulopathy correction (FFP) only if actively bleeding - abnormal INR alone is not an indication",
+          "Raised ICP in ALF requires mannitol and ICU-level care",
+          "Discontinue ALL hepatotoxic drugs immediately",
+          "Acute liver failure patients require ICU admission - high mortality without specialist care",
+          "Budd-Chiari syndrome (hepatic vein thrombosis) presents with painful hepatomegaly and ascites - urgent imaging required",
+          "Always consider autoimmune hepatitis - may respond to immunosuppression",
+          "Wilson's disease can present as acute liver failure in young patients - check serum ceruloplasmin and copper"
+        ],
+        "disposition": "Haematological jaundice: Haematology admission for further workup and management. | Hepatocellular jaundice (acute liver failure): ICU admission mandatory. Urgent GIT/Hepatology referral. Consider transfer to liver transplant centre if criteria met (Grade III-IV encephalopathy, INR > 3.5, creatinine > 1.5, jaundice to encephalopathy interval > 7 days, aetiology: paracetamol overdose, seronegative hepatitis, drug-induced, Wilson's disease). | Obstructive jaundice: Surgical/GIT referral. Antibiotics and urgent biliary drainage if cholangitis. | All patients with INR > 1.5 and encephalopathy require ICU care."
+      },
+      {
+        "item": "TPA / Alteplase (Actilyse) Protocol for STEMI",
+        "notes_updates": "INDICATION: ST Elevation Myocardial Infarction (STEMI) with symptom onset < 12 hours | TIME IS MUSCLE - do not delay reperfusion | DOOR TO NEEDLE TIME: 30 MINUTES | STEMI CRITERIA - ST elevation in 2 or more contiguous leads: J-point elevation in men ≥40 years: 2mm in V2-V3, 1mm in other leads | J-point elevation in men <40 years: 2.5mm in V2-V3, 1mm in other leads | J-point elevation in women: 1.5mm in V2-V3, 1mm in other leads | Contiguous leads: Inferior (II, III, aVF), Lateral (I, aVL, V5, V6), Anterior (V3, V4), Septal (V1, V2) | STEMI EQUIVALENTS: Patients who do not present with classical ECG changes but have acutely occluded coronary artery/s | STEMI equivalents often associated with poorer outcome and worse prognosis, benefit from timely intervention | True posterior MI: tall R in V1 and STE ≥ 0.5mm in V7-V9 | RV infarction: ST elevation V4R | CONSIDER AORTIC DISSECTION: Central chest pain radiating to back - tearing sensation, differential radial pulse, differential arm BP > 15mmHg, widened mediastinum on CXR (>8cm), POCUS aortic root >4.5cm, dissection flap, pericardial effusion, aortic regurg | SGARBOSSA CRITERIA for LBBB or paced rhythm: Criteria A (5 points) ≥1mm concordant ST elevation in at least one lead | Criteria B (3 points) ≥1mm concordant ST depression in lead V1, V2 or V3 | Criteria C (2 points) ≥5mm discordant ST elevation in at least one lead | Total score ≥3 has specificity of 90% for diagnosing myocardial infarction | ABSOLUTE CONTRAINDICATIONS TO THROMBOLYSIS: Any prior intracranial haemorrhage | Known structural cerebral vascular lesion e.g. AV malformation | Known malignant intracranial neoplasm | Ischaemic stroke within 3 months except acute ischaemic stroke within 3 hours | Suspected aortic dissection | Active bleeding or bleeding diathesis | Significant closed head trauma or facial trauma within 3 months | RELATIVE CONTRAINDICATIONS TO THROMBOLYSIS: History of chronic, severe, poorly controlled hypertension",
+        "drugs": [
+          {
+            "item": "Alteplase (Actilyse)",
+            "adult_dose": "15mg IV bolus then 0.75mg/kg over 30 min (max 50mg) then 0.5mg/kg over 60 min (max 35mg). Maximum total dose 100mg",
+            "route": "IV",
+            "notes": "First-line thrombolytic for STEMI. For acute STEMI with symptom onset <12 hours and no contraindications. Written and signed consent required prior to administration. Door to needle time target: 30 minutes. See package insert for dose/kg."
+          },
+          {
+            "item": "Tenecteplase (Metalyse)",
+            "adult_dose": "Weight <100kg: 8000 IU IV over 10 seconds. Weight >100kg: 10000 IU IV over 10 seconds",
+            "route": "IV",
+            "notes": "Alternative thrombolytic for late patient presentation (≥10 hours post pain onset) or allergy to Streptokinase"
+          },
+          {
+            "item": "Aspirin",
+            "adult_dose": "300mg chewed stat",
+            "route": "PO",
+            "notes": "Give immediately unless hypersensitive (then give Clopidogrel 300mg stat po instead). Contraindications: Active peptic ulcer disease, bleeding disorder, allergy."
+          },
+          {
+            "item": "Clopidogrel (Plavix)",
+            "adult_dose": "300mg stat po",
+            "route": "PO",
+            "notes": "Thienopyridine antiplatelet. Give to aspirin-allergic patients as substitute (300mg stat). Also given as adjunctive therapy with aspirin in STEMI."
+          },
+          {
+            "item": "Nitroglycerin (Nitrolingual Spray)",
+            "adult_dose": "1 spray at 5 minute intervals (max 3 sprays in 15 min)",
+            "route": "Sublingual spray",
+            "notes": "Check ECG first. Contraindications: SBP <90mmHg, severe bradycardia <50bpm, severe tachycardia >100bpm, RV infarction, PDE5 inhibitors (Sildenafil/Vardenafil within 24hrs, Tadalafil within 48hrs)."
+          },
+          {
+            "item": "Nitroglycerin (Sublingual tablet)",
+            "adult_dose": "1 tablet repeated for total 3 doses at 5 min intervals",
+            "route": "Sublingual",
+            "notes": "Alternative to spray. Same contraindications."
+          },
+          {
+            "item": "Fentanyl",
+            "adult_dose": "50mcg aliquots IV",
+            "route": "IV",
+            "notes": "For discomfort not relieved by nitroglycerin. Titrate to pain relief."
+          },
+          {
+            "item": "Clexane (Enoxaparin)",
+            "adult_dose": "30mg IV stat then 1mg/kg SC after 15 min",
+            "route": "IV then SC",
+            "notes": "LMWH heparin. Preferred over unfractionated heparin. First dose IV, subsequent dosing SC."
+          },
+          {
+            "item": "Unfractionated Heparin",
+            "adult_dose": "60IU/kg (max 4000IU) IV stat then infusion 12IU/kg/hr (max 1000IU/hr)",
+            "route": "IV infusion",
+            "notes": "Use if LMWH (Clexane) not available. Monitor aPTT."
+          },
+          {
+            "item": "Simvastatin (Zocor)",
+            "adult_dose": "40mg stat po",
+            "route": "PO",
+            "notes": "High-intensity statin therapy for all STEMI patients unless contraindicated."
+          },
+          {
+            "item": "Atenolol (Tenormin)",
+            "adult_dose": "50mg stat po",
+            "route": "PO",
+            "notes": "Beta-blocker. Only if no contraindications: haemodynamic instability, heart failure, pulmonary oedema, SBP <100mmHg, bradycardia ≤60bpm, AV block 2nd/3rd degree, asthma."
+          },
+          {
+            "item": "Cryoprecipitate",
+            "adult_dose": "10 U/kg infused over 10-30 min",
+            "route": "IV",
+            "notes": "For management of bleeding after alteplase administration."
+          },
+          {
+            "item": "Tranexamic acid",
+            "adult_dose": "1g IV infused over 10 min",
+            "route": "IV",
+            "notes": "For management of bleeding after alteplase administration. Antifibrinolytic agent."
+          },
+          {
+            "item": "Nitroglycerin (Nitrocine) infusion",
+            "adult_dose": "Titrated infusion",
+            "route": "IV infusion",
+            "notes": "For BP lowering when SBP >180mmHg or DBP >110mmHg prior to thrombolysis. Also consider for ongoing management. See infusion protocol."
+          }
+        ],
+        "management_steps": [
+          {
+            "step_number": 1,
+            "action": "Immediate assessment and triage",
+            "details": "Triage to ORANGE/Resus. ABC approach. General appearance assessment. Focused physical examination. 12 and 15 lead ECG (V4R, V7-9). Check vital signs and O2 sats. Establish IV access. Finger prick glucose. Bloods: Troponin I, U&E, FBC, VBG. Detailed history. Portable CXR.",
+            "caution": "Time is muscle - do not delay. Door to needle time target is 30 minutes."
+          },
+          {
+            "step_number": 2,
+            "action": "Confirm STEMI diagnosis",
+            "details": "ST elevation in 2 or more contiguous leads per gender/age-specific criteria. Check for STEMI equivalents (true posterior MI, RV infarction). Calculate Sgarbossa score if LBBB or paced rhythm present.",
+            "caution": "Consider aortic dissection: central chest pain radiating to back, tearing sensation, differential radial pulse, differential arm BP >15mmHg, widened mediastinum on CXR >8cm, POCUS aortic root >4.5cm"
+          },
+          {
+            "step_number": 3,
+            "action": "Check time window and ongoing symptoms",
+            "details": "Confirm symptom onset or maximum pain <12 hours. Confirm ongoing continuous chest pain. If onset >12 hours, assess if still continuous chest pain.",
+            "caution": "If >12 hours AND pain resolved, may not be candidate for thrombolysis - refer to Internal Medicine/Cardiology"
+          },
+          {
+            "step_number": 4,
+            "action": "Screen for contraindications",
+            "details": "Review ALL absolute contraindications: prior intracranial haemorrhage, known structural cerebral vascular lesion, known malignant intracranial neoplasm, ischaemic stroke within 3 months (except acute stroke within 3 hours), suspected aortic dissection, active bleeding or bleeding diathesis, significant closed head or facial trauma within 3 months. Review ALL relative contraindications.",
+            "caution": "If any absolute contraindication present, DO NOT thrombolyse. Refer urgently to cardiology for primary PCI consideration."
+          },
+          {
+            "step_number": 5,
+            "action": "Start immediate general treatment",
+            "details": "Support ABCs. If O2 sats <94%, start nasal prong O2 at 2L/min and titrate. Aspirin 300mg chewed stat. Nitroglycerin spray 1 spray at 5 min intervals (max 3 in 15 min). Fentanyl 50mcg aliquots IV if pain not relieved.",
+            "caution": "Check nitroglycerin contraindications before administration: SBP <90, HR <50 or >100, RV infarction, recent PDE5 inhibitor use"
+          },
+          {
+            "step_number": 6,
+            "action": "Obtain written informed consent",
+            "details": "Written and signed consent required prior to thrombolysis. Explain risks and benefits to patient or family member.",
+            "caution": "Document consent clearly. If patient unable to consent, obtain from next of kin."
+          },
+          {
+            "step_number": 7,
+            "action": "Administer Alteplase (Actilyse)",
+            "details": "15mg IV bolus administered over 1-2 minutes, then 0.75mg/kg IV infusion over 30 minutes (max 50mg), then 0.5mg/kg IV infusion over 60 minutes (max 35mg). Maximum total dose 100mg.",
+            "caution": "Follow weight-based dosing carefully. Do not exceed maximum doses. Monitor for allergic reactions. Alternative: Tenecteplase for late presenters (≥10h) or streptokinase allergy."
+          },
+          {
+            "step_number": 8,
+            "action": "Start adjunctive anticoagulation",
+            "details": "Clexane 30mg IV stat then 1mg/kg SC after 15 min. If no LMWH available: Heparin 60IU/kg IV stat (max 4000IU) then infusion 12IU/kg/hr (max 1000IU/hr).",
+            "caution": "Monitor for bleeding. Adjust doses in elderly/low body weight."
+          },
+          {
+            "step_number": 9,
+            "action": "Start adjunctive antiplatelet and other therapies",
+            "details": "Clopidogrel 300mg stat po. Simvastatin 40mg stat po. Atenolol 50mg stat po if no contraindications (haemodynamic instability, heart failure, pulmonary oedema, SBP <100, HR ≤60, AV block 2nd/3rd degree, asthma).",
+            "caution": "Verify no beta-blocker contraindications before administration."
+          },
+          {
+            "step_number": 10,
+            "action": "Continuous post-thrombolysis monitoring",
+            "details": "Continuous monitoring of blood pressure, heart rate, O2 sats, GCS. ECGs at 0 min (prior), 15 min, 30 min, 60 min, and 90 min. Additional ECGs with any rhythm changes or interventions. Record pain score out of 10 and vital signs on each ECG.",
+            "caution": "Reperfusion arrhythmias are common and usually transient - seldom require intervention. Be prepared to treat VF/pulseless VT per ACLS if needed."
+          },
+          {
+            "step_number": 11,
+            "action": "Refer to Internal Medicine/Cardiology",
+            "details": "All STEMI patients require cardiology referral post-thrombolysis. Consider need for rescue PCI or early catheterisation.",
+            "caution": "Arrange transfer to PCI-capable centre if available and clinically indicated."
+          },
+          {
+            "step_number": 12,
+            "action": "Manage bleeding complications if they occur",
+            "details": "Stop alteplase infusion immediately. FBC, PT (INR), aPTT, fibrinogen level, type and screen. Emergent non-contrast CTB if intracranial bleeding suspected. Cryoprecipitate 10 U/kg over 10-30 min. Tranexamic acid 1g IV over 10 min. Haematology and neurosurgery consultations. Supportive therapy including BP management, temperature and glucose control.",
+            "caution": "Intracranial haemorrhage is the most feared complication. Any new neurological deficit post-thrombolysis requires immediate CT brain and cessation of infusion."
+          }
+        ],
+        "diagnostic_criteria": {
+          "STEMI_ST_Elevation_Criteria": {
+            "Men_40_years_and_older": "J-point elevation ≥2mm in leads V2-V3 and ≥1mm in all other leads",
+            "Men_under_40_years": "J-point elevation ≥2.5mm in leads V2-V3 and ≥1mm in all other leads",
+            "Women": "J-point elevation ≥1.5mm in leads V2-V3 and ≥1mm in all other leads",
+            "Requirement": "ST elevation in 2 or more contiguous leads"
+          },
+          "Contiguous_Leads": {
+            "Inferior": "II, III, aVF",
+            "Lateral": "I, aVL, V5, V6",
+            "Anterior": "V3, V4",
+            "Septal": "V1, V2"
+          },
+          "STEMI_Equivalents": [
+            "True posterior MI: tall R in V1 and STE ≥0.5mm in V7-V9",
+            "RV infarction: ST elevation in V4R",
+            "Patients with acutely occluded coronary arteries who do not present with classical ECG changes",
+            "Often associated with poorer outcome and worse prognosis",
+            "Benefit from timely intervention"
+          ],
+          "Sgarbossa_Criteria_LBBB_or_Paced_Rhythm": {
+            "Criteria_A_5_points": "≥1mm concordant ST elevation in at least one lead",
+            "Criteria_B_3_points": "≥1mm concordant ST depression in V1, V2 or V3",
+            "Criteria_C_2_points": "≥5mm discordant ST elevation in at least one lead",
+            "Interpretation": "Total score ≥3 has specificity of 90% for MI"
+          },
+          "Aortic_Dissection_Red_Flags": [
+            "Central chest pain radiating to back - tearing sensation",
+            "Differential radial pulse",
+            "Differential arm BP >15mmHg",
+            "Widened mediastinum on CXR (>8cm)",
+            "POCUS aortic root >4.5cm",
+            "Dissection flap",
+            "Pericardial effusion",
+            "Aortic regurgitation"
+          ],
+          "Absolute_Contraindications_Thrombolysis": [
+            "Any prior intracranial haemorrhage",
+            "Known structural cerebral vascular lesion e.g. AV malformation",
+            "Known malignant intracranial neoplasm",
+            "Ischaemic stroke within 3 months (except acute ischaemic stroke within 3 hours)",
+            "Suspected aortic dissection",
+            "Active bleeding or bleeding diathesis",
+            "Significant closed head trauma or facial trauma within 3 months"
+          ],
+          "Relative_Contraindications_Thrombolysis": [
+            "History of chronic, severe, poorly controlled hypertension",
+            "SBP >180mmHg or DBP >110mmHg - lower BP with Nitrocine infusion",
+            "Traumatic or prolonged CPR (>10 min) - NB consider whether MI may have caused the arrest",
+            "Major surgery (<3 weeks)",
+            "Recent (within 2-4 weeks) internal bleeding",
+            "Non-compressible vascular punctures",
+            "Pregnancy",
+            "Active peptic ulcer disease (bled within past 2-4 weeks)",
+            "Current use of anticoagulants e.g. Warfarin"
+          ]
+        },
+        "clinical_features": {
+          "ACS_Risk_Factors": [
+            "Age ≥65 years",
+            "Smoker",
+            "Family history of CAD",
+            "Diabetes mellitus",
+            "Hypercholesterolaemia",
+            "Hypertension",
+            "Drug abuse: cocaine, methamphetamine",
+            "Previous MI",
+            "HIV ± HAART (protease inhibitors)"
+          ],
+          "STEMI_Presentation": "Chest pain or symptoms suggestive of ischaemia or infarction with ST elevation on ECG",
+          "Time_Window": "Symptom onset or maximum pain <12 hours for thrombolysis",
+          "True_Posterior_MI": "Tall R wave in V1 with ST elevation ≥0.5mm in V7-V9",
+          "RV_Infarction": "ST elevation in V4R (associated with inferior MI)"
+        },
+        "monitoring": "Continuous monitoring post-thrombolysis is MANDATORY: Blood pressure, heart rate, O2 sats, GCS monitored continuously | ECG timing: At 0 minutes (prior to commencing thrombolysis), then at 15 min, 30 min, 60 min, and 90 min post-thrombolysis | Additional ECGs must be performed with any rhythm changes or interventions | Record patient's pain score out of 10 on each ECG as well as vital signs | Reperfusion arrhythmias are common post-thrombolysis and are usually transient - they seldom require intervention | Monitor for signs of bleeding including intracranial haemorrhage (new headache, altered GCS, focal neurology), gastrointestinal bleeding (haematemesis, melaena), and access site bleeding | Door to needle time target: 30 minutes | All patients require cardiology/Internal Medicine referral and ongoing care in monitored setting",
+        "warnings": [
+          "TIME IS MUSCLE - do not delay reperfusion therapy",
+          "Door to needle time target: 30 minutes",
+          "Maximum total Alteplase dose: 100mg - do not exceed",
+          "Intracranial haemorrhage is the most feared and life-threatening complication of thrombolysis",
+          "Any new neurological deficit, severe headache, or altered consciousness post-thrombolysis requires immediate cessation of infusion and emergent CT brain",
+          "Suspected aortic dissection is an absolute contraindication to thrombolysis - thrombolysis in dissection can be fatal",
+          "RV infarction (associated with inferior MI) is a contraindication to nitroglycerin and beta-blockers - causes hypotension",
+          "Concurrent anticoagulation (heparin) increases bleeding risk - monitor closely",
+          "Recent PDE5 inhibitor use (Sildenafil/Vardenafil within 24 hours, Tadalafil within 48 hours) is a contraindication to nitroglycerin - risk of profound hypotension",
+          "Traumatic or prolonged CPR >10 minutes is a relative contraindication - however consider whether the MI may have caused the cardiac arrest",
+          "Active bleeding or bleeding diathesis is an absolute contraindication",
+          "Current use of anticoagulants (e.g. Warfarin) is a relative contraindication - increased bleeding risk",
+          "Non-compressible vascular punctures are a relative contraindication - avoid arterial punctures and venepuncture at non-compressible sites",
+          "Reperfusion arrhythmias are common post-thrombolysis - usually transient, be prepared to treat per ACLS if haemodynamically significant",
+          "Written and signed consent is mandatory prior to thrombolysis",
+          "All STEMI patients require referral to Internal Medicine/Cardiology regardless of thrombolysis outcome",
+          "If SBP >180mmHg or DBP >110mmH
