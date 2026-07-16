@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Titrate Test</title></head>
+<body style="font-family:monospace;padding:20px">
+<h2>Chunk Loader Test</h2>
+<div id="log"></div>
+<script>
+const APP_VERSION='49';
+const CAT_FILES=['cat_1_resuscitation_fluids_and_inotropes.json','cat_2_airway_and_ventilation.json','cat_3_sedation_analgesia_and_neurology.json','cat_4_antimicrobials_and_infectious_diseases.json','cat_5_metabolic_electrolytes_and_nutrition.json','cat_6_poisoning_and_toxicology.json','cat_7_useful_formulae.json','cat_8_cardiovascular.json','cat_9_blood_products.json','cat_10_endocrine_and_other.json','cat_11_ed_medical_emergencies_protocols_10.json','cat_11_ed_medical_emergencies_protocols_11.json','cat_11_ed_medical_emergencies_protocols_12.json','cat_12_ed_toxicology_protocols_13.json','cat_12_ed_toxicology_protocols_14.json','cat_13_ed_trauma_surgical_protocols_15.json','cat_13_ed_trauma_surgical_protocols_16.json','cat_14_ed_metabolic.json','cat_15_ed_procedures_protocols_18.json','cat_15_ed_procedures_protocols_19.json','cat_16_score_calculators.json'];
+
+const log = document.getElementById('log');
+function write(msg) { log.innerHTML += msg + '<br>'; }
+
+async function test() {
+  write('Testing data.json...');
+  try {
+    const r = await fetch('data.json?v=' + APP_VERSION, {cache:'no-store'});
+    const t = await r.text();
+    write('data.json: ' + t.length + ' chars, PLACEHOLDER=' + t.includes('PLACEHOLDER'));
+  } catch(e) { write('data.json FAILED: ' + e.message); }
+
+  for (const f of CAT_FILES) {
+    try {
+      const r = await fetch('cats/' + f + '?v=' + APP_VERSION, {cache:'no-store'});
+      if (r.ok) {
+        const j = await r.json();
+        const keys = Object.keys(j);
+        write('OK: ' + f + ' -> keys=' + keys.join(','));
+      } else {
+        write('FAIL ' + r.status + ': ' + f);
+      }
+    } catch(e) {
+      write('ERROR: ' + f + ' -> ' + e.message);
+    }
+  }
+  write('<b>Done!</b>');
+}
+test();
+</script>
+</body>
+</html>
