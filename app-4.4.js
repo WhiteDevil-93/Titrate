@@ -12,7 +12,7 @@ function togTheme() {
   localStorage.setItem('tr_theme', isLight ? 'light' : 'dark');
   initTheme();
 }
-const APP_VERSION='5.0';
+const APP_VERSION='5.1';
 let D=null,W=0,act='all',deferred=null,scoreSt={};
 
 const C={favourites:'Favourites',all:'All','1_resuscitation_fluids_and_inotropes':'Resuscitation','2_airway_and_ventilation':'Airway & Vent','3_sedation_analgesia_and_neurology':'Sedation & Neuro','4_antimicrobials_and_infectious_diseases':'Antimicrobials','5_metabolic_electrolytes_and_nutrition':'Metabolic','6_poisoning_and_toxicology':'Toxicology','7_useful_formulae':'Formulae','8_cardiovascular':'Cardiovascular','9_blood_products':'Blood','10_endocrine_and_other':'Endocrine','11_ed_medical_emergencies':'ED Medical','12_ed_toxicology':'ED Toxic','13_ed_trauma_surgical':'ED Trauma','14_ed_metabolic':'ED Metabolic','15_ed_procedures':'ED Procedures','16_score_calculators':'Score Calc'};
@@ -71,21 +71,25 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 async function load(){
   try{
-    // Try single data.json first
     let r=await fetch('data.json?v='+APP_VERSION,{cache:'no-store'});
     let txt=await r.text();
-    // If placeholder or empty, load category files in parallel
     if(txt.length<100||txt.includes('PLACEHOLDER')){
-      const CAT_FILES=['cat_1_resuscitation_fluids_and_inotropes.json','cat_2_airway_and_ventilation.json','cat_3_sedation_analgesia_and_neurology.json','cat_4_antimicrobials_and_infectious_diseases.json','cat_5_metabolic_electrolytes_and_nutrition.json','cat_6_poisoning_and_toxicology.json','cat_7_useful_formulae.json','cat_8_cardiovascular.json','cat_9_blood_products.json','cat_10_endocrine_and_other.json','cat_11_ed_medical_emergencies_protocols_10a.json','cat_11_ed_medical_emergencies_protocols_10b.json','cat_11_ed_medical_emergencies_protocols_11.json','cat_11_ed_medical_emergencies_protocols_12.json','cat_12_ed_toxicology_protocols_13.json','cat_12_ed_toxicology_protocols_14.json','cat_13_ed_trauma_surgical_protocols_15.json','cat_13_ed_trauma_surgical_protocols_16.json','cat_14_ed_metabolic.json','cat_15_ed_procedures_protocols_18.json','cat_15_ed_procedures_protocols_19.json','cat_16_score_calculators.json'];
-      const fetchCat=async(url)=>{
-        for(let a=0;a<3;a++){try{const r=await fetch('cats/'+url+'?v='+APP_VERSION,{cache:'no-store'});if(r.ok)return await r.json()}catch(e){}await new Promise(r=>setTimeout(r,400))}
-        throw new Error('Failed: '+url);
+      // Load gzipped base64 chunks, decompress, parse
+      const NUM=10;
+      const fetchC=async(i)=>{
+        for(let a=0;a<3;a++){try{const r=await fetch('data_'+i+'.json?v='+APP_VERSION,{cache:'no-store'});if(r.ok)return await r.text()}catch(e){}await new Promise(r=>setTimeout(r,400))}
+        throw new Error('chunk '+i);
       };
-      const results=await Promise.allSettled(CAT_FILES.map(fetchCat));
-      const failed=results.filter(r=>r.status==='rejected').map(r=>r.reason.message);
-      if(failed.length)throw new Error(failed.join('; '));
-      D={};
-      for(const res of results){if(res.status==='fulfilled')Object.assign(D,res.value)}
+      const res=await Promise.allSettled(Array.from({length:NUM},(_,i)=>fetchC(i)));
+      const fail=res.filter(r=>r.status==='rejected').map(r=>r.reason.message);
+      if(fail.length)throw new Error(fail.join('; '));
+      const b64=res.map(r=>r.value).join('');
+      const bin=Uint8Array.from(atob(b64),c=>c.charCodeAt(0));
+      const ds=new DecompressionStream('gzip');
+      const writer=ds.writable.getWriter();
+      writer.write(bin);writer.close();
+      const out=await new Response(ds.readable).arrayBuffer();
+      D=JSON.parse(new TextDecoder().decode(out));
     }else{
       D=JSON.parse(txt);
     }
@@ -1593,7 +1597,7 @@ function calcFormula(key) {
 
     // Validate expression: only allow safe math characters
     // Whitelist: numbers, operators, parens, math functions, whitespace, dots
-    const safeExpr = /^[\d\s+\-*/().,^%!&|<>='"a-zA-Z]+$/.test(expr);
+    const safeExpr = /^[\d\s+\-*/().,^%!&|<>= '"a-zA-Z]+$/.test(expr);
     if (!safeExpr) {
       resEl.innerHTML = '<div class="tot">--</div><div class="calc-res-label">Invalid formula</div>';
       return;
