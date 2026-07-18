@@ -12,12 +12,12 @@ function togTheme() {
   localStorage.setItem('tr_theme', isLight ? 'light' : 'dark');
   initTheme();
 }
-const APP_VERSION='5.1';
+const APP_VERSION='5.2';
 let D=null,W=0,act='all',deferred=null,scoreSt={};
 
 const C={favourites:'Favourites',all:'All','1_resuscitation_fluids_and_inotropes':'Resuscitation','2_airway_and_ventilation':'Airway & Vent','3_sedation_analgesia_and_neurology':'Sedation & Neuro','4_antimicrobials_and_infectious_diseases':'Antimicrobials','5_metabolic_electrolytes_and_nutrition':'Metabolic','6_poisoning_and_toxicology':'Toxicology','7_useful_formulae':'Formulae','8_cardiovascular':'Cardiovascular','9_blood_products':'Blood','10_endocrine_and_other':'Endocrine','11_ed_medical_emergencies':'ED Medical','12_ed_toxicology':'ED Toxic','13_ed_trauma_surgical':'ED Trauma','14_ed_metabolic':'ED Metabolic','15_ed_procedures':'ED Procedures','16_score_calculators':'Score Calc'};
 const I={'favourites':'⭐','all':'📋','1_resuscitation_fluids_and_inotropes':'💉','2_airway_and_ventilation':'🫁','3_sedation_analgesia_and_neurology':'🧠','4_antimicrobials_and_infectious_diseases':'🦠','5_metabolic_electrolytes_and_nutrition':'⚗️','6_poisoning_and_toxicology':'☠️','7_useful_formulae':'📐','8_cardiovascular':'❤️','9_blood_products':'🩸','10_endocrine_and_other':'🔬','11_ed_medical_emergencies':'🩺','12_ed_toxicology':'☠️','13_ed_trauma_surgical':'🚑','14_ed_metabolic':'⚗️','15_ed_procedures':'🩺','16_score_calculators':'📊'};
-const ORDER=['favourites','all','1_resuscitation_fluids_and_inotropes','2_airway_and_ventilation','3_sedation_analgesia_and_neurology','4_antimicrobials_and_infectious_diseases','5_metabolic_electrolytes_and_nutrition','6_poisoning_and_toxicology','7_useful_formulae','8_cardiovascular','9_blood_products','10_endocrine_and_other','11_ed_medical_emergencies','12_ed_toxicology','13_ed_trauma_surgical','14_ed_metabolic','15_ed_procedures','16_score_calculators'];
+const ORDER=['favourites','all','1_resuscitation_fluids_and_inotropes','2_airway_and_ventilation','3_sedation_analgesia_and_neurology','4_antimicrobials_and_infectious_diseases','5_metabolic_electrolytes_and_nutrition','6_poisoning_and_toxicology','7_useful_formulae','8_cardiovascular','9_blood_products','10_endocrine_and_other','11_ed_medical_emergencies','12_ed_toxicology','13_ed_trauma_surgical','14_ed_metabolic','15_ed_procedures','16_score_calculators']};
 
 const TAB_NAMES={...C,'2_airway_and_ventilation':'Airway','3_sedation_analgesia_and_neurology':'Sedation','4_antimicrobials_and_infectious_diseases':'Antibiotics','5_metabolic_electrolytes_and_nutrition':'Metabolic','6_poisoning_and_toxicology':'Toxicology','7_useful_formulae':'Formulae','10_endocrine_and_other':'Endocrine','11_ed_medical_emergencies':'ED Medical','12_ed_toxicology':'ED Toxic','13_ed_trauma_surgical':'ED Trauma','14_ed_metabolic':'ED Metabolic','15_ed_procedures':'ED Proc','16_score_calculators':'Scores'};
 
@@ -76,8 +76,9 @@ async function load(){
     if(txt.length<100||txt.includes('PLACEHOLDER')){
       // Load gzipped base64 chunks, decompress, parse
       const NUM=10;
+      const DATA_URL='https://zftzfoj4cw3qo.kimi.page/';
       const fetchC=async(i)=>{
-        for(let a=0;a<3;a++){try{const r=await fetch('data_'+i+'.json?v='+APP_VERSION,{cache:'no-store'});if(r.ok)return await r.text()}catch(e){}await new Promise(r=>setTimeout(r,400))}
+        for(let a=0;a<3;a++){try{const r=await fetch(DATA_URL+'data_'+i+'.json',{cache:'no-store'});if(r.ok)return await r.text()}catch(e){}await new Promise(r=>setTimeout(r,400))}
         throw new Error('chunk '+i);
       };
       const res=await Promise.allSettled(Array.from({length:NUM},(_,i)=>fetchC(i)));
@@ -1597,7 +1598,7 @@ function calcFormula(key) {
 
     // Validate expression: only allow safe math characters
     // Whitelist: numbers, operators, parens, math functions, whitespace, dots
-    const safeExpr = /^[\d\s+\-*/().,^%!&|<>= '"a-zA-Z]+$/.test(expr);
+    const safeExpr = /^[\d\s+\-*/().,^%!&|<>='"a-zA-Z]+$/.test(expr);
     if (!safeExpr) {
       resEl.innerHTML = '<div class="tot">--</div><div class="calc-res-label">Invalid formula</div>';
       return;
