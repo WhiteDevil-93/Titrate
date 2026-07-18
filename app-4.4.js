@@ -12,7 +12,7 @@ function togTheme() {
   localStorage.setItem('tr_theme', isLight ? 'light' : 'dark');
   initTheme();
 }
-const APP_VERSION='5.2';
+const APP_VERSION='5.3';
 let D=null,W=0,act='all',deferred=null,scoreSt={};
 
 const C={favourites:'Favourites',all:'All','1_resuscitation_fluids_and_inotropes':'Resuscitation','2_airway_and_ventilation':'Airway & Vent','3_sedation_analgesia_and_neurology':'Sedation & Neuro','4_antimicrobials_and_infectious_diseases':'Antimicrobials','5_metabolic_electrolytes_and_nutrition':'Metabolic','6_poisoning_and_toxicology':'Toxicology','7_useful_formulae':'Formulae','8_cardiovascular':'Cardiovascular','9_blood_products':'Blood','10_endocrine_and_other':'Endocrine','11_ed_medical_emergencies':'ED Medical','12_ed_toxicology':'ED Toxic','13_ed_trauma_surgical':'ED Trauma','14_ed_metabolic':'ED Metabolic','15_ed_procedures':'ED Procedures','16_score_calculators':'Score Calc'};
@@ -74,23 +74,11 @@ async function load(){
     let r=await fetch('data.json?v='+APP_VERSION,{cache:'no-store'});
     let txt=await r.text();
     if(txt.length<100||txt.includes('PLACEHOLDER')){
-      // Load gzipped base64 chunks, decompress, parse
-      const NUM=10;
-      const DATA_URL='https://zftzfoj4cw3qo.kimi.page/';
-      const fetchC=async(i)=>{
-        for(let a=0;a<3;a++){try{const r=await fetch(DATA_URL+'data_'+i+'.json',{cache:'no-store'});if(r.ok)return await r.text()}catch(e){}await new Promise(r=>setTimeout(r,400))}
-        throw new Error('chunk '+i);
-      };
-      const res=await Promise.allSettled(Array.from({length:NUM},(_,i)=>fetchC(i)));
-      const fail=res.filter(r=>r.status==='rejected').map(r=>r.reason.message);
-      if(fail.length)throw new Error(fail.join('; '));
-      const b64=res.map(r=>r.value).join('');
-      const bin=Uint8Array.from(atob(b64),c=>c.charCodeAt(0));
-      const ds=new DecompressionStream('gzip');
-      const writer=ds.writable.getWriter();
-      writer.write(bin);writer.close();
-      const out=await new Response(ds.readable).arrayBuffer();
-      D=JSON.parse(new TextDecoder().decode(out));
+      // Fetch full data from external host
+      const DATA_URL='https://zftzfoj4cw3qo.kimi.page/titrate_data.json';
+      const dr=await fetch(DATA_URL,{cache:'no-store'});
+      if(!dr.ok)throw new Error('data fetch failed');
+      D=await dr.json();
     }else{
       D=JSON.parse(txt);
     }
@@ -946,7 +934,7 @@ if(cm){h+=`<div class="sect open"><div class="sh" onclick="togS(this)"><div styl
 // Search scores
 if((act==='all'||act==='16_score_calculators')&&D['16_score_calculators']){
 for(const[key,sc]of Object.entries(D['16_score_calculators'])){
-if((sc.name+' '+JSON.stringify(sc)).toLowerCase().includes(q)){if(!found)h+=`<div class="sect open"><div class="sh" onclick="togS(this)"><div style="display:flex;align-items:center"><div class="shi">📊</div><div class="sht">Score Calculators</div></div><div class="shc">▼</div></div><div class="sb">`;h+=renderScoreCalc(key,sc);found=true}}
+if((sc.name+JSON.stringify(sc)).toLowerCase().includes(q)){if(!found)h+=`<div class="sect open"><div class="sh" onclick="togS(this)"><div style="display:flex;align-items:center"><div class="shi">📊</div><div class="sht">Score Calculators</div></div><div class="shc">▼</div></div><div class="sb">`;h+=renderScoreCalc(key,sc);found=true}}
 if(found)h+='</div></div>'}
 // Result count bar
 if(q){
@@ -1326,8 +1314,8 @@ function toggleChkItem(rowId) {
     el.style.textDecoration = 'line-through';
     el.style.opacity = '0.6';
     if (box) {
-      box.style.background = 'var(--g)';
-      box.style.borderColor = 'var(--g)';
+      box.style.background = 'var(--a)';
+      box.style.borderColor = 'var(--a)';
       box.style.color = '#000';
     }
   }
@@ -1395,7 +1383,7 @@ function renderHsTs() {
  * Detection order:
  *   1. GCS data in Head Injury protocols
  *   2. Burn classification data in Burns protocols
- *   3. NEXUS criteria in C-spine protocols
+ * *   3. NEXUS criteria in C-spine protocols
  *   4. Equipment arrays
  *   5. Checklist items
  *   6. H's & T's in Cardiac Arrest protocols
@@ -1745,54 +1733,3 @@ function showFormulaResult(key, calc, result) {
 
   el.innerHTML = `<div class="res-score">${result.toFixed(2)}</div>${interp}`;
 }
-
-/* ============================================================
-   CSS — Add these styles to index.html <style> block:
-
-   .res-score {
-     font-size: 1.6rem;
-     font-weight: 700;
-     color: var(--a);
-     margin: 0.2rem 0;
-   }
-   .res-action {
-     font-size: 0.75rem;
-     padding: 0.35rem 0.5rem;
-     border-radius: 0.35rem;
-     margin-top: 0.25rem;
-     line-height: 1.4;
-     background: rgba(0,0,0,0.15);
-     border-left: 3px solid var(--a);
-   }
-   .res-action.normal {
-     background: rgba(46, 204, 113, 0.12);
-     border-left-color: #2ecc71;
-     color: #2ecc71;
-   }
-   .res-action.low {
-     background: rgba(241, 196, 15, 0.12);
-     border-left-color: #f39c12;
-     color: #f39c12;
-   }
-   .res-action.mild {
-     background: rgba(241, 196, 15, 0.15);
-     border-left-color: #f1c40f;
-     color: #f1c40f;
-   }
-   .res-action.high {
-     background: rgba(231, 76, 60, 0.15);
-     border-left-color: #e74c3c;
-     color: #e74c3c;
-   }
-   .res-action.severe {
-     background: rgba(192, 57, 43, 0.15);
-     border-left-color: #c0392b;
-     color: #c0392b;
-   }
-   .res-action.critical {
-     background: rgba(142, 68, 173, 0.15);
-     border-left-color: #8e44ad;
-     color: #8e44ad;
-   }
-
-   ============================================================ */
